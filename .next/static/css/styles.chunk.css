@@ -432,7 +432,9 @@ th {
   max-width: 960px;
   margin: 0 auto;
   padding: 0 20px;
-  box-sizing: border-box; }
+  box-sizing: border-box; 
+  background-color:black;
+}
 .column,
 .columns {
   width: 100%;
@@ -449,7 +451,7 @@ th {
 /* For devices larger than 550px */
 @media (min-width: 550px) {
   .container {
-    width: 80%; }
+    width: 100%; }
   .column,
   .columns {
     margin-left: 4%; }
@@ -793,7 +795,7 @@ hr {
 .image123{
   display: inline-block;
   margin: 0 auto;
-  width: 800px; 
+  width: 960px; 
   height: 200px;
 }
 
@@ -804,15 +806,15 @@ hr {
 
 .frontLogo{
   position:absolute;
-  height:120px; 
-  width:120px;
+  height:160px; 
+  width:160px;
   z-index:10;
   content:url('https://i.imgur.com/msETczs.png');
 }
 
 .tech-slideshow {
   height: 400px;
-  max-width: 800px;
+  max-width: 960px;
   margin: 0 auto;
   position: relative;
   overflow: hidden;
@@ -821,7 +823,7 @@ hr {
 
 .tech-slideshow > div {
   height: 400px;
-  width: 2526px;
+  width: 2800px;
   background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/collage.jpg);
   position: absolute;
   top: 0;
@@ -866,7 +868,7 @@ hr {
 .artists-grid{
   display: flex;
   /*flex-wrap: wrap;*/
-  max-width: 800px;
+  max-width: 960px;
   margin: 0 auto;
   background-color: red;
 }
