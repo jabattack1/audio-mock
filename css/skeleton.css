@@ -355,7 +355,7 @@ hr {
 
 /*photos*/
 .bannerWrapper{
-  position:absolute;
+  position: absolute;
   display: table-cell;
   top:0;
   left:0;
@@ -378,63 +378,11 @@ hr {
 
 .frontLogo{
   position:absolute;
-  height:100px; 
-  width:100px;
+  height:120px; 
+  width:120px;
   z-index:10;
   content:url('https://i.imgur.com/msETczs.png');
 }
-
-/*section {
-  position: relative;
-  float:left;
-}
-
-section img {
-  position: absolute;
-  float:left;
-}
-
-.top {
-  width:800px;
-  height:300px; 
-  animation-name: fade;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  animation-duration: 9s;
-  animation-direction: alternate;
-}
-
-.middle{
-  width:800px;
-  height:300px;
-  animation-name: fade;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  animation-duration: 18s;
-  animation-direction: alternate;
-  background-color:blue;
-}
-
-.bottom {
-  width:800px;
-  height:300px;
-  background-color:red;
-}
-
-@keyframes fade {
-  0% {
-    opacity: 1;
-  }
-  25% {
-    opacity: 1;
-  }
-  75% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 0;
-  }
-}*/
 
 .tech-slideshow {
   height: 400px;
@@ -473,5 +421,58 @@ section img {
     transform: translateX(-66.6666%);  
   }
 }
+
+/*Grid*/
+
+.title{
+  position:absolute;
+  color:white;
+  top:-70px;
+  font-size:40px;
+  font-weight:bold;
+}
+
+.gridWrapper{
+  position:absolute;
+  top:520px;
+}
+
+.artists-grid{
+  display: flex;
+  /*flex-wrap: wrap;*/
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: red;
+}
+
+.grid-figure{
+  position: relative;
+  /*flex-basis:calc(15% - 4rem);*/
+/*  flex-grow: 1;
+  flex-shrink: 0;*/
+  margin: 0 auto;
+  /*padding: 2rem;*/
+  /*border: 2px solid white;*/
+  background:white;
+  /*box-shadow: 0 0 0 5px rgba(0,0,0,0.03);*/
+  /*width:600px;*/
+}
+
+.grid-figure-wrap{
+  width: 200px;
+  height:200px;
+}
+
+.grid-artist{
+  width: calc(100%);
+  /*margin-top:20px;*/
+/*  margin-left: -2rem;
+  margin-top: -2rem;*/
+  /*display: inline-flex;*/
+  /*display: table-row;*/
+/*  width: 200px;
+  height:320px;*/
+}
+
 
 

@@ -1,3 +1,7 @@
+.nav {
+    position:relative;
+}
+
 .nav ul {
   list-style: none;
   background-color: black;
