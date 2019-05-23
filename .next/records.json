@@ -3,12 +3,17 @@
     "byIdentifier": {
       "css node_modules/css-loader/index.js??ref--5-1!css/skeleton.css 0": 0,
       "css node_modules/css-loader/index.js??ref--5-1!css/normalize.css 0": 1,
-      "css node_modules/css-loader/index.js??ref--5-1!css/skeleton.css 1": 2
+      "css node_modules/css-loader/index.js??ref--5-1!css/skeleton.css 1": 2,
+      "css node_modules/css-loader/index.js??ref--5-1!css/skeleton.css 2": 3,
+      "css node_modules/css-loader/index.js??ref--5-1!css/bootstrap.css 0": 3,
+      "css node_modules/css-loader/index.js??ref--5-1!css/bootstrap.css 1": 4
     },
     "usedIds": {
       "0": 0,
       "1": 1,
-      "2": 2
+      "2": 2,
+      "3": 3,
+      "4": 4
     }
   },
   "chunks": {
@@ -30,6 +35,19 @@
     }
   ],
   "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!css/normalize.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {},
+        "bySource": {},
+        "usedIds": []
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!css/bootstrap.css": [
     {
       "modules": {
         "byIdentifier": {},
