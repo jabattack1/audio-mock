@@ -450,7 +450,7 @@ there.
   z-index:10;
 }
 
-section {
+/*section {
   position: relative;
   float:left;
 }
@@ -470,9 +470,21 @@ section img {
   animation-direction: alternate;
 }
 
+.middle{
+  width:800px;
+  height:300px;
+  animation-name: fade;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 18s;
+  animation-direction: alternate;
+  background-color:blue;
+}
+
 .bottom {
   width:800px;
   height:300px;
+  background-color:red;
 }
 
 @keyframes fade {
@@ -487,6 +499,44 @@ section img {
   }
   100% {
     opacity: 0;
+  }
+}*/
+
+.tech-slideshow {
+  height: 400px;
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+}
+
+.tech-slideshow > div {
+  height: 400px;
+  width: 2526px;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/collage.jpg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  transform: translate3d(0, 0, 0);
+}
+.tech-slideshow .mover-1 {
+  animation: moveSlideshow 12s linear infinite;
+}
+.tech-slideshow .mover-2 {
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+  background-position: 0 -200px;
+  animation: moveSlideshow 15s linear infinite;
+}
+.tech-slideshow:hover .mover-2 {
+  opacity: 1;
+}
+
+@keyframes moveSlideshow {
+  100% { 
+    transform: translateX(-66.6666%);  
   }
 }
 
