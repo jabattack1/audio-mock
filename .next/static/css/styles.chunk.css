@@ -917,7 +917,8 @@ hr {
   display: flex;
   float:left;
   max-width: 960px;
-  overflow: scroll;
+  /*overflow: scroll;*/
+  overflow-x:scroll;
 }
 
 .grid-figureNews{
@@ -1058,6 +1059,7 @@ hr {
 
 .contactContent{
   position:relative;
+  display: table;
   /*margin-top:300px;*/
   width: 960px;
   height:190px;
@@ -1069,6 +1071,19 @@ hr {
   -webkit-hyphens:auto; 
   -o-hyphens:auto; 
   hyphens:auto;
+  text-align:center;
+}
+
+.contactLinks{ 
+  font-size:17px;
+  padding:20px;
+  text-decoration: none;
+  color:black;
+  vertical-align:middle;
+}
+
+.contactLinks:hover{ 
+color:#595959;
 }
 
 /*footer*/

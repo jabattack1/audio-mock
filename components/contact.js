@@ -13,7 +13,11 @@ class Contact extends React.Component{
 			<div>
 				<div className='gridWrapperContact'>
 					<div className='contactContent'>
-						Audio Boy is an independent recording company with hopes to becoming home to the very best forward-thinking and innovative artists. Our reputation in the music industry is something we would like to be an unparalleled experience for the artists and the listeners alike. With a focus on influencing the world's pop culture without any boundaries, and a passionate approach towards discovering and nurturing musical talent - Audio Boy is currently home to The Electronic Auditory Rebels and many more to come in the near future!
+						<div className='contact'>
+							<a className='contactLinks' href="info@audio-boy.com">Inquiries/Questions: info@audio-boy.com</a> 
+							<a className='contactLinks' href="pr@audio-boy.com">Media: pr@audio-boy.com</a> 
+							<a className='contactLinks' href="hr@audio-boy.com">Legal: legal@audio-boy.com</a> 
+						</div>
 					</div>
 				</div>
 			</div>
