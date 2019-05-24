@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,300,600');
 
+.element{
+  padding-left:5px;
+}
+
 .container {
   position: relative;
   /*width: 100%;*/
@@ -571,7 +575,7 @@ hr {
   /*margin-top:300px;*/
   width: 960px;
   height:190px;
-  background-color:#FF3F3F;
+  background-color:#FF8B1E;
   font-size:15px;
   font-weight:bold;
   word-wrap: break-word;
@@ -605,7 +609,7 @@ hr {
 
 .grid-figure-wrapStore{
   width: 250px;
-  height:350px;
+  height:250px;
   border-right: 4px solid black;
 }
 
@@ -630,7 +634,7 @@ hr {
   /*margin-top:300px;*/
   width: 960px;
   height:190px;
-  background-color:#FF8B1E;
+  background-color:#77F490;
   font-size:15px;
   font-weight:bold;
   word-wrap: break-word;
