@@ -5,6 +5,7 @@ import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, 
 import styled from 'styled-components';
 
 import ArtistsGrid from './artists-grid.js';
+import NewsGrid from './news-grid.js';
 
 import '../css/normalize.css';
 import '../css/skeleton.css';
@@ -45,8 +46,11 @@ class Parent extends React.Component {
 				        		<ArtistsGrid {...this.props}/>
 				        	</div>
 				        	<div className='titleWrapper'>
-	    						<p className='title'>News</p>
+	    						<Element className='title' name="news" className="element">News</Element>
 	    					</div>
+	    					<div>
+				        		<NewsGrid {...this.props}/>
+				        	</div>
 				      	</div>
 				    </div>
 				</div>

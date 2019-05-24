@@ -20,8 +20,8 @@ class Navbar extends React.Component {
 	    return(
 		    <div className="nav">
 		      <ul>
-		        <li className="home"><Link activeClass="active" to="artists" spy={true} smooth={true} duration={500}>Artists</Link></li>
-		        <li className="tutorials"><a href="#">News</a></li>
+		        <li className="ArtistsLink"><Link activeClass="active" to="artists" spy={true} smooth={true} duration={500}>Artists</Link></li>
+		        <li className="NewsLink"><Link activeClass="active" to="news" spy={true} smooth={true} duration={500}>News</Link></li>
 		        <li className="about"><a href="#">Label Info</a></li>
 		        <li className="news"><a href="#">Store</a></li>
 		        <li className="contact"><a href="#">Contact</a></li>
@@ -29,7 +29,7 @@ class Navbar extends React.Component {
 		    </div>
 	    )
 	}
-	
+
 	componentDidMount() {
 
 	    Events.scrollEvent.register('begin', function () {

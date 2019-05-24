@@ -868,12 +868,11 @@ hr {
   z-index:9;
   position:relative;
   color:black;
-  /*top:-70px;*/
   font-size:25px;
   font-weight:bold;
 }
 
-/*Grid*/
+/*Grid Artists*/
 .gridWrapper{
   position:relative;
   top:200px;
@@ -884,23 +883,13 @@ hr {
   position:relative;
   display: flex;
   float:left;
-  /*flex-wrap: wrap;*/
   max-width: 960px;
-  /*margin: 0 auto;*/
-  /*background-color: red;*/
 }
 
 .grid-figure{
   position: relative;
-  /*flex-basis:calc(15% - 4rem);*/
-/*  flex-grow: 1;
-  flex-shrink: 0;*/
   margin: 0 auto;
-  /*padding: 2rem;*/
-  /*border: 2px solid white;*/
   background:white;
-  /*box-shadow: 0 0 0 5px rgba(0,0,0,0.03);*/
-  /*width:600px;*/
 }
 
 .grid-figure-wrap{
@@ -910,13 +899,84 @@ hr {
 
 .grid-artist{
   width: calc(100%);
-  /*margin-top:20px;*/
-/*  margin-left: -2rem;
-  margin-top: -2rem;*/
-  /*display: inline-flex;*/
-  /*display: table-row;*/
-/*  width: 200px;
-  height:320px;*/
+}
+
+/*Grid News*/
+.gridWrapperNews{
+  position:relative;
+  top:200px;
+  height:250px;
+}
+
+.news-grid{
+  position:relative;
+  display: flex;
+  float:left;
+  max-width: 960px;
+  overflow: scroll;
+}
+
+.grid-figureNews{
+  position: relative;
+  margin: 0 auto;
+  /*background:white;*/
+}
+
+.grid-figure-wrapNews{
+  width: 500px;
+  height:250px;
+  border-right: 4px solid black;
+}
+
+.grid-news{
+  width: 500px;
+  height:250px;
+  background-color:#FF3F3F;
+  overflow-y:hidden;
+}
+
+/*news*/
+
+.newsDate{
+  background-color:#FFFF6B;
+  position:relative;
+  width: 500px;
+  font-size:14px;
+  word-wrap: break-word;
+  -moz-hyphens:auto; 
+  -webkit-hyphens:auto; 
+  -o-hyphens:auto; 
+  hyphens:auto;
+}
+
+.newsHeadline{
+  position:relative;
+  width: 500px;
+  background-color:white;
+  font-weight:bold;
+  font-size:20px;
+  word-wrap: break-word;
+  -moz-hyphens:auto; 
+  -webkit-hyphens:auto; 
+  -o-hyphens:auto; 
+  hyphens:auto;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.newsContent{
+  /*top:50px; */
+  position:relative;
+  width: 500px;
+  height:250px;
+  background-color:#FFFF6B;
+  /*font-weight:bold;*/
+  font-size:15px;
+  word-wrap: break-word;
+  -moz-hyphens:auto; 
+  -webkit-hyphens:auto; 
+  -o-hyphens:auto; 
+  hyphens:auto;
 }
 
 

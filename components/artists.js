@@ -22,6 +22,3 @@ class Artists extends React.Component{
 }
 
 export default Artists;
-					// <Link to={'/view/'+ post.code }>
-					// 	<img src={post.display_src} alt={post.caption} className='grid-artist' />
-					// </Link>
