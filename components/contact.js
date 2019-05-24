@@ -17,6 +17,7 @@ class Contact extends React.Component{
 							<a className='contactLinks' href="info@audio-boy.com">Inquiries/Questions: info@audio-boy.com</a> 
 							<a className='contactLinks' href="pr@audio-boy.com">Media: pr@audio-boy.com</a> 
 							<a className='contactLinks' href="hr@audio-boy.com">Legal: legal@audio-boy.com</a> 
+							<p id='serious'>Audio-Boy does not accept unsolicited demos</p>
 						</div>
 					</div>
 				</div>

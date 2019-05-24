@@ -49,7 +49,7 @@ class Parent extends React.Component {
 				        		<ArtistsGrid {...this.props}/>
 				        	</div>
 				        	<div className='titleWrapper'>
-	    						<Element name="news" className="element">News</Element>
+	    						<Element name="news" className="element">News - <span className='small'>Scroll Right to See More</span></Element>
 	    					</div>
 	    					<div>
 				        		<NewsGrid {...this.props}/>
@@ -63,7 +63,7 @@ class Parent extends React.Component {
 				        		<AboutLabel/>
 				        	</div>
 				        	<div className='titleWrapper'>
-	    						<Element id='storeHeader' name="store" className="element">Store</Element>
+	    						<Element id='storeHeader' name="store" className="element">Store - <span className='small'>Scroll Right to See More</span></Element>
 	    					</div>
 	    					<div>
 				        		<StoreGrid {...this.props}/>

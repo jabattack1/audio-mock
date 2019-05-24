@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,300,600');
 
+/*smaller font*/
+.small{
+  font-size:10px;
+}
+
+/*no demos*/
+#serious{
+  position:absolute;
+  bottom:0;
+  right:0;
+  width:960px;
+  text-align:center;
+}
 
 .element{
   padding-left:5px;
@@ -713,6 +726,15 @@ color:#595959;
 
 .footerLink a:hover {
   color: #595959;
+}
+
+/*legal*/
+.centerWords{
+  width:960px;
+  text-align: center;
+}
+.policy{
+  color:white;
 }
 
 

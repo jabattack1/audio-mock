@@ -19,7 +19,7 @@ const Footer = () => (
 							© {year()} Audio-Boy
 						</p>
 					</li>
-						<li className='footerLink'><a href="#">Privay Policy</a></li>
+						<li className='footerLink'><a href='/privacy-policy'>Privay Policy</a></li>
 						<li className='footerLink'><a href="#">Terms of Use</a></li>
 						<li className='footerLink'><a href="#">Ad Choices</a></li>
 						<li className='footerLink'><a href="#">Cookie Policy</a></li>

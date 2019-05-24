@@ -163,7 +163,7 @@ function (_React$Component) {
           lineNumber: 15
         },
         __self: this
-      }, "Audio Boy is an independent recording company with hopes to becoming home to the very best forward-thinking and innovative artists. Our reputation in the music industry is something we would like to be known as an unparalleled experience for the artists and the listeners alike. With a focus on influencing the world's pop culture without any boundaries, and a passionate approach towards discovering and nurturing musical talent - Audio Boy is currently home to The Electronic Auditory Rebels and many more to come in the near future!")));
+      }, "Audio Boy is an independent recording company with ambitions of becoming home to the very best forward-thinking and innovative artists. Our reputation in the music industry is something we feel a great responsibility for and we would like to establish ourselves as a company who offer an unparalleled experience for the artists and the listeners alike. With a focus on influencing the world's pop culture without any boundaries, and a passionate approach towards discovering and nurturing musical talent - Audio Boy is currently home to The Electronic Auditory Rebels and many more to come in the future! Please stay tuned, sign-up to our newsletters, and make sure to buy some stuff from our store cause we might have some exciting updates coming up for you guys. We thank you for your support and hope to see you all out on the road!")));
     }
   }]);
 
@@ -470,7 +470,14 @@ function (_React$Component) {
           lineNumber: 19
         },
         __self: this
-      }, "Legal: legal@audio-boy.com")))));
+      }, "Legal: legal@audio-boy.com"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+        id: "serious",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 20
+        },
+        __self: this
+      }, "Audio-Boy does not accept unsolicited demos")))));
     }
   }]);
 
@@ -554,7 +561,7 @@ var Footer = function Footer() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "#",
+    href: "/privacy-policy",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22
@@ -1340,7 +1347,14 @@ function (_React$Component) {
           lineNumber: 52
         },
         __self: this
-      }, "News")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+      }, "News - ", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
+        className: "small",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 52
+        },
+        __self: this
+      }, "Scroll Right to See More"))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 54
@@ -1403,7 +1417,14 @@ function (_React$Component) {
           lineNumber: 66
         },
         __self: this
-      }, "Store")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+      }, "Store - ", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
+        className: "small",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 66
+        },
+        __self: this
+      }, "Scroll Right to See More"))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 68
