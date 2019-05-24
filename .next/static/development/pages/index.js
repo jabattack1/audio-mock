@@ -481,7 +481,7 @@ var Footer = function Footer() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "#",
+    href: "/terms-of-use",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23
@@ -495,7 +495,7 @@ var Footer = function Footer() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "#",
+    href: "/ad-choices",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 24
@@ -509,7 +509,7 @@ var Footer = function Footer() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "#",
+    href: "/cookie-policy",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 25
@@ -523,7 +523,7 @@ var Footer = function Footer() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "#",
+    href: "/jobs",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 26

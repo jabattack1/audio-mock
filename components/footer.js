@@ -20,10 +20,10 @@ const Footer = () => (
 						</p>
 					</li>
 						<li className='footerLink'><a href='/privacy-policy'>Privay Policy</a></li>
-						<li className='footerLink'><a href="#">Terms of Use</a></li>
-						<li className='footerLink'><a href="#">Ad Choices</a></li>
-						<li className='footerLink'><a href="#">Cookie Policy</a></li>
-						<li className='footerLink'><a href="#">Jobs</a></li>
+						<li className='footerLink'><a href='/terms-of-use'>Terms of Use</a></li>
+						<li className='footerLink'><a href='/ad-choices'>Ad Choices</a></li>
+						<li className='footerLink'><a href='/cookie-policy'>Cookie Policy</a></li>
+						<li className='footerLink'><a href='/jobs'>Jobs</a></li>
 				</ul>
 			</div>
 		</div>
