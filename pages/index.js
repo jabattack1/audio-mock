@@ -19,6 +19,7 @@ class Index extends React.Component {
 	}
 
  	render () {
+
     	return(
     		<Layout>   
     			<Parent artists={data}/>				

@@ -17,7 +17,6 @@ class ArtistsGrid extends React.Component {
 	render () {
     	return(
     		<div className='gridWrapper'>
-    			<p className='title'>Artists</p>
 	    		<div className='artists-grid'>
 	    			{this.props.artists.map((post, i) => <Artists {...this.props} key={i} i={i} artist={post} />)}
 				</div>
@@ -28,3 +27,5 @@ class ArtistsGrid extends React.Component {
 }
 
 export default ArtistsGrid;
+
+

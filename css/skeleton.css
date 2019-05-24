@@ -2,11 +2,12 @@
 
 .container {
   position: relative;
-  width: 100%;
+  /*width: 100%;*/
+  height:1400px;
   max-width: 960px;
   margin: 0 auto;
-  padding: 0 20px;
-  box-sizing: border-box; 
+  /*padding: 0 20px;*/
+  /*box-sizing: border-box; */
   background-color:black;
 }
 .column,
@@ -358,7 +359,7 @@ hr {
 /*photos*/
 .bannerWrapper{
   position: absolute;
-  display: table-cell;
+  /*display: table-cell;*/
   top:0;
   left:0;
   right:0;
@@ -367,7 +368,7 @@ hr {
 }
 
 .image123{
-  display: inline-block;
+  /*display: inline-block;*/
   margin: 0 auto;
   width: 960px; 
   height: 200px;
@@ -380,8 +381,8 @@ hr {
 
 .frontLogo{
   position:absolute;
-  height:160px; 
-  width:160px;
+  height:170px; 
+  width:170px;
   z-index:10;
   content:url('https://i.imgur.com/msETczs.png');
 }
@@ -399,14 +400,14 @@ hr {
   height: 400px;
   width: 2800px;
   background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/collage.jpg);
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   height: 100%;
   transform: translate3d(0, 0, 0);
 }
 .tech-slideshow .mover-1 {
-  animation: moveSlideshow 12s linear infinite;
+  animation: moveSlideshow 20s linear infinite;
 }
 .tech-slideshow .mover-2 {
   opacity: 0;
@@ -424,27 +425,42 @@ hr {
   }
 }
 
-/*Grid*/
+
+.titleWrapper{
+  position:relative;
+  width:960px;
+  /*height:40px;*/
+  background-color:#7D83FF;
+  z-index:0;
+  top:190px;
+  /*display: table-cell;*/
+  vertical-align: middle;
+}
 
 .title{
-  position:absolute;
-  color:white;
-  top:-70px;
-  font-size:40px;
+  z-index:9;
+  position:relative;
+  color:black;
+  /*top:-70px;*/
+  font-size:25px;
   font-weight:bold;
 }
 
+/*Grid*/
 .gridWrapper{
-  position:absolute;
-  top:520px;
+  position:relative;
+  top:200px;
+  height:250px;
 }
 
 .artists-grid{
+  position:relative;
   display: flex;
+  float:left;
   /*flex-wrap: wrap;*/
   max-width: 960px;
-  margin: 0 auto;
-  background-color: red;
+  /*margin: 0 auto;*/
+  /*background-color: red;*/
 }
 
 .grid-figure{
@@ -474,6 +490,71 @@ hr {
   /*display: table-row;*/
 /*  width: 200px;
   height:320px;*/
+}
+
+
+/*footer*/
+
+.footerWrapper{
+  position: relative;
+}
+
+.footer {
+  position: relative;
+  border-top: 1px solid #FF3F3F;
+  bottom:0px;
+  left:0;
+  /*height:100px;*/
+  width:100%;
+  background:black;
+  /*color:white;*/
+}
+
+.footerMenu{
+  position:relative;
+  bottom:0;
+  left:0;
+  width:100%;
+  height:200px;
+  /*background-color:red;*/
+  text-align:center;
+}
+
+.footerLink{
+  display: inline-block;
+  padding:20px;
+  /*position: absolute;*/
+  bottom:0;
+}
+
+.footerLink a {
+  font-family: 'Arial', sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+  color:#4C4C4C;
+  transition: .3s color;
+  text-decoration: none;
+}
+
+.footerLink p {
+  font-family: 'Arial', sans-serif;
+  font-size: 12px;
+  color:#4C4C4C;
+  transition: .3s color;
+  text-decoration: none;
+}
+
+.footerLink a:hover {
+  color: #595959;
+}
+
+
+
+
+/* IE 6 */
+* html .footer {
+   position:absolute;
+   top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
 }
 
 
