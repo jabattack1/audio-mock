@@ -3,7 +3,7 @@
 .container {
   position: relative;
   /*width: 100%;*/
-  height:1400px;
+  height:1920px;
   max-width: 960px;
   margin: 0 auto;
   /*padding: 0 20px;*/
@@ -506,6 +506,7 @@ hr {
   height:250px;
   background-color:#FF3F3F;
   overflow-y:hidden;
+  /*padding: 10px;*/
 }
 
 /*news*/
@@ -552,6 +553,92 @@ hr {
   hyphens:auto;
 }
 
+.newsLabelSpacer{
+  position:relative;
+  height:60px;
+}
+
+/*about label*/
+
+.gridWrapperAbout{
+  position:relative;
+  top:200px;
+  height:250px;
+}
+
+.aboutContent{
+  position:relative;
+  /*margin-top:300px;*/
+  width: 960px;
+  height:190px;
+  background-color:#FF3F3F;
+  font-size:15px;
+  font-weight:bold;
+  word-wrap: break-word;
+  -moz-hyphens:auto; 
+  -webkit-hyphens:auto; 
+  -o-hyphens:auto; 
+  hyphens:auto;
+}
+
+/*Grid Store*/
+
+.gridWrapperStore{
+  position:relative;
+  top:200px;
+  height:250px;
+}
+
+.store-grid{
+  position:relative;
+  display: flex;
+  float:left;
+  max-width: 960px;
+  overflow: scroll;
+}
+
+.grid-figureStore{
+  position: relative;
+  margin: 0 auto;
+  /*background:white;*/
+}
+
+.grid-figure-wrapStore{
+  width: 250px;
+  height:350px;
+  border-right: 4px solid black;
+}
+
+.grid-store{
+  width: 500px;
+  height:250px;
+  background-color:#89FFF9;
+  overflow-y:hidden;
+  /*padding: 10px;*/
+}
+
+/*contact*/
+
+.gridWrapperContact{
+  position:relative;
+  top:200px;
+  height:250px;
+}
+
+.contactContent{
+  position:relative;
+  /*margin-top:300px;*/
+  width: 960px;
+  height:190px;
+  background-color:#FF8B1E;
+  font-size:15px;
+  font-weight:bold;
+  word-wrap: break-word;
+  -moz-hyphens:auto; 
+  -webkit-hyphens:auto; 
+  -o-hyphens:auto; 
+  hyphens:auto;
+}
 
 /*footer*/
 

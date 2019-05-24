@@ -6,6 +6,9 @@ import styled from 'styled-components';
 
 import ArtistsGrid from './artists-grid.js';
 import NewsGrid from './news-grid.js';
+import AboutLabel from './about-label.js';
+import StoreGrid from './store-grid.js';
+import Contact from './contact.js';
 
 import '../css/normalize.css';
 import '../css/skeleton.css';
@@ -40,16 +43,38 @@ class Parent extends React.Component {
 				          		</div>
 				        	</div>
 				        	<div className='titleWrapper'>
-				        	    <Element className='title' name="artists" className="element">Artists</Element>
+				        	    <Element name="artists" className="element">Artists</Element>
 	    					</div>
 				        	<div>
 				        		<ArtistsGrid {...this.props}/>
 				        	</div>
 				        	<div className='titleWrapper'>
-	    						<Element className='title' name="news" className="element">News</Element>
+	    						<Element name="news" className="element">News</Element>
 	    					</div>
 	    					<div>
 				        		<NewsGrid {...this.props}/>
+				        	</div>
+				        	<div className='newsLabelSpacer'>
+				        	</div>
+				        	<div className='titleWrapper'>
+	    						<Element id='labelHeader' name="label" className="element">The Label</Element>
+	    					</div>
+	    					<div>
+				        		<AboutLabel/>
+				        	</div>
+				        	<div className='titleWrapper'>
+	    						<Element id='storeHeader' name="store" className="element">Store</Element>
+	    					</div>
+	    					<div>
+				        		<StoreGrid {...this.props}/>
+				        	</div>
+				        	<div className='newsLabelSpacer'>
+				        	</div>
+				        	<div className='titleWrapper'>
+	    						<Element id='contactHeader' name="contact" className="element">Contact</Element>
+	    					</div>
+	    					<div>
+				        		<Contact/>
 				        	</div>
 				      	</div>
 				    </div>

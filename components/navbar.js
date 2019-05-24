@@ -22,9 +22,9 @@ class Navbar extends React.Component {
 		      <ul>
 		        <li className="ArtistsLink"><Link activeClass="active" to="artists" spy={true} smooth={true} duration={500}>Artists</Link></li>
 		        <li className="NewsLink"><Link activeClass="active" to="news" spy={true} smooth={true} duration={500}>News</Link></li>
-		        <li className="about"><a href="#">Label Info</a></li>
-		        <li className="news"><a href="#">Store</a></li>
-		        <li className="contact"><a href="#">Contact</a></li>
+		       	<li className="aboutLink"><Link activeClass="active" to="label" spy={true} smooth={true} duration={500}>The Label</Link></li>
+		        <li className="storeLink"><Link activeClass="active" to="store" spy={true} smooth={true} duration={500}>Store</Link></li>
+		        <li className="contactLink"><Link activeClass="active" to="contact" spy={true} smooth={true} duration={500}>Contact</Link></li>
 		      </ul>
 		    </div>
 	    )
