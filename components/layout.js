@@ -11,8 +11,10 @@ const Layout = (props) => (
 		<div className='topBanner'>Subscribe <span className='bold'>NOW</span> for our updates & promotions! <span className='bold'>OVER HERE</span> 
 		</div>
 		<Navbar />
-		<div className='container'>
-			{props.children}
+		<div className='containerWrapper'>
+			<div className='container'>
+				{props.children}
+			</div>
 		</div>
 		<Footer />
 	</div>
