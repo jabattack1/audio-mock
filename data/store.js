@@ -1,9 +1,11 @@
 const store = [
   {
-    "code": "abcd",
-    "name": "The Electronic Auditory Rebels",
+    "code": "1",
+    "name": "Audio-Boy T-Shirt",
     "id": "1",
-    "display_src": `https://i.imgur.com/AwJ6kdN.jpg`
+    "display_src": `https://i.imgur.com/Ag5EuDG.jpg`,
+    "price":"29.99",
+    "size":''
   }
 ];
 

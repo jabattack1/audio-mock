@@ -1672,7 +1672,30 @@ function (_React$Component) {
           lineNumber: 17
         },
         __self: this
-      })));
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+        className: "itemName",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18
+        },
+        __self: this
+      }, this.props.store.name), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
+        src: this.props.store.display_src,
+        alt: this.props.store.name,
+        className: "itemPhoto",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+        className: "itemPrice",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 20
+        },
+        __self: this
+      }, "$", this.props.store.price))));
     }
   }]);
 
@@ -1799,10 +1822,12 @@ var news = [{
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 var store = [{
-  "code": "abcd",
-  "name": "The Electronic Auditory Rebels",
+  "code": "1",
+  "name": "Audio-Boy T-Shirt",
   "id": "1",
-  "display_src": "https://i.imgur.com/AwJ6kdN.jpg"
+  "display_src": "https://i.imgur.com/Ag5EuDG.jpg",
+  "price": "29.99",
+  "size": ''
 }];
 /* harmony default export */ __webpack_exports__["default"] = (store);
 

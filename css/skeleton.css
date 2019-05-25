@@ -631,14 +631,38 @@ hr {
   width: 250px;
   height:250px;
   border-right: 4px solid black;
+  vertical-align:middle;
+  display:table-cell;
 }
 
 .grid-store{
-  width: 500px;
+  width: 250px;
   height:250px;
   background-color:#89FFF9;
   overflow-y:hidden;
   /*padding: 10px;*/
+}
+
+/*items*/
+.itemName{
+  position:relative;
+  text-align:center;
+}
+
+.itemPhoto{
+  position:relative;
+  height:170px;
+  width:250px;
+  margin:0 auto;
+  background-position: center;
+  margin-top:-7px;
+  border-top:2px solid black;
+  border-bottom:2px solid black;
+}
+
+.itemPrice{
+  position:relative;
+  text-align:center;
 }
 
 /*contact*/
@@ -741,8 +765,13 @@ color:#595959;
   width:960px;
   text-align: center;
 }
+
 .policy{
   color:white;
+}
+
+.policyFill{
+  height:110px;
 }
 
 
