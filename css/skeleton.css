@@ -3,19 +3,37 @@
 /*smaller font*/
 .small{
   font-size:10px;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 0px;
+  -webkit-text-stroke-color: black;
 }
+
+.firstLetter{
+  color:#77F490;
+    /*color: black;*/
+  -webkit-text-fill-color:black;
+  -webkit-text-stroke-width: 0px;
+  -webkit-text-stroke-color: black;
+  /*font-weight:bold;*/
+}
+
 
 /*no demos*/
 #serious{
-  position:absolute;
-  bottom:0;
-  right:0;
+  position:relative;
+/*  bottom:0;
+  right:0;*/
   width:960px;
   text-align:center;
+  font-size:14px;
 }
 
 .element{
   padding-left:5px;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 0px;
+  -webkit-text-stroke-color: black;
+  /*font-weight:bold;*/
 }
 
 .container {
@@ -448,7 +466,6 @@ hr {
   }
 }
 
-
 .titleWrapper{
   position:relative;
   width:960px;
@@ -485,12 +502,13 @@ hr {
 .grid-figure{
   position: relative;
   margin: 0 auto;
-  background:white;
+  background:black;
 }
 
 .grid-figure-wrap{
   width: 200px;
   height:200px;
+  border-right: 4px solid black;
 }
 
 .grid-figure-wrap:hover{
@@ -532,46 +550,59 @@ hr {
 .grid-news{
   width: 500px;
   height:250px;
-  background-color:#FF3F3F;
+  background-color:#FFFF6B;
   overflow-y:hidden;
+  border-radius: 5px;
   /*padding: 10px;*/
 }
 
 /*news*/
 
+.newsImage{
+  /*position:absolute;*/
+  width:150px;
+  height:250px;
+  float:left;
+}
+
 .newsDate{
-  background-color:#FFFF6B;
+  /*background-color:#FFFF6B;*/
   position:relative;
-  width: 500px;
+  margin-left:150px;
+  width: 350px;
   font-size:14px;
   word-wrap: break-word;
   -moz-hyphens:auto; 
   -webkit-hyphens:auto; 
   -o-hyphens:auto; 
   hyphens:auto;
+  text-align: center;
 }
 
 .newsHeadline{
   position:relative;
-  width: 500px;
+  margin-left:150px;
+  width: 350px;
   background-color:white;
   font-weight:bold;
-  font-size:17px;
+  font-size:14px;
   word-wrap: break-word;
   -moz-hyphens:auto; 
   -webkit-hyphens:auto; 
   -o-hyphens:auto; 
   hyphens:auto;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+/*  border-top: 1px solid black;
+  border-bottom: 1px solid black;*/
+  text-align: center;
 }
 
 .newsContent{
   /*top:50px; */
   position:relative;
-  width: 500px;
+  margin-left:150px;
+  width: 350px;
   height:250px;
-  background-color:#FFFF6B;
+  /*background-color:#FFFF6B;*/
   /*font-weight:bold;*/
   font-size:15px;
   word-wrap: break-word;
@@ -579,11 +610,17 @@ hr {
   -webkit-hyphens:auto; 
   -o-hyphens:auto; 
   hyphens:auto;
+  text-align: center;
 }
 
 .newsLabelSpacer{
   position:relative;
   height:60px;
+}
+
+.labelStoreSpacer{
+  position:relative;
+  height:40px;
 }
 
 /*about label*/
@@ -594,12 +631,20 @@ hr {
   height:250px;
 }
 
+.aboutImage{
+  position:relative;
+  height:100px;
+  width: 960px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
 .aboutContent{
   position:relative;
   /*margin-top:300px;*/
   width: 960px;
-  height:190px;
-  background-color:#FF8B1E;
+  height:230px;
+  background-color:#FFB71E;
   font-size:15px;
   /*font-weight:bold;*/
   word-wrap: break-word;
@@ -608,6 +653,7 @@ hr {
   -o-hyphens:auto; 
   hyphens:auto;
   text-align: center;
+  border-radius: 5px;
 }
 
 /*Grid Store*/
@@ -649,13 +695,16 @@ hr {
   height:250px;
   background-color:#77F490;
   overflow-y:hidden;
+  border-radius: 5px;
   /*padding: 10px;*/
 }
 
 /*items*/
 .itemName{
+  padding-top:10px;
   position:relative;
   text-align:center;
+  font-weight:bold;
 }
 
 .itemPhoto{
@@ -664,9 +713,7 @@ hr {
   width:250px;
   margin:0 auto;
   background-position: center;
-  margin-top:-7px;
-  border-top:2px solid black;
-  border-bottom:2px solid black;
+  margin-top:-17px;
 }
 
 .itemPrice{
@@ -684,12 +731,10 @@ hr {
 
 .contactContent{
   position:relative;
-  display: table;
-  /*margin-top:300px;*/
+  /*display: table;*/
   width: 960px;
-  height:190px;
+  height:155px;
   background-color:white;
-  font-size:15px;
   /*font-weight:bold;*/
   word-wrap: break-word;
   -moz-hyphens:auto; 
@@ -697,10 +742,12 @@ hr {
   -o-hyphens:auto; 
   hyphens:auto;
   text-align:center;
+  border-radius: 5px;
 }
 
 .contactLinks{ 
-  font-size:17px;
+  /*display: table-cell;*/
+  font-size:14px;
   padding:20px;
   text-decoration: none;
   color:black;
@@ -715,7 +762,7 @@ hr {
   width:960px;
   height:100px;
   position:relative;
-  margin-top:8px;
+  /*margin-top:8px;*/
 }
 
 /*footer*/
@@ -724,7 +771,14 @@ hr {
   position: relative;
   clear: both;
   height: 40px;
-  margin-top: 195px
+  margin-top: 155px
+}
+
+.footerWrapper2{
+  position: relative;
+  clear: both;
+  height: 40px;
+  margin-top: 40px
 }
 
 .footer {

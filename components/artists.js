@@ -14,7 +14,7 @@ class Artists extends React.Component{
 		return(
 			<figure className='grid-figure'>
 				<div className='grid-figure-wrap'>
-					<img src={this.props.artist.display_src} alt={this.props.artist.name} className='grid-artist' />
+					<a href={this.props.artist.url}><img src={this.props.artist.display_src} alt={this.props.artist.name} className='grid-artist' /></a>
 				</div>
 			</figure>
 		)

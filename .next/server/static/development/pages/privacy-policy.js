@@ -88,15 +88,15 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./components/footer.js":
-/*!******************************!*\
-  !*** ./components/footer.js ***!
-  \******************************/
+/***/ "./components/footer2.js":
+/*!*******************************!*\
+  !*** ./components/footer2.js ***!
+  \*******************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -106,7 +106,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/peterhahn/src/new/audio-boy/components/footer.js";
+var _jsxFileName = "/Users/peterhahn/src/new/audio-boy/components/footer2.js";
 
 
 
@@ -116,9 +116,9 @@ function year() {
   return spit;
 }
 
-var Footer = function Footer() {
+var Footer2 = function Footer2() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "footerWrapper",
+    className: "footerWrapper2",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
@@ -231,7 +231,7 @@ var Footer = function Footer() {
   }, "Jobs"))))));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Footer);
+/* harmony default export */ __webpack_exports__["default"] = (Footer2);
 
 /***/ }),
 
@@ -249,7 +249,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "next/head");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _navbar2_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./navbar2.js */ "./components/navbar2.js");
-/* harmony import */ var _footer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./footer.js */ "./components/footer.js");
+/* harmony import */ var _footer2_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./footer2.js */ "./components/footer2.js");
 var _jsxFileName = "/Users/peterhahn/src/new/audio-boy/components/layout2.js";
 
 
@@ -323,7 +323,7 @@ var Layout2 = function Layout2(props) {
       lineNumber: 15
     },
     __self: this
-  }, props.children)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_footer_js__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, props.children)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_footer2_js__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19
@@ -383,22 +383,22 @@ var _jsxFileName = "/Users/peterhahn/src/new/audio-boy/components/navbar2.js";
 
 
 
-var Navbar =
+var Navbar2 =
 /*#__PURE__*/
 function (_React$Component) {
-  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__["default"])(Navbar, _React$Component);
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__["default"])(Navbar2, _React$Component);
 
-  function Navbar(props) {
+  function Navbar2(props) {
     var _this;
 
-    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__["default"])(this, Navbar);
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__["default"])(this, Navbar2);
 
-    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__["default"])(Navbar).call(this, props));
+    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__["default"])(Navbar2).call(this, props));
     _this.scrollToTop = _this.scrollToTop.bind(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this));
     return _this;
   }
 
-  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__["default"])(Navbar, [{
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__["default"])(Navbar2, [{
     key: "render",
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
@@ -555,10 +555,10 @@ function (_React$Component) {
     }
   }]);
 
-  return Navbar;
+  return Navbar2;
 }(react__WEBPACK_IMPORTED_MODULE_7___default.a.Component);
 
-/* harmony default export */ __webpack_exports__["default"] = (Navbar);
+/* harmony default export */ __webpack_exports__["default"] = (Navbar2);
 
 /***/ }),
 
@@ -2578,7 +2578,7 @@ var PrivacyPolicy = function PrivacyPolicy() {
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!***************************************!*\
   !*** multi ./pages/privacy-policy.js ***!
   \***************************************/

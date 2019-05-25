@@ -69,7 +69,15 @@ function (_React$Component) {
           lineNumber: 15
         },
         __self: this
-      }, "Audio Boy is an independent recording company with ambitions of becoming home to the very best forward-thinking and innovative artists. Our reputation in the music industry is something we feel a great responsibility for and we would like to establish ourselves as a company who offer an unparalleled experience for the artists and the listeners alike. With a focus on influencing the world's pop culture without any boundaries, and a passionate approach towards discovering and nurturing musical talent - Audio Boy is currently home to The Electronic Auditory Rebels and many more to come in the future! Please stay tuned, sign-up to our newsletters, and make sure to buy some stuff from our store cause we might have some exciting updates coming up for you guys. We thank you for your support and hope to see you all out on the road!")));
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
+        className: "aboutImage",
+        src: "https://i.imgur.com/aO06yG3.png",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 16
+        },
+        __self: this
+      }), "Audio Boy is an independent recording company with ambitions of becoming home to the very best forward-thinking and innovative artists. Our reputation in the music industry is something we feel a great responsibility for and we would like to establish ourselves as a company who offer an unparalleled experience for the artists and the listeners alike. With a focus on influencing the world's pop culture without any boundaries, and a passionate approach towards discovering and nurturing musical talent - Audio Boy is currently home to The Electronic Auditory Rebels and many more to come in the future! Please stay tuned....")));
     }
   }]);
 
@@ -253,6 +261,13 @@ function (_React$Component) {
           lineNumber: 16
         },
         __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+        href: this.props.artist.url,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17
+        },
+        __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
         src: this.props.artist.display_src,
         alt: this.props.artist.name,
@@ -262,7 +277,7 @@ function (_React$Component) {
           lineNumber: 17
         },
         __self: this
-      })));
+      }))));
     }
   }]);
 
@@ -740,7 +755,14 @@ function (_React$Component) {
           lineNumber: 23
         },
         __self: this
-      }, "Artists")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("span", {
+        className: "firstLetter",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 23
+        },
+        __self: this
+      }, "Artists"))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
         className: "link",
         __source: {
           fileName: _jsxFileName,
@@ -758,7 +780,14 @@ function (_React$Component) {
           lineNumber: 24
         },
         __self: this
-      }, "News")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("span", {
+        className: "firstLetter",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 24
+        },
+        __self: this
+      }, "News"))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
         className: "link",
         __source: {
           fileName: _jsxFileName,
@@ -776,7 +805,14 @@ function (_React$Component) {
           lineNumber: 25
         },
         __self: this
-      }, "The Label")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("span", {
+        className: "firstLetter",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 25
+        },
+        __self: this
+      }, "The Label"))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
         className: "link",
         __source: {
           fileName: _jsxFileName,
@@ -794,7 +830,14 @@ function (_React$Component) {
           lineNumber: 26
         },
         __self: this
-      }, "Store")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("span", {
+        className: "firstLetter",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 26
+        },
+        __self: this
+      }, "Store"))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
         className: "link",
         __source: {
           fileName: _jsxFileName,
@@ -812,7 +855,14 @@ function (_React$Component) {
           lineNumber: 27
         },
         __self: this
-      }, "Contact"))));
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("span", {
+        className: "firstLetter",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 27
+        },
+        __self: this
+      }, "Contact")))));
     }
   }, {
     key: "componentDidMount",
@@ -1057,25 +1107,33 @@ function (_React$Component) {
           lineNumber: 17
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "newsDate",
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
+        className: "newsImage",
+        src: this.props.news.display_src,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 18
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "newsDate",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19
         },
         __self: this
       }, this.props.news.date), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "newsHeadline",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 19
+          lineNumber: 20
         },
         __self: this
       }, this.props.news.headline), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "newsContent",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 20
+          lineNumber: 21
         },
         __self: this
       }, this.props.news.content))));
@@ -1326,10 +1384,17 @@ function (_React$Component) {
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "titleWrapper",
+        className: "labelStoreSpacer",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 65
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "titleWrapper",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 67
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_8__["Element"], {
@@ -1338,40 +1403,40 @@ function (_React$Component) {
         className: "element",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 66
+          lineNumber: 68
         },
         __self: this
       }, "Store - ", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
         className: "small",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 66
+          lineNumber: 68
         },
         __self: this
       }, "Scroll Right to See More"))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 68
+          lineNumber: 70
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_store_grid_js__WEBPACK_IMPORTED_MODULE_13__["default"], Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, this.props, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 69
+          lineNumber: 71
         },
         __self: this
       }))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "newsLabelSpacer",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 71
+          lineNumber: 73
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "titleWrapper",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 73
+          lineNumber: 75
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_8__["Element"], {
@@ -1380,19 +1445,19 @@ function (_React$Component) {
         className: "element",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 74
+          lineNumber: 76
         },
         __self: this
       }, "Contact")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 76
+          lineNumber: 78
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_contact_js__WEBPACK_IMPORTED_MODULE_14__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 77
+          lineNumber: 79
         },
         __self: this
       }))))));
@@ -1634,7 +1699,26 @@ var artistList = [{
   "code": "abcd",
   "name": "The Electronic Auditory Rebels",
   "id": "1",
+  "url": "/auditory",
+  "mv": "https://www.youtube.com/embed/7LEmer7wwHI",
+  "bio": "This is the band that will help change pop culture. This is the band that will help change pop culture. This is the band that will help change pop culture. This is the band that will help change pop culture.This is the band that will help change pop culture. This is the band that will help change pop culture. This is the band that will help change pop culture. This is the band that will help change pop culture. This is the band that will help change pop culture. This is the band that will help change pop culture. This is the band that will help change pop culture. This is the band that will help change pop culture. This is the band that will help change pop culture.",
   "display_src": "https://i.imgur.com/AwJ6kdN.jpg"
+}, {
+  "code": "dbcde",
+  "name": "Britney Spears",
+  "id": "1",
+  "url": "/auditory2",
+  "mv": "https://www.youtube.com/embed/7LEmer7wwHI",
+  "bio": "This is the qsdfdafdband that will help change pop culture.",
+  "display_src": "https://i.imgur.com/K0MuJet.png"
+}, {
+  "code": "dbcde",
+  "name": "Britney Spears",
+  "id": "1",
+  "url": "/auditory2",
+  "mv": "https://www.youtube.com/embed/7LEmer7wwHI",
+  "bio": "This is the qsdfdafdband that will help change pop culture.",
+  "display_src": "https://i.imgur.com/K0MuJet.png"
 }];
 /* harmony default export */ __webpack_exports__["default"] = (artistList); //  {
 //   "code": "abcde",
@@ -1658,35 +1742,35 @@ var news = [{
   "code": "news12345",
   "headline": "The Electronic Auditory Rebels release debut single.",
   "id": "1",
-  "display_src": "",
-  "date": "5-23-2019",
-  "content": "The release data will be moved to whichever date the song catches on."
+  "display_src": "https://i.imgur.com/8nqyC9t.jpg",
+  "date": "May-23-2019",
+  "content": "The release date will be moved to whichever date the song catches on."
 }, {
   "code": "news12345",
-  "headline": "Mrs. Fields jumps off a moving bus and drops her cookies.",
+  "headline": "Chocolate Chip Cookies: Recipe",
   "id": "1",
-  "display_src": "",
-  "date": "5-1-2019",
-  "content": "Today the 52 year old baker was on the bx9 bus heading towards the Bronx Zoo in New York City. When she realized all the crappy reviews about the zoo, she decided to toss her cookies and jump off the bus couple of stops prior to her South Arlington rd. stop. This incident caused no casualties, but some nicely baked cookies were lost. OK, so now I'm just going to not say anything about this cause it's stupid."
+  "display_src": "https://i.imgur.com/P0MSSTp.jpg",
+  "date": "May-1-2019",
+  "content": "1 cup salted butter softened. 1 cup white (granulated) sugar. 1 cup light brown sugar packed. 2 tsp pure vanilla extract. 2 large eggs. 3 cups all-purpose flour. 1 tsp baking soda.½ tsp baking powder."
 }, {
   "code": "news12345",
   "headline": "The New York Knicks lose all their marbles.",
   "id": "1",
-  "display_src": "",
-  "date": "2-17-2019",
-  "content": "The city of New York is in tears today because some idiot from the Knicks decided to waste some draft picks and some nice players by traiding them for a bag of marbles. Only for that idiot to turn around and sell those marbles for to a kid on a street for $2. Nicely done New York."
+  "display_src": "https://i.imgur.com/1p1i2jR.jpg",
+  "date": "February-17-2019",
+  "content": "The New York Knicks Suck."
 }, {
   "code": "news12345",
-  "headline": "Music business is just some kind of way to get rid of unwanted fat.",
+  "headline": "Music biz: Another way to get rid of unwanted fat.",
   "id": "1",
-  "display_src": "",
+  "display_src": "https://i.imgur.com/QCepu4Y.jpg",
   "date": "Bullshit day",
-  "content": "Really. You should try it out."
+  "content": "Really. You should try it."
 }, {
   "code": "news12345",
-  "headline": "Happy days are days when you feel like doing something.",
+  "headline": "Happy days are days you feel like doing something.",
   "id": "1",
-  "display_src": "",
+  "display_src": "https://i.imgur.com/99YFl0a.jpg",
   "date": "today",
   "content": "Science has proven over and over again that there is no way to prove anything."
 }];
@@ -1705,7 +1789,7 @@ var news = [{
 __webpack_require__.r(__webpack_exports__);
 var store = [{
   "code": "1",
-  "name": "Audio-Boy T-Shirt",
+  "name": "Audio-Boy T-Shirt (Limited)",
   "id": "1",
   "display_src": "https://i.imgur.com/Ag5EuDG.jpg",
   "price": "29.99",
@@ -17548,7 +17632,7 @@ function (_React$Component) {
 
 /***/ }),
 
-/***/ 5:
+/***/ 0:
 /*!********************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fpeterhahn%2Fsrc%2Fnew%2Faudio-boy%2Fpages%2Findex.js ***!
   \********************************************************************************************************************************/
@@ -17571,5 +17655,5 @@ module.exports = dll_6dc2816e14fab51b8269;
 
 /***/ })
 
-},[[5,"static/runtime/webpack.js","styles"]]]);
+},[[0,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map

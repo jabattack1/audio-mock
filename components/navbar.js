@@ -20,11 +20,11 @@ class Navbar extends React.Component {
 	    return(
 		    <div className="nav">
 		      <ul>
-		        <li className="link"><Link activeClass="active" to="artists" spy={true} smooth={true} duration={500}>Artists</Link></li>
-		        <li className="link"><Link activeClass="active" to="news" spy={true} smooth={true} duration={500}>News</Link></li>
-		       	<li className="link"><Link activeClass="active" to="label" spy={true} smooth={true} duration={500}>The Label</Link></li>
-		        <li className="link"><Link activeClass="active" to="store" spy={true} smooth={true} duration={500}>Store</Link></li>
-		        <li className="link"><Link activeClass="active" to="contact" spy={true} smooth={true} duration={500}>Contact</Link></li>
+		        <li className="link"><Link activeClass="active" to="artists" spy={true} smooth={true} duration={500}><span className='firstLetter'>Artists</span></Link></li>
+		        <li className="link"><Link activeClass="active" to="news" spy={true} smooth={true} duration={500}><span className='firstLetter'>News</span></Link></li>
+		       	<li className="link"><Link activeClass="active" to="label" spy={true} smooth={true} duration={500}><span className='firstLetter'>The Label</span></Link></li>
+		        <li className="link"><Link activeClass="active" to="store" spy={true} smooth={true} duration={500}><span className='firstLetter'>Store</span></Link></li>
+		        <li className="link"><Link activeClass="active" to="contact" spy={true} smooth={true} duration={500}><span className='firstLetter'>Contact</span></Link></li>
 		      </ul>
 		    </div>
 	    )

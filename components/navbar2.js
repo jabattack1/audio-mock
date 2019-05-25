@@ -9,7 +9,7 @@ import '../css/normalize.css';
 import '../css/skeleton.css';
 
 
-class Navbar extends React.Component {
+class Navbar2 extends React.Component {
 
 	constructor(props) {
 	    super(props);
@@ -87,4 +87,4 @@ class Navbar extends React.Component {
 
 }
 
-export default Navbar;
+export default Navbar2;

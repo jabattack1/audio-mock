@@ -62,6 +62,8 @@ class Parent extends React.Component {
 	    					<div>
 				        		<AboutLabel/>
 				        	</div>
+				        	<div className='labelStoreSpacer'>
+				        	</div>
 				        	<div className='titleWrapper'>
 	    						<Element id='storeHeader' name="store" className="element">Store - <span className='small'>Scroll Right to See More</span></Element>
 	    					</div>
