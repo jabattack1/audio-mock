@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -296,7 +296,14 @@ var Layout2 = function Layout2(props) {
       lineNumber: 11
     },
     __self: this
-  }, "OVER HERE")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_navbar2_js__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, "OVER HERE"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_navbar2_js__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
@@ -408,7 +415,7 @@ function (_React$Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
-        className: "ArtistsLink",
+        className: "link",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 23
@@ -422,7 +429,7 @@ function (_React$Component) {
         },
         __self: this
       }, "Home")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
-        className: "NewsLink",
+        className: "link",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 24
@@ -436,7 +443,7 @@ function (_React$Component) {
         },
         __self: this
       }, "Privacy Policy")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
-        className: "aboutLink",
+        className: "link",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 25
@@ -450,7 +457,7 @@ function (_React$Component) {
         },
         __self: this
       }, "Terms of Use")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
-        className: "storeLink",
+        className: "link",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 26
@@ -464,7 +471,7 @@ function (_React$Component) {
         },
         __self: this
       }, "Ad Choices")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
-        className: "contactLink",
+        className: "link",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 27
@@ -478,7 +485,7 @@ function (_React$Component) {
         },
         __self: this
       }, "Cookie Policy")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
-        className: "contactLink",
+        className: "link",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 28
@@ -2571,7 +2578,7 @@ var PrivacyPolicy = function PrivacyPolicy() {
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!***************************************!*\
   !*** multi ./pages/privacy-policy.js ***!
   \***************************************/

@@ -983,14 +983,14 @@ hr {
   width: 500px;
   background-color:white;
   font-weight:bold;
-  font-size:20px;
+  font-size:17px;
   word-wrap: break-word;
   -moz-hyphens:auto; 
   -webkit-hyphens:auto; 
   -o-hyphens:auto; 
   hyphens:auto;
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 .newsContent{
@@ -1028,12 +1028,13 @@ hr {
   height:190px;
   background-color:#FF8B1E;
   font-size:15px;
-  font-weight:bold;
+  /*font-weight:bold;*/
   word-wrap: break-word;
   -moz-hyphens:auto; 
   -webkit-hyphens:auto; 
   -o-hyphens:auto; 
   hyphens:auto;
+  text-align: center;
 }
 
 /*Grid Store*/
@@ -1073,7 +1074,7 @@ hr {
 .grid-store{
   width: 250px;
   height:250px;
-  background-color:#89FFF9;
+  background-color:#77F490;
   overflow-y:hidden;
   /*padding: 10px;*/
 }
@@ -1114,9 +1115,9 @@ hr {
   /*margin-top:300px;*/
   width: 960px;
   height:190px;
-  background-color:#77F490;
+  background-color:white;
   font-size:15px;
-  font-weight:bold;
+  /*font-weight:bold;*/
   word-wrap: break-word;
   -moz-hyphens:auto; 
   -webkit-hyphens:auto; 
@@ -1134,7 +1135,14 @@ hr {
 }
 
 .contactLinks:hover{ 
-color:#595959;
+  color:#595959;
+}
+
+.spectrum{
+  width:960px;
+  height:100px;
+  position:relative;
+  margin-top:8px;
 }
 
 /*footer*/

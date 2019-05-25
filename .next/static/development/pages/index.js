@@ -373,11 +373,19 @@ function (_React$Component) {
           lineNumber: 19
         },
         __self: this
-      }, "Legal: legal@audio-boy.com"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
-        id: "serious",
+      }, "Legal: legal@audio-boy.com"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
+        className: "spectrum",
+        src: "https://i.imgur.com/eFviGKy.gif",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 20
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+        id: "serious",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21
         },
         __self: this
       }, "Audio-Boy does not accept unsolicited demos")))));
@@ -17540,7 +17548,7 @@ function (_React$Component) {
 
 /***/ }),
 
-/***/ 0:
+/***/ 5:
 /*!********************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fpeterhahn%2Fsrc%2Fnew%2Faudio-boy%2Fpages%2Findex.js ***!
   \********************************************************************************************************************************/
@@ -17563,5 +17571,5 @@ module.exports = dll_6dc2816e14fab51b8269;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js","styles"]]]);
+},[[5,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map

@@ -12,7 +12,7 @@ class Jobs extends React.Component{
 		return(
 			<div>
 				<p className='policy'>
-					Come back to see if any positions opened up.
+					Come back to see if any positions open up.
 				</p>
 				<p className='policyFill'>
 				</p>
