@@ -8,7 +8,7 @@ const Layout = (props) => (
 	<Head>
 		<title>Audio-Boy</title>
 	</Head>
-		<div className='topBanner'>Subscribe <span className='bold'>NOW</span> for our updates & promotions! <span className='bold'>OVER HERE</span> 
+		<div className='topBanner'>Subscribe <span className='bold'>NOW</span> for our updates & promotions! <span className='bold'><a className='link'>OVER HERE</a></span> 
 		</div>
 		<Navbar />
 		<div className='containerWrapper'>

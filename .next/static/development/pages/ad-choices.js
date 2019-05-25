@@ -1305,10 +1305,10 @@ var Footer = function Footer() {
 
 /***/ }),
 
-/***/ "./components/layout.js":
-/*!******************************!*\
-  !*** ./components/layout.js ***!
-  \******************************/
+/***/ "./components/layout2.js":
+/*!*******************************!*\
+  !*** ./components/layout2.js ***!
+  \*******************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1318,15 +1318,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _navbar_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./navbar.js */ "./components/navbar.js");
+/* harmony import */ var _navbar2_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./navbar2.js */ "./components/navbar2.js");
 /* harmony import */ var _footer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./footer.js */ "./components/footer.js");
-var _jsxFileName = "/Users/peterhahn/src/new/audio-boy/components/layout.js";
+var _jsxFileName = "/Users/peterhahn/src/new/audio-boy/components/layout2.js";
 
 
 
 
 
-var Layout = function Layout(props) {
+var Layout2 = function Layout2(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
@@ -1366,7 +1366,7 @@ var Layout = function Layout(props) {
       lineNumber: 11
     },
     __self: this
-  }, "OVER HERE")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_navbar_js__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, "OVER HERE")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_navbar2_js__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
@@ -1395,14 +1395,14 @@ var Layout = function Layout(props) {
   }));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Layout);
+/* harmony default export */ __webpack_exports__["default"] = (Layout2);
 
 /***/ }),
 
-/***/ "./components/navbar.js":
-/*!******************************!*\
-  !*** ./components/navbar.js ***!
-  \******************************/
+/***/ "./components/navbar2.js":
+/*!*******************************!*\
+  !*** ./components/navbar2.js ***!
+  \*******************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1436,7 +1436,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/peterhahn/src/new/audio-boy/components/navbar.js";
+var _jsxFileName = "/Users/peterhahn/src/new/audio-boy/components/navbar2.js";
 
 
 
@@ -1477,96 +1477,90 @@ function (_React$Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
-        className: "ArtistsLink",
+        className: "link",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 23
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_10__["Link"], {
-        activeClass: "active",
-        to: "artists",
-        spy: true,
-        smooth: true,
-        duration: 500,
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
+        href: "/",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 23
         },
         __self: this
-      }, "Artists")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
-        className: "NewsLink",
+      }, "Home")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
+        className: "link",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 24
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_10__["Link"], {
-        activeClass: "active",
-        to: "news",
-        spy: true,
-        smooth: true,
-        duration: 500,
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
+        href: "/privacy-policy",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 24
         },
         __self: this
-      }, "News")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
-        className: "aboutLink",
+      }, "Privacy Policy")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
+        className: "link",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 25
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_10__["Link"], {
-        activeClass: "active",
-        to: "label",
-        spy: true,
-        smooth: true,
-        duration: 500,
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
+        href: "/terms-of-use",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 25
         },
         __self: this
-      }, "The Label")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
-        className: "storeLink",
+      }, "Terms of Use")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
+        className: "link",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 26
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_10__["Link"], {
-        activeClass: "active",
-        to: "store",
-        spy: true,
-        smooth: true,
-        duration: 500,
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
+        href: "/ad-choices",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 26
         },
         __self: this
-      }, "Store")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
-        className: "contactLink",
+      }, "Ad Choices")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
+        className: "link",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 27
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_10__["Link"], {
-        activeClass: "active",
-        to: "contact",
-        spy: true,
-        smooth: true,
-        duration: 500,
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
+        href: "/cookie-policy",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 27
         },
         __self: this
-      }, "Contact"))));
+      }, "Cookie Policy")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
+        className: "link",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 28
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
+        href: "/jobs",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 28
+        },
+        __self: this
+      }, "Jobs"))));
     }
   }, {
     key: "componentDidMount",
@@ -17320,7 +17314,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var _components_ads_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/ads.js */ "./components/ads.js");
-/* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/layout */ "./components/layout.js");
+/* harmony import */ var _components_layout2_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/layout2.js */ "./components/layout2.js");
 /* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../css/normalize.css */ "./css/normalize.css");
 /* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_css_normalize_css__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../css/skeleton.css */ "./css/skeleton.css");
@@ -17338,7 +17332,7 @@ var _jsxFileName = "/Users/peterhahn/src/new/audio-boy/pages/ad-choices.js";
 
 
 var AdChoices = function AdChoices() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_layout2_js__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14

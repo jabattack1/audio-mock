@@ -691,7 +691,14 @@ var Layout = function Layout(props) {
       lineNumber: 11
     },
     __self: this
-  }, "OVER HERE")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_navbar_js__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, "OVER HERE"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_navbar_js__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
@@ -803,7 +810,7 @@ function (_React$Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
-        className: "ArtistsLink",
+        className: "link",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 23
@@ -821,7 +828,7 @@ function (_React$Component) {
         },
         __self: this
       }, "Artists")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
-        className: "NewsLink",
+        className: "link",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 24
@@ -839,7 +846,7 @@ function (_React$Component) {
         },
         __self: this
       }, "News")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
-        className: "aboutLink",
+        className: "link",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 25
@@ -857,7 +864,7 @@ function (_React$Component) {
         },
         __self: this
       }, "The Label")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
-        className: "storeLink",
+        className: "link",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 26
@@ -875,7 +882,7 @@ function (_React$Component) {
         },
         __self: this
       }, "Store")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
-        className: "contactLink",
+        className: "link",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 27

@@ -20,12 +20,12 @@ class Navbar extends React.Component {
 	    return(
 		    <div className="nav">
 		      <ul>
-		        <li className="ArtistsLink"><a href='/'>Home</a></li>
-		        <li className="NewsLink"><a href='/privacy-policy'>Privacy Policy</a></li>
-		       	<li className="aboutLink"><a href='/terms-of-use'>Terms of Use</a></li>
-		        <li className="storeLink"><a href='/ad-choices'>Ad Choices</a></li>
-		        <li className="contactLink"><a href='/cookie-policy'>Cookie Policy</a></li>
-		        <li className="contactLink"><a href='/jobs'>Jobs</a></li>
+		        <li className="link"><a href='/'>Home</a></li>
+		        <li className="link"><a href='/privacy-policy'>Privacy Policy</a></li>
+		       	<li className="link"><a href='/terms-of-use'>Terms of Use</a></li>
+		        <li className="link"><a href='/ad-choices'>Ad Choices</a></li>
+		        <li className="link"><a href='/cookie-policy'>Cookie Policy</a></li>
+		        <li className="link"><a href='/jobs'>Jobs</a></li>
 		      </ul>
 		    </div>
 	    )

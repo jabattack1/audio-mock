@@ -493,6 +493,10 @@ hr {
   height:200px;
 }
 
+.grid-figure-wrap:hover{
+  cursor:pointer;
+}
+
 .grid-artist{
   width: calc(100%);
 }
@@ -611,6 +615,10 @@ hr {
   position:relative;
   top:200px;
   height:250px;
+}
+
+.gridWrapperStore:hover{
+  cursor:pointer; 
 }
 
 .store-grid{
@@ -774,7 +782,9 @@ color:#595959;
   height:110px;
 }
 
-
+.link:hover{
+  cursor:pointer;
+}
 
 
 /* IE 6 */
