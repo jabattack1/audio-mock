@@ -976,6 +976,7 @@ hr {
   height:250px;
   background-color:#FF3F3F;
   overflow-y:hidden;
+  white-space: normal;
   /*border-radius: 5px;*/
   /*padding: 10px;*/
 }
@@ -1016,6 +1017,8 @@ hr {
   -webkit-hyphens:auto; 
   -o-hyphens:auto; 
   hyphens:auto;
+    text-overflow: ellipsis;
+  overflow: hidden;
 /*  border-top: 1px solid black;
   border-bottom: 1px solid black;*/
   text-align: center;
@@ -1036,6 +1039,8 @@ hr {
   -o-hyphens:auto; 
   hyphens:auto;
   text-align: center;
+  /*text-overflow: ellipsis;*/
+  /*overflow: hidden;*/
 }
 
 .newsLabelSpacer{
@@ -1376,6 +1381,38 @@ hr {
 
 
 
+/*artist page*/
+.parrot{
+	border-bottom-left-radius: 4px;
+  	border-bottom-right-radius: 4px;
+}
+
+.artistBackground{
+	width:100%;
+}
+
+.artistMainPhoto{
+	position:relative;
+	float:left;
+	width:400px;
+	height:400px;
+}
+
+.artistVideo{
+	position:relative;
+	width:960px;
+	height:400px;
+	z-index:100;
+}
+
+.bio{
+	position:relative;
+	width:560px;
+	height:345px;
+	color:white;
+	/*text-align:center;*/
+	display:inline-block;
+}
 
 .pn-ProductNav_Wrapper {
   position: relative;
@@ -1387,6 +1424,10 @@ hr {
   height:250px;
   background-color:black;
   border-radius:4px;
+}
+
+.pnProductNavContents{
+
 }
 
 .pn-ProductNav {
@@ -1405,11 +1446,12 @@ hr {
   /* For WebKit implementations, provide inertia scrolling */
   -webkit-overflow-scrolling: touch;
   /* We don't want internal inline elements to wrap */
-  white-space: nowrap;
   /* If JS present, let's hide the default scrollbar */
   /* positioning context for advancers */
+  white-space: nowrap;
   position: relative;
   font-size: 0;
+  /*min-width: 0*/
 }
 
 .js .pn-ProductNav {
@@ -1442,7 +1484,7 @@ hr {
   align-items: center;
   height: 255px;
   width:500px;
-  white-space:wrap;
+  /*white-space:wrap;*/
   word-wrap:break-word;
   /*padding: 0 11px;*/
 }
@@ -1499,38 +1541,6 @@ hr {
   background-color: transparent;
   transform-origin: 0 0;
   transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
-}
-/*artist page*/
-.parrot{
-	border-bottom-left-radius: 4px;
-  	border-bottom-right-radius: 4px;
-}
-
-.artistBackground{
-	width:100%;
-}
-
-.artistMainPhoto{
-	position:relative;
-	float:left;
-	width:400px;
-	height:400px;
-}
-
-.artistVideo{
-	position:relative;
-	width:960px;
-	height:400px;
-	z-index:100;
-}
-
-.bio{
-	position:relative;
-	width:560px;
-	height:345px;
-	color:white;
-	/*text-align:center;*/
-	display:inline-block;
 }
 /*top banner*/
 

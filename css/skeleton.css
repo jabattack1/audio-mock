@@ -549,6 +549,7 @@ hr {
   height:250px;
   background-color:#FF3F3F;
   overflow-y:hidden;
+  white-space: normal;
   /*border-radius: 5px;*/
   /*padding: 10px;*/
 }
@@ -589,6 +590,8 @@ hr {
   -webkit-hyphens:auto; 
   -o-hyphens:auto; 
   hyphens:auto;
+    text-overflow: ellipsis;
+  overflow: hidden;
 /*  border-top: 1px solid black;
   border-bottom: 1px solid black;*/
   text-align: center;
@@ -609,6 +612,8 @@ hr {
   -o-hyphens:auto; 
   hyphens:auto;
   text-align: center;
+  /*text-overflow: ellipsis;*/
+  /*overflow: hidden;*/
 }
 
 .newsLabelSpacer{

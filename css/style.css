@@ -11,6 +11,10 @@
   border-radius:4px;
 }
 
+.pnProductNavContents{
+
+}
+
 .pn-ProductNav {
 	/*background-color:red;*/
 	margin:0 auto;
@@ -27,11 +31,12 @@
   /* For WebKit implementations, provide inertia scrolling */
   -webkit-overflow-scrolling: touch;
   /* We don't want internal inline elements to wrap */
-  white-space: nowrap;
   /* If JS present, let's hide the default scrollbar */
   /* positioning context for advancers */
+  white-space: nowrap;
   position: relative;
   font-size: 0;
+  /*min-width: 0*/
 }
 
 .js .pn-ProductNav {
@@ -64,7 +69,7 @@
   align-items: center;
   height: 255px;
   width:500px;
-  white-space:wrap;
+  /*white-space:wrap;*/
   word-wrap:break-word;
   /*padding: 0 11px;*/
 }
