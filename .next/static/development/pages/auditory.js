@@ -515,6 +515,7 @@ function (_React$Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
+        className: "parrot",
         href: "/",
         __source: {
           fileName: _jsxFileName,
@@ -16408,7 +16409,7 @@ var AuditoryPage = function AuditoryPage() {
 
 /***/ }),
 
-/***/ 8:
+/***/ 6:
 /*!*******************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fauditory&absolutePagePath=%2FUsers%2Fpeterhahn%2Fsrc%2Fnew%2Faudio-boy%2Fpages%2Fauditory.js ***!
   \*******************************************************************************************************************************************/
@@ -16431,5 +16432,5 @@ module.exports = dll_6dc2816e14fab51b8269;
 
 /***/ })
 
-},[[8,"static/runtime/webpack.js","styles"]]]);
+},[[6,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=auditory.js.map

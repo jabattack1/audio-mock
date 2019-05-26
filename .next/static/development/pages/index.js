@@ -888,6 +888,185 @@ function (_React$Component) {
 
 /***/ }),
 
+/***/ "./components/news-grid-scroll.js":
+/*!****************************************!*\
+  !*** ./components/news-grid-scroll.js ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/extends */ "./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _news_js__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./news.js */ "./components/news.js");
+/* harmony import */ var _scroll_js__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../scroll.js */ "./scroll.js");
+/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../css/normalize.css */ "./css/normalize.css");
+/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_css_normalize_css__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../css/skeleton.css */ "./css/skeleton.css");
+/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_css_skeleton_css__WEBPACK_IMPORTED_MODULE_14__);
+/* harmony import */ var _css_style_css__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../css/style.css */ "./css/style.css");
+/* harmony import */ var _css_style_css__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_css_style_css__WEBPACK_IMPORTED_MODULE_15__);
+
+
+
+
+
+
+
+
+var _jsxFileName = "/Users/peterhahn/src/new/audio-boy/components/news-grid-scroll.js";
+
+
+
+
+
+
+
+
+
+var NewsGridScroll =
+/*#__PURE__*/
+function (_React$Component) {
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__["default"])(NewsGridScroll, _React$Component);
+
+  function NewsGridScroll() {
+    var _getPrototypeOf2;
+
+    var _this;
+
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__["default"])(this, NewsGridScroll);
+
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__["default"])(this, (_getPrototypeOf2 = Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__["default"])(NewsGridScroll)).call.apply(_getPrototypeOf2, [this].concat(args)));
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this), "state", {});
+
+    return _this;
+  }
+
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__["default"])(NewsGridScroll, [{
+    key: "render",
+    value: function render() {
+      var _this2 = this;
+
+      return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+        className: "pn-ProductNav_Wrapper",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("nav", {
+        id: "pnProductNav",
+        className: "pn-ProductNav",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+        id: "pnProductNavContents",
+        className: "pn-ProductNav_Contents",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 23
+        },
+        __self: this
+      }, this.props.news.map(function (post, i) {
+        return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_news_js__WEBPACK_IMPORTED_MODULE_11__["default"], Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, _this2.props, {
+          key: i,
+          i: i,
+          news: post,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 24
+          },
+          __self: this
+        }));
+      }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("span", {
+        id: "pnIndicator",
+        className: "pn-ProductNav_Indicator",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 25
+        },
+        __self: this
+      }))), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("button", {
+        id: "pnAdvancerLeft",
+        className: "pn-Advancer pn-Advancer_Left",
+        type: "button",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 28
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("svg", {
+        className: "pn-Advancer_Icon",
+        xmlns: "http://www.w3.org/2000/svg",
+        viewBox: "0 0 551 1024",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 29
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("path", {
+        d: "M445.44 38.183L-2.53 512l447.97 473.817 85.857-81.173-409.6-433.23v81.172l409.6-433.23L445.44 38.18z",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 29
+        },
+        __self: this
+      }))), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("button", {
+        id: "pnAdvancerRight",
+        className: "pn-Advancer pn-Advancer_Right",
+        type: "button",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 31
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("svg", {
+        className: "pn-Advancer_Icon",
+        xmlns: "http://www.w3.org/2000/svg",
+        viewBox: "0 0 551 1024",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 32
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("path", {
+        d: "M105.56 985.817L553.53 512 105.56 38.183l-85.857 81.173 409.6 433.23v-81.172l-409.6 433.23 85.856 81.174z",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 32
+        },
+        __self: this
+      }))));
+    }
+  }]);
+
+  return NewsGridScroll;
+}(react__WEBPACK_IMPORTED_MODULE_8___default.a.Component);
+
+/* harmony default export */ __webpack_exports__["default"] = (NewsGridScroll);
+
+/***/ }),
+
 /***/ "./components/news-grid.js":
 /*!*********************************!*\
   !*** ./components/news-grid.js ***!
@@ -1011,19 +1190,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../css/normalize.css */ "./css/normalize.css");
-/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_css_normalize_css__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../css/skeleton.css */ "./css/skeleton.css");
-/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_css_skeleton_css__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var react_horizontal_scrolling_menu__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-horizontal-scrolling-menu */ "./node_modules/react-horizontal-scrolling-menu/build/index.js");
+/* harmony import */ var react_horizontal_scrolling_menu__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_horizontal_scrolling_menu__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../css/normalize.css */ "./css/normalize.css");
+/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_css_normalize_css__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../css/skeleton.css */ "./css/skeleton.css");
+/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_css_skeleton_css__WEBPACK_IMPORTED_MODULE_10__);
 
 
 
 
 
 var _jsxFileName = "/Users/peterhahn/src/new/audio-boy/components/news.js";
+
 
 
 
@@ -1047,18 +1229,26 @@ function (_React$Component) {
       var _this$props$news = this.props.news,
           news = _this$props$news.news,
           i = _this$props$news.i;
-      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("figure", {
+      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+        class: "pn-ProductNav_Link",
+        "aria-selected": "true",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("figure", {
         className: "grid-figureNews",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 15
+          lineNumber: 18
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "grid-figure-wrapNews",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 16
+          lineNumber: 19
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
@@ -1066,7 +1256,7 @@ function (_React$Component) {
         className: "grid-news",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 17
+          lineNumber: 20
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
@@ -1074,31 +1264,31 @@ function (_React$Component) {
         src: this.props.news.display_src,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 18
+          lineNumber: 21
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "newsDate",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 19
+          lineNumber: 22
         },
         __self: this
       }, this.props.news.date), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "newsHeadline",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 20
+          lineNumber: 23
         },
         __self: this
       }, this.props.news.headline), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "newsContent",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21
+          lineNumber: 24
         },
         __self: this
-      }, this.props.news.content))));
+      }, this.props.news.content)))));
     }
   }]);
 
@@ -1136,10 +1326,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _about_label_js__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./about-label.js */ "./components/about-label.js");
 /* harmony import */ var _store_grid_js__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./store-grid.js */ "./components/store-grid.js");
 /* harmony import */ var _contact_js__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./contact.js */ "./components/contact.js");
-/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../css/normalize.css */ "./css/normalize.css");
-/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_css_normalize_css__WEBPACK_IMPORTED_MODULE_15__);
-/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../css/skeleton.css */ "./css/skeleton.css");
-/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(_css_skeleton_css__WEBPACK_IMPORTED_MODULE_16__);
+/* harmony import */ var _news_grid_scroll_js__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./news-grid-scroll.js */ "./components/news-grid-scroll.js");
+/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../css/normalize.css */ "./css/normalize.css");
+/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(_css_normalize_css__WEBPACK_IMPORTED_MODULE_16__);
+/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../css/skeleton.css */ "./css/skeleton.css");
+/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(_css_skeleton_css__WEBPACK_IMPORTED_MODULE_17__);
 
 
 
@@ -1147,6 +1338,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var _jsxFileName = "/Users/peterhahn/src/new/audio-boy/components/parent.js";
+
 
 
 
@@ -1176,70 +1368,70 @@ function (_React$Component) {
       return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 30
+          lineNumber: 32
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "container",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 31
+          lineNumber: 33
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "row",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 32
+          lineNumber: 34
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "one-half column",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 33
+          lineNumber: 35
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "bannerWrapper",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 34
+          lineNumber: 36
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "image123",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 35
+          lineNumber: 37
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "imgContainer",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 36
+          lineNumber: 38
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
         className: "frontLogo",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 37
+          lineNumber: 39
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "tech-slideshow",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 39
+          lineNumber: 41
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "bannerSun",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 40
+          lineNumber: 42
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
@@ -1247,7 +1439,7 @@ function (_React$Component) {
         className: "spaceDrop",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 41
+          lineNumber: 43
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
@@ -1256,28 +1448,28 @@ function (_React$Component) {
         className: "auditorySign",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 42
+          lineNumber: 44
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "moon",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 43
+          lineNumber: 45
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h1", {
         className: "sun",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 44
+          lineNumber: 46
         },
         __self: this
       }, "I DON'T WANT TO GO AND SEE THE SUN"))))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "titleWrapper",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 49
+          lineNumber: 51
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_8__["Element"], {
@@ -1285,26 +1477,26 @@ function (_React$Component) {
         className: "element",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 50
+          lineNumber: 52
         },
         __self: this
       }, "Artists")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 52
+          lineNumber: 54
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_artists_grid_js__WEBPACK_IMPORTED_MODULE_10__["default"], Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, this.props, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 53
+          lineNumber: 55
         },
         __self: this
       }))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "titleWrapper",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 55
+          lineNumber: 57
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_8__["Element"], {
@@ -1312,40 +1504,40 @@ function (_React$Component) {
         className: "element",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 56
+          lineNumber: 58
         },
         __self: this
       }, "News - ", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
         className: "small",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 56
+          lineNumber: 58
         },
         __self: this
       }, "Scroll Right to See More"))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 58
+          lineNumber: 60
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_news_grid_js__WEBPACK_IMPORTED_MODULE_11__["default"], Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, this.props, {
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_news_grid_scroll_js__WEBPACK_IMPORTED_MODULE_15__["default"], Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, this.props, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 59
+          lineNumber: 61
         },
         __self: this
       }))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "newsLabelSpacer",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 61
+          lineNumber: 63
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "titleWrapper",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 63
+          lineNumber: 65
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_8__["Element"], {
@@ -1354,33 +1546,33 @@ function (_React$Component) {
         className: "element",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 64
+          lineNumber: 66
         },
         __self: this
       }, "The Label")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 66
+          lineNumber: 68
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_about_label_js__WEBPACK_IMPORTED_MODULE_12__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 67
+          lineNumber: 69
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "labelStoreSpacer",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 69
+          lineNumber: 71
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "titleWrapper",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 71
+          lineNumber: 73
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_8__["Element"], {
@@ -1389,40 +1581,40 @@ function (_React$Component) {
         className: "element",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 72
+          lineNumber: 74
         },
         __self: this
       }, "Store - ", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
         className: "small",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 72
+          lineNumber: 74
         },
         __self: this
       }, "Scroll Right to See More"))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 74
+          lineNumber: 76
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_store_grid_js__WEBPACK_IMPORTED_MODULE_13__["default"], Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, this.props, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 75
+          lineNumber: 77
         },
         __self: this
       }))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "newsLabelSpacer",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 77
+          lineNumber: 79
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "titleWrapper",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 79
+          lineNumber: 81
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_8__["Element"], {
@@ -1431,19 +1623,19 @@ function (_React$Component) {
         className: "element",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 80
+          lineNumber: 82
         },
         __self: this
       }, "Contact")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 82
+          lineNumber: 84
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_contact_js__WEBPACK_IMPORTED_MODULE_14__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 83
+          lineNumber: 85
         },
         __self: this
       }))))));
@@ -1909,6 +2101,17 @@ module.exports = __webpack_require__(/*! core-js/library/fn/object/keys */ "./no
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(/*! core-js/library/fn/object/set-prototype-of */ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/fn/object/set-prototype-of.js");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/parse-int.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/parse-int.js ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! core-js/library/fn/parse-int */ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/fn/parse-int.js");
 
 /***/ }),
 
@@ -2883,6 +3086,19 @@ module.exports = __webpack_require__(/*! ../../modules/_core */ "./node_modules/
 
 __webpack_require__(/*! ../../modules/es6.object.set-prototype-of */ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/es6.object.set-prototype-of.js");
 module.exports = __webpack_require__(/*! ../../modules/_core */ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/_core.js").Object.setPrototypeOf;
+
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/fn/parse-int.js":
+/*!******************************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/fn/parse-int.js ***!
+  \******************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! ../modules/es6.parse-int */ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/es6.parse-int.js");
+module.exports = __webpack_require__(/*! ../modules/_core */ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/_core.js").parseInt;
 
 
 /***/ }),
@@ -4680,6 +4896,26 @@ module.exports = function (KEY, exec) {
 
 /***/ }),
 
+/***/ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/_parse-int.js":
+/*!************************************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/_parse-int.js ***!
+  \************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var $parseInt = __webpack_require__(/*! ./_global */ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/_global.js").parseInt;
+var $trim = __webpack_require__(/*! ./_string-trim */ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/_string-trim.js").trim;
+var ws = __webpack_require__(/*! ./_string-ws */ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/_string-ws.js");
+var hex = /^[-+]?0[xX]/;
+
+module.exports = $parseInt(ws + '08') !== 8 || $parseInt(ws + '0x16') !== 22 ? function parseInt(str, radix) {
+  var string = $trim(String(str), 3);
+  return $parseInt(string, (radix >>> 0) || (hex.test(string) ? 16 : 10));
+} : $parseInt;
+
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/_perform.js":
 /*!**********************************************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/_perform.js ***!
@@ -4997,6 +5233,60 @@ module.exports = function (TO_STRING) {
       : TO_STRING ? s.slice(i, i + 2) : (a - 0xd800 << 10) + (b - 0xdc00) + 0x10000;
   };
 };
+
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/_string-trim.js":
+/*!**************************************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/_string-trim.js ***!
+  \**************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var $export = __webpack_require__(/*! ./_export */ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/_export.js");
+var defined = __webpack_require__(/*! ./_defined */ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/_defined.js");
+var fails = __webpack_require__(/*! ./_fails */ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/_fails.js");
+var spaces = __webpack_require__(/*! ./_string-ws */ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/_string-ws.js");
+var space = '[' + spaces + ']';
+var non = '\u200b\u0085';
+var ltrim = RegExp('^' + space + space + '*');
+var rtrim = RegExp(space + space + '*$');
+
+var exporter = function (KEY, exec, ALIAS) {
+  var exp = {};
+  var FORCE = fails(function () {
+    return !!spaces[KEY]() || non[KEY]() != non;
+  });
+  var fn = exp[KEY] = FORCE ? exec(trim) : spaces[KEY];
+  if (ALIAS) exp[ALIAS] = fn;
+  $export($export.P + $export.F * FORCE, 'String', exp);
+};
+
+// 1 -> String#trimLeft
+// 2 -> String#trimRight
+// 3 -> String#trim
+var trim = exporter.trim = function (string, TYPE) {
+  string = String(defined(string));
+  if (TYPE & 1) string = string.replace(ltrim, '');
+  if (TYPE & 2) string = string.replace(rtrim, '');
+  return string;
+};
+
+module.exports = exporter;
+
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/_string-ws.js":
+/*!************************************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/_string-ws.js ***!
+  \************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = '\x09\x0A\x0B\x0C\x0D\x20\xA0\u1680\u180E\u2000\u2001\u2002\u2003' +
+  '\u2004\u2005\u2006\u2007\u2008\u2009\u200A\u202F\u205F\u3000\u2028\u2029\uFEFF';
 
 
 /***/ }),
@@ -5577,6 +5867,21 @@ $export($export.S, 'Object', { setPrototypeOf: __webpack_require__(/*! ./_set-pr
 /*! no static exports found */
 /***/ (function(module, exports) {
 
+
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/es6.parse-int.js":
+/*!***************************************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/es6.parse-int.js ***!
+  \***************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var $export = __webpack_require__(/*! ./_export */ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/_export.js");
+var $parseInt = __webpack_require__(/*! ./_parse-int */ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/_parse-int.js");
+// 18.2.5 parseInt(string, radix)
+$export($export.G + $export.F * (parseInt != $parseInt), { parseInt: $parseInt });
 
 
 /***/ }),
@@ -9150,6 +9455,20 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 
 /***/ }),
 
+/***/ "./node_modules/next/node_modules/webpack/buildin/amd-options.js":
+/*!****************************************!*\
+  !*** (webpack)/buildin/amd-options.js ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/* WEBPACK VAR INJECTION */(function(__webpack_amd_options__) {/* globals __webpack_amd_options__ */
+module.exports = __webpack_amd_options__;
+
+/* WEBPACK VAR INJECTION */}.call(this, {}))
+
+/***/ }),
+
 /***/ "./node_modules/next/node_modules/webpack/buildin/global.js":
 /*!***********************************!*\
   !*** (webpack)/buildin/global.js ***!
@@ -11259,6 +11578,17 @@ exports.encode = exports.stringify = __webpack_require__(/*! ./encode */ "./node
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(/*! dll-reference dll_6dc2816e14fab51b8269 */ "dll-reference dll_6dc2816e14fab51b8269"))("./node_modules/react-dom/index.js");
+
+/***/ }),
+
+/***/ "./node_modules/react-horizontal-scrolling-menu/build/index.js":
+/*!*********************************************************************!*\
+  !*** ./node_modules/react-horizontal-scrolling-menu/build/index.js ***!
+  \*********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports=function(e){var t={};function n(r){if(t[r])return t[r].exports;var i=t[r]={i:r,l:!1,exports:{}};return e[r].call(i.exports,i,i.exports,n),i.l=!0,i.exports}return n.m=e,n.c=t,n.d=function(e,t,r){n.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:r})},n.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},n.t=function(e,t){if(1&t&&(e=n(e)),8&t)return e;if(4&t&&"object"==typeof e&&e&&e.__esModule)return e;var r=Object.create(null);if(n.r(r),Object.defineProperty(r,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var i in e)n.d(r,i,function(t){return e[t]}.bind(null,i));return r},n.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return n.d(t,"a",t),t},n.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},n.p="",n(n.s=2)}([function(e,t){e.exports=__webpack_require__(/*! react */ "./node_modules/react/index.js")},function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var r={alignItems:"center",display:"flex",userSelect:"none"};t.defaultMenuStyle=r;var i={overflow:"hidden",userSelect:"none"};t.defaultWrapperStyle=i;var s={alignCenter:!0,alignOnResize:!0,arrowClass:"scroll-menu-arrow",arrowDisabledClass:"scroll-menu-arrow--disabled",arrowLeft:null,arrowRight:null,clickWhenDrag:!1,data:[],dragging:!0,hideArrows:!1,hideSingleArrow:!1,inertiaScrolling:!1,inertiaScrollingSlowdown:.25,innerWrapperClass:"menu-wrapper--inner",innerWrapperStyle:{textAlign:"left",userSelect:"none",whiteSpace:"nowrap"},itemClass:"menu-item-wrapper",itemClassActive:"active",itemStyle:{display:"inline-block"},menuClass:"horizontal-menu",menuStyle:r,onSelect:function(){return!1},onUpdate:function(){return!1},scrollBy:0,scrollToSelected:!1,selected:"",transition:.4,translate:0,useButtonRole:!0,wrapperClass:"menu-wrapper",wrapperStyle:i,wheel:!0,xPoint:0};t.defaultProps=s},function(e,t,n){"use strict";var r=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(t,"__esModule",{value:!0});var i=r(n(3));t.default=i.default},function(e,t,n){"use strict";var r=this&&this.__extends||function(){var e=function(t,n){return(e=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(e,t){e.__proto__=t}||function(e,t){for(var n in t)t.hasOwnProperty(n)&&(e[n]=t[n])})(t,n)};return function(t,n){function r(){this.constructor=t}e(t,n),t.prototype=null===n?Object.create(n):(r.prototype=n.prototype,new r)}}(),i=this&&this.__assign||function(){return(i=Object.assign||function(e){for(var t,n=1,r=arguments.length;n<r;n++)for(var i in t=arguments[n])Object.prototype.hasOwnProperty.call(t,i)&&(e[i]=t[i]);return e}).apply(this,arguments)},s=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(t,"__esModule",{value:!0});var a=s(n(0)),o=n(1),l=n(4),u=n(5),d=function(e){function t(t){var n=e.call(this,t)||this;return n.state={dragging:!1,firstItemVisible:!0,lastItemVisible:!1,leftArrowVisible:!1,rightArrowVisible:!0,startDragTranslate:0,translate:n.props.translate,xDraggedDistance:0,xPoint:0},n.setRef=function(e){var t=Object.entries(e)[0],r=t[0],i=t[1];i.elem&&(n.ref[r]=i)},n.setMenuInnerRef=function(e){n.menuInner=e},n.setWrapperRef=function(e){n.menuWrapper=e},n.checkFirstLastItemVisibility=function(e){var t=e.translate,r=void 0===t?n.state.translate:t,i=n.menuItems,s=!0,a=!1;if(i){var o=n.getVisibleItems({offset:r});s=o.includes(i[0]),a=o.includes(i.slice(-1)[0])}return{firstItemVisible:s,lastItemVisible:a}},n.setFirstLastItemVisibility=function(){var e=n.state,t=e.firstItemVisible,r=e.lastItemVisible,i=n.checkFirstLastItemVisibility({}),s=i.firstItemVisible,a=i.lastItemVisible;if(t!==s||r!==a){var o=!s,l=!a;n.setState({firstItemVisible:s,lastItemVisible:a,leftArrowVisible:o,rightArrowVisible:l})}},n.onLoad=function(){n.setInitial(),n.mounted=!0},n.resizeHandler=function(){if(!n.props.alignOnResize)return!1;clearTimeout(n.resizeTimer),n.resizeTimer=setTimeout(function(){return n.resize()},250)},n.resize=function(){var e=n.props.alignCenter;n.updateWidth({});var t=n.getVisibleItems({}),r=n.getOffsetToItemByIndex({index:t[0]&&t[0][1].index||0}),i=e?n.getCenterOffset({items:t}):0;n.setState({translate:-r+i})},n.setInitial=function(){var e=n.props,t=e.selected,r=e.data,s=e.translate,a=e.scrollToSelected,u=e.alignCenter,d=n.state.translate;if(!r||!r.length)return!1;n.menuItems.length&&r===n.data||(n.menuItems=n.getMenuItems(),n.data=r),n.updateWidth({});var f=i({},n.state);(!n.mounted&&s===o.defaultProps.translate||!l.translateIsValid(s)&&!l.translateIsValid(d))&&(f.translate=u?n.firstPageOffset:o.defaultProps.translate);var c=n.checkFirstLastItemVisibility({translate:s}),m=c.firstItemVisible,p=c.lastItemVisible;(f.firstItemVisible=m,f.lastItemVisible=p,f.leftArrowVisible=!m,f.rightArrowVisible=!p,a)&&(n.isScrollNeeded({itemId:t,translate:f.translate})&&(f.translate=n.getOffsetToItemByKey(t)));n.setState(i({},f))},n.isScrollNeeded=function(e){var t=e.itemId,r=e.translate,i=void 0===r?n.state.translate:r,s=(n.menuItems,n.getItemByKey(t));return!n.getVisibleItems({offset:i}).includes(s)},n.scrollTo=function(e){var t=n.state.translate,r=n.getOffsetToItemByKey(e);if(n.selected=e,t===r)return!1;n.setState({translate:r})},n.getMenuItems=function(){return Object.entries(n.ref).slice(0,n.props.data.length||0)},n.getItemsWidth=function(e){var t=e.items;return(void 0===t?n.menuItems:t).map(function(e){return e[1].elem}).filter(Boolean).reduce(function(e,t){return e+l.getClientRect(t).width},0)},n.getWidth=function(e){var t=e.items,r=window&&window.innerWidth,i=l.getClientRect(n.menuWrapper);return{wWidth:r,menuPos:i.x,menuWidth:i.width,allItemsWidth:n.getItemsWidth({items:t})}},n.updateWidth=function(e){var t=e.items,r=void 0===t?n.menuItems:t,i=n.getWidth({items:r}),s=i.wWidth,a=i.menuPos,o=i.menuWidth,l=i.allItemsWidth,u=n.getPagesOffsets({allItemsWidth:l,items:r,menuPos:a,menuWidth:o,wWidth:s}),d=u.firstPageOffset,f=u.lastPageOffset;n.menuPos=a,n.wWidth=s,n.allItemsWidth=l,n.menuWidth=o,n.firstPageOffset=d,n.lastPageOffset=f},n.getFirstPageOffset=function(e){var t=e.items,r=void 0===t?n.menuItems:t,i=e.offset,s=void 0===i?n.state.translate:i,a=e.menuWidth,o=void 0===a?n.menuWidth:a,l=n.getVisibleItems({items:r,menuWidth:o,offset:s});return n.getCenterOffset({items:l,menuWidth:o})},n.getLastPageOffset=function(e){var t=e.items,r=void 0===t?n.menuItems:t,i=e.allItemsWidth,s=void 0===i?n.allItemsWidth:i,a=e.wWidth,o=(void 0===a&&n.wWidth,e.menuPos),l=(void 0===o&&n.menuPos,e.menuWidth),u=void 0===l?n.menuWidth:l,d=n.getVisibleItems({items:r,menuWidth:u,offset:-s+u});return n.getCenterOffset({items:d,menuWidth:u})},n.getPagesOffsets=function(e){var t=e.items,r=void 0===t?n.menuItems:t,i=e.allItemsWidth,s=void 0===i?n.allItemsWidth:i,a=e.wWidth,o=void 0===a?n.wWidth:a,l=e.menuPos,u=void 0===l?n.menuPos:l,d=e.menuWidth,f=void 0===d?n.menuWidth:d,c=e.offset,m=void 0===c?n.state.translate:c;return{firstPageOffset:n.getFirstPageOffset({items:r,menuPos:u,menuWidth:f,offset:m,wWidth:o}),lastPageOffset:n.getLastPageOffset({allItemsWidth:s,items:r,menuPos:u,menuWidth:f,wWidth:o})}},n.onItemClick=function(e){var t=n.props,r=t.clickWhenDrag,i=t.onSelect;if(n.state.xDraggedDistance>5&&!r)return!1;n.selected=e,i&&i(e)},n.getVisibleItems=function(e){var t=e.items,r=void 0===t?n.menuItems:t,i=e.menuWidth,s=void 0===i?n.menuWidth:i,a=e.offset,u=void 0===a?n.state.translate:a,d=e.translate,f=void 0===d?n.state.translate||o.defaultProps.translate:d;return r.filter(function(e){var t=l.getClientRect(e[1].elem).width,i=n.getItemInd(r,e),a=n.getOffsetToItemByIndex({index:i,menuItems:r,translate:f});return n.elemVisible({elWidth:t,menuWidth:s,offset:u,x:a})})},n.elemVisible=function(e){var t=e.x,r=e.offset,i=void 0===r?0:r,s=e.elWidth,a=e.menuWidth,o=void 0===a?n.menuWidth:a,l=t+i;return l>=-1&&l+s<=o+1},n.getItemInd=function(e,t){return void 0===e&&(e=n.menuItems),e&&t?e.findIndex(function(e){return e[0]===t[0]}):0},n.getNextItemInd=function(e,t){var r=n.menuItems;if(e){if(!t.length)return 0}else if(!t.length)return r.length;var i=e?n.getItemInd(r,t[0])-1:n.getItemInd(r,t.slice(-1)[0])+1;return i<0?0:i},n.getOffsetToItemByKey=function(e){var t=n.state.translate,r=n.getItemIndexByKey(e);if(-1===r)return t;var i=n.props.alignCenter;t=n.getOffsetToItemByIndex({index:r});var s=n.getVisibleItems({offset:-t});return t=-(t-(i?n.getCenterOffset({items:s}):o.defaultProps.translate)),n.itBeforeStart(t)?t=n.getOffsetAtStart():n.itAfterEnd(t)&&(t=n.getOffsetAtEnd()),t},n.getItemByKey=function(e){return n.menuItems.find(function(t){return t[1].key===e})||["null",{key:"n",elem:null,index:-1}]},n.getItemIndexByKey=function(e){return e?n.menuItems.findIndex(function(t){return t[1].key===e}):-1},n.getOffsetToItemByIndex=function(e){var t=e.index,r=e.menuItems,i=void 0===r?n.menuItems:r,s=e.translate,a=void 0===s?n.state.translate:s;if(!i.length)return 0;var o=t>=i.length?i.length-1:t;return+l.getClientRect(i[o][1].elem).x-a-n.menuPos},n.getScrollRightOffset=function(e,t){void 0===t&&(t=n.menuItems);var r=n.props.scrollBy,i=r?e[0][1].index+r:n.getNextItem((e.slice(-1)[0]&&e.slice(-1)||t.slice(-1))[0][1].key)[1].index;return-n.getOffsetToItemByIndex({index:i,menuItems:t})},n.getScrollLeftOffset=function(e,t){void 0===t&&(t=n.menuItems);var r=n.props.scrollBy,i=n.getPrevItem((e[0]&&e[0][1]||t[0][1]).key)[1].index-(r?r-1:e.length);return-n.getOffsetToItemByIndex({index:i<0?0:i,menuItems:t})},n.getNextItem=function(e){var t=n.menuItems;return t[t.findIndex(function(t){return t[1].key===e})+1]||t.slice(-1)[0]},n.getPrevItem=function(e){var t=n.menuItems;return t[t.findIndex(function(t){return t[1].key===e})-1]||t[0]},n.getOffset=function(e,t){void 0===t&&(t=n.menuItems);var r=n.getVisibleItems({items:t});return e?n.getScrollLeftOffset(r,t):n.getScrollRightOffset(r,t)},n.getCenterOffset=function(e){var t=e.items,r=void 0===t?n.menuItems:t,i=e.menuWidth,s=void 0===i?n.menuWidth:i;return r.length?(s-n.getItemsWidth({items:r}))/2:0},n.handleWheel=function(e){if(!n.props.wheel)return!1;e.deltaY<0?n.handleArrowClick():n.handleArrowClick(!1)},n.getOffsetAtStart=function(){var e=n.firstPageOffset;return n.props.alignCenter?e:o.defaultProps.translate},n.getOffsetAtEnd=function(){var e=n.props.alignCenter,t=n,r=t.allItemsWidth,i=t.menuWidth,s=t.lastPageOffset,a=r-i;return e?-a-s:-a},n.handleArrowClickRight=function(){n.handleArrowClick(!1)},n.handleArrowClick=function(e){void 0===e&&(e=!0);var t=n.props.alignCenter,r=n,i=r.allItemsWidth,s=r.menuWidth;if(!t&&!e&&i<s)return!1;var a=0,l=n.getVisibleItems({}),u=l[0]&&0===l[0][1].index,d=l.slice(-1)[0]&&l.slice(-1)[0][1].index===n.menuItems.length-1,f=n.getOffset(e);if(e&&(u||n.itBeforeStart(f)))a=n.getOffsetAtStart();else if(e||!d&&!n.itAfterEnd(f)){var c=t?n.getCenterOffset({items:n.getVisibleItems({offset:f})}):0;a=f+c}else a=n.getOffsetAtEnd();n.setState({startDragTranslate:0,translate:a,xDraggedDistance:0,xPoint:o.defaultProps.xPoint})},n.itBeforeStart=function(e){var t=n.props.alignCenter,r=n,i=r.menuWidth,s=r.allItemsWidth,a=r.firstPageOffset;return s<i||(t?e>a:e>o.defaultProps.translate)},n.itAfterEnd=function(e){var t=n.props.alignCenter,r=n,i=r.menuWidth,s=r.allItemsWidth,a=r.lastPageOffset;return s<i||(t?e<o.defaultProps.translate&&Math.abs(e)>s-i+a:e<o.defaultProps.translate&&Math.abs(e)>s-i)},n.getPoint=function(e){return"touches"in e?e.touches[0].clientX:"clientX"in e?e.clientX:0},n.handleDragStart=function(e){if(e&&"buttons"in e&&2===e.buttons)return!1;if(!n.props.dragging)return!1;var t=n.state.translate;n.dragHistory=[{time:Date.now(),position:t}],n.setState({dragging:!0,startDragTranslate:t,xDraggedDistance:0,xPoint:0})},n.handleDrag=function(e){var t=n.props.dragging,r=n.state,i=r.translate,s=r.dragging,a=r.xPoint,l=r.xDraggedDistance;if(!t||!s)return!1;var u=n.getPoint(e),d=a===o.defaultProps.xPoint?o.defaultProps.xPoint:a-u,f=i-d;n.itBeforeStart(f)?f-=Math.abs(d)/2:n.itAfterEnd(f)&&(f+=Math.abs(d)/2),0!==d&&n.dragHistory.push({time:Date.now(),position:f});var c=f;n.setState({translate:c,xDraggedDistance:l+Math.abs(d),xPoint:u})},n.handleDragStop=function(e){var t=n,r=t.allItemsWidth,i=t.menuWidth,s=n.state,a=s.translate,l=s.xPoint,u=void 0===l?n.getPoint(e):l,d=n.state,f=d.dragging,c=d.startDragTranslate,m=n.props,p=m.dragging,g=m.alignCenter;if(!p||!f)return!1;if(n.props.inertiaScrolling){var h=Date.now(),v=n.dragHistory.filter(function(e){return h-e.time<150});if(v.length>2){var I=v[0],y=v[v.length-1],w=(y.position-I.position)/(y.time-I.time);a+=(w*=n.props.inertiaScrollingSlowdown)*(1e3*n.props.transition)}}var P=a;n.itBeforeStart(a)?(P=n.getOffsetAtStart(),u=o.defaultProps.xPoint):n.itAfterEnd(a)&&(P=n.getOffsetAtEnd(),u=o.defaultProps.xPoint),!g&&r<=i&&(P=o.defaultProps.translate,u=o.defaultProps.xPoint),n.setState({dragging:!1,translate:P,xPoint:u},function(){return n.onUpdate({translate:P,translateOld:c})})},n.isArrowsVisible=function(){var e=n,t=e.allItemsWidth,r=e.menuWidth,i=e.props.hideArrows;return!Boolean(i&&t<=r)},n.onUpdate=function(e){var t=e.translate,r=void 0===t?n.state.translate:t,i=e.translateOld,s=void 0===i?n.state.translate:i,a=n.props.onUpdate,o=n.lastTranslateUpdate;r!==s&&r!==o&&(n.lastTranslateUpdate=r,"function"==typeof a&&a({translate:r}))},n.ref={},n.menuWrapper=null,n.menuInner=null,n.mounted=!1,n.needUpdate=!1,n.allItemsWidth=0,n.menuPos=0,n.menuWidth=0,n.wWidth=0,n.firstPageOffset=0,n.lastPageOffset=0,n.lastTranslateUpdate=0,n.menuItems=[],n.selected=String(t.selected)||"",n.onLoadTimer=0,n.rafTimer=0,n.resizeTimer=0,n.data=null,n.dragHistory=[],f(n),n}return r(t,e),t.prototype.componentDidMount=function(){var e=this;this.setInitial(),window.requestAnimationFrame=window.requestAnimationFrame||function(){return!1};var t=l.testPassiveEventSupport(),n=!t||{passive:!0,capture:!0},r=!!t&&{passive:!0,capture:!1};window.addEventListener("load",this.onLoad,r),window.addEventListener("resize",this.resizeHandler,r),document.addEventListener("mousemove",this.handleDrag,n),document.addEventListener("mouseup",this.handleDragStop,n),this.onLoadTimer=setTimeout(function(){return e.onLoad(),e.forceUpdate()},0)},t.prototype.shouldComponentUpdate=function(e,t){var n=this.state,r=n.translate,i=n.dragging,s=n.firstItemVisible,a=n.lastItemVisible,o=t.translate,u=t.dragging,d=t.firstItemVisible,f=t.lastItemVisible,c=this.props,m=c.translate,p=c.selected,g=c.scrollToSelected,h=e.translate,v=e.selected,I=l.notUndefOrNull(h)&&m!==h,y=h!==o||r!==o||I,w=l.notUndefOrNull(v)&&p!==v,P=w||this.selected!==v,b=y||P,W=s!==d,S=a!==f,O=o,C=this.props.data!==e.data||this.props.data.length!==e.data.length,x=l.translateIsValid(h)&&I&&!C;return(C||g&&w)&&(this.needUpdate=!0),b&&(w&&(this.selected=v),x&&(O=h)),x&&this.setState({translate:+O}),C||y||i!==u||b||W||S},t.prototype.componentDidUpdate=function(e,t){var n=this;this.needUpdate&&(this.needUpdate=!1,this.onLoad());var r=t.translate,i=this.state,s=i.translate;i.dragging||r===s||this.onUpdate({translate:s,translateOld:r});var a=this.props,o=a.hideSingleArrow,l=a.transition;o&&(requestAnimationFrame(this.setFirstLastItemVisibility),this.rafTimer=setTimeout(function(){return requestAnimationFrame(n.setFirstLastItemVisibility)},1e3*l+10))},t.prototype.componentWillUnmount=function(){window.removeEventListener("resize",this.resizeHandler),document.removeEventListener("mousemove",this.handleDrag),document.removeEventListener("mouseup",this.handleDragStop),clearTimeout(this.rafTimer),clearTimeout(this.onLoadTimer),clearTimeout(this.resizeTimer)},t.prototype.render=function(){var e=this.props,t=e.arrowClass,n=e.arrowDisabledClass,r=e.arrowLeft,s=e.arrowRight,l=e.data,d=e.inertiaScrolling,f=e.innerWrapperStyle,c=e.innerWrapperClass,m=e.itemStyle,p=e.itemClass,g=e.itemClassActive,h=e.menuStyle,v=e.menuClass,I=e.transition,y=e.useButtonRole,w=e.wrapperClass,P=e.wrapperStyle,b=this.state,W=b.translate,S=b.dragging,O=b.leftArrowVisible,C=b.rightArrowVisible,x=this.selected,_=this.mounted;if(!l||!l.length)return null;var A=!_||this.isArrowsVisible(),V=i({},o.defaultMenuStyle,h),D=i({},o.defaultWrapperStyle,P),T=i({},o.defaultProps.itemStyle,m),k={className:t,disabledClass:n};return a.default.createElement("div",{className:v,style:V,onWheel:this.handleWheel},r&&a.default.createElement(u.ArrowWrapper,i({},k,{isDisabled:!A||!O,onClick:this.handleArrowClick}),r),a.default.createElement("div",{className:w,style:D,ref:this.setWrapperRef,onMouseDown:this.handleDragStart,onTouchStart:this.handleDragStart,onTouchEnd:this.handleDragStop,onMouseMove:this.handleDrag,onTouchMove:this.handleDrag},a.default.createElement(u.InnerWrapper,{data:l,translate:W,dragging:S,mounted:_,transition:_?I:0,selected:x,setRef:this.setRef,setMenuInnerRef:this.setMenuInnerRef,onClick:this.onItemClick,innerWrapperStyle:f,innerWrapperClass:c,itemStyle:T,itemClass:p,itemClassActive:g,inertiaScrolling:d,useButtonRole:y})),s&&a.default.createElement(u.ArrowWrapper,i({},k,{isDisabled:!A||!C,onClick:this.handleArrowClickRight}),s))},t.defaultProps=o.defaultProps,t}(a.default.Component);t.ScrollMenu=d;var f=function(e){+a.default.version.match(/^(\d{1,2})\./)[1]>=16&&(e.componentDidCatch=function(e,t){console.log("ScrollMenu catched error: ",e,t)})};t.default=d},function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});t.notUndefOrNull=function(e){return void 0!==e&&null!==e};t.getClientRect=function(e){if(!e||!e.getBoundingClientRect||"function"!=typeof e.getBoundingClientRect)return{width:0,x:0};var t=e.getBoundingClientRect(),n=t.left,r=void 0===n?0:n,i=t.width;return{width:void 0===i?0:i,x:+r}};t.formatTranslate=function(e){return+e.toFixed(0)};var r=function(e){return"number"==typeof e&&!isNaN(+e)};t.translateIsValid=r;t.validateTranslate=function(e,t){return r(e)?+e:t};t.testPassiveEventSupport=function(){var e=!1;try{var t={get passive(){return e=!0,!1}};window.addEventListener("testPassiveEventSupport",t,t),window.removeEventListener("testPassiveEventSupport",t,t)}catch(t){e=!1}return e}},function(e,t,n){"use strict";var r=this&&this.__extends||function(){var e=function(t,n){return(e=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(e,t){e.__proto__=t}||function(e,t){for(var n in t)t.hasOwnProperty(n)&&(e[n]=t[n])})(t,n)};return function(t,n){function r(){this.constructor=t}e(t,n),t.prototype=null===n?Object.create(n):(r.prototype=n.prototype,new r)}}(),i=this&&this.__assign||function(){return(i=Object.assign||function(e){for(var t,n=1,r=arguments.length;n<r;n++)for(var i in t=arguments[n])Object.prototype.hasOwnProperty.call(t,i)&&(e[i]=t[i]);return e}).apply(this,arguments)},s=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(t,"__esModule",{value:!0});var a=s(n(0)),o=n(1),l={disabledClass:o.defaultProps.arrowDisabledClass},u=function(e){function t(){return null!==e&&e.apply(this,arguments)||this}return r(t,e),t.prototype.render=function(){var e=this.props,t=e.isDisabled,n=e.className,r=e.disabledClass,i=e.onClick,s=e.children,o=n+" "+(t?r:"");return a.default.createElement("div",{className:o,onClick:function(){return i()}},a.default.cloneElement(s,s.props))},t.defaultProps=l,t}(a.default.PureComponent);t.ArrowWrapper=u,t.innerStyle=function(e){var t=e.translate,n=e.dragging,r=e.mounted,i=e.transition,s=e.inertiaScrolling;return{transform:"translate3d("+t+"px, 0px, 0px)",transition:"transform "+(n||!r?"0":i)+"s"+(s?" ease-out":""),width:"9900px"}};var d=function(e){function n(){var t=null!==e&&e.apply(this,arguments)||this;return t.setMenuInnerRef=function(e){(0,t.props.setMenuInnerRef)({menuInner:{key:"menuInner",elem:e}})},t.setRef=function(e,n,r,i){var s;(0,t.props.setRef)(((s={})[e]={index:r,key:n,elem:i},s))},t.isElementActive=function(e,t){return String(e)===String(t)},t.setItems=function(e,n){return e.map(function(e){var r=e.props.onClick,i=void 0===r?function(){return!1}:r,s={onClick:function(){return t.forwardClickHandler(e.key,i)},selected:t.isElementActive(e.key,n)};return a.default.cloneElement(e,s)})},t.forwardClickHandler=function(e,n){return void 0===n&&(n=function(){return!1}),function(){var r=t.props.onClick;n(),r(e)}},t}return r(n,e),n.prototype.render=function(){var e=this,n=this.props,r=n.translate,s=n.dragging,o=n.mounted,l=n.transition,u=n.innerWrapperStyle,d=n.innerWrapperClass,f=n.itemStyle,c=n.itemClass,m=n.itemClassActive,p=n.data,g=n.selected,h=n.inertiaScrolling,v=n.useButtonRole,I=this.setItems(p,g),y=t.innerStyle({dragging:s,inertiaScrolling:h,mounted:o,transition:l,translate:r}),w=i({},y,u);return a.default.createElement("div",{className:d,style:w,ref:function(t){return e.setMenuInnerRef(t)}},I.map(function(t,n){return a.default.createElement("div",{ref:function(r){return e.setRef("menuitem-"+n,String(t.key||""),n,r)},className:c+" "+(t.props.selected?m:""),key:"menuItem-"+t.key,style:f,onClick:t.props.onClick(),tabIndex:1,role:v?"button":""},t)}))},n.defaultProps={data:[],dragging:!0,mounted:!1,selected:o.defaultProps.selected,transition:o.defaultProps.transition,translate:o.defaultProps.translate},n}(a.default.PureComponent);t.InnerWrapper=d}]);
 
 /***/ }),
 
@@ -17621,6 +17951,286 @@ function (_React$Component) {
 }(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);
+
+/***/ }),
+
+/***/ "./scroll.js":
+/*!*******************!*\
+  !*** ./scroll.js ***!
+  \*******************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/parse-int */ "./node_modules/@babel/runtime-corejs2/core-js/parse-int.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_0__);
+
+
+if (true) {
+  window.onload = function () {
+    var SETTINGS = {
+      navBarTravelling: false,
+      navBarTravelDirection: "",
+      navBarTravelDistance: 500
+    };
+    var colours = {
+      0: "#867100",
+      1: "#7F4200",
+      2: "#99813D",
+      3: "#40FEFF",
+      4: "#14CC99",
+      5: "#00BAFF",
+      6: "#0082B2",
+      7: "#B25D7A",
+      8: "#00FF17",
+      9: "#006B49",
+      10: "#00B27A",
+      11: "#996B3D",
+      12: "#CC7014",
+      13: "#40FF8C",
+      14: "#FF3400",
+      15: "#ECBB5E",
+      16: "#ECBB0C",
+      17: "#B9D912",
+      18: "#253A93",
+      19: "#125FB9"
+    };
+    document.documentElement.classList.remove("no-js");
+    document.documentElement.classList.add("js");
+    console.log('lion');
+    console.log(document.getElementById("pnAdvancerLeft")); // Out advancer buttons
+
+    var pnAdvancerLeft = document.getElementById("pnAdvancerLeft");
+    var pnAdvancerRight = document.getElementById("pnAdvancerRight"); // the indicator
+
+    var pnIndicator = document.getElementById("pnIndicator");
+    var pnProductNav = document.getElementById("pnProductNav");
+    var pnProductNavContents = document.getElementById("pnProductNavContents");
+    pnProductNav.setAttribute("data-overflowing", determineOverflow(pnProductNavContents, pnProductNav)); // Set the indicator
+
+    moveIndicator(pnProductNav.querySelector("[aria-selected=\"true\"]"), colours[0]); // Handle the scroll of the horizontal container
+
+    var last_known_scroll_position = 0;
+    var ticking = false;
+
+    function doSomething(scroll_pos) {
+      pnProductNav.setAttribute("data-overflowing", determineOverflow(pnProductNavContents, pnProductNav));
+    }
+
+    pnProductNav.addEventListener("scroll", function () {
+      last_known_scroll_position = window.scrollY;
+
+      if (!ticking) {
+        window.requestAnimationFrame(function () {
+          doSomething(last_known_scroll_position);
+          ticking = false;
+        });
+      }
+
+      ticking = true;
+    });
+    pnAdvancerLeft.addEventListener("click", function () {
+      // If in the middle of a move return
+      if (SETTINGS.navBarTravelling === true) {
+        return;
+      } // If we have content overflowing both sides or on the left
+
+
+      if (determineOverflow(pnProductNavContents, pnProductNav) === "left" || determineOverflow(pnProductNavContents, pnProductNav) === "both") {
+        // Find how far this panel has been scrolled
+        var availableScrollLeft = pnProductNav.scrollLeft; // If the space available is less than two lots of our desired distance, just move the whole amount
+        // otherwise, move by the amount in the settings
+
+        if (availableScrollLeft < SETTINGS.navBarTravelDistance * 2) {
+          pnProductNavContents.style.transform = "translateX(" + availableScrollLeft + "px)";
+        } else {
+          pnProductNavContents.style.transform = "translateX(" + SETTINGS.navBarTravelDistance + "px)";
+        } // We do want a transition (this is set in CSS) when moving so remove the class that would prevent that
+
+
+        pnProductNavContents.classList.remove("pn-ProductNav_Contents-no-transition"); // Update our settings
+
+        SETTINGS.navBarTravelDirection = "left";
+        SETTINGS.navBarTravelling = true;
+      } // Now update the attribute in the DOM
+
+
+      pnProductNav.setAttribute("data-overflowing", determineOverflow(pnProductNavContents, pnProductNav));
+    });
+    pnAdvancerRight.addEventListener("click", function () {
+      // If in the middle of a move return
+      if (SETTINGS.navBarTravelling === true) {
+        return;
+      } // If we have content overflowing both sides or on the right
+
+
+      if (determineOverflow(pnProductNavContents, pnProductNav) === "right" || determineOverflow(pnProductNavContents, pnProductNav) === "both") {
+        // Get the right edge of the container and content
+        var navBarRightEdge = pnProductNavContents.getBoundingClientRect().right;
+        var navBarScrollerRightEdge = pnProductNav.getBoundingClientRect().right; // Now we know how much space we have available to scroll
+
+        var availableScrollRight = Math.floor(navBarRightEdge - navBarScrollerRightEdge); // If the space available is less than two lots of our desired distance, just move the whole amount
+        // otherwise, move by the amount in the settings
+
+        if (availableScrollRight < SETTINGS.navBarTravelDistance * 2) {
+          pnProductNavContents.style.transform = "translateX(-" + availableScrollRight + "px)";
+        } else {
+          pnProductNavContents.style.transform = "translateX(-" + SETTINGS.navBarTravelDistance + "px)";
+        } // We do want a transition (this is set in CSS) when moving so remove the class that would prevent that
+
+
+        pnProductNavContents.classList.remove("pn-ProductNav_Contents-no-transition"); // Update our settings
+
+        SETTINGS.navBarTravelDirection = "right";
+        SETTINGS.navBarTravelling = true;
+      } // Now update the attribute in the DOM
+
+
+      pnProductNav.setAttribute("data-overflowing", determineOverflow(pnProductNavContents, pnProductNav));
+    });
+    pnProductNavContents.addEventListener("transitionend", function () {
+      // get the value of the transform, apply that to the current scroll position (so get the scroll pos first) and then remove the transform
+      var styleOfTransform = window.getComputedStyle(pnProductNavContents, null);
+      var tr = styleOfTransform.getPropertyValue("-webkit-transform") || styleOfTransform.getPropertyValue("transform"); // If there is no transition we want to default to 0 and not null
+
+      var amount = Math.abs(_babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_0___default()(tr.split(",")[4]) || 0);
+      pnProductNavContents.style.transform = "none";
+      pnProductNavContents.classList.add("pn-ProductNav_Contents-no-transition"); // Now lets set the scroll position
+
+      if (SETTINGS.navBarTravelDirection === "left") {
+        pnProductNav.scrollLeft = pnProductNav.scrollLeft - amount;
+      } else {
+        pnProductNav.scrollLeft = pnProductNav.scrollLeft + amount;
+      }
+
+      SETTINGS.navBarTravelling = false;
+    }, false); // Handle setting the currently active link
+
+    pnProductNavContents.addEventListener("click", function (e) {
+      var links = [].slice.call(document.querySelectorAll(".pn-ProductNav_Link"));
+      links.forEach(function (item) {
+        item.setAttribute("aria-selected", "false");
+      });
+      e.target.setAttribute("aria-selected", "true"); // Pass the clicked item and it's colour to the move indicator function
+
+      moveIndicator(e.target, colours[links.indexOf(e.target)]);
+    }); // var count = 0;
+
+    function moveIndicator(item, color) {
+      var textPosition = item.getBoundingClientRect();
+      var container = pnProductNavContents.getBoundingClientRect().left;
+      var distance = textPosition.left - container;
+      var scroll = pnProductNavContents.scrollLeft;
+      pnIndicator.style.transform = "translateX(" + (distance + scroll) + "px) scaleX(" + textPosition.width * 0.01 + ")"; // count = count += 100;
+      // pnIndicator.style.transform = "translateX(" + count + "px)";
+
+      if (color) {
+        pnIndicator.style.backgroundColor = color;
+      }
+    }
+
+    function determineOverflow(content, container) {
+      var containerMetrics = container.getBoundingClientRect();
+      var containerMetricsRight = Math.floor(containerMetrics.right);
+      var containerMetricsLeft = Math.floor(containerMetrics.left);
+      var contentMetrics = content.getBoundingClientRect();
+      var contentMetricsRight = Math.floor(contentMetrics.right);
+      var contentMetricsLeft = Math.floor(contentMetrics.left);
+
+      if (containerMetricsLeft > contentMetricsLeft && containerMetricsRight < contentMetricsRight) {
+        return "both";
+      } else if (contentMetricsLeft < containerMetricsLeft) {
+        return "left";
+      } else if (contentMetricsRight > containerMetricsRight) {
+        return "right";
+      } else {
+        return "none";
+      }
+    }
+    /**
+     * @fileoverview dragscroll - scroll area by dragging
+     * @version 0.0.8
+     * 
+     * @license MIT, see https://github.com/asvd/dragscroll
+     * @copyright 2015 asvd <heliosframework@gmail.com> 
+     */
+
+
+    (function (root, factory) {
+      if (typeof define === 'function' && __webpack_require__(/*! !webpack amd options */ "./node_modules/next/node_modules/webpack/buildin/amd-options.js")) {
+        define(['exports'], factory);
+      } else if (typeof exports !== 'undefined') {
+        factory(exports);
+      } else {
+        factory(root.dragscroll = {});
+      }
+    })(this, function (exports) {
+      var _window = window;
+      var _document = document;
+      var mousemove = 'mousemove';
+      var mouseup = 'mouseup';
+      var mousedown = 'mousedown';
+      var EventListener = 'EventListener';
+      var addEventListener = 'add' + EventListener;
+      var removeEventListener = 'remove' + EventListener;
+      var newScrollX, newScrollY;
+      var dragged = [];
+
+      var reset = function reset(i, el) {
+        for (i = 0; i < dragged.length;) {
+          el = dragged[i++];
+          el = el.container || el;
+          el[removeEventListener](mousedown, el.md, 0);
+
+          _window[removeEventListener](mouseup, el.mu, 0);
+
+          _window[removeEventListener](mousemove, el.mm, 0);
+        } // cloning into array since HTMLCollection is updated dynamically
+
+
+        dragged = [].slice.call(_document.getElementsByClassName('dragscroll'));
+
+        for (i = 0; i < dragged.length;) {
+          (function (el, lastClientX, lastClientY, pushed, scroller, cont) {
+            (cont = el.container || el)[addEventListener](mousedown, cont.md = function (e) {
+              if (!el.hasAttribute('nochilddrag') || _document.elementFromPoint(e.pageX, e.pageY) == cont) {
+                pushed = 1;
+                lastClientX = e.clientX;
+                lastClientY = e.clientY;
+                e.preventDefault();
+              }
+            }, 0);
+
+            _window[addEventListener](mouseup, cont.mu = function () {
+              pushed = 0;
+            }, 0);
+
+            _window[addEventListener](mousemove, cont.mm = function (e) {
+              if (pushed) {
+                (scroller = el.scroller || el).scrollLeft -= newScrollX = -lastClientX + (lastClientX = e.clientX);
+                scroller.scrollTop -= newScrollY = -lastClientY + (lastClientY = e.clientY);
+
+                if (el == _document.body) {
+                  (scroller = _document.documentElement).scrollLeft -= newScrollX;
+                  scroller.scrollTop -= newScrollY;
+                }
+              }
+            }, 0);
+          })(dragged[i++]);
+        }
+      };
+
+      if (_document.readyState == 'complete') {
+        reset();
+      } else {
+        _window[addEventListener]('load', reset, 0);
+      }
+
+      exports.reset = reset;
+    });
+  };
+}
 
 /***/ }),
 

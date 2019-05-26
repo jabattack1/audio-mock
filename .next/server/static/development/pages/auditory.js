@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 6);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -607,6 +607,7 @@ function (_React$Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
+        className: "parrot",
         href: "/",
         __source: {
           fileName: _jsxFileName,
@@ -1645,7 +1646,7 @@ var AuditoryPage = function AuditoryPage() {
 
 /***/ }),
 
-/***/ 6:
+/***/ 4:
 /*!*********************************!*\
   !*** multi ./pages/auditory.js ***!
   \*********************************/

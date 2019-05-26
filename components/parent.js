@@ -10,6 +10,8 @@ import AboutLabel from './about-label.js';
 import StoreGrid from './store-grid.js';
 import Contact from './contact.js';
 
+import NewsGridScroll from './news-grid-scroll.js';
+
 import '../css/normalize.css';
 import '../css/skeleton.css';
 
@@ -56,7 +58,7 @@ class Parent extends React.Component {
 	    						<Element name="news" className="element">News - <span className='small'>Scroll Right to See More</span></Element>
 	    					</div>
 	    					<div>
-				        		<NewsGrid {...this.props}/>
+				        		<NewsGridScroll {...this.props}/>
 				        	</div>
 				        	<div className='newsLabelSpacer'>
 				        	</div>

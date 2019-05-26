@@ -25,7 +25,7 @@ class Navbar3 extends React.Component {
 	render () {
 	    return(
 		    <div className="nav3">
-		        <li className="link3"><a href='/'>Home</a></li>
+		        <li className="link3"><a className='parrot' href='/'>Home</a></li>
 		        <p className="artistHeadLine">{this.state.name}</p>
 		    </div>
 	    )
