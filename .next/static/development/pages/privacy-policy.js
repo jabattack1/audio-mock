@@ -207,7 +207,7 @@ var Layout2 = function Layout2(props) {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "link",
+    className: "linkHere",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
@@ -331,6 +331,7 @@ function (_React$Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
+        className: "firstLetter",
         href: "/",
         __source: {
           fileName: _jsxFileName,
@@ -345,6 +346,7 @@ function (_React$Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
+        className: "firstLetter",
         href: "/privacy-policy",
         __source: {
           fileName: _jsxFileName,
@@ -359,6 +361,7 @@ function (_React$Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
+        className: "firstLetter",
         href: "/terms-of-use",
         __source: {
           fileName: _jsxFileName,
@@ -373,6 +376,7 @@ function (_React$Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
+        className: "firstLetter",
         href: "/ad-choices",
         __source: {
           fileName: _jsxFileName,
@@ -387,6 +391,7 @@ function (_React$Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
+        className: "firstLetter",
         href: "/cookie-policy",
         __source: {
           fileName: _jsxFileName,
@@ -401,6 +406,7 @@ function (_React$Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
+        className: "firstLetter",
         href: "/jobs",
         __source: {
           fileName: _jsxFileName,
@@ -17352,7 +17358,7 @@ var PrivacyPolicy = function PrivacyPolicy() {
 
 /***/ }),
 
-/***/ 8:
+/***/ 5:
 /*!*******************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fprivacy-policy&absolutePagePath=%2FUsers%2Fpeterhahn%2Fsrc%2Fnew%2Faudio-boy%2Fpages%2Fprivacy-policy.js ***!
   \*******************************************************************************************************************************************************/
@@ -17375,5 +17381,5 @@ module.exports = dll_6dc2816e14fab51b8269;
 
 /***/ })
 
-},[[8,"static/runtime/webpack.js","styles"]]]);
+},[[5,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=privacy-policy.js.map

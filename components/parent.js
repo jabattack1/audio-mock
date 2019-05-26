@@ -37,8 +37,12 @@ class Parent extends React.Component {
 				            			<img className='frontLogo' />
 				            		</div>
 				            		<div className="tech-slideshow">
-				            			<div className="mover-1"></div>
-				                		<div className="mover-2"></div>
+				            			<div className='bannerSun'>
+					 						<img src='https://i.imgur.com/QEuTfm8.gif' className='spaceDrop' />
+					 						<img src="https://i.imgur.com/SMLpXaX.png" title="source: imgur.com" className='auditorySign' />
+					 						<div className='moon'></div>
+					 						<h1 className='sun'>I DON'T WANT TO GO AND SEE THE SUN</h1>
+									</div>
 				            		</div>   
 				          		</div>
 				        	</div>

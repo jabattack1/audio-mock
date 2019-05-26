@@ -1,30 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,600);
-/*artist page*/
-.artistBackground{
-	width:100%;
-}
-
-.artistMainPhoto{
-	position:relative;
-	float:left;
-	width:400px;
-	height:400px;
-}
-
-.artistVideo{
-	position:relative;
-	width:960px;
-	height:400px;
-	z-index:100;
-}
-
-.bio{
-	position:relative;
-	width:560px;
-	color:white;
-	/*text-align:center;*/
-	display:inline-block;
-}
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
 /**
@@ -461,24 +435,23 @@ th {
   -webkit-text-stroke-color: black;
 }
 
-.firstLetter{
-  color:#77F490;
-    /*color: black;*/
-  -webkit-text-fill-color:black;
-  -webkit-text-stroke-width: 0px;
-  -webkit-text-stroke-color: black;
-  /*font-weight:bold;*/
+.audioLetters{
+  color:black;
+  transition: .3s color; 
 }
 
+.audioLetters:hover{
+  color:#6B6B6B;
+  cursor:pointer;
+}
 
-/*no demos*/
-#serious{
-  position:relative;
-/*  bottom:0;
-  right:0;*/
-  width:960px;
-  text-align:center;
-  font-size:14px;
+.linkHere{
+  color:#33A7F4;
+}
+
+.linkHere{
+  cursor:pointer;
+  color:#4BB1F4;
 }
 
 .element{
@@ -892,8 +865,9 @@ hr {
 
 .tech-slideshow > div {
   height: 400px;
-  width: 2800px;
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/collage.jpg);
+  width:960px;
+  /*width: 2800px;*/
+  /*background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/collage.jpg);*/
   position: relative;
   top: 0;
   left: 0;
@@ -1003,7 +977,7 @@ hr {
 .grid-news{
   width: 500px;
   height:250px;
-  background-color:#FFFF6B;
+  background-color:#FF3F3F;
   overflow-y:hidden;
   border-radius: 5px;
   /*padding: 10px;*/
@@ -1023,6 +997,7 @@ hr {
   position:relative;
   margin-left:150px;
   width: 350px;
+  font-family:'verdana';
   font-size:14px;
   word-wrap: break-word;
   -moz-hyphens:auto; 
@@ -1097,7 +1072,7 @@ hr {
   /*margin-top:300px;*/
   width: 960px;
   height:230px;
-  background-color:#FFB71E;
+  background-color:white;
   font-size:15px;
   /*font-weight:bold;*/
   word-wrap: break-word;
@@ -1146,7 +1121,7 @@ hr {
 .grid-store{
   width: 250px;
   height:250px;
-  background-color:#77F490;
+  background-color:#FF3F3F;
   overflow-y:hidden;
   border-radius: 5px;
   /*padding: 10px;*/
@@ -1170,6 +1145,7 @@ hr {
 }
 
 .itemPrice{
+  font-family:'verdana';
   position:relative;
   text-align:center;
 }
@@ -1179,14 +1155,14 @@ hr {
 .gridWrapperContact{
   position:relative;
   top:200px;
-  height:250px;
+  height:150px;
 }
 
 .contactContent{
   position:relative;
   /*display: table;*/
   width: 960px;
-  height:155px;
+  height:55px;
   background-color:white;
   /*font-weight:bold;*/
   word-wrap: break-word;
@@ -1201,6 +1177,7 @@ hr {
 .contactLinks{ 
   /*display: table-cell;*/
   font-size:14px;
+  font-weight:bold;
   padding:20px;
   text-decoration: none;
   color:black;
@@ -1209,6 +1186,16 @@ hr {
 
 .contactLinks:hover{ 
   color:#595959;
+}
+
+/*no demos*/
+#serious{
+  position:relative;
+  margin-top:7px;
+  width:960px;
+  text-align:center;
+  font-size:14px;
+  /*font-weight:bold;*/
 }
 
 .spectrum{
@@ -1297,10 +1284,41 @@ hr {
   height:110px;
 }
 
-.link:hover{
+
+.nav3 li a{
+  position:relative;
+  color:white;
+  background-color:#FF3F3F;
+  float:left;
+  padding:2px;
+}
+
+.artistHeadLine{
+  width:500px;
+  font-size:30px;
+  color:white;
+}
+
+.artistHeadLine:hover{
   cursor:pointer;
 }
 
+.socialHolder{
+  position:relative;
+}
+.socialHolder li{
+  display:inline-block;
+  padding:8px;
+}
+
+.socialHolder li img{
+  width:40px;
+  filter: invert(100%);
+}
+
+.socialHolder li img:hover{
+  cursor:pointer;
+}
 
 /* IE 6 */
 * html .footer {
@@ -1308,9 +1326,85 @@ hr {
    top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
 }
 
+/*media*/
+.bannerSun{
+  position:relative;
+  height:400px;
+  width:960px;
+}
+
+.spaceDrop{
+  position:relative;
+  width:960px;
+  height:400px;
+}
+
+.auditorySign{
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  width:560px;
+  margin:0 auto;
+  z-index:100;
+}
+
+.moon{
+  top:0;
+  position:absolute;
+  background: url(https://i.imgur.com/aFP9ONd.gif) no-repeat center center;
+  height:400px;
+  width:960px;
+}
+
+.sun{
+  position:absolute;
+  font-family:'Arial Black';
+  left:0;
+  right:0;
+  bottom:0;
+  margin:auto 0;
+  text-align:center;
+  width:960px;
+  z-index:100;
+  font-weight:bold;
+  font-size:40px;
+  padding-bottom:30px;
+  color:#FFB71E;
+}
 
 
 
+
+
+
+/*artist page*/
+.artistBackground{
+	width:100%;
+}
+
+.artistMainPhoto{
+	position:relative;
+	float:left;
+	width:400px;
+	height:400px;
+}
+
+.artistVideo{
+	position:relative;
+	width:960px;
+	height:400px;
+	z-index:100;
+}
+
+.bio{
+	position:relative;
+	width:560px;
+	height:345px;
+	color:white;
+	/*text-align:center;*/
+	display:inline-block;
+}
 /*top banner*/
 
 .topBanner{
@@ -1320,7 +1414,7 @@ hr {
     background-color:white;
     text-align: center;
     vertical-align: center;
-    border-bottom: 1px solid #4C4C4C;
+    /*border-bottom: 1px solid white;*/
 }
 
 .bold{
@@ -1331,12 +1425,12 @@ hr {
 /*navigation bar*/
 .nav {
     position:relative;
-    border-bottom: 1px solid #4C4C4C;
+    /*border-bottom: 1px solid white;*/
 }
 
 .nav ul {
   list-style: none;
-  background-color: #FF3F3F;
+  background-color: black;
   text-align: center;
   padding: 0;
   margin: 0;
@@ -1351,7 +1445,7 @@ hr {
  
 .nav a {
   text-decoration: none;
-  color:black;
+  color:white;
   /*display: block;*/
   transition: .3s color;
 }
@@ -1378,6 +1472,77 @@ hr {
  
   /* Option 1 - Display Inline */
   .nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
+ 
+  /* Options 2 - Float
+  .nav li {
+    float: left;
+  }
+  .nav ul {
+    overflow: auto;
+    width: 600px;
+    margin: 0 auto;
+  }
+  .nav {
+    background-color: #444;
+  }
+  */
+}
+
+
+/*navigation bar3*/
+.nav3 {
+    position:relative;
+    width:700px;
+}
+
+.nav3 ul {
+  list-style: none;
+  background-color: black;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav3 li {
+  font-family: 'Arial', sans-serif;
+  color:white;
+  font-size: 20px;
+  line-height: 20px;
+  height: 20px;
+  /*border-bottom: 1px solid #888;*/
+}
+ 
+.nav3 a {
+  text-decoration: none;
+  color:black;
+  /*display: block;*/
+  transition: .3s color;
+}
+ 
+.nav3 a:hover {
+  color: #6B6B6B;
+}
+ 
+/*.nav3 a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}*/
+ 
+@media screen and (min-width: 600px) {
+  .nav3 li {
+    width: 160px;
+    /*height: 30px;*/
+    line-height: 30px;
+    font-size: 20px;
+    vertical-align: middle;
+    /*display: table-cell;*/
+  }
+ 
+  /* Option 1 - Display Inline */
+  .nav3 li {
     display: inline-block;
     margin-right: -4px;
   }

@@ -7,7 +7,7 @@
     background-color:white;
     text-align: center;
     vertical-align: center;
-    border-bottom: 1px solid #4C4C4C;
+    /*border-bottom: 1px solid white;*/
 }
 
 .bold{
@@ -18,12 +18,12 @@
 /*navigation bar*/
 .nav {
     position:relative;
-    border-bottom: 1px solid #4C4C4C;
+    /*border-bottom: 1px solid white;*/
 }
 
 .nav ul {
   list-style: none;
-  background-color: #FF3F3F;
+  background-color: black;
   text-align: center;
   padding: 0;
   margin: 0;
@@ -38,7 +38,7 @@
  
 .nav a {
   text-decoration: none;
-  color:black;
+  color:white;
   /*display: block;*/
   transition: .3s color;
 }
@@ -65,6 +65,77 @@
  
   /* Option 1 - Display Inline */
   .nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
+ 
+  /* Options 2 - Float
+  .nav li {
+    float: left;
+  }
+  .nav ul {
+    overflow: auto;
+    width: 600px;
+    margin: 0 auto;
+  }
+  .nav {
+    background-color: #444;
+  }
+  */
+}
+
+
+/*navigation bar3*/
+.nav3 {
+    position:relative;
+    width:700px;
+}
+
+.nav3 ul {
+  list-style: none;
+  background-color: black;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav3 li {
+  font-family: 'Arial', sans-serif;
+  color:white;
+  font-size: 20px;
+  line-height: 20px;
+  height: 20px;
+  /*border-bottom: 1px solid #888;*/
+}
+ 
+.nav3 a {
+  text-decoration: none;
+  color:black;
+  /*display: block;*/
+  transition: .3s color;
+}
+ 
+.nav3 a:hover {
+  color: #6B6B6B;
+}
+ 
+/*.nav3 a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}*/
+ 
+@media screen and (min-width: 600px) {
+  .nav3 li {
+    width: 160px;
+    /*height: 30px;*/
+    line-height: 30px;
+    font-size: 20px;
+    vertical-align: middle;
+    /*display: table-cell;*/
+  }
+ 
+  /* Option 1 - Display Inline */
+  .nav3 li {
     display: inline-block;
     margin-right: -4px;
   }

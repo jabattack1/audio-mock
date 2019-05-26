@@ -297,7 +297,7 @@ var Layout2 = function Layout2(props) {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "link",
+    className: "linkHere",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
@@ -422,6 +422,7 @@ function (_React$Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
+        className: "firstLetter",
         href: "/",
         __source: {
           fileName: _jsxFileName,
@@ -436,6 +437,7 @@ function (_React$Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
+        className: "firstLetter",
         href: "/privacy-policy",
         __source: {
           fileName: _jsxFileName,
@@ -450,6 +452,7 @@ function (_React$Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
+        className: "firstLetter",
         href: "/terms-of-use",
         __source: {
           fileName: _jsxFileName,
@@ -464,6 +467,7 @@ function (_React$Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
+        className: "firstLetter",
         href: "/ad-choices",
         __source: {
           fileName: _jsxFileName,
@@ -478,6 +482,7 @@ function (_React$Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
+        className: "firstLetter",
         href: "/cookie-policy",
         __source: {
           fileName: _jsxFileName,
@@ -492,6 +497,7 @@ function (_React$Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
+        className: "firstLetter",
         href: "/jobs",
         __source: {
           fileName: _jsxFileName,

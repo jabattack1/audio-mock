@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Navbar2 from './navbar2.js';
 import Footer2 from './footer2.js';
 
 
@@ -8,9 +7,8 @@ const Layout3 = (props) => (
 	<Head>
 		<title>Audio-Boy</title>
 	</Head>
-		<div className='topBanner'>Subscribe <span className='bold'>NOW</span> for our updates & promotions! <span className='bold'><a className='link'>OVER HERE</a></span> 
+		<div className='topBanner'>Subscribe <span className='bold'>NOW</span> for our updates & promotions! <span className='bold'><a className='linkHere'>OVER HERE</a></span> 
 		</div>
-		<Navbar2 />
 		<div className='containerWrapper'>
 			<div className='container'>
 				{props.children}
