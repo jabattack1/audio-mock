@@ -756,16 +756,11 @@ hr {
   height:150px;
 }
 
-#contactHeader{
-  position:relative;
-  /*margin-top:-210px;*/
-}
-
 .contactContent{
   position:relative;
   /*display: table;*/
   width: 960px;
-  height:55px;
+  height:95px;
   background-color:white;
   margin-top:200px;
   /*font-weight:bold;*/
@@ -795,7 +790,7 @@ hr {
 /*no demos*/
 #serious{
   position:relative;
-  margin-top:7px;
+  margin-top:40px;
   width:960px;
   text-align:center;
   font-size:14px;
