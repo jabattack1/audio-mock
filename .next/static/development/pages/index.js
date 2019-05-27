@@ -77,7 +77,7 @@ function (_React$Component) {
           lineNumber: 16
         },
         __self: this
-      }), "Audio Boy is an independent recording company with ambitions of becoming home to the very best forward-thinking and innovative artists. Our reputation in the music industry is something we feel a great responsibility for and we would like to establish ourselves as a company who offer an unparalleled experience for the artists and the listeners alike. With a focus on influencing the world's pop culture without any boundaries, and a passionate approach towards discovering and nurturing musical talent - Audio Boy is currently home to The Electronic Auditory Rebels and many more to come in the future! Please stay tuned....")));
+      }), "Audio Boy is an independent recording company with ambitions of becoming home to the very best forward-thinking and innovative artists. Our reputation in the music industry is something we feel a great responsibility for and we pride ourselves as a company who offers an unparalleled experience for the artists and listeners alike. With a focus on influencing the world's pop culture without any boundaries, and a passionate approach towards discovering and nurturing musical talent - Audio Boy is currently home to The Electronic Auditory Rebels and many more to come in the future!")));
     }
   }]);
 
@@ -388,14 +388,29 @@ function (_React$Component) {
           lineNumber: 19
         },
         __self: this
-      }, "Legal: legal@audio-boy.com"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
-        id: "serious",
+      }, "Legal: legal@audio-boy.com"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
+        src: "https://i.imgur.com/hpFx9zI.gif",
+        className: "dolphin",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 20
         },
         __self: this
-      }, "Audio-Boy does not accept unsolicited material")))));
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+        id: "serious",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21
+        },
+        __self: this
+      }, "Audio-Boy does not accept unsolicited material"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "contactCover",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22
+        },
+        __self: this
+      })))));
     }
   }]);
 
