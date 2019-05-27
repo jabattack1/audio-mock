@@ -24,7 +24,7 @@ class StoreGridScroll extends React.Component {
 				    </div>
 				</nav>
 				    <button id="pnAdvancerLeftStore" className="pn-AdvancerStore pn-Advancer_LeftStore" type="button">
-				    	<img className='leftArrowStore' src="https://i.imgur.com/uOKhqK5.png" />
+				    	<img className='leftArrowStore' src="https://i.imgur.com/BZ7AKsn.png" />
 				    </button>
 				    <button id="pnAdvancerRightStore" className="pn-AdvancerStore pn-Advancer_RightStore" type="button">
 						<img className='rightArrowStore' src="https://i.imgur.com/lgw31BS.png" />
@@ -36,5 +36,6 @@ class StoreGridScroll extends React.Component {
 }
 
 export default StoreGridScroll;
+
 
 

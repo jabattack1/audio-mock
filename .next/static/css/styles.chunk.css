@@ -1089,6 +1089,25 @@ hr {
 
 /*Grid Store*/
 
+.storeWrapper {
+  position:relative;
+  margin-top:200px;
+  /*border: 2px dotted rgb(96, 139, 168);*/
+  width: 960px;
+  height:300px;
+}
+
+.storeBox {
+  display: flex;
+  flex-wrap: wrap;
+  /*margin:-10px;*/
+}
+
+.storeBox>* {
+  /*flex: 1 1 160px;*/
+  margin: 10px;
+}
+
 .gridWrapperStore{
   position:relative;
   top:200px;
@@ -1110,7 +1129,6 @@ hr {
 .grid-figureStore{
   position: relative;
   margin: 0 auto;
-  /*background:white;*/
 }
 
 .grid-figure-wrapStore{
@@ -1124,11 +1142,11 @@ hr {
 .grid-store{
   width: 250px;
   height:250px;
+  border: 2px solid black;
   background-color:#4BB1F4;
   overflow-y:hidden;
   white-space: normal;
-  /*border-radius: 5px;*/
-  /*padding: 10px;*/
+  border-radius:5px;
 }
 
 /*items*/
@@ -1161,8 +1179,13 @@ hr {
 
 .gridWrapperContact{
   position:relative;
-  top:200px;
+  /*top:200px;*/
   height:150px;
+}
+
+#contactHeader{
+  position:relative;
+  /*margin-top:-210px;*/
 }
 
 .contactContent{
@@ -1171,6 +1194,7 @@ hr {
   width: 960px;
   height:55px;
   background-color:white;
+  margin-top:200px;
   /*font-weight:bold;*/
   word-wrap: break-word;
   -moz-hyphens:auto; 
@@ -1205,27 +1229,20 @@ hr {
   /*font-weight:bold;*/
 }
 
-.spectrum{
-  width:960px;
-  height:100px;
-  position:relative;
-  /*margin-top:8px;*/
-}
-
 /*footer*/
 
 .footerWrapper{
   position: relative;
   clear: both;
   height: 40px;
-  margin-top: 155px
+  /*margin-top: 155px*/
 }
 
 .footerWrapper2{
   position: relative;
   clear: both;
   height: 40px;
-  margin-top: 40px
+  /*margin-top: 40px*/
 }
 
 .footer {

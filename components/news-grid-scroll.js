@@ -26,10 +26,10 @@ class NewsGridScroll extends React.Component {
 				    </div>
 				</nav>
 				    <button id="pnAdvancerLeft" className="pn-Advancer pn-Advancer_Left" type="button">
-				    	<img className='leftArrow' src="https://i.imgur.com/uOKhqK5.png" />
+				    	<img className='leftArrow' src="https://i.imgur.com/BZ7AKsn.png" />
 				    </button>
 				    <button id="pnAdvancerRight" className="pn-Advancer pn-Advancer_Right" type="button">
-						<img className='rightArrow' src="https://i.imgur.com/lgw31BS.png" />
+						<img className='rightArrow' src="https://i.imgur.com/2K5BYIz.png" />
 				    </button>
 			</div>
     	)

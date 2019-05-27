@@ -12,7 +12,6 @@ class Store extends React.Component{
 	render(){
 
 		return(
-			<a className="pn-ProductNav_LinkStore" aria-selected="true">
 				<figure className='grid-figureStore'>
 					<div className='grid-figure-wrapStore'>
 						<div alt={this.props.store.code} className='grid-store'>
@@ -22,7 +21,6 @@ class Store extends React.Component{
 						</div>
 					</div>
 				</figure>
-			</a>
 		)
 	}
 }

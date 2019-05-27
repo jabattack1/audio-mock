@@ -16,8 +16,8 @@ class StoreGrid extends React.Component {
 	
 	render () {
     	return(
-    		<div className='gridWrapperStore'>
-	    		<div className='store-grid'>
+    		<div className='storeWrapper'>
+	    		<div className='storeBox'>
 	    			{this.props.store.map((post, i) => <Store {...this.props} key={i} i={i} store={post} />)}
 				</div>
 			</div>

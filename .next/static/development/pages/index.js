@@ -1017,7 +1017,7 @@ function (_React$Component) {
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("img", {
         className: "leftArrow",
-        src: "https://i.imgur.com/uOKhqK5.png",
+        src: "https://i.imgur.com/BZ7AKsn.png",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 29
@@ -1034,7 +1034,7 @@ function (_React$Component) {
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("img", {
         className: "rightArrow",
-        src: "https://i.imgur.com/lgw31BS.png",
+        src: "https://i.imgur.com/2K5BYIz.png",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 32
@@ -1582,14 +1582,7 @@ function (_React$Component) {
           lineNumber: 76
         },
         __self: this
-      }, "Store - ", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        className: "small",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 76
-        },
-        __self: this
-      }, "Scroll Right to See More"))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+      }, "Store")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 78
@@ -1761,7 +1754,7 @@ function (_React$Component) {
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
         className: "leftArrowStore",
-        src: "https://i.imgur.com/uOKhqK5.png",
+        src: "https://i.imgur.com/BZ7AKsn.png",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 27
@@ -1867,14 +1860,14 @@ function (_React$Component) {
       var _this2 = this;
 
       return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "gridWrapperStore",
+        className: "storeWrapper",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 19
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "store-grid",
+        className: "storeBox",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 20
@@ -1954,26 +1947,18 @@ function (_React$Component) {
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Store, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
-        className: "pn-ProductNav_LinkStore",
-        "aria-selected": "true",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 15
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("figure", {
+      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("figure", {
         className: "grid-figureStore",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 16
+          lineNumber: 15
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "grid-figure-wrapStore",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 17
+          lineNumber: 16
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
@@ -1981,14 +1966,14 @@ function (_React$Component) {
         className: "grid-store",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 18
+          lineNumber: 17
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
         className: "itemName",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 19
+          lineNumber: 18
         },
         __self: this
       }, this.props.store.name), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
@@ -1997,17 +1982,17 @@ function (_React$Component) {
         className: "itemPhoto",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 20
+          lineNumber: 19
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
         className: "itemPrice",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21
+          lineNumber: 20
         },
         __self: this
-      }, "$", this.props.store.price)))));
+      }, "$", this.props.store.price))));
     }
   }]);
 
@@ -2148,6 +2133,13 @@ var store = [{
   "size": ''
 }, {
   "code": "4",
+  "name": "Audio-Boy Sweatshirt (Limited)",
+  "id": "1",
+  "display_src": "https://i.imgur.com/3y7G9NA.png",
+  "price": "49.99",
+  "size": ''
+}, {
+  "code": "5",
   "name": "Audio-Boy Sweatshirt (Limited)",
   "id": "1",
   "display_src": "https://i.imgur.com/3y7G9NA.png",

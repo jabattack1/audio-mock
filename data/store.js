@@ -38,6 +38,14 @@ const store = [
     "display_src": `https://i.imgur.com/3y7G9NA.png`,
     "price":"49.99",
     "size":''
+  },
+  {
+    "code": "5",
+    "name": "Audio-Boy Sweatshirt (Limited)",
+    "id": "1",
+    "display_src": `https://i.imgur.com/3y7G9NA.png`,
+    "price":"49.99",
+    "size":''
   }
 ];
 
