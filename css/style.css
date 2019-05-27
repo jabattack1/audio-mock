@@ -127,3 +127,23 @@
   transform-origin: 0 0;
   transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
+
+.leftArrow{
+	filter: invert(100%);
+	height:250px;
+	width:45px;
+}
+
+.leftArrow:hover{
+	filter: invert(85%);
+}
+
+.rightArrow{
+	filter: invert(100%);
+	height:250px;
+	width:45px;
+}
+
+.rightArrow:hover{
+	filter: invert(85%);
+}

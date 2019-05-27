@@ -26,15 +26,14 @@ class NewsGridScroll extends React.Component {
 				    </div>
 				</nav>
 				    <button id="pnAdvancerLeft" className="pn-Advancer pn-Advancer_Left" type="button">
-				        <svg className="pn-Advancer_Icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 551 1024"><path d="M445.44 38.183L-2.53 512l447.97 473.817 85.857-81.173-409.6-433.23v81.172l409.6-433.23L445.44 38.18z"/></svg>
+				    	<img className='leftArrow' src="https://i.imgur.com/uOKhqK5.png" />
 				    </button>
 				    <button id="pnAdvancerRight" className="pn-Advancer pn-Advancer_Right" type="button">
-				        <svg className="pn-Advancer_Icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 551 1024"><path d="M105.56 985.817L553.53 512 105.56 38.183l-85.857 81.173 409.6 433.23v-81.172l-409.6 433.23 85.856 81.174z"/></svg>
+						<img className='rightArrow' src="https://i.imgur.com/lgw31BS.png" />
 				    </button>
 			</div>
     	)
  	 }
-
 }
 
 export default NewsGridScroll;

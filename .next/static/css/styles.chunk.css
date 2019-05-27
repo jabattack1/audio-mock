@@ -447,11 +447,12 @@ th {
 
 .linkHere{
   color:#33A7F4;
+  transition: .3s color;
 }
 
-.linkHere{
+.linkHere:hover{
   cursor:pointer;
-  color:#4BB1F4;
+  color:#75C1F4;
 }
 
 .element{
@@ -1021,7 +1022,7 @@ hr {
   overflow: hidden;
 /*  border-top: 1px solid black;
   border-bottom: 1px solid black;*/
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .newsContent{
@@ -1038,7 +1039,7 @@ hr {
   -webkit-hyphens:auto; 
   -o-hyphens:auto; 
   hyphens:auto;
-  text-align: center;
+  /*text-align: center;*/
   /*text-overflow: ellipsis;*/
   /*overflow: hidden;*/
 }
@@ -1101,9 +1102,9 @@ hr {
 .store-grid{
   position:relative;
   display: flex;
+  flex-wrap: wrap;
   float:left;
   max-width: 960px;
-  overflow: scroll;
 }
 
 .grid-figureStore{
@@ -1123,18 +1124,22 @@ hr {
 .grid-store{
   width: 250px;
   height:250px;
-  background-color:#FF3F3F;
+  background-color:#4BB1F4;
   overflow-y:hidden;
-  border-radius: 5px;
+  white-space: normal;
+  /*border-radius: 5px;*/
   /*padding: 10px;*/
 }
 
 /*items*/
 .itemName{
-  padding-top:10px;
   position:relative;
+  padding-top:10px;
   text-align:center;
   font-weight:bold;
+  color:white;
+  width:250px;
+  height:21px;
 }
 
 .itemPhoto{
@@ -1360,6 +1365,16 @@ hr {
   width:960px;
 }
 
+.singleSun{
+  position:absolute;
+  width:200px;
+  left:0;
+  right:0;
+  bottom:0;
+  margin:0 auto;
+  z-index:9;
+}
+
 .sun{
   position:absolute;
   font-family:'Arial Black';
@@ -1381,38 +1396,6 @@ hr {
 
 
 
-/*artist page*/
-.parrot{
-	border-bottom-left-radius: 4px;
-  	border-bottom-right-radius: 4px;
-}
-
-.artistBackground{
-	width:100%;
-}
-
-.artistMainPhoto{
-	position:relative;
-	float:left;
-	width:400px;
-	height:400px;
-}
-
-.artistVideo{
-	position:relative;
-	width:960px;
-	height:400px;
-	z-index:100;
-}
-
-.bio{
-	position:relative;
-	width:560px;
-	height:345px;
-	color:white;
-	/*text-align:center;*/
-	display:inline-block;
-}
 
 .pn-ProductNav_Wrapper {
   position: relative;
@@ -1541,6 +1524,207 @@ hr {
   background-color: transparent;
   transform-origin: 0 0;
   transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.leftArrow{
+	filter: invert(100%);
+	height:250px;
+	width:45px;
+}
+
+.leftArrow:hover{
+	filter: invert(85%);
+}
+
+.rightArrow{
+	filter: invert(100%);
+	height:250px;
+	width:45px;
+}
+
+.rightArrow:hover{
+	filter: invert(85%);
+}
+
+.pn-ProductNav_WrapperStore {
+  position: relative;
+  /*padding: 0 11px;*/
+  box-sizing: border-box;
+  /*background-color:white;*/
+  width:960px;
+  top:200px;
+  height:250px;
+  background-color:black;
+  border-radius:4px;
+}
+
+.pnProductNavContentsStore{
+
+}
+
+.pn-ProductNavStore {
+	/*background-color:red;*/
+	margin:0 auto;
+	top:0;
+	width:860px;
+	height:250px;
+  display: flex;
+  /*overflow: scroll;*/
+  overflow-x: scroll;
+  /* Make this scrollable when needed */
+  overflow-x: auto;
+  /* We don't want vertical scrolling */
+  overflow-y: hidden;
+  /* For WebKit implementations, provide inertia scrolling */
+  -webkit-overflow-scrolling: touch;
+  /* We don't want internal inline elements to wrap */
+  /* If JS present, let's hide the default scrollbar */
+  /* positioning context for advancers */
+  white-space: nowrap;
+  position: relative;
+  font-size: 0;
+  /*min-width: 0*/
+}
+
+.js .pn-ProductNavStore {
+  /* Make an auto-hiding scroller for the 3 people using a IE */
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  /* Remove the default scrollbar for WebKit implementations */
+}
+
+.js .pn-ProductNavStore::-webkit-scrollbar {
+  display: none;
+}
+
+.pn-ProductNav_ContentsStore {
+  float: left;
+  transition: transform 0.2s ease-in-out;
+  position: relative;
+  margin-top:-3px;
+}
+
+.pn-ProductNav_Contents-no-transition {
+  transition: none;
+}
+
+.pn-ProductNav_LinkStore {
+  text-decoration: none;
+  color: black;
+  /*font-size: 1.2rem;*/
+  /*font-family: -apple-system, sans-serif;*/
+  display: inline-flex;
+  align-items: center;
+  height: 255px;
+  width:25ss0px;
+  /*white-space:wrap;*/
+  word-wrap:break-word;
+  /*padding: 0 11px;*/
+}
+.pn-ProductNav_LinkStore + .pn-ProductNav_LinkStore {
+  border-left-color: #eee;
+}
+.pn-ProductNav_LinkStore[aria-selected="true"] {
+  color: #111;
+}
+.pn-AdvancerStore {
+  /* Reset the button */
+  appearance: none;
+  background: transparent;
+  padding: 0;
+  border: 0;
+  /* Now style it as needed */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  /* Set the buttons invisible by default */
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.pn-AdvancerStore :focus {
+  outline: 0;
+}
+.pn-AdvancerStore :hover {
+  cursor: pointer;
+}
+.pn-Advancer_LeftStore {
+  left: 0;
+}
+[data-overflowing="both"] ~ .pn-Advancer_LeftStore, [data-overflowing="left"] ~ .pn-Advancer_LeftStore {
+  opacity: 1;
+}
+.pn-Advancer_RightStore {
+  right: 0;
+}
+[data-overflowing="both"] ~ .pn-Advancer_RightStore, [data-overflowing="right"] ~ .pn-Advancer_RightStore {
+  opacity: 1;
+}
+.pn-Advancer_Icon {
+  width: 50px;
+  height: 250px;
+  fill: white;
+}
+.pn-ProductNav_IndicatorStore {
+  /*position: absolute;*/
+  top:0;
+  bottom: 0;
+  left: 0;
+  height: 4px;
+  width: 40px;
+  background-color: transparent;
+  transform-origin: 0 0;
+  transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.leftArrowStore{
+	filter: invert(100%);
+	height:250px;
+	width:45px;
+}
+
+.leftArrowStore:hover{
+	filter: invert(85%);
+}
+
+.rightArrowStore{
+	filter: invert(100%);
+	height:250px;
+	width:45px;
+}
+
+.rightArrowStore:hover{
+	filter: invert(85%);
+}
+/*artist page*/
+.parrot{
+	border-bottom-left-radius: 4px;
+  	border-bottom-right-radius: 4px;
+}
+
+.artistBackground{
+	width:100%;
+}
+
+.artistMainPhoto{
+	position:relative;
+	float:left;
+	width:400px;
+	height:400px;
+}
+
+.artistVideo{
+	position:relative;
+	width:960px;
+	height:400px;
+	z-index:100;
+}
+
+.bio{
+	position:relative;
+	width:560px;
+	height:345px;
+	color:white;
+	/*text-align:center;*/
+	display:inline-block;
 }
 /*top banner*/
 

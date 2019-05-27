@@ -32,7 +32,7 @@ var colours = {
 
 document.documentElement.classList.remove("no-js");
 document.documentElement.classList.add("js");
-console.log('lion');
+console.log('lion1');
 console.log(document.getElementById("pnAdvancerLeft"));
 // Out advancer buttons
 var pnAdvancerLeft = document.getElementById("pnAdvancerLeft");

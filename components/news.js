@@ -6,6 +6,7 @@ import styled from 'styled-components';
 
 import '../css/normalize.css';
 import '../css/skeleton.css';
+import '../css/style.css';
 
 class News extends React.Component{
 	render(){
@@ -14,7 +15,7 @@ class News extends React.Component{
 		const {news, i} = this.props.news;
 
 		return(
-			<a class="pn-ProductNav_Link" aria-selected="true">
+			<a className="pn-ProductNav_Link" aria-selected="true">
 				<figure className='grid-figureNews'>
 					<div className='grid-figure-wrapNews'>
 						<div alt={this.props.news.code} className='grid-news'>

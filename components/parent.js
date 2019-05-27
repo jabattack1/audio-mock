@@ -11,6 +11,7 @@ import StoreGrid from './store-grid.js';
 import Contact from './contact.js';
 
 import NewsGridScroll from './news-grid-scroll.js';
+import StoreGridScroll from './store-grid-scroll.js';
 
 import '../css/normalize.css';
 import '../css/skeleton.css';
@@ -43,6 +44,7 @@ class Parent extends React.Component {
 					 						<img src='https://i.imgur.com/QEuTfm8.gif' className='spaceDrop' />
 					 						<img src="https://i.imgur.com/SMLpXaX.png" title="source: imgur.com" className='auditorySign' />
 					 						<div className='moon'></div>
+					 						<img src="https://i.imgur.com/imjFfzu.png" title="source: imgur.com" className='singleSun'/>
 					 						<h1 className='sun'>I DON'T WANT TO GO AND SEE THE SUN</h1>
 									</div>
 				            		</div>   
@@ -58,7 +60,7 @@ class Parent extends React.Component {
 	    						<Element name="news" className="element">News - <span className='small'>Scroll Right to See More</span></Element>
 	    					</div>
 	    					<div>
-				        		<NewsGridScroll {...this.props}/>
+				        		<NewsGridScroll {...this.props} />
 				        	</div>
 				        	<div className='newsLabelSpacer'>
 				        	</div>
@@ -74,7 +76,7 @@ class Parent extends React.Component {
 	    						<Element id='storeHeader' name="store" className="element">Store - <span className='small'>Scroll Right to See More</span></Element>
 	    					</div>
 	    					<div>
-				        		<StoreGrid {...this.props}/>
+				        		<StoreGrid{...this.props} />
 				        	</div>
 				        	<div className='newsLabelSpacer'>
 				        	</div>

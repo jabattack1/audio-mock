@@ -13,6 +13,8 @@ import store from '../data/store.js';
 import '../css/normalize.css';
 import '../css/skeleton.css';
 import '../css/bootstrap.css';
+import '../css/style.css';
+import '../css/styleStore.css';
 
 class Index extends React.Component {
 
