@@ -16,18 +16,26 @@ class Auditory extends React.Component{
 
 	    super(props)
 
-	    let data = props.artist.find(i => i.code === 'abcd');
-	   	console.log(props)
-		this.state = {
-			image1:data.display_src,
-			name:data.name,
-			mv:data.mv,
-			bio:data.bio,
-	    	youtube:data.youtube,
-	    	twitter:data.twitter,
-	    	instagram:data.instagram,
-	    	facebook:data.facebook
-		}
+	    let artist = this.props.artist;
+	   	let itemNumber = this.props.codeArtist.code;
+
+	    let result = artist.filter(obj => {
+  			return obj.code === itemNumber
+		})
+
+	    result.map((e) => 
+
+			this.state = {
+				image1:e.display_src,
+				name:e.name,
+				mv:e.mv,
+				bio:e.bio,
+		    	youtube:e.youtube,
+		    	twitter:e.twitter,
+		    	instagram:e.instagram,
+		    	facebook:e.facebook
+			}
+		);
   
 	}
 
@@ -54,6 +62,7 @@ class Auditory extends React.Component{
 			</div>
 		)
 	}
+
 }
 
 export default Auditory;

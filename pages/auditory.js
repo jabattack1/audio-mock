@@ -11,12 +11,11 @@ import data from '../data/artistList.js';
 import '../css/normalize.css';
 import '../css/skeleton.css';
 import '../css/bootstrap.css';
-console.log(data);
 
-const AuditoryPage = () => (
+const AuditoryPage = (props) => (
 	<Layout3>
 		<div>
-			<Auditory artist={data} />
+			<Auditory artist={data} codeArtist={props.url.query}/>
 		</div>
 	</Layout3>
 );

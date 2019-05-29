@@ -17,9 +17,16 @@ class Contact extends React.Component{
 							<a className='contactLinks' href="info@audio-boy.com">Inquiries/Questions: info@audio-boy.com</a> 
 							<a className='contactLinks' href="pr@audio-boy.com">Media: pr@audio-boy.com</a> 
 							<a className='contactLinks' href="hr@audio-boy.com">Legal: legal@audio-boy.com</a> 
-							<img src="https://i.imgur.com/hpFx9zI.gif" className='dolphin'/>
-							<p id='serious'>Audio-Boy does not accept unsolicited material</p>
+							<div className='dolphinWrapperWrapper'>
+								<div className='dolphinWrapper'>
+									<img src="https://i.imgur.com/hpFx9zI.gif" className='dolphin'/>
+								</div>
+							</div>
+							<div className='solicitation'>
+								<p className='serious'>Audio-Boy does not accept unsolicited material</p>
+							</div>
 							<div className='contactCover'></div>
+
 						</div>
 					</div>
 				</div>
@@ -29,3 +36,6 @@ class Contact extends React.Component{
 }
 
 export default Contact;
+
+
+<a href="https://imgur.com/ebTCU1p"><img src="https://i.imgur.com/ebTCU1p.gif" title="source: imgur.com" /></a>

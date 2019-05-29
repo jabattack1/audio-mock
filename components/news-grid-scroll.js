@@ -34,6 +34,8 @@ class NewsGridScroll extends React.Component {
 			</div>
     	)
  	 }
+
+ 	 
 }
 
 export default NewsGridScroll;

@@ -78,7 +78,7 @@ class Parent extends React.Component {
 	    					<div>
 				        		<StoreGrid{...this.props} />
 				        	</div>
-				        	<div className='newsLabelSpacer'>
+				        	<div className='storeContactSpacer'>
 				        	</div>
 				        	<div className='titleWrapper'>
 	    						<Element id='contactHeader' name="contact" className="element">Contact</Element>

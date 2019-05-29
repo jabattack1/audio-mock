@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -152,20 +152,23 @@ function (_React$Component) {
 
     Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "state", {});
 
-    var data = props.artist.find(function (i) {
-      return i.code === 'abcd';
+    var artist = _this.props.artist;
+    var itemNumber = _this.props.codeArtist.code;
+    var result = artist.filter(function (obj) {
+      return obj.code === itemNumber;
     });
-    console.log(props);
-    _this.state = {
-      image1: data.display_src,
-      name: data.name,
-      mv: data.mv,
-      bio: data.bio,
-      youtube: data.youtube,
-      twitter: data.twitter,
-      instagram: data.instagram,
-      facebook: data.facebook
-    };
+    result.map(function (e) {
+      return _this.state = {
+        image1: e.display_src,
+        name: e.name,
+        mv: e.mv,
+        bio: e.bio,
+        youtube: e.youtube,
+        twitter: e.twitter,
+        instagram: e.instagram,
+        facebook: e.facebook
+      };
+    });
     return _this;
   }
 
@@ -176,21 +179,21 @@ function (_React$Component) {
         className: "artistArea",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 41
+          lineNumber: 49
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_navbar3_js__WEBPACK_IMPORTED_MODULE_10__["default"], {
         name: this.state.name,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 42
+          lineNumber: 50
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         className: "artistBackground",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 43
+          lineNumber: 51
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
@@ -198,73 +201,73 @@ function (_React$Component) {
         className: "artistMainPhoto",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 44
+          lineNumber: 52
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         className: "bio",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 45
+          lineNumber: 53
         },
         __self: this
       }, this.state.bio), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("ul", {
         className: "socialHolder",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 46
+          lineNumber: 54
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 47
+          lineNumber: 55
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
         src: "https://i.imgur.com/fV5a2fW.png",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 47
+          lineNumber: 55
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 48
+          lineNumber: 56
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
         src: "https://i.imgur.com/NauXZSM.png",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 48
+          lineNumber: 56
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 49
+          lineNumber: 57
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
         src: "https://i.imgur.com/DCzV97u.png",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 49
+          lineNumber: 57
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 50
+          lineNumber: 58
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
         src: "https://i.imgur.com/odojrFa.png",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 50
+          lineNumber: 58
         },
         __self: this
       }))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("iframe", {
@@ -275,7 +278,7 @@ function (_React$Component) {
         allowFullScreen: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 52
+          lineNumber: 60
         },
         __self: this
       })));
@@ -1617,26 +1620,26 @@ var _jsxFileName = "/Users/peterhahn/src/new/audio-boy/pages/auditory.js";
 
 
 
-console.log(_data_artistList_js__WEBPACK_IMPORTED_MODULE_5__["default"]);
 
-var AuditoryPage = function AuditoryPage() {
+var AuditoryPage = function AuditoryPage(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_layout3_js__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 16
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 17
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_auditory_js__WEBPACK_IMPORTED_MODULE_3__["default"], {
     artist: _data_artistList_js__WEBPACK_IMPORTED_MODULE_5__["default"],
+    codeArtist: props.url.query,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 18
     },
     __self: this
   })));
@@ -1646,7 +1649,7 @@ var AuditoryPage = function AuditoryPage() {
 
 /***/ }),
 
-/***/ 4:
+/***/ 5:
 /*!*********************************!*\
   !*** multi ./pages/auditory.js ***!
   \*********************************/

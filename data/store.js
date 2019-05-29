@@ -5,6 +5,8 @@ const store = [
     "id": "1",
     "display_src": `https://i.imgur.com/Ag5EuDG.jpg`,
     "price":"29.99",
+    "description":"Audio-Boy delivers to you a minimalistic style soft cotton slim fit t-shirt that will keep you comfortable and styling all day long.",
+    "color":"Black/White",
     "size":''
   },
   {
@@ -13,7 +15,7 @@ const store = [
     "id": "1",
     "display_src": `https://i.imgur.com/3y7G9NA.png`,
     "price":"49.99",
-    "size":''
+    "size":""
   },
   {
     "code": "3",
@@ -40,7 +42,7 @@ const store = [
     "size":''
   },
   {
-    "code": "5",
+    "code": "6",
     "name": "Audio-Boy Sweatshirt (Limited)",
     "id": "1",
     "display_src": `https://i.imgur.com/3y7G9NA.png`,
