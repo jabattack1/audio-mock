@@ -4,7 +4,7 @@ const artistList = [
 	    "name": "The Electronic Auditory Rebels",
 	    "id": "1",
 	    "url":"/auditory",
-	    "mv":"https://www.youtube.com/embed/7LEmer7wwHI",
+	    "mv":"https://www.youtube.com/embed/U9z9jWbHY08",
 	    "bio":"This is the band that will help change pop culture. This is the band that will help change pop culture. This is the band that will help change pop culture. This is the band that will help change pop culture.This is the band that will help change pop culture. This is the band that will help change pop culture. This is the band that will help change pop culture. This is the band that will help change pop culture. This is the band that will help change pop culture. This is the band that will help change pop culture. This is the band that will help change pop culture. This is the band that will help change pop culture. This is the band that will help change pop culture.",
 	    "display_src": `https://i.imgur.com/AwJ6kdN.jpg`,
 	    "youtube":'',

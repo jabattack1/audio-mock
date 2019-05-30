@@ -84,7 +84,7 @@ class Items extends React.Component{
 		return(
 			<div className='always'>
 				<Navbar3 name={this.state.name}/>
-				<img className='itemMainPhoto' src={this.state.image1} />
+				<img className='itemMainPhoto' id='itemMPhoto' src={this.state.image1} />
 				<p className='itemMainPrice'>${this.state.price}</p>
 				<p className='itemMainDescription'>{this.state.description}</p>
 					<div class="sizeSelect">
@@ -120,7 +120,9 @@ class Items extends React.Component{
 						</ul>
 					</div>
 				<p className='itemMainColor'>{this.state.color}</p>
-				<button className='AddCart' id='button' value={this.state.name} onClick={() => this.addToCart()}>Add to Cart</button>
+				<Link href={`/shopping-cart`}>
+					<button className='AddCart' id='button' value={this.state.name} onClick={() => this.addToCart()}>Add to Cart</button>
+				</Link>
 			</div>
 		)
 	}
@@ -136,6 +138,7 @@ class Items extends React.Component{
 			let stuff;
 	    	let itemSize;
 	    	let itemName = document.getElementById('button').value;
+	    	let itemImage = document.getElementsByTagName("img")[0].src;
 
 	    	if (document.getElementById('s-option').checked) {
 	  			itemSize = document.getElementById('s-option').value;
@@ -149,13 +152,13 @@ class Items extends React.Component{
 			else if (document.getElementById('xl-option').checked) {
 	  			itemSize = document.getElementById('xl-option').value;
 			}
-			this.setState({size:itemSize,name:itemName})
+			this.setState({size:itemSize,name:itemName,image1:itemImage})
 
 			var myData = localStorage.getItem('state');
 
-			if(myData !== null){
+			if(myData !== null && myData !== 'nothing'){
 				let otherStuff = JSON.parse(myData)
-				let newStuff = {size:itemSize, name:itemName}
+				let newStuff = {size:itemSize, name:itemName, image1:itemImage}
 				let newArray =[];
 
 				if(otherStuff.length>1){
@@ -163,20 +166,17 @@ class Items extends React.Component{
 						newArray.push(otherStuff[i]);
 					}
 					newArray.push(newStuff);
-					console.log(newArray);
 					localStorage.setItem('state',JSON.stringify(newArray));
 				}
 				else{
-					console.log('dog')
 					let array = [otherStuff, newStuff]
 					let stuff = {...array}
 					localStorage.setItem('state',JSON.stringify(array));
 				}
 			}
 			else{
-				console.log('genie');
 				let myData = localStorage.getItem('state');
-				stuff = {size:itemSize,name:itemName}
+				stuff = {size:itemSize,name:itemName,image1:itemImage}
 				localStorage.setItem('state',JSON.stringify(stuff));
 			}
 

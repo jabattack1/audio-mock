@@ -1,5 +1,205 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/store.js"],{
 
+/***/ "./components/cart.js":
+/*!****************************!*\
+  !*** ./components/cart.js ***!
+  \****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var react_horizontal_scrolling_menu__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-horizontal-scrolling-menu */ "./node_modules/react-horizontal-scrolling-menu/build/index.js");
+/* harmony import */ var react_horizontal_scrolling_menu__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_horizontal_scrolling_menu__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../css/normalize.css */ "./css/normalize.css");
+/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_css_normalize_css__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../css/skeleton.css */ "./css/skeleton.css");
+/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_css_skeleton_css__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _css_style_css__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../css/style.css */ "./css/style.css");
+/* harmony import */ var _css_style_css__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_css_style_css__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var _css_shoppingCart_css__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../css/shoppingCart.css */ "./css/shoppingCart.css");
+/* harmony import */ var _css_shoppingCart_css__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_css_shoppingCart_css__WEBPACK_IMPORTED_MODULE_12__);
+
+
+
+
+
+var _jsxFileName = "/Users/peterhahn/src/new/audio-boy/components/cart.js";
+
+
+
+
+
+
+
+
+
+var Cart =
+/*#__PURE__*/
+function (_React$Component) {
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(Cart, _React$Component);
+
+  function Cart() {
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Cart);
+
+    return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Cart).apply(this, arguments));
+  }
+
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Cart, [{
+    key: "render",
+    value: function render() {
+      if (this.props.data) {
+        return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", {
+          className: "cartList",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 20
+          },
+          __self: this
+        }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
+          className: "cartItemImage",
+          src: this.props.data.image1,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 21
+          },
+          __self: this
+        }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+          className: "cartItemName",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 22
+          },
+          __self: this
+        }, this.props.data.name), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+          className: "cartItemSize",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 23
+          },
+          __self: this
+        }, this.props.data.size), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+          className: "cartItemQuantity",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 24
+          },
+          __self: this
+        }, "Qty:"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+          className: "custom-select",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 25
+          },
+          __self: this
+        }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("select", {
+          className: "select-selected",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 26
+          },
+          __self: this
+        }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("option", {
+          value: "1",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 27
+          },
+          __self: this
+        }, "1"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("option", {
+          value: "2",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 28
+          },
+          __self: this
+        }, "2"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("option", {
+          value: "3",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 29
+          },
+          __self: this
+        }, "3"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("option", {
+          value: "4",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 30
+          },
+          __self: this
+        }, "4"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("option", {
+          value: "5",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 31
+          },
+          __self: this
+        }, "5"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("option", {
+          value: "6",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 32
+          },
+          __self: this
+        }, "6"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("option", {
+          value: "7",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 33
+          },
+          __self: this
+        }, "7"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("option", {
+          value: "8",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 34
+          },
+          __self: this
+        }, "8"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("option", {
+          value: "9",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 35
+          },
+          __self: this
+        }, "9"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("option", {
+          value: "10",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 36
+          },
+          __self: this
+        }, "10"))));
+      }
+
+      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", {
+        className: "cartList",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 44
+        },
+        __self: this
+      }, "Your shopping cart is empty");
+    }
+  }]);
+
+  return Cart;
+}(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
+
+/* harmony default export */ __webpack_exports__["default"] = (Cart);
+
+/***/ }),
+
 /***/ "./components/footer2.js":
 /*!*******************************!*\
   !*** ./components/footer2.js ***!
@@ -221,6 +421,7 @@ function (_React$Component) {
       var stuff;
       var itemSize;
       var itemName = document.getElementById('button').value;
+      var itemImage = document.getElementsByTagName("img")[0].src;
 
       if (document.getElementById('s-option').checked) {
         itemSize = document.getElementById('s-option').value;
@@ -234,15 +435,17 @@ function (_React$Component) {
 
       this.setState({
         size: itemSize,
-        name: itemName
+        name: itemName,
+        image1: itemImage
       });
       var myData = localStorage.getItem('state');
 
-      if (myData !== null) {
+      if (myData !== null && myData !== 'nothing') {
         var otherStuff = JSON.parse(myData);
         var newStuff = {
           size: itemSize,
-          name: itemName
+          name: itemName,
+          image1: itemImage
         };
         var newArray = [];
 
@@ -252,10 +455,8 @@ function (_React$Component) {
           }
 
           newArray.push(newStuff);
-          console.log(newArray);
           localStorage.setItem('state', _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_1___default()(newArray));
         } else {
-          console.log('dog');
           var array = [otherStuff, newStuff];
 
           var _stuff = Object(_babel_runtime_corejs2_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_0__["default"])({}, array);
@@ -263,13 +464,12 @@ function (_React$Component) {
           localStorage.setItem('state', _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_1___default()(array));
         }
       } else {
-        console.log('genie');
-
         var _myData = localStorage.getItem('state');
 
         stuff = {
           size: itemSize,
-          name: itemName
+          name: itemName,
+          image1: itemImage
         };
         localStorage.setItem('state', _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_1___default()(stuff));
       }
@@ -358,6 +558,7 @@ function (_React$Component) {
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("img", {
         className: "itemMainPhoto",
+        id: "itemMPhoto",
         src: this.state.image1,
         __source: {
           fileName: _jsxFileName,
@@ -550,7 +751,14 @@ function (_React$Component) {
           lineNumber: 122
         },
         __self: this
-      }, this.state.color), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("button", {
+      }, this.state.color), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_11___default.a, {
+        href: "/shopping-cart",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 123
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("button", {
         className: "AddCart",
         id: "button",
         value: this.state.name,
@@ -559,10 +767,10 @@ function (_React$Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 123
+          lineNumber: 124
         },
         __self: this
-      }, "Add to Cart"));
+      }, "Add to Cart")));
     }
   }, {
     key: "componentDidMount",
@@ -594,7 +802,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _footer2_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./footer2.js */ "./components/footer2.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
 var _jsxFileName = "/Users/peterhahn/src/new/audio-boy/components/layout3.js";
+
 
 
 
@@ -603,67 +814,90 @@ var Layout3 = function Layout3(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 7
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 8
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 9
     },
     __self: this
-  }, "Audio-Boy")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "topBanner",
+  }, "Audio-Boy"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
+    rel: "icon",
+    type: "image/png",
+    href: "https://i.imgur.com/msETczs.png",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "topBanner",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
     },
     __self: this
   }, "Subscribe ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "bold",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 13
     },
     __self: this
   }, "NOW"), " for our updates & promotions! ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "bold",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 13
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     className: "linkHere",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 13
     },
     __self: this
-  }, "OVER HERE"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "OVER HERE")), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    href: "/shopping-cart",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "goToCart",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, "Shopping Cart"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "containerWrapper",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 15
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 16
     },
     __self: this
   }, props.children)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_footer2_js__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 20
     },
     __self: this
   }));
@@ -842,24 +1076,32 @@ function (_React$Component) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-/* harmony import */ var _css_artist_css__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../css/artist.css */ "./css/artist.css");
-/* harmony import */ var _css_artist_css__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_css_artist_css__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../css/normalize.css */ "./css/normalize.css");
-/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_css_normalize_css__WEBPACK_IMPORTED_MODULE_11__);
-/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../css/skeleton.css */ "./css/skeleton.css");
-/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_css_skeleton_css__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/extends */ "./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _cart_js__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./cart.js */ "./components/cart.js");
+/* harmony import */ var _navbar3_js__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./navbar3.js */ "./components/navbar3.js");
+/* harmony import */ var _css_artist_css__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../css/artist.css */ "./css/artist.css");
+/* harmony import */ var _css_artist_css__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_css_artist_css__WEBPACK_IMPORTED_MODULE_14__);
+/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../css/normalize.css */ "./css/normalize.css");
+/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_css_normalize_css__WEBPACK_IMPORTED_MODULE_15__);
+/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../css/skeleton.css */ "./css/skeleton.css");
+/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(_css_skeleton_css__WEBPACK_IMPORTED_MODULE_16__);
+/* harmony import */ var _css_shoppingCart_css__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../css/shoppingCart.css */ "./css/shoppingCart.css");
+/* harmony import */ var _css_shoppingCart_css__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(_css_shoppingCart_css__WEBPACK_IMPORTED_MODULE_17__);
+
 
 
 
@@ -875,70 +1117,208 @@ var _jsxFileName = "/Users/peterhahn/src/new/audio-boy/components/shopping-cart.
 
 
 
+
+
+
+
 var ShoppingCart =
 /*#__PURE__*/
 function (_React$Component) {
-  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__["default"])(ShoppingCart, _React$Component);
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__["default"])(ShoppingCart, _React$Component);
 
   function ShoppingCart() {
     var _this;
 
-    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, ShoppingCart);
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__["default"])(this, ShoppingCart);
 
-    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(ShoppingCart).call(this)); // console.log('sight');
-    // console.log(this.state);
-    // var myData = localStorage.getItem('state');
-    // console.log(JSON.parse(myData));
-    // this.state={
-    // }
+    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__["default"])(ShoppingCart).call(this));
 
-    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "state", {});
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this), "state", {});
+
+    if (typeof localStorage === "undefined") {
+      _this.state = {
+        data: ''
+      };
+    } else if (localStorage.getItem('state') !== null && localStorage.getItem('state') !== 'nothing') {
+      var data = localStorage.getItem('state');
+      var parsedData = JSON.parse(data);
+      _this.state = {
+        data: parsedData
+      };
+    } else {
+      _this.state = {
+        data: ''
+      };
+    }
 
     return _this;
   }
 
-  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(ShoppingCart, [{
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__["default"])(ShoppingCart, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "artistArea",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 32
-        },
-        __self: this
-      });
+      var _this2 = this;
+
+      if (this.state.data === '') {
+        return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+          className: "shoppingCartArea",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 50
+          },
+          __self: this
+        }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_navbar3_js__WEBPACK_IMPORTED_MODULE_13__["default"], {
+          name: "Shopping Cart",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 51
+          },
+          __self: this
+        }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("ul", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 52
+          },
+          __self: this
+        }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_cart_js__WEBPACK_IMPORTED_MODULE_12__["default"], {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 53
+          },
+          __self: this
+        }), ")}"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
+          href: "/shopping-cart",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 55
+          },
+          __self: this
+        }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("p", {
+          className: "goToCartFromCart",
+          onClick: this.clear,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 55
+          },
+          __self: this
+        }, "Delete All Items")));
+      } else if (this.state.data.length == undefined) {
+        console.log('loca');
+        return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+          className: "shoppingCartArea",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 63
+          },
+          __self: this
+        }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_navbar3_js__WEBPACK_IMPORTED_MODULE_13__["default"], {
+          name: "Shopping Cart",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 64
+          },
+          __self: this
+        }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("ul", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 65
+          },
+          __self: this
+        }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_cart_js__WEBPACK_IMPORTED_MODULE_12__["default"], {
+          key: "1",
+          i: "1",
+          data: this.state.data,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 66
+          },
+          __self: this
+        }), ")}"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
+          href: "/shopping-cart",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 68
+          },
+          __self: this
+        }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("p", {
+          className: "goToCartFromCart",
+          onClick: this.clear,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 68
+          },
+          __self: this
+        }, "Delete All Items")));
+      } else {
+        console.log('Titacion');
+        return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+          className: "shoppingCartArea",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 75
+          },
+          __self: this
+        }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_navbar3_js__WEBPACK_IMPORTED_MODULE_13__["default"], {
+          name: "Shopping Cart",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 76
+          },
+          __self: this
+        }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("ul", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 77
+          },
+          __self: this
+        }, this.state.data.map(function (data, i) {
+          return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_cart_js__WEBPACK_IMPORTED_MODULE_12__["default"], Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, _this2.parsedData, {
+            key: i,
+            i: i,
+            data: data,
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 78
+            },
+            __self: this
+          }));
+        })), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
+          href: "/shopping-cart",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 80
+          },
+          __self: this
+        }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("p", {
+          className: "goToCartFromCart",
+          onClick: this.clear,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 80
+          },
+          __self: this
+        }, "Delete All Items")));
+      }
+    }
+  }, {
+    key: "clear",
+    value: function clear() {
+      console.log('famicon');
+      localStorage.clear();
+      location.reload();
+      localStorage.setItem('state', 'nothing');
+      console.log(localStorage.getItem('state'));
     }
   }, {
     key: "componentDidMount",
-    value: function componentDidMount() {// let array=[];
-      //    for (var key in this.props) {
-      //    	array.push(this.props[key]);
-      // }
-      //    for(var i=0;i<this.props.length;i++){
-      //    	array.push(props[i]);
-      //    }
-      //    if(this.state.length>0){
-      //    	console.log('dog');
-      // 	var joined = this.state.myArray.concat(array);
-      // }
-      // else{
-      // 	console.log('cat');
-      // 	var joined=array
-      // 	this.setState({ myArray: joined })
-      // }
-      // this.setState({ myArray: joined })
-      // console.log(this);
-    }
+    value: function componentDidMount() {}
   }, {
     key: "componentWillUnmount",
-    value: function componentWillUnmount() {// console.log(this.state)
-      // this.state = this.state;
-    }
+    value: function componentWillUnmount() {}
   }]);
 
   return ShoppingCart;
-}(react__WEBPACK_IMPORTED_MODULE_7___default.a.Component);
+}(react__WEBPACK_IMPORTED_MODULE_8___default.a.Component);
 
 /* harmony default export */ __webpack_exports__["default"] = (ShoppingCart);
 
@@ -1504,6 +1884,39 @@ function _defineProperty(obj, key, value) {
   }
 
   return obj;
+}
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js ***!
+  \********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _extends; });
+/* harmony import */ var _core_js_object_assign__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/assign */ "./node_modules/@babel/runtime-corejs2/core-js/object/assign.js");
+/* harmony import */ var _core_js_object_assign__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_assign__WEBPACK_IMPORTED_MODULE_0__);
+
+function _extends() {
+  _extends = _core_js_object_assign__WEBPACK_IMPORTED_MODULE_0___default.a || function (target) {
+    for (var i = 1; i < arguments.length; i++) {
+      var source = arguments[i];
+
+      for (var key in source) {
+        if (Object.prototype.hasOwnProperty.call(source, key)) {
+          target[key] = source[key];
+        }
+      }
+    }
+
+    return target;
+  };
+
+  return _extends.apply(this, arguments);
 }
 
 /***/ }),
@@ -10554,6 +10967,17 @@ module.exports = (__webpack_require__(/*! dll-reference dll_6dc2816e14fab51b8269
 
 /***/ }),
 
+/***/ "./node_modules/react-horizontal-scrolling-menu/build/index.js":
+/*!*********************************************************************!*\
+  !*** ./node_modules/react-horizontal-scrolling-menu/build/index.js ***!
+  \*********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports=function(e){var t={};function n(r){if(t[r])return t[r].exports;var i=t[r]={i:r,l:!1,exports:{}};return e[r].call(i.exports,i,i.exports,n),i.l=!0,i.exports}return n.m=e,n.c=t,n.d=function(e,t,r){n.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:r})},n.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},n.t=function(e,t){if(1&t&&(e=n(e)),8&t)return e;if(4&t&&"object"==typeof e&&e&&e.__esModule)return e;var r=Object.create(null);if(n.r(r),Object.defineProperty(r,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var i in e)n.d(r,i,function(t){return e[t]}.bind(null,i));return r},n.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return n.d(t,"a",t),t},n.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},n.p="",n(n.s=2)}([function(e,t){e.exports=__webpack_require__(/*! react */ "./node_modules/react/index.js")},function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var r={alignItems:"center",display:"flex",userSelect:"none"};t.defaultMenuStyle=r;var i={overflow:"hidden",userSelect:"none"};t.defaultWrapperStyle=i;var s={alignCenter:!0,alignOnResize:!0,arrowClass:"scroll-menu-arrow",arrowDisabledClass:"scroll-menu-arrow--disabled",arrowLeft:null,arrowRight:null,clickWhenDrag:!1,data:[],dragging:!0,hideArrows:!1,hideSingleArrow:!1,inertiaScrolling:!1,inertiaScrollingSlowdown:.25,innerWrapperClass:"menu-wrapper--inner",innerWrapperStyle:{textAlign:"left",userSelect:"none",whiteSpace:"nowrap"},itemClass:"menu-item-wrapper",itemClassActive:"active",itemStyle:{display:"inline-block"},menuClass:"horizontal-menu",menuStyle:r,onSelect:function(){return!1},onUpdate:function(){return!1},scrollBy:0,scrollToSelected:!1,selected:"",transition:.4,translate:0,useButtonRole:!0,wrapperClass:"menu-wrapper",wrapperStyle:i,wheel:!0,xPoint:0};t.defaultProps=s},function(e,t,n){"use strict";var r=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(t,"__esModule",{value:!0});var i=r(n(3));t.default=i.default},function(e,t,n){"use strict";var r=this&&this.__extends||function(){var e=function(t,n){return(e=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(e,t){e.__proto__=t}||function(e,t){for(var n in t)t.hasOwnProperty(n)&&(e[n]=t[n])})(t,n)};return function(t,n){function r(){this.constructor=t}e(t,n),t.prototype=null===n?Object.create(n):(r.prototype=n.prototype,new r)}}(),i=this&&this.__assign||function(){return(i=Object.assign||function(e){for(var t,n=1,r=arguments.length;n<r;n++)for(var i in t=arguments[n])Object.prototype.hasOwnProperty.call(t,i)&&(e[i]=t[i]);return e}).apply(this,arguments)},s=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(t,"__esModule",{value:!0});var a=s(n(0)),o=n(1),l=n(4),u=n(5),d=function(e){function t(t){var n=e.call(this,t)||this;return n.state={dragging:!1,firstItemVisible:!0,lastItemVisible:!1,leftArrowVisible:!1,rightArrowVisible:!0,startDragTranslate:0,translate:n.props.translate,xDraggedDistance:0,xPoint:0},n.setRef=function(e){var t=Object.entries(e)[0],r=t[0],i=t[1];i.elem&&(n.ref[r]=i)},n.setMenuInnerRef=function(e){n.menuInner=e},n.setWrapperRef=function(e){n.menuWrapper=e},n.checkFirstLastItemVisibility=function(e){var t=e.translate,r=void 0===t?n.state.translate:t,i=n.menuItems,s=!0,a=!1;if(i){var o=n.getVisibleItems({offset:r});s=o.includes(i[0]),a=o.includes(i.slice(-1)[0])}return{firstItemVisible:s,lastItemVisible:a}},n.setFirstLastItemVisibility=function(){var e=n.state,t=e.firstItemVisible,r=e.lastItemVisible,i=n.checkFirstLastItemVisibility({}),s=i.firstItemVisible,a=i.lastItemVisible;if(t!==s||r!==a){var o=!s,l=!a;n.setState({firstItemVisible:s,lastItemVisible:a,leftArrowVisible:o,rightArrowVisible:l})}},n.onLoad=function(){n.setInitial(),n.mounted=!0},n.resizeHandler=function(){if(!n.props.alignOnResize)return!1;clearTimeout(n.resizeTimer),n.resizeTimer=setTimeout(function(){return n.resize()},250)},n.resize=function(){var e=n.props.alignCenter;n.updateWidth({});var t=n.getVisibleItems({}),r=n.getOffsetToItemByIndex({index:t[0]&&t[0][1].index||0}),i=e?n.getCenterOffset({items:t}):0;n.setState({translate:-r+i})},n.setInitial=function(){var e=n.props,t=e.selected,r=e.data,s=e.translate,a=e.scrollToSelected,u=e.alignCenter,d=n.state.translate;if(!r||!r.length)return!1;n.menuItems.length&&r===n.data||(n.menuItems=n.getMenuItems(),n.data=r),n.updateWidth({});var f=i({},n.state);(!n.mounted&&s===o.defaultProps.translate||!l.translateIsValid(s)&&!l.translateIsValid(d))&&(f.translate=u?n.firstPageOffset:o.defaultProps.translate);var c=n.checkFirstLastItemVisibility({translate:s}),m=c.firstItemVisible,p=c.lastItemVisible;(f.firstItemVisible=m,f.lastItemVisible=p,f.leftArrowVisible=!m,f.rightArrowVisible=!p,a)&&(n.isScrollNeeded({itemId:t,translate:f.translate})&&(f.translate=n.getOffsetToItemByKey(t)));n.setState(i({},f))},n.isScrollNeeded=function(e){var t=e.itemId,r=e.translate,i=void 0===r?n.state.translate:r,s=(n.menuItems,n.getItemByKey(t));return!n.getVisibleItems({offset:i}).includes(s)},n.scrollTo=function(e){var t=n.state.translate,r=n.getOffsetToItemByKey(e);if(n.selected=e,t===r)return!1;n.setState({translate:r})},n.getMenuItems=function(){return Object.entries(n.ref).slice(0,n.props.data.length||0)},n.getItemsWidth=function(e){var t=e.items;return(void 0===t?n.menuItems:t).map(function(e){return e[1].elem}).filter(Boolean).reduce(function(e,t){return e+l.getClientRect(t).width},0)},n.getWidth=function(e){var t=e.items,r=window&&window.innerWidth,i=l.getClientRect(n.menuWrapper);return{wWidth:r,menuPos:i.x,menuWidth:i.width,allItemsWidth:n.getItemsWidth({items:t})}},n.updateWidth=function(e){var t=e.items,r=void 0===t?n.menuItems:t,i=n.getWidth({items:r}),s=i.wWidth,a=i.menuPos,o=i.menuWidth,l=i.allItemsWidth,u=n.getPagesOffsets({allItemsWidth:l,items:r,menuPos:a,menuWidth:o,wWidth:s}),d=u.firstPageOffset,f=u.lastPageOffset;n.menuPos=a,n.wWidth=s,n.allItemsWidth=l,n.menuWidth=o,n.firstPageOffset=d,n.lastPageOffset=f},n.getFirstPageOffset=function(e){var t=e.items,r=void 0===t?n.menuItems:t,i=e.offset,s=void 0===i?n.state.translate:i,a=e.menuWidth,o=void 0===a?n.menuWidth:a,l=n.getVisibleItems({items:r,menuWidth:o,offset:s});return n.getCenterOffset({items:l,menuWidth:o})},n.getLastPageOffset=function(e){var t=e.items,r=void 0===t?n.menuItems:t,i=e.allItemsWidth,s=void 0===i?n.allItemsWidth:i,a=e.wWidth,o=(void 0===a&&n.wWidth,e.menuPos),l=(void 0===o&&n.menuPos,e.menuWidth),u=void 0===l?n.menuWidth:l,d=n.getVisibleItems({items:r,menuWidth:u,offset:-s+u});return n.getCenterOffset({items:d,menuWidth:u})},n.getPagesOffsets=function(e){var t=e.items,r=void 0===t?n.menuItems:t,i=e.allItemsWidth,s=void 0===i?n.allItemsWidth:i,a=e.wWidth,o=void 0===a?n.wWidth:a,l=e.menuPos,u=void 0===l?n.menuPos:l,d=e.menuWidth,f=void 0===d?n.menuWidth:d,c=e.offset,m=void 0===c?n.state.translate:c;return{firstPageOffset:n.getFirstPageOffset({items:r,menuPos:u,menuWidth:f,offset:m,wWidth:o}),lastPageOffset:n.getLastPageOffset({allItemsWidth:s,items:r,menuPos:u,menuWidth:f,wWidth:o})}},n.onItemClick=function(e){var t=n.props,r=t.clickWhenDrag,i=t.onSelect;if(n.state.xDraggedDistance>5&&!r)return!1;n.selected=e,i&&i(e)},n.getVisibleItems=function(e){var t=e.items,r=void 0===t?n.menuItems:t,i=e.menuWidth,s=void 0===i?n.menuWidth:i,a=e.offset,u=void 0===a?n.state.translate:a,d=e.translate,f=void 0===d?n.state.translate||o.defaultProps.translate:d;return r.filter(function(e){var t=l.getClientRect(e[1].elem).width,i=n.getItemInd(r,e),a=n.getOffsetToItemByIndex({index:i,menuItems:r,translate:f});return n.elemVisible({elWidth:t,menuWidth:s,offset:u,x:a})})},n.elemVisible=function(e){var t=e.x,r=e.offset,i=void 0===r?0:r,s=e.elWidth,a=e.menuWidth,o=void 0===a?n.menuWidth:a,l=t+i;return l>=-1&&l+s<=o+1},n.getItemInd=function(e,t){return void 0===e&&(e=n.menuItems),e&&t?e.findIndex(function(e){return e[0]===t[0]}):0},n.getNextItemInd=function(e,t){var r=n.menuItems;if(e){if(!t.length)return 0}else if(!t.length)return r.length;var i=e?n.getItemInd(r,t[0])-1:n.getItemInd(r,t.slice(-1)[0])+1;return i<0?0:i},n.getOffsetToItemByKey=function(e){var t=n.state.translate,r=n.getItemIndexByKey(e);if(-1===r)return t;var i=n.props.alignCenter;t=n.getOffsetToItemByIndex({index:r});var s=n.getVisibleItems({offset:-t});return t=-(t-(i?n.getCenterOffset({items:s}):o.defaultProps.translate)),n.itBeforeStart(t)?t=n.getOffsetAtStart():n.itAfterEnd(t)&&(t=n.getOffsetAtEnd()),t},n.getItemByKey=function(e){return n.menuItems.find(function(t){return t[1].key===e})||["null",{key:"n",elem:null,index:-1}]},n.getItemIndexByKey=function(e){return e?n.menuItems.findIndex(function(t){return t[1].key===e}):-1},n.getOffsetToItemByIndex=function(e){var t=e.index,r=e.menuItems,i=void 0===r?n.menuItems:r,s=e.translate,a=void 0===s?n.state.translate:s;if(!i.length)return 0;var o=t>=i.length?i.length-1:t;return+l.getClientRect(i[o][1].elem).x-a-n.menuPos},n.getScrollRightOffset=function(e,t){void 0===t&&(t=n.menuItems);var r=n.props.scrollBy,i=r?e[0][1].index+r:n.getNextItem((e.slice(-1)[0]&&e.slice(-1)||t.slice(-1))[0][1].key)[1].index;return-n.getOffsetToItemByIndex({index:i,menuItems:t})},n.getScrollLeftOffset=function(e,t){void 0===t&&(t=n.menuItems);var r=n.props.scrollBy,i=n.getPrevItem((e[0]&&e[0][1]||t[0][1]).key)[1].index-(r?r-1:e.length);return-n.getOffsetToItemByIndex({index:i<0?0:i,menuItems:t})},n.getNextItem=function(e){var t=n.menuItems;return t[t.findIndex(function(t){return t[1].key===e})+1]||t.slice(-1)[0]},n.getPrevItem=function(e){var t=n.menuItems;return t[t.findIndex(function(t){return t[1].key===e})-1]||t[0]},n.getOffset=function(e,t){void 0===t&&(t=n.menuItems);var r=n.getVisibleItems({items:t});return e?n.getScrollLeftOffset(r,t):n.getScrollRightOffset(r,t)},n.getCenterOffset=function(e){var t=e.items,r=void 0===t?n.menuItems:t,i=e.menuWidth,s=void 0===i?n.menuWidth:i;return r.length?(s-n.getItemsWidth({items:r}))/2:0},n.handleWheel=function(e){if(!n.props.wheel)return!1;e.deltaY<0?n.handleArrowClick():n.handleArrowClick(!1)},n.getOffsetAtStart=function(){var e=n.firstPageOffset;return n.props.alignCenter?e:o.defaultProps.translate},n.getOffsetAtEnd=function(){var e=n.props.alignCenter,t=n,r=t.allItemsWidth,i=t.menuWidth,s=t.lastPageOffset,a=r-i;return e?-a-s:-a},n.handleArrowClickRight=function(){n.handleArrowClick(!1)},n.handleArrowClick=function(e){void 0===e&&(e=!0);var t=n.props.alignCenter,r=n,i=r.allItemsWidth,s=r.menuWidth;if(!t&&!e&&i<s)return!1;var a=0,l=n.getVisibleItems({}),u=l[0]&&0===l[0][1].index,d=l.slice(-1)[0]&&l.slice(-1)[0][1].index===n.menuItems.length-1,f=n.getOffset(e);if(e&&(u||n.itBeforeStart(f)))a=n.getOffsetAtStart();else if(e||!d&&!n.itAfterEnd(f)){var c=t?n.getCenterOffset({items:n.getVisibleItems({offset:f})}):0;a=f+c}else a=n.getOffsetAtEnd();n.setState({startDragTranslate:0,translate:a,xDraggedDistance:0,xPoint:o.defaultProps.xPoint})},n.itBeforeStart=function(e){var t=n.props.alignCenter,r=n,i=r.menuWidth,s=r.allItemsWidth,a=r.firstPageOffset;return s<i||(t?e>a:e>o.defaultProps.translate)},n.itAfterEnd=function(e){var t=n.props.alignCenter,r=n,i=r.menuWidth,s=r.allItemsWidth,a=r.lastPageOffset;return s<i||(t?e<o.defaultProps.translate&&Math.abs(e)>s-i+a:e<o.defaultProps.translate&&Math.abs(e)>s-i)},n.getPoint=function(e){return"touches"in e?e.touches[0].clientX:"clientX"in e?e.clientX:0},n.handleDragStart=function(e){if(e&&"buttons"in e&&2===e.buttons)return!1;if(!n.props.dragging)return!1;var t=n.state.translate;n.dragHistory=[{time:Date.now(),position:t}],n.setState({dragging:!0,startDragTranslate:t,xDraggedDistance:0,xPoint:0})},n.handleDrag=function(e){var t=n.props.dragging,r=n.state,i=r.translate,s=r.dragging,a=r.xPoint,l=r.xDraggedDistance;if(!t||!s)return!1;var u=n.getPoint(e),d=a===o.defaultProps.xPoint?o.defaultProps.xPoint:a-u,f=i-d;n.itBeforeStart(f)?f-=Math.abs(d)/2:n.itAfterEnd(f)&&(f+=Math.abs(d)/2),0!==d&&n.dragHistory.push({time:Date.now(),position:f});var c=f;n.setState({translate:c,xDraggedDistance:l+Math.abs(d),xPoint:u})},n.handleDragStop=function(e){var t=n,r=t.allItemsWidth,i=t.menuWidth,s=n.state,a=s.translate,l=s.xPoint,u=void 0===l?n.getPoint(e):l,d=n.state,f=d.dragging,c=d.startDragTranslate,m=n.props,p=m.dragging,g=m.alignCenter;if(!p||!f)return!1;if(n.props.inertiaScrolling){var h=Date.now(),v=n.dragHistory.filter(function(e){return h-e.time<150});if(v.length>2){var I=v[0],y=v[v.length-1],w=(y.position-I.position)/(y.time-I.time);a+=(w*=n.props.inertiaScrollingSlowdown)*(1e3*n.props.transition)}}var P=a;n.itBeforeStart(a)?(P=n.getOffsetAtStart(),u=o.defaultProps.xPoint):n.itAfterEnd(a)&&(P=n.getOffsetAtEnd(),u=o.defaultProps.xPoint),!g&&r<=i&&(P=o.defaultProps.translate,u=o.defaultProps.xPoint),n.setState({dragging:!1,translate:P,xPoint:u},function(){return n.onUpdate({translate:P,translateOld:c})})},n.isArrowsVisible=function(){var e=n,t=e.allItemsWidth,r=e.menuWidth,i=e.props.hideArrows;return!Boolean(i&&t<=r)},n.onUpdate=function(e){var t=e.translate,r=void 0===t?n.state.translate:t,i=e.translateOld,s=void 0===i?n.state.translate:i,a=n.props.onUpdate,o=n.lastTranslateUpdate;r!==s&&r!==o&&(n.lastTranslateUpdate=r,"function"==typeof a&&a({translate:r}))},n.ref={},n.menuWrapper=null,n.menuInner=null,n.mounted=!1,n.needUpdate=!1,n.allItemsWidth=0,n.menuPos=0,n.menuWidth=0,n.wWidth=0,n.firstPageOffset=0,n.lastPageOffset=0,n.lastTranslateUpdate=0,n.menuItems=[],n.selected=String(t.selected)||"",n.onLoadTimer=0,n.rafTimer=0,n.resizeTimer=0,n.data=null,n.dragHistory=[],f(n),n}return r(t,e),t.prototype.componentDidMount=function(){var e=this;this.setInitial(),window.requestAnimationFrame=window.requestAnimationFrame||function(){return!1};var t=l.testPassiveEventSupport(),n=!t||{passive:!0,capture:!0},r=!!t&&{passive:!0,capture:!1};window.addEventListener("load",this.onLoad,r),window.addEventListener("resize",this.resizeHandler,r),document.addEventListener("mousemove",this.handleDrag,n),document.addEventListener("mouseup",this.handleDragStop,n),this.onLoadTimer=setTimeout(function(){return e.onLoad(),e.forceUpdate()},0)},t.prototype.shouldComponentUpdate=function(e,t){var n=this.state,r=n.translate,i=n.dragging,s=n.firstItemVisible,a=n.lastItemVisible,o=t.translate,u=t.dragging,d=t.firstItemVisible,f=t.lastItemVisible,c=this.props,m=c.translate,p=c.selected,g=c.scrollToSelected,h=e.translate,v=e.selected,I=l.notUndefOrNull(h)&&m!==h,y=h!==o||r!==o||I,w=l.notUndefOrNull(v)&&p!==v,P=w||this.selected!==v,b=y||P,W=s!==d,S=a!==f,O=o,C=this.props.data!==e.data||this.props.data.length!==e.data.length,x=l.translateIsValid(h)&&I&&!C;return(C||g&&w)&&(this.needUpdate=!0),b&&(w&&(this.selected=v),x&&(O=h)),x&&this.setState({translate:+O}),C||y||i!==u||b||W||S},t.prototype.componentDidUpdate=function(e,t){var n=this;this.needUpdate&&(this.needUpdate=!1,this.onLoad());var r=t.translate,i=this.state,s=i.translate;i.dragging||r===s||this.onUpdate({translate:s,translateOld:r});var a=this.props,o=a.hideSingleArrow,l=a.transition;o&&(requestAnimationFrame(this.setFirstLastItemVisibility),this.rafTimer=setTimeout(function(){return requestAnimationFrame(n.setFirstLastItemVisibility)},1e3*l+10))},t.prototype.componentWillUnmount=function(){window.removeEventListener("resize",this.resizeHandler),document.removeEventListener("mousemove",this.handleDrag),document.removeEventListener("mouseup",this.handleDragStop),clearTimeout(this.rafTimer),clearTimeout(this.onLoadTimer),clearTimeout(this.resizeTimer)},t.prototype.render=function(){var e=this.props,t=e.arrowClass,n=e.arrowDisabledClass,r=e.arrowLeft,s=e.arrowRight,l=e.data,d=e.inertiaScrolling,f=e.innerWrapperStyle,c=e.innerWrapperClass,m=e.itemStyle,p=e.itemClass,g=e.itemClassActive,h=e.menuStyle,v=e.menuClass,I=e.transition,y=e.useButtonRole,w=e.wrapperClass,P=e.wrapperStyle,b=this.state,W=b.translate,S=b.dragging,O=b.leftArrowVisible,C=b.rightArrowVisible,x=this.selected,_=this.mounted;if(!l||!l.length)return null;var A=!_||this.isArrowsVisible(),V=i({},o.defaultMenuStyle,h),D=i({},o.defaultWrapperStyle,P),T=i({},o.defaultProps.itemStyle,m),k={className:t,disabledClass:n};return a.default.createElement("div",{className:v,style:V,onWheel:this.handleWheel},r&&a.default.createElement(u.ArrowWrapper,i({},k,{isDisabled:!A||!O,onClick:this.handleArrowClick}),r),a.default.createElement("div",{className:w,style:D,ref:this.setWrapperRef,onMouseDown:this.handleDragStart,onTouchStart:this.handleDragStart,onTouchEnd:this.handleDragStop,onMouseMove:this.handleDrag,onTouchMove:this.handleDrag},a.default.createElement(u.InnerWrapper,{data:l,translate:W,dragging:S,mounted:_,transition:_?I:0,selected:x,setRef:this.setRef,setMenuInnerRef:this.setMenuInnerRef,onClick:this.onItemClick,innerWrapperStyle:f,innerWrapperClass:c,itemStyle:T,itemClass:p,itemClassActive:g,inertiaScrolling:d,useButtonRole:y})),s&&a.default.createElement(u.ArrowWrapper,i({},k,{isDisabled:!A||!C,onClick:this.handleArrowClickRight}),s))},t.defaultProps=o.defaultProps,t}(a.default.Component);t.ScrollMenu=d;var f=function(e){+a.default.version.match(/^(\d{1,2})\./)[1]>=16&&(e.componentDidCatch=function(e,t){console.log("ScrollMenu catched error: ",e,t)})};t.default=d},function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});t.notUndefOrNull=function(e){return void 0!==e&&null!==e};t.getClientRect=function(e){if(!e||!e.getBoundingClientRect||"function"!=typeof e.getBoundingClientRect)return{width:0,x:0};var t=e.getBoundingClientRect(),n=t.left,r=void 0===n?0:n,i=t.width;return{width:void 0===i?0:i,x:+r}};t.formatTranslate=function(e){return+e.toFixed(0)};var r=function(e){return"number"==typeof e&&!isNaN(+e)};t.translateIsValid=r;t.validateTranslate=function(e,t){return r(e)?+e:t};t.testPassiveEventSupport=function(){var e=!1;try{var t={get passive(){return e=!0,!1}};window.addEventListener("testPassiveEventSupport",t,t),window.removeEventListener("testPassiveEventSupport",t,t)}catch(t){e=!1}return e}},function(e,t,n){"use strict";var r=this&&this.__extends||function(){var e=function(t,n){return(e=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(e,t){e.__proto__=t}||function(e,t){for(var n in t)t.hasOwnProperty(n)&&(e[n]=t[n])})(t,n)};return function(t,n){function r(){this.constructor=t}e(t,n),t.prototype=null===n?Object.create(n):(r.prototype=n.prototype,new r)}}(),i=this&&this.__assign||function(){return(i=Object.assign||function(e){for(var t,n=1,r=arguments.length;n<r;n++)for(var i in t=arguments[n])Object.prototype.hasOwnProperty.call(t,i)&&(e[i]=t[i]);return e}).apply(this,arguments)},s=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(t,"__esModule",{value:!0});var a=s(n(0)),o=n(1),l={disabledClass:o.defaultProps.arrowDisabledClass},u=function(e){function t(){return null!==e&&e.apply(this,arguments)||this}return r(t,e),t.prototype.render=function(){var e=this.props,t=e.isDisabled,n=e.className,r=e.disabledClass,i=e.onClick,s=e.children,o=n+" "+(t?r:"");return a.default.createElement("div",{className:o,onClick:function(){return i()}},a.default.cloneElement(s,s.props))},t.defaultProps=l,t}(a.default.PureComponent);t.ArrowWrapper=u,t.innerStyle=function(e){var t=e.translate,n=e.dragging,r=e.mounted,i=e.transition,s=e.inertiaScrolling;return{transform:"translate3d("+t+"px, 0px, 0px)",transition:"transform "+(n||!r?"0":i)+"s"+(s?" ease-out":""),width:"9900px"}};var d=function(e){function n(){var t=null!==e&&e.apply(this,arguments)||this;return t.setMenuInnerRef=function(e){(0,t.props.setMenuInnerRef)({menuInner:{key:"menuInner",elem:e}})},t.setRef=function(e,n,r,i){var s;(0,t.props.setRef)(((s={})[e]={index:r,key:n,elem:i},s))},t.isElementActive=function(e,t){return String(e)===String(t)},t.setItems=function(e,n){return e.map(function(e){var r=e.props.onClick,i=void 0===r?function(){return!1}:r,s={onClick:function(){return t.forwardClickHandler(e.key,i)},selected:t.isElementActive(e.key,n)};return a.default.cloneElement(e,s)})},t.forwardClickHandler=function(e,n){return void 0===n&&(n=function(){return!1}),function(){var r=t.props.onClick;n(),r(e)}},t}return r(n,e),n.prototype.render=function(){var e=this,n=this.props,r=n.translate,s=n.dragging,o=n.mounted,l=n.transition,u=n.innerWrapperStyle,d=n.innerWrapperClass,f=n.itemStyle,c=n.itemClass,m=n.itemClassActive,p=n.data,g=n.selected,h=n.inertiaScrolling,v=n.useButtonRole,I=this.setItems(p,g),y=t.innerStyle({dragging:s,inertiaScrolling:h,mounted:o,transition:l,translate:r}),w=i({},y,u);return a.default.createElement("div",{className:d,style:w,ref:function(t){return e.setMenuInnerRef(t)}},I.map(function(t,n){return a.default.createElement("div",{ref:function(r){return e.setRef("menuitem-"+n,String(t.key||""),n,r)},className:c+" "+(t.props.selected?m:""),key:"menuItem-"+t.key,style:f,onClick:t.props.onClick(),tabIndex:1,role:v?"button":""},t)}))},n.defaultProps={data:[],dragging:!0,mounted:!1,selected:o.defaultProps.selected,transition:o.defaultProps.transition,translate:o.defaultProps.translate},n}(a.default.PureComponent);t.InnerWrapper=d}]);
+
+/***/ }),
+
 /***/ "./node_modules/react-is/cjs/react-is.development.js":
 /*!***********************************************************!*\
   !*** ./node_modules/react-is/cjs/react-is.development.js ***!
@@ -16890,11 +17314,104 @@ var StorePage = function StorePage(props) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-if (true) {}
+if (true) {
+  var x, i, j, selElmnt, a, b, c;
+
+  (function () {
+    var closeAllSelect = function closeAllSelect(elmnt) {
+      /* A function that will close all select boxes in the document,
+      except the current select box: */
+      var x,
+          y,
+          i,
+          arrNo = [];
+      x = document.getElementsByClassName("select-items");
+      y = document.getElementsByClassName("select-selected");
+
+      for (i = 0; i < y.length; i++) {
+        if (elmnt == y[i]) {
+          arrNo.push(i);
+        } else {
+          y[i].classList.remove("select-arrow-active");
+        }
+      }
+
+      for (i = 0; i < x.length; i++) {
+        if (arrNo.indexOf(i)) {
+          x[i].classList.add("select-hide");
+        }
+      }
+    };
+    /* If the user clicks anywhere outside the select box,
+    then close all select boxes: */
+
+
+    /* Look for any elements with the class "custom-select": */
+    x = document.getElementsByClassName("custom-select");
+
+    for (i = 0; i < x.length; i++) {
+      selElmnt = x[i].getElementsByTagName("select")[0];
+      /* For each element, create a new DIV that will act as the selected item: */
+
+      a = document.createElement("DIV");
+      a.setAttribute("class", "select-selected");
+      a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
+      x[i].appendChild(a);
+      /* For each element, create a new DIV that will contain the option list: */
+
+      b = document.createElement("DIV");
+      b.setAttribute("class", "select-items select-hide");
+
+      for (j = 1; j < selElmnt.length; j++) {
+        /* For each option in the original select element,
+        create a new DIV that will act as an option item: */
+        c = document.createElement("DIV");
+        c.innerHTML = selElmnt.options[j].innerHTML;
+        c.addEventListener("click", function (e) {
+          /* When an item is clicked, update the original select box,
+          and the selected item: */
+          var y, i, k, s, h;
+          s = this.parentNode.parentNode.getElementsByTagName("select")[0];
+          h = this.parentNode.previousSibling;
+
+          for (i = 0; i < s.length; i++) {
+            if (s.options[i].innerHTML == this.innerHTML) {
+              s.selectedIndex = i;
+              h.innerHTML = this.innerHTML;
+              y = this.parentNode.getElementsByClassName("same-as-selected");
+
+              for (k = 0; k < y.length; k++) {
+                y[k].removeAttribute("class");
+              }
+
+              this.setAttribute("class", "same-as-selected");
+              break;
+            }
+          }
+
+          h.click();
+        });
+        b.appendChild(c);
+      }
+
+      x[i].appendChild(b);
+      a.addEventListener("click", function (e) {
+        /* When the select box is clicked, close any other select boxes,
+        and open/close the current select box: */
+        e.stopPropagation();
+        closeAllSelect(this);
+        this.nextSibling.classList.toggle("select-hide");
+        this.classList.toggle("select-arrow-active");
+      });
+    }
+
+    document.addEventListener("click", closeAllSelect);
+  })();
+}
 
 /***/ }),
 
-/***/ 0:
+/***/ 9:
 /*!*************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fstore&absolutePagePath=%2FUsers%2Fpeterhahn%2Fsrc%2Fnew%2Faudio-boy%2Fpages%2Fstore.js ***!
   \*************************************************************************************************************************************/
@@ -16917,5 +17434,5 @@ module.exports = dll_6dc2816e14fab51b8269;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js","styles"]]]);
+},[[9,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=store.js.map
