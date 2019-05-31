@@ -1148,11 +1148,12 @@ hr {
 .grid-store{
   width: 250px;
   height:250px;
-  border: 2px solid white;
+  border: 1px solid white;
   background-color:black;
   overflow-y:hidden;
   white-space: normal;
   border-radius:5px;
+  margin-top:7px;
 }
 
 /*items*/
@@ -1177,8 +1178,8 @@ hr {
   margin:0 auto;
   background-position: center;
   margin-top:-17px;
-  border-bottom:2px solid white;
-  border-top:2px solid white;
+  border-bottom:1px solid white;
+  border-top:1px solid white;
 }
 
 .itemPrice{
@@ -1329,15 +1330,15 @@ h2 {
 }
 
 input[type=radio]:checked ~ .check {
-  border: 2px solid #0DFF92;
+  border: 2px solid #7FBFFF;
 }
 
 input[type=radio]:checked ~ .check::before{
-  background: #0DFF92;
+  background: #7FBFFF;
 }
 
 input[type=radio]:checked ~ label{
-  color: #0DFF92;
+  color: #7FBFFF;
 }
 
 .AddCart{
@@ -1999,8 +2000,27 @@ input[type=radio]:checked ~ label{
 	background-color:#FF6D6D;
 }
 
+.goToCartFromCart{
+	color:white;
+	position:relative;
+	/*top:80px;*/
+	left:0px;
+}
+
+.goToCartFromCart:hover{
+	cursor:pointer;
+	color:#D8D8D8;
+}
+
+
 .cartList{
 	margin-top:30px;
+	width:860px;
+	/*background-color:red;*/
+}
+
+.ah{
+	/*list-style-type: none;*/
 }
 
 .cartItemImage{
@@ -2093,6 +2113,11 @@ input[type=radio]:checked ~ label{
 
 .select-items div:hover, .same-as-selected {
   background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+.empty{
+	color:white;
 }
 
 

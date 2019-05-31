@@ -49,10 +49,10 @@ class ShoppingCart extends React.Component{
 			return(
 				<div className='shoppingCartArea'>
 					<Navbar3 name='Shopping Cart' />
-					<ul>
-						<Cart />)}		
-					</ul>
 					<Link href={`/shopping-cart`}><p className='goToCartFromCart' onClick={this.clear}>Delete All Items</p></Link>
+					<ul className='ah'>
+						<Cart />		
+					</ul>
 				</div>
 			)
 		}
@@ -62,10 +62,10 @@ class ShoppingCart extends React.Component{
 			return(
 				<div className='shoppingCartArea'>
 					<Navbar3 name='Shopping Cart' />
-					<ul>
-						<Cart key='1' i='1' data={this.state.data}/>)}		
-					</ul>
 					<Link href={`/shopping-cart`}><p className='goToCartFromCart' onClick={this.clear}>Delete All Items</p></Link>
+					<ul>
+						<Cart key='1' i='1' data={this.state.data}/>		
+					</ul>
 				</div>
 			)
 		}
@@ -74,10 +74,10 @@ class ShoppingCart extends React.Component{
 			return(
 				<div className='shoppingCartArea'>
 					<Navbar3 name='Shopping Cart' />
+					<Link href={`/shopping-cart`}><p className='goToCartFromCart' onClick={this.clear}>Delete All Items</p></Link>
 					<ul>
 					{this.state.data.map((data, i) => <Cart {...this.parsedData} key={i} i={i} data={data} />)}		
 					</ul>
-					<Link href={`/shopping-cart`}><p className='goToCartFromCart' onClick={this.clear}>Delete All Items</p></Link>
 				</div>
 			)
 		}

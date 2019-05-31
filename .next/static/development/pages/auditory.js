@@ -16438,7 +16438,7 @@ var AuditoryPage = function AuditoryPage(props) {
 
 /***/ }),
 
-/***/ 13:
+/***/ 9:
 /*!*******************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fauditory&absolutePagePath=%2FUsers%2Fpeterhahn%2Fsrc%2Fnew%2Faudio-boy%2Fpages%2Fauditory.js ***!
   \*******************************************************************************************************************************************/
@@ -16461,5 +16461,5 @@ module.exports = dll_6dc2816e14fab51b8269;
 
 /***/ })
 
-},[[13,"static/runtime/webpack.js","styles"]]]);
+},[[9,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=auditory.js.map

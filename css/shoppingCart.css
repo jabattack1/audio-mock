@@ -20,8 +20,27 @@
 	background-color:#FF6D6D;
 }
 
+.goToCartFromCart{
+	color:white;
+	position:relative;
+	/*top:80px;*/
+	left:0px;
+}
+
+.goToCartFromCart:hover{
+	cursor:pointer;
+	color:#D8D8D8;
+}
+
+
 .cartList{
 	margin-top:30px;
+	width:860px;
+	/*background-color:red;*/
+}
+
+.ah{
+	/*list-style-type: none;*/
 }
 
 .cartItemImage{
@@ -114,5 +133,10 @@
 
 .select-items div:hover, .same-as-selected {
   background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+.empty{
+	color:white;
 }
 

@@ -16,7 +16,6 @@ class Cart extends React.Component{
 		if(this.props.data){
 		
 			return(
-
 					<li className='cartList'>
 						<img className='cartItemImage' src={this.props.data.image1} />
 						<p className='cartItemName'>{this.props.data.name}</p>
@@ -40,9 +39,8 @@ class Cart extends React.Component{
 			)
 		}
 			return(
-
 					<li className='cartList'>
-						Your shopping cart is empty
+						<div className='empty'>Your shopping cart is empty</div>
 					</li>
 			)
 
