@@ -14,9 +14,9 @@ import '../css/bootstrap.css';
 
 const ShoppingCartPage = (props) => (
 	<Layout3>
-		<div>
+		<ul id='shoppingList'>
 			<ShoppingCart />
-		</div>
+		</ul>
 	</Layout3>
 );
 

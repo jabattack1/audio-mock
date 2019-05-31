@@ -277,6 +277,7 @@ function (_React$Component) {
           __self: this
         }, "10"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
           className: "deleteItem",
+          id: "x",
           onClick: this.deleteItem,
           __source: {
             fileName: _jsxFileName,
@@ -304,7 +305,18 @@ function (_React$Component) {
     }
   }, {
     key: "deleteItem",
-    value: function deleteItem() {}
+    value: function deleteItem(e) {
+      var items = document.querySelectorAll(".cartList");
+
+      for (var i = 0; i < items.length; i++) {
+        items[i].index = i;
+        items[i].addEventListener("click", function () {
+          console.log(this.index);
+        });
+      }
+
+      ;
+    }
   }]);
 
   return Cart;
@@ -2001,7 +2013,8 @@ var ShoppingCartPage = function ShoppingCartPage(props) {
       lineNumber: 16
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    id: "shoppingList",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17

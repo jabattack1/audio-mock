@@ -35,7 +35,7 @@ class Cart extends React.Component{
 						    <option value="10">10</option>
 						  </select>
 						</div>
-						<p className='deleteItem' onClick={this.deleteItem}>&#10005;</p>
+						<p className='deleteItem' id='x' onClick={this.deleteItem}>&#10005;</p>
 					</li>
 			)
 		}
@@ -47,8 +47,18 @@ class Cart extends React.Component{
 
 	}
 
-	deleteItem(){
+	deleteItem(e){
 
+		var items = document.querySelectorAll(".cartList");
+
+		for (var i=0; i<items.length; i++) {
+		    items[i].index = i;
+			
+		    items[i].addEventListener("click", function () {
+		        console.log(this.index);
+		    });
+		};
+		
 	}
 }
 
