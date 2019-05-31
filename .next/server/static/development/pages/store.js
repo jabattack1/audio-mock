@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 6);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -152,6 +152,8 @@ function (_React$Component) {
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Cart, [{
     key: "render",
     value: function render() {
+      console.log(this.props.data);
+
       if (this.props.data) {
         return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", {
           className: "cartList",
@@ -273,25 +275,36 @@ function (_React$Component) {
             lineNumber: 35
           },
           __self: this
-        }, "10"))));
+        }, "10"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+          className: "deleteItem",
+          onClick: this.deleteItem,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 38
+          },
+          __self: this
+        }, "\u2715"));
       }
 
       return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", {
         className: "cartList",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 42
+          lineNumber: 43
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "empty",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 43
+          lineNumber: 44
         },
         __self: this
       }, "Your shopping cart is empty"));
     }
+  }, {
+    key: "deleteItem",
+    value: function deleteItem() {}
   }]);
 
   return Cart;
@@ -519,6 +532,9 @@ function (_React$Component) {
       // localStorage.clear();
       var stuff;
       var itemSize;
+      var itemCode = document.getElementById('itemCode').value;
+      console.log('max');
+      console.log(itemCode);
       var itemName = document.getElementById('button').value;
       var itemImage = document.getElementsByTagName("img")[0].src;
 
@@ -535,7 +551,8 @@ function (_React$Component) {
       this.setState({
         size: itemSize,
         name: itemName,
-        image1: itemImage
+        image1: itemImage,
+        code: itemCode
       });
       var myData = localStorage.getItem('state');
 
@@ -544,7 +561,8 @@ function (_React$Component) {
         var newStuff = {
           size: itemSize,
           name: itemName,
-          image1: itemImage
+          image1: itemImage,
+          code: itemCode
         };
         var newArray = [];
 
@@ -568,13 +586,15 @@ function (_React$Component) {
         stuff = {
           size: itemSize,
           name: itemName,
-          image1: itemImage
+          image1: itemImage,
+          code: itemCode
         };
         localStorage.setItem('state', _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_1___default()(stuff));
       }
     });
 
     _this.addToCart = _this.addToCart.bind(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this));
+    console.log(_this.props);
     var store = _this.props.store;
     var itemNumber = _this.props.code.code;
     var result = store.filter(function (obj) {
@@ -584,6 +604,7 @@ function (_React$Component) {
     if (result) {
       result.map(function (e) {
         return _this.state = {
+          code: e.code,
           image1: e.display_src,
           name: e.name,
           price: e.price,
@@ -599,7 +620,8 @@ function (_React$Component) {
         price: '',
         description: '',
         color: '',
-        size: ''
+        size: '',
+        code: ''
       };
     }
 
@@ -622,11 +644,13 @@ function (_React$Component) {
         }
       };
 
+      console.log(this.state);
+
       if (this.state.size !== '') {
         return react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 78
+            lineNumber: 81
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(_shopping_cart_js__WEBPACK_IMPORTED_MODULE_14__["default"], {
@@ -635,7 +659,7 @@ function (_React$Component) {
           photo: this.state.image1,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 79
+            lineNumber: 82
           },
           __self: this
         }));
@@ -645,14 +669,14 @@ function (_React$Component) {
         className: "always",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 85
+          lineNumber: 88
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(_navbar3_js__WEBPACK_IMPORTED_MODULE_13__["default"], {
         name: this.state.name,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 86
+          lineNumber: 89
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("img", {
@@ -661,47 +685,57 @@ function (_React$Component) {
         src: this.state.image1,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 87
+          lineNumber: 90
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("p", {
         className: "itemMainPrice",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 88
+          lineNumber: 91
         },
         __self: this
       }, "$", this.state.price), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("p", {
         className: "itemMainDescription",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 89
+          lineNumber: 92
         },
         __self: this
-      }, this.state.description), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
+      }, this.state.description), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("input", {
+        className: "itemMainCode",
+        id: "itemCode",
+        value: this.state.code,
+        hidden: true,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 93
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
         class: "sizeSelect",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 90
+          lineNumber: 94
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 92
+          lineNumber: 96
         },
         __self: this
       }, "Size Select:"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("ul", {
         className: "sizeOptions",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 94
+          lineNumber: 98
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 95
+          lineNumber: 99
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("input", {
@@ -712,27 +746,27 @@ function (_React$Component) {
         onClick: check,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 96
+          lineNumber: 100
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("label", {
         for: "s-option",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 97
+          lineNumber: 101
         },
         __self: this
       }, "S"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
         class: "check",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 99
+          lineNumber: 103
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 102
+          lineNumber: 106
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("input", {
@@ -743,34 +777,34 @@ function (_React$Component) {
         onClick: check,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 103
+          lineNumber: 107
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("label", {
         for: "m-option",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 104
+          lineNumber: 108
         },
         __self: this
       }, "M"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
         class: "check",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 106
+          lineNumber: 110
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
         class: "inside",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 106
+          lineNumber: 110
         },
         __self: this
       }))), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 108
+          lineNumber: 112
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("input", {
@@ -781,34 +815,34 @@ function (_React$Component) {
         onClick: check,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 109
+          lineNumber: 113
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("label", {
         for: "l-option",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 110
+          lineNumber: 114
         },
         __self: this
       }, "L"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
         class: "check",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 112
+          lineNumber: 116
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
         class: "inside",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 112
+          lineNumber: 116
         },
         __self: this
       }))), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 114
+          lineNumber: 118
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("input", {
@@ -819,42 +853,42 @@ function (_React$Component) {
         onClick: check,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 115
+          lineNumber: 119
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("label", {
         for: "xl-option",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 116
+          lineNumber: 120
         },
         __self: this
       }, "XL"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
         class: "check",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 118
+          lineNumber: 122
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
         class: "inside",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 118
+          lineNumber: 122
         },
         __self: this
       }))))), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("p", {
         className: "itemMainColor",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 122
+          lineNumber: 126
         },
         __self: this
       }, this.state.color), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_11___default.a, {
         href: "/shopping-cart",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 123
+          lineNumber: 127
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("button", {
@@ -866,7 +900,7 @@ function (_React$Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 124
+          lineNumber: 128
         },
         __self: this
       }, "Add to Cart")));
@@ -2547,7 +2581,7 @@ if (false) { var x, i, j, selElmnt, a, b, c; }
 
 /***/ }),
 
-/***/ 6:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/store.js ***!
   \******************************/

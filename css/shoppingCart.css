@@ -1,5 +1,16 @@
 /*shopping cart page*/
 
+.deleteItem{
+	display:inline-block;
+	position:relative;
+	color:#FF3F3F;
+}
+
+.deleteItem:hover{
+	color:#FF6B6B;
+	cursor:pointer;
+}
+
 .shoppingCartArea{
 	min-height:450px;
 }

@@ -12,9 +12,9 @@ import '../css/shoppingCart.css';
 
 class Cart extends React.Component{
 	render(){
-
+		console.log(this.props.data);
 		if(this.props.data){
-		
+			
 			return(
 					<li className='cartList'>
 						<img className='cartItemImage' src={this.props.data.image1} />
@@ -35,6 +35,7 @@ class Cart extends React.Component{
 						    <option value="10">10</option>
 						  </select>
 						</div>
+						<p className='deleteItem' onClick={this.deleteItem}>&#10005;</p>
 					</li>
 			)
 		}
@@ -43,6 +44,10 @@ class Cart extends React.Component{
 						<div className='empty'>Your shopping cart is empty</div>
 					</li>
 			)
+
+	}
+
+	deleteItem(){
 
 	}
 }

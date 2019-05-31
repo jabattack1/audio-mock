@@ -21,7 +21,7 @@ class Items extends React.Component{
 	    super(props)
 
 	    this.addToCart = this.addToCart.bind(this);
-
+	    console.log(this.props)
 	    let store = this.props.store;
 	   	let itemNumber = this.props.code.code;
 
@@ -32,6 +32,7 @@ class Items extends React.Component{
 	    if(result){
 			result.map((e) => 
 			   	this.state = {
+					code:e.code,
 					image1:e.display_src,
 					name:e.name,
 					price:e.price,
@@ -48,7 +49,8 @@ class Items extends React.Component{
 					price:'',
 					description:'',
 					color:'',
-					size:''
+					size:'',
+					code:''
 				}
 		}
   
@@ -73,6 +75,7 @@ class Items extends React.Component{
 			}
 		}
 
+		console.log(this.state);
 		if(this.state.size !== ''){
 			return(
 				<div>
@@ -87,6 +90,7 @@ class Items extends React.Component{
 				<img className='itemMainPhoto' id='itemMPhoto' src={this.state.image1} />
 				<p className='itemMainPrice'>${this.state.price}</p>
 				<p className='itemMainDescription'>{this.state.description}</p>
+				<input className='itemMainCode' id='itemCode' value={this.state.code} hidden/>
 					<div class="sizeSelect">
 						
 						<p>Size Select:</p>
@@ -137,6 +141,9 @@ class Items extends React.Component{
 		// localStorage.clear();
 			let stuff;
 	    	let itemSize;
+	    	let itemCode = document.getElementById('itemCode').value;
+	    	console.log('max');
+	    	console.log(itemCode);
 	    	let itemName = document.getElementById('button').value;
 	    	let itemImage = document.getElementsByTagName("img")[0].src;
 
@@ -152,13 +159,13 @@ class Items extends React.Component{
 			else if (document.getElementById('xl-option').checked) {
 	  			itemSize = document.getElementById('xl-option').value;
 			}
-			this.setState({size:itemSize,name:itemName,image1:itemImage})
+			this.setState({size:itemSize,name:itemName,image1:itemImage, code:itemCode})
 
 			var myData = localStorage.getItem('state');
 
 			if(myData !== null && myData !== 'nothing'){
 				let otherStuff = JSON.parse(myData)
-				let newStuff = {size:itemSize, name:itemName, image1:itemImage}
+				let newStuff = {size:itemSize, name:itemName, image1:itemImage, code:itemCode}
 				let newArray =[];
 
 				if(otherStuff.length>1){
@@ -176,7 +183,7 @@ class Items extends React.Component{
 			}
 			else{
 				let myData = localStorage.getItem('state');
-				stuff = {size:itemSize,name:itemName,image1:itemImage}
+				stuff = {size:itemSize,name:itemName,image1:itemImage, code:itemCode}
 				localStorage.setItem('state',JSON.stringify(stuff));
 			}
 
