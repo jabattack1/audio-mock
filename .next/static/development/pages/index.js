@@ -19052,7 +19052,7 @@ if (true) {
 
 /***/ }),
 
-/***/ 12:
+/***/ 10:
 /*!********************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fpeterhahn%2Fsrc%2Fnew%2Faudio-boy%2Fpages%2Findex.js ***!
   \********************************************************************************************************************************/
@@ -19075,5 +19075,5 @@ module.exports = dll_6dc2816e14fab51b8269;
 
 /***/ })
 
-},[[12,"static/runtime/webpack.js","styles"]]]);
+},[[10,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map

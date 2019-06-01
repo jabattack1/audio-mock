@@ -67,7 +67,7 @@
 .cartItemName{
 	position:relative;
 	left:50px;
-	width:300px;
+	width:280px;
 	/*background-color:red;*/
 	display:inline-block;
 	color:white;
@@ -77,12 +77,13 @@
 	position:relative;
 	/*background-color:red;*/
 	display:inline-block;
-	width:100px;
+	width:80px;
 	color:white;
 }
 
 .dollarSign{
 	color:white;
+	font-family:'verdana';
 }
 
 .cartItemPrice{
@@ -90,8 +91,18 @@
 	display:inline-block;
 	color:white;
 	width:100px;
+	font-family:'verdana';
 	/*background-color:red;*/
 }
+
+.cartItemOrigPrice{
+	position:relative;
+	/*display:inline-block;*/
+	color:white;
+	width:100px;
+	display:none;
+}
+
 
 .cartItemQuantity{
 	position:relative;
@@ -161,8 +172,93 @@
   background-color: rgba(0, 0, 0, 0.1);
 }
 
-
 .empty{
 	color:white;
 }
+
+.allTheNumbers{
+}
+
+.finalBox{
+	position:absolute;
+	width:300px;
+	height:220px;
+	background-color:white;
+	float:right;
+	top:100px;
+	right:0px;
+	border-radius: 4px;
+  	/*border: 2px solid #FF3F3F;*/
+}
+
+.finalBoxHeading{
+	width:250px;
+	padding-top:10px;
+	padding-left:5px;
+	font-weight:bold;
+}
+
+.finalBoxSubtotal{
+	position:relative;
+	list-style-type: none;
+	width:290px;
+	/*background-color:red;*/
+	margin-left:-25px;
+	margin-top:-20px;
+}
+
+.finalBoxShipping{
+	position:relative;
+	width:290px;
+	/*background-color:red;*/
+	list-style-type: none;
+	margin-left:-25px;
+	margin-top:-5px;
+}
+
+.finalBoxDollarSign{
+	position:relative;
+	color:black;
+	float:right;
+	text-align: right;
+	font-family:'verdana';
+}
+
+
+
+
+.priceTotal{
+	font-family:'verdana';
+	position:relative;
+	color:black;
+	float:right;
+	padding-right:5px;
+	text-align: right;
+	height:0px;
+}
+
+
+.finalBoxTax{
+	position:relative;
+	list-style-type: none;
+	width:290px;
+	/*background-color:red;*/
+	margin-left:-25px;
+	margin-top:-5px;
+}
+
+.finalBoxTotal{
+	position:relative;
+	list-style-type: none;
+	width:290px;
+	/*background-color:red;*/
+	margin-left:-25px;
+	margin-top:0px;
+	font-weight:bold;	
+}
+
+
+
+
+
 

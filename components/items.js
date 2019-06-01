@@ -169,7 +169,7 @@ class Items extends React.Component{
 
 			if(myData !== null && myData !== 'nothing'){
 				let otherStuff = JSON.parse(myData)
-				let newStuff = {size:itemSize, name:itemName, image1:itemImage, price:itemPrice, code:itemCode, quantity:1}
+				let newStuff = {size:itemSize, name:itemName, image1:itemImage, price:itemPrice, orig:itemPrice, code:itemCode, quantity:1}
 				let newArray =[];
 
 				if(otherStuff.length>0){
@@ -187,7 +187,7 @@ class Items extends React.Component{
 			}
 			else{
 				let myData = localStorage.getItem('state');
-				stuff = {size:itemSize,name:itemName,image1:itemImage, price:itemPrice, code:itemCode, quantity:1}
+				stuff = {size:itemSize,name:itemName,image1:itemImage, price:itemPrice, orig:itemPrice, code:itemCode, quantity:1}
 				localStorage.setItem('state',JSON.stringify(stuff));
 			}
 

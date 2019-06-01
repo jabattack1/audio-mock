@@ -40,6 +40,7 @@ class Cart extends React.Component{
 						</div>
 						<span className='dollarSign'>$</span>
 						<p className='cartItemPrice'>{this.props.data.price}</p>
+						<p className='cartItemOrigPrice' hidden>{this.props.data.orig}</p>
 						<p className='deleteItem' id='x' onMouseOver={this.deleteItem}>&#10005;</p>
 					</li>
 			)
@@ -71,7 +72,7 @@ class Cart extends React.Component{
 		        	console.log('oneA');
 		        	data.quantity = selected.children[3].children[0].value;
 		        	var multiple = selected.children[3].children[0].value
-					var total = multiple * selected.children[5].innerHTML
+					var total = multiple * selected.children[6].innerHTML
 					data.price = total.toFixed(2)
 		        	localStorage.clear();
 					localStorage.setItem('state',JSON.stringify(data));
@@ -81,8 +82,8 @@ class Cart extends React.Component{
 		        	console.log('oneB');
 		        	data[0].quantity = selected.children[3].children[0].value;
 		        	var multiple = selected.children[3].children[0].value
-					var total = multiple * selected.children[5].innerHTML
-					data.price = total.toFixed(2)
+					var total = multiple * selected.children[6].innerHTML
+					data[0].price = total.toFixed(2)
 		        	localStorage.clear();
 					localStorage.setItem('state',JSON.stringify(data));
 					location.reload();
@@ -94,7 +95,7 @@ class Cart extends React.Component{
 					        // var items = document.querySelectorAll(".cartList");
 					        data[i].quantity = items[i].children[3].children[0].value;
 					        var multiple = items[i].children[3].children[0].value
-					        var total = multiple * items[i].children[5].innerHTML
+					        var total = multiple * items[i].children[6].innerHTML
 					        data[i].price = total.toFixed(2)
 					        localStorage.clear();
 					        localStorage.setItem('state',JSON.stringify(data));
@@ -116,7 +117,7 @@ class Cart extends React.Component{
 
 		for (var i=0; i<items.length; i++) {
 		    items[i].index = i;
-		    var deleteButton = items[i].children[6];
+		    var deleteButton = items[i].children[7];
 		    let ufo = items[i];
 		    deleteButton.addEventListener("click", function (e) {
 		        let id = ufo.index;
@@ -138,6 +139,7 @@ class Cart extends React.Component{
 		};
 
 	}
+
 
 }
 
