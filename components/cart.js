@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ScrollMenu from 'react-horizontal-scrolling-menu';
 import Head from 'next/head';
+import Link from 'next/link';
 
 import styled from 'styled-components';
 
@@ -17,12 +18,14 @@ class Cart extends React.Component{
 			
 			return(
 					<li className='cartList'>
-						<img className='cartItemImage' src={this.props.data.image1} />
-						<p className='cartItemName'>{this.props.data.name}</p>
+						<a href={`/store?code=${this.props.data.code}`}>
+							<img className='cartItemImage' src={this.props.data.image1} />
+							<p className='cartItemName'>{this.props.data.name}</p>
+						</a>
 						<p className='cartItemSize'>{this.props.data.size}</p>
 						<p className='cartItemQuantity'>Qty:</p>
 						<div className="custom-select">
-						  <select className='select-selected'>
+						  <select className='select-selected' id='quantity' onMouseOver={this.setQuantity} defaultValue={this.props.data.quantity}>
 						    <option value="1">1</option>
 						    <option value="2">2</option>
 						    <option value="3">3</option>
@@ -35,31 +38,107 @@ class Cart extends React.Component{
 						    <option value="10">10</option>
 						  </select>
 						</div>
-						<p className='deleteItem' id='x' onClick={this.deleteItem}>&#10005;</p>
+						<span className='dollarSign'>$</span>
+						<p className='cartItemPrice'>{this.props.data.price}</p>
+						<p className='deleteItem' id='x' onMouseOver={this.deleteItem}>&#10005;</p>
 					</li>
 			)
 		}
+		else{
 			return(
-					<li className='cartList'>
-						<div className='empty'>Your shopping cart is empty</div>
-					</li>
+				<div>
+					<p className='empty'>Your shopping cart is empty.</p>
+				</div>
 			)
+		}
 
 	}
 
-	deleteItem(e){
-
+	setQuantity(){
+		console.log('SELECT');
+		"use strict";
 		var items = document.querySelectorAll(".cartList");
+		var myData = localStorage.getItem('state');
+		var data = JSON.parse(myData)
+
+		for (var k=0; k<items.length; k++) {
+		    items[k].index = k;
+		    let selected = items[k];
+		    var selectOption = items[k].children[3];
+		    selectOption.addEventListener("change", function () {
+		    	let id = selected.index;
+		        if(data.length === undefined){
+		        	console.log('oneA');
+		        	data.quantity = selected.children[3].children[0].value;
+		        	var multiple = selected.children[3].children[0].value
+					var total = multiple * selected.children[5].innerHTML
+					data.price = total.toFixed(2)
+		        	localStorage.clear();
+					localStorage.setItem('state',JSON.stringify(data));
+					location.reload();
+		        }
+		        else if(data.length === 1){
+		        	console.log('oneB');
+		        	data[0].quantity = selected.children[3].children[0].value;
+		        	var multiple = selected.children[3].children[0].value
+					var total = multiple * selected.children[5].innerHTML
+					data.price = total.toFixed(2)
+		        	localStorage.clear();
+					localStorage.setItem('state',JSON.stringify(data));
+					location.reload();
+		        }
+		        else{
+					for(var i = 0;i<data.length;i++) {
+					    if(i === id) {
+					        console.log('two or more');
+					        // var items = document.querySelectorAll(".cartList");
+					        data[i].quantity = items[i].children[3].children[0].value;
+					        var multiple = items[i].children[3].children[0].value
+					        var total = multiple * items[i].children[5].innerHTML
+					        data[i].price = total.toFixed(2)
+					        localStorage.clear();
+					        localStorage.setItem('state',JSON.stringify(data));
+					        location.reload();
+					    }
+					}
+				}
+		    });
+		};
+
+	}
+
+	deleteItem(){
+		console.log('DELETE');
+		"use strict";
+		var items = document.querySelectorAll(".cartList");
+		var myData = localStorage.getItem('state');
+		let data = JSON.parse(myData)
 
 		for (var i=0; i<items.length; i++) {
 		    items[i].index = i;
-			
-		    items[i].addEventListener("click", function () {
-		        console.log(this.index);
+		    var deleteButton = items[i].children[6];
+		    let ufo = items[i];
+		    deleteButton.addEventListener("click", function (e) {
+		        let id = ufo.index;
+		        if(data.length === undefined || data.length === 1){
+		        	localStorage.clear();
+		        	location.reload();
+		        }
+		        else{
+					for(var i = 0;i<data.length;i++) {
+					    if(i === id) {
+					        var s = data.splice(i, 1);
+					        localStorage.clear();
+					        localStorage.setItem('state',JSON.stringify(data));
+					        location.reload();
+					    }
+					}
+				}
 		    });
 		};
-		
+
 	}
+
 }
 
 export default Cart;

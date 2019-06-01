@@ -21,7 +21,7 @@ class Items extends React.Component{
 	    super(props)
 
 	    this.addToCart = this.addToCart.bind(this);
-	    console.log(this.props)
+	    // console.log(this.props)
 	    let store = this.props.store;
 	   	let itemNumber = this.props.code.code;
 
@@ -38,7 +38,8 @@ class Items extends React.Component{
 					price:e.price,
 					description:e.description,
 					color:e.color,
-					size:''
+					size:'',
+					quantity:1
 				}
 			)
 		}
@@ -50,7 +51,8 @@ class Items extends React.Component{
 					description:'',
 					color:'',
 					size:'',
-					code:''
+					code:'',
+					quantity:1
 				}
 		}
   
@@ -75,7 +77,7 @@ class Items extends React.Component{
 			}
 		}
 
-		console.log(this.state);
+		// console.log(this.state);
 		if(this.state.size !== ''){
 			return(
 				<div>
@@ -88,38 +90,38 @@ class Items extends React.Component{
 			<div className='always'>
 				<Navbar3 name={this.state.name}/>
 				<img className='itemMainPhoto' id='itemMPhoto' src={this.state.image1} />
-				<p className='itemMainPrice'>${this.state.price}</p>
+				<p className='itemMainPrice'>$<span id='itemPrice'>{this.state.price}</span></p>
 				<p className='itemMainDescription'>{this.state.description}</p>
-				<input className='itemMainCode' id='itemCode' value={this.state.code} hidden/>
-					<div class="sizeSelect">
+				<input className='itemMainCode' id='itemCode' defaultValue={this.state.code} hidden/>
+					<div className="sizeSelect">
 						
 						<p>Size Select:</p>
 						
 						<ul className='sizeOptions'>
 						  	<li>
 							    <input type="radio" id="s-option" value='small' name="selector" onClick={check}/>
-							    <label for="s-option">S</label>
+							    <label htmlFor="s-option">S</label>
 							    
-							    <div class="check"></div>
+							    <div className="check"></div>
 						  	</li>
 						  
 						  	<li>
 							    <input type="radio" id="m-option" value='medium' name="selector" onClick={check}/>
-							    <label for="m-option">M</label>
+							    <label htmlFor="m-option">M</label>
 							    
-							    <div class="check"><div class="inside"></div></div>
+							    <div className="check"><div className="inside"></div></div>
 						  	</li>						  
 						  	<li>
 							    <input type="radio" id="l-option" value='large' name="selector" onClick={check}/>
-							    <label for="l-option">L</label>
+							    <label htmlFor="l-option">L</label>
 							    
-							    <div class="check"><div class="inside"></div></div>
+							    <div className="check"><div className="inside"></div></div>
 						  	</li>
 						  	<li>
 							    <input type="radio" id="xl-option" value='x-large' name="selector" onClick={check}/>
-							    <label for="xl-option">XL</label>
+							    <label htmlFor="xl-option">XL</label>
 							    
-							    <div class="check"><div class="inside"></div></div>
+							    <div className="check"><div className="inside"></div></div>
 						  	</li>
 						</ul>
 					</div>
@@ -138,12 +140,13 @@ class Items extends React.Component{
 	}
 
 	addToCart = function(){
-		// localStorage.clear();
+		console.log('ADD');
+		"use strict";
 			let stuff;
 	    	let itemSize;
 	    	let itemCode = document.getElementById('itemCode').value;
-	    	console.log('max');
-	    	console.log(itemCode);
+			let itemPrice = document.getElementById('itemPrice').innerHTML;
+
 	    	let itemName = document.getElementById('button').value;
 	    	let itemImage = document.getElementsByTagName("img")[0].src;
 
@@ -159,16 +162,17 @@ class Items extends React.Component{
 			else if (document.getElementById('xl-option').checked) {
 	  			itemSize = document.getElementById('xl-option').value;
 			}
-			this.setState({size:itemSize,name:itemName,image1:itemImage, code:itemCode})
-
+			// this.setState({size:itemSize,name:itemName,image1:itemImage, code:itemCode, quantity:1})
+			console.log('underrated');
+			console.log(itemPrice);
 			var myData = localStorage.getItem('state');
 
 			if(myData !== null && myData !== 'nothing'){
 				let otherStuff = JSON.parse(myData)
-				let newStuff = {size:itemSize, name:itemName, image1:itemImage, code:itemCode}
+				let newStuff = {size:itemSize, name:itemName, image1:itemImage, price:itemPrice, code:itemCode, quantity:1}
 				let newArray =[];
 
-				if(otherStuff.length>1){
+				if(otherStuff.length>0){
 					for(var i=0;i<otherStuff.length;i++){
 						newArray.push(otherStuff[i]);
 					}
@@ -183,7 +187,7 @@ class Items extends React.Component{
 			}
 			else{
 				let myData = localStorage.getItem('state');
-				stuff = {size:itemSize,name:itemName,image1:itemImage, code:itemCode}
+				stuff = {size:itemSize,name:itemName,image1:itemImage, price:itemPrice, code:itemCode, quantity:1}
 				localStorage.setItem('state',JSON.stringify(stuff));
 			}
 

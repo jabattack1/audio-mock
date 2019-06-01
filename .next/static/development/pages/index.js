@@ -2209,42 +2209,48 @@ var store = [{
   "price": "29.99",
   "description": "Audio-Boy delivers to you a minimalistic style soft cotton slim fit t-shirt that will keep you comfortable and styling all day long.",
   "color": "Black/White",
-  "size": ''
+  "size": '',
+  "quantity": "1"
 }, {
   "code": "2",
   "name": "Audio-Boy Sweatshirt (Limited)",
   "id": "1",
   "display_src": "https://i.imgur.com/3y7G9NA.png",
   "price": "49.99",
-  "size": ""
+  "size": "",
+  "quantity": "1"
 }, {
   "code": "3",
   "name": "Audio-Boy Sweatshirt (Limited)",
   "id": "1",
   "display_src": "https://i.imgur.com/3y7G9NA.png",
   "price": "49.99",
-  "size": ''
+  "size": '',
+  "quantity": "1"
 }, {
   "code": "4",
   "name": "Audio-Boy Sweatshirt (Limited)",
   "id": "1",
   "display_src": "https://i.imgur.com/3y7G9NA.png",
   "price": "49.99",
-  "size": ''
+  "size": '',
+  "quantity": "1"
 }, {
   "code": "5",
   "name": "Audio-Boy Sweatshirt (Limited)",
   "id": "1",
   "display_src": "https://i.imgur.com/3y7G9NA.png",
   "price": "49.99",
-  "size": ''
+  "size": '',
+  "quantity": "1"
 }, {
   "code": "6",
   "name": "Audio-Boy Sweatshirt (Limited)",
   "id": "1",
   "display_src": "https://i.imgur.com/3y7G9NA.png",
   "price": "49.99",
-  "size": ''
+  "size": '',
+  "quantity": "1"
 }];
 /* harmony default export */ __webpack_exports__["default"] = (store);
 
@@ -18480,7 +18486,7 @@ function (_React$Component) {
       return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_13__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 323
+          lineNumber: 322
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_components_parent_js__WEBPACK_IMPORTED_MODULE_12__["default"], {
@@ -18489,7 +18495,7 @@ function (_React$Component) {
         store: _data_store_js__WEBPACK_IMPORTED_MODULE_16__["default"],
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 324
+          lineNumber: 323
         },
         __self: this
       }));
@@ -19046,7 +19052,7 @@ if (true) {
 
 /***/ }),
 
-/***/ 9:
+/***/ 12:
 /*!********************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fpeterhahn%2Fsrc%2Fnew%2Faudio-boy%2Fpages%2Findex.js ***!
   \********************************************************************************************************************************/
@@ -19069,5 +19075,5 @@ module.exports = dll_6dc2816e14fab51b8269;
 
 /***/ })
 
-},[[9,"static/runtime/webpack.js","styles"]]]);
+},[[12,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map

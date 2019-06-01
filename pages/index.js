@@ -35,11 +35,10 @@ class Index extends React.Component {
 		this.art = data;
 		this.news = newsData;
 		this.store = store;
-		
+
 		var loc = window.location.pathname;
 
 		if(loc =='/'){
-
 		
 			console.log(loc);
 			var SETTINGS = {

@@ -1164,9 +1164,9 @@ input[type=radio]:checked ~ label{
   color:white;
 }
 
-.artistHeadLine:hover{
+/*.artistHeadLine:hover{
   cursor:pointer;
-}
+}*/
 
 .socialHolder{
   position:relative;

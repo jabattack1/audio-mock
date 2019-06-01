@@ -7,7 +7,8 @@ const store = [
     "price":"29.99",
     "description":"Audio-Boy delivers to you a minimalistic style soft cotton slim fit t-shirt that will keep you comfortable and styling all day long.",
     "color":"Black/White",
-    "size":''
+    "size":'',
+    "quantity":"1"
   },
   {
     "code": "2",
@@ -15,7 +16,8 @@ const store = [
     "id": "1",
     "display_src": `https://i.imgur.com/3y7G9NA.png`,
     "price":"49.99",
-    "size":""
+    "size":"",
+    "quantity":"1"
   },
   {
     "code": "3",
@@ -23,7 +25,8 @@ const store = [
     "id": "1",
     "display_src": `https://i.imgur.com/3y7G9NA.png`,
     "price":"49.99",
-    "size":''
+    "size":'',
+    "quantity":"1"
   },
   {
     "code": "4",
@@ -31,7 +34,8 @@ const store = [
     "id": "1",
     "display_src": `https://i.imgur.com/3y7G9NA.png`,
     "price":"49.99",
-    "size":''
+    "size":'',
+    "quantity":"1"
   },
   {
     "code": "5",
@@ -39,7 +43,8 @@ const store = [
     "id": "1",
     "display_src": `https://i.imgur.com/3y7G9NA.png`,
     "price":"49.99",
-    "size":''
+    "size":'',
+    "quantity":"1"
   },
   {
     "code": "6",
@@ -47,7 +52,8 @@ const store = [
     "id": "1",
     "display_src": `https://i.imgur.com/3y7G9NA.png`,
     "price":"49.99",
-    "size":''
+    "size":'',
+    "quantity":"1"
   }
 ];
 

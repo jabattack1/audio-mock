@@ -34,6 +34,8 @@
 .goToCartFromCart{
 	color:white;
 	position:relative;
+	/*background-color:red;*/
+	width:140px;
 	/*top:80px;*/
 	left:0px;
 }
@@ -79,6 +81,18 @@
 	color:white;
 }
 
+.dollarSign{
+	color:white;
+}
+
+.cartItemPrice{
+	position:relative;
+	display:inline-block;
+	color:white;
+	width:100px;
+	/*background-color:red;*/
+}
+
 .cartItemQuantity{
 	position:relative;
 	display:inline-block;
@@ -88,7 +102,7 @@
 /* The container must be positioned relative: */
 .custom-select {
   position: relative;
-  width:100px;
+  width:80px;
   left:10px;
   display:inline-block;
   color:white;
@@ -98,6 +112,7 @@
 
 .select-selected {
   background-color:black;
+  /*width:60px;*/
 }
 
 //** Style the arrow inside the select element: */
@@ -121,7 +136,7 @@
 /* style the items (options), including the selected item: */
 .select-items div,.select-selected {
   color: #ffffff;
-  padding: 8px 16px;
+  /*padding: 8px 16px;*/
   border: 1px solid transparent;
   /*border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;*/
   cursor: pointer;

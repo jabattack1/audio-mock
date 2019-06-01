@@ -9,26 +9,31 @@
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var react_horizontal_scrolling_menu__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-horizontal-scrolling-menu */ "./node_modules/react-horizontal-scrolling-menu/build/index.js");
-/* harmony import */ var react_horizontal_scrolling_menu__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_horizontal_scrolling_menu__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../css/normalize.css */ "./css/normalize.css");
-/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_css_normalize_css__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../css/skeleton.css */ "./css/skeleton.css");
-/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_css_skeleton_css__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var _css_style_css__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../css/style.css */ "./css/style.css");
-/* harmony import */ var _css_style_css__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_css_style_css__WEBPACK_IMPORTED_MODULE_11__);
-/* harmony import */ var _css_shoppingCart_css__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../css/shoppingCart.css */ "./css/shoppingCart.css");
-/* harmony import */ var _css_shoppingCart_css__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_css_shoppingCart_css__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/json/stringify */ "./node_modules/@babel/runtime-corejs2/core-js/json/stringify.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var react_horizontal_scrolling_menu__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-horizontal-scrolling-menu */ "./node_modules/react-horizontal-scrolling-menu/build/index.js");
+/* harmony import */ var react_horizontal_scrolling_menu__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react_horizontal_scrolling_menu__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../css/normalize.css */ "./css/normalize.css");
+/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_css_normalize_css__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../css/skeleton.css */ "./css/skeleton.css");
+/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_css_skeleton_css__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var _css_style_css__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../css/style.css */ "./css/style.css");
+/* harmony import */ var _css_style_css__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_css_style_css__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var _css_shoppingCart_css__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../css/shoppingCart.css */ "./css/shoppingCart.css");
+/* harmony import */ var _css_shoppingCart_css__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_css_shoppingCart_css__WEBPACK_IMPORTED_MODULE_14__);
+
 
 
 
@@ -44,181 +49,293 @@ var _jsxFileName = "/Users/peterhahn/src/new/audio-boy/components/cart.js";
 
 
 
+
 var Cart =
 /*#__PURE__*/
 function (_React$Component) {
-  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(Cart, _React$Component);
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__["default"])(Cart, _React$Component);
 
   function Cart() {
-    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Cart);
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__["default"])(this, Cart);
 
-    return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Cart).apply(this, arguments));
+    return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__["default"])(Cart).apply(this, arguments));
   }
 
-  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Cart, [{
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__["default"])(Cart, [{
     key: "render",
     value: function render() {
       console.log(this.props.data);
 
       if (this.props.data) {
-        return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", {
+        return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("li", {
           className: "cartList",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 19
-          },
-          __self: this
-        }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-          className: "cartItemImage",
-          src: this.props.data.image1,
           __source: {
             fileName: _jsxFileName,
             lineNumber: 20
           },
           __self: this
-        }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
-          className: "cartItemName",
+        }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
+          href: "/store?code=".concat(this.props.data.code),
           __source: {
             fileName: _jsxFileName,
             lineNumber: 21
           },
           __self: this
-        }, this.props.data.name), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
-          className: "cartItemSize",
+        }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
+          className: "cartItemImage",
+          src: this.props.data.image1,
           __source: {
             fileName: _jsxFileName,
             lineNumber: 22
           },
           __self: this
-        }, this.props.data.size), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
-          className: "cartItemQuantity",
+        }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
+          className: "cartItemName",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 23
           },
           __self: this
-        }, "Qty:"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-          className: "custom-select",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 24
-          },
-          __self: this
-        }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("select", {
-          className: "select-selected",
+        }, this.props.data.name)), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
+          className: "cartItemSize",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 25
           },
           __self: this
-        }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("option", {
-          value: "1",
+        }, this.props.data.size), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
+          className: "cartItemQuantity",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 26
           },
           __self: this
-        }, "1"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("option", {
-          value: "2",
+        }, "Qty:"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+          className: "custom-select",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 27
           },
           __self: this
-        }, "2"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("option", {
-          value: "3",
+        }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("select", {
+          className: "select-selected",
+          id: "quantity",
+          onMouseOver: this.setQuantity,
+          defaultValue: this.props.data.quantity,
           __source: {
             fileName: _jsxFileName,
             lineNumber: 28
           },
           __self: this
-        }, "3"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("option", {
-          value: "4",
+        }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("option", {
+          value: "1",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 29
           },
           __self: this
-        }, "4"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("option", {
-          value: "5",
+        }, "1"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("option", {
+          value: "2",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 30
           },
           __self: this
-        }, "5"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("option", {
-          value: "6",
+        }, "2"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("option", {
+          value: "3",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 31
           },
           __self: this
-        }, "6"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("option", {
-          value: "7",
+        }, "3"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("option", {
+          value: "4",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 32
           },
           __self: this
-        }, "7"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("option", {
-          value: "8",
+        }, "4"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("option", {
+          value: "5",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 33
           },
           __self: this
-        }, "8"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("option", {
-          value: "9",
+        }, "5"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("option", {
+          value: "6",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 34
           },
           __self: this
-        }, "9"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("option", {
-          value: "10",
+        }, "6"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("option", {
+          value: "7",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 35
           },
           __self: this
-        }, "10"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
-          className: "deleteItem",
-          id: "x",
-          onClick: this.deleteItem,
+        }, "7"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("option", {
+          value: "8",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 36
+          },
+          __self: this
+        }, "8"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("option", {
+          value: "9",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 37
+          },
+          __self: this
+        }, "9"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("option", {
+          value: "10",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 38
           },
           __self: this
+        }, "10"))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
+          className: "dollarSign",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 41
+          },
+          __self: this
+        }, "$"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
+          className: "cartItemPrice",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 42
+          },
+          __self: this
+        }, this.props.data.price), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
+          className: "deleteItem",
+          id: "x",
+          onMouseOver: this.deleteItem,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 43
+          },
+          __self: this
         }, "\u2715"));
+      } else {
+        return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 49
+          },
+          __self: this
+        }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
+          className: "empty",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 50
+          },
+          __self: this
+        }, "Your shopping cart is empty."));
+      }
+    }
+  }, {
+    key: "setQuantity",
+    value: function setQuantity() {
+      console.log('SELECT');
+      "use strict";
+
+      var items = document.querySelectorAll(".cartList");
+      var myData = localStorage.getItem('state');
+      var data = JSON.parse(myData);
+
+      var _loop = function _loop() {
+        items[k].index = k;
+        var selected = items[k];
+        selectOption = items[k].children[3];
+        selectOption.addEventListener("change", function () {
+          var id = selected.index;
+
+          if (data.length === undefined) {
+            console.log('oneA');
+            data.quantity = selected.children[3].children[0].value;
+            var multiple = selected.children[3].children[0].value;
+            var total = multiple * selected.children[5].innerHTML;
+            data.price = total.toFixed(2);
+            localStorage.clear();
+            localStorage.setItem('state', _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_0___default()(data));
+            location.reload();
+          } else if (data.length === 1) {
+            console.log('oneB');
+            data[0].quantity = selected.children[3].children[0].value;
+            var multiple = selected.children[3].children[0].value;
+            var total = multiple * selected.children[5].innerHTML;
+            data.price = total.toFixed(2);
+            localStorage.clear();
+            localStorage.setItem('state', _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_0___default()(data));
+            location.reload();
+          } else {
+            for (var i = 0; i < data.length; i++) {
+              if (i === id) {
+                console.log('two or more'); // var items = document.querySelectorAll(".cartList");
+
+                data[i].quantity = items[i].children[3].children[0].value;
+                var multiple = items[i].children[3].children[0].value;
+                var total = multiple * items[i].children[5].innerHTML;
+                data[i].price = total.toFixed(2);
+                localStorage.clear();
+                localStorage.setItem('state', _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_0___default()(data));
+                location.reload();
+              }
+            }
+          }
+        });
+      };
+
+      for (var k = 0; k < items.length; k++) {
+        var selectOption;
+
+        _loop();
       }
 
-      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", {
-        className: "cartList",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 43
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "empty",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 44
-        },
-        __self: this
-      }, "Your shopping cart is empty"));
+      ;
     }
   }, {
     key: "deleteItem",
-    value: function deleteItem(e) {
+    value: function deleteItem() {
+      console.log('DELETE');
+      "use strict";
+
       var items = document.querySelectorAll(".cartList");
+      var myData = localStorage.getItem('state');
+      var data = JSON.parse(myData);
+
+      var _loop2 = function _loop2() {
+        items[i].index = i;
+        deleteButton = items[i].children[6];
+        var ufo = items[i];
+        deleteButton.addEventListener("click", function (e) {
+          var id = ufo.index;
+
+          if (data.length === undefined || data.length === 1) {
+            localStorage.clear();
+            location.reload();
+          } else {
+            for (var i = 0; i < data.length; i++) {
+              if (i === id) {
+                var s = data.splice(i, 1);
+                localStorage.clear();
+                localStorage.setItem('state', _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_0___default()(data));
+                location.reload();
+              }
+            }
+          }
+        });
+      };
 
       for (var i = 0; i < items.length; i++) {
-        items[i].index = i;
-        items[i].addEventListener("click", function () {
-          console.log(this.index);
-        });
+        var deleteButton;
+
+        _loop2();
       }
 
       ;
@@ -226,7 +343,7 @@ function (_React$Component) {
   }]);
 
   return Cart;
-}(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
+}(react__WEBPACK_IMPORTED_MODULE_6___default.a.Component);
 
 /* harmony default export */ __webpack_exports__["default"] = (Cart);
 
@@ -729,8 +846,11 @@ function (_React$Component) {
         data: ''
       };
     } else if (localStorage.getItem('state') !== null && localStorage.getItem('state') !== 'nothing') {
+      // localStorage.clear();
       var data = localStorage.getItem('state');
-      var parsedData = JSON.parse(data);
+      var parsedData = JSON.parse(data); // console.log('steph');
+      // console.log(parsedData);
+
       _this.state = {
         data: parsedData
       };
@@ -753,21 +873,21 @@ function (_React$Component) {
           className: "shoppingCartArea",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 50
+            lineNumber: 51
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_navbar3_js__WEBPACK_IMPORTED_MODULE_13__["default"], {
           name: "Shopping Cart",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 51
+            lineNumber: 52
           },
           __self: this
         }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
           href: "/shopping-cart",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 52
+            lineNumber: 53
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("p", {
@@ -775,20 +895,20 @@ function (_React$Component) {
           onClick: this.clear,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 52
+            lineNumber: 53
           },
           __self: this
         }, "Delete All Items")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("ul", {
           className: "ah",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 53
+            lineNumber: 54
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_cart_js__WEBPACK_IMPORTED_MODULE_12__["default"], {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 54
+            lineNumber: 55
           },
           __self: this
         })));
@@ -798,21 +918,21 @@ function (_React$Component) {
           className: "shoppingCartArea",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 63
+            lineNumber: 64
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_navbar3_js__WEBPACK_IMPORTED_MODULE_13__["default"], {
           name: "Shopping Cart",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 64
+            lineNumber: 65
           },
           __self: this
         }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
           href: "/shopping-cart",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 65
+            lineNumber: 66
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("p", {
@@ -820,13 +940,13 @@ function (_React$Component) {
           onClick: this.clear,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 65
+            lineNumber: 66
           },
           __self: this
         }, "Delete All Items")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("ul", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 66
+            lineNumber: 67
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_cart_js__WEBPACK_IMPORTED_MODULE_12__["default"], {
@@ -835,7 +955,7 @@ function (_React$Component) {
           data: this.state.data,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 67
+            lineNumber: 68
           },
           __self: this
         })));
@@ -845,21 +965,21 @@ function (_React$Component) {
           className: "shoppingCartArea",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 75
+            lineNumber: 76
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_navbar3_js__WEBPACK_IMPORTED_MODULE_13__["default"], {
           name: "Shopping Cart",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 76
+            lineNumber: 77
           },
           __self: this
         }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
           href: "/shopping-cart",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 77
+            lineNumber: 78
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("p", {
@@ -867,13 +987,13 @@ function (_React$Component) {
           onClick: this.clear,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 77
+            lineNumber: 78
           },
           __self: this
         }, "Delete All Items")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("ul", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 78
+            lineNumber: 79
           },
           __self: this
         }, this.state.data.map(function (data, i) {
@@ -883,7 +1003,7 @@ function (_React$Component) {
             data: data,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 79
+              lineNumber: 80
             },
             __self: this
           }));
@@ -899,12 +1019,6 @@ function (_React$Component) {
       localStorage.setItem('state', 'nothing');
       console.log(localStorage.getItem('state'));
     }
-  }, {
-    key: "componentDidMount",
-    value: function componentDidMount() {}
-  }, {
-    key: "componentWillUnmount",
-    value: function componentWillUnmount() {}
   }]);
 
   return ShoppingCart;
@@ -16773,7 +16887,7 @@ var ShoppingCartPage = function ShoppingCartPage(props) {
 
 /***/ }),
 
-/***/ 12:
+/***/ 11:
 /*!*****************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fshopping-cart&absolutePagePath=%2FUsers%2Fpeterhahn%2Fsrc%2Fnew%2Faudio-boy%2Fpages%2Fshopping-cart.js ***!
   \*****************************************************************************************************************************************************/
@@ -16796,5 +16910,5 @@ module.exports = dll_6dc2816e14fab51b8269;
 
 /***/ })
 
-},[[12,"static/runtime/webpack.js","styles"]]]);
+},[[11,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=shopping-cart.js.map

@@ -19,16 +19,17 @@ class ShoppingCart extends React.Component{
 	constructor(){
 
 	    super()
-
 	    if (typeof localStorage === "undefined") {
 		  	this.state = {
 				data:''
 			}
 		}
 	    else if(localStorage.getItem('state')!== null && localStorage.getItem('state') !== 'nothing'){
+	    // localStorage.clear();
 	    	var data = localStorage.getItem('state');
 		    let parsedData = JSON.parse(data);
-
+		    // console.log('steph');
+		    // console.log(parsedData);
 			this.state = {
 				data:parsedData
 			}		
@@ -91,16 +92,6 @@ class ShoppingCart extends React.Component{
 		console.log(localStorage.getItem('state'));
 	}
 	 
-	componentDidMount(){
-
-
-	}
-
-	componentWillUnmount() {
-
-
-  	}
-
 }
 
 export default ShoppingCart;
