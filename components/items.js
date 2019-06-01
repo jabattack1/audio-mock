@@ -163,8 +163,8 @@ class Items extends React.Component{
 	  			itemSize = document.getElementById('xl-option').value;
 			}
 			// this.setState({size:itemSize,name:itemName,image1:itemImage, code:itemCode, quantity:1})
-			console.log('underrated');
-			console.log(itemPrice);
+			// console.log('underrated');
+			// console.log(itemPrice);
 			var myData = localStorage.getItem('state');
 
 			if(myData !== null && myData !== 'nothing'){

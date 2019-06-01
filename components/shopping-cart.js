@@ -29,12 +29,22 @@ class ShoppingCart extends React.Component{
 				totalAmount:'0.00'
 			}
 		}
+		else if(localStorage.getItem('state') === 'nothing'){
+	    	console.log('undefined');
+		  	this.state = {
+				data:'',
+				total:'0.00',
+				shipping:'0.00',
+				tax:'0.00',
+				totalAmount:'0.00'
+			}
+		}
 	    else if(localStorage.getItem('state')!== null && localStorage.getItem('state') !== 'nothing'){
 	    // localStorage.clear();
 	    	var data = localStorage.getItem('state');
 		    let parsedData = JSON.parse(data);
-		    console.log('steph');
-		    console.log(parsedData);
+		    // console.log('steph');
+		    // console.log(parsedData);
 			this.state = {
 				data:parsedData,
 				total:'',
@@ -44,6 +54,7 @@ class ShoppingCart extends React.Component{
 			}		
 		}
 		else{
+			console.log('control');
 			this.state = {
 				data:'',
 				total:'',
@@ -59,7 +70,7 @@ class ShoppingCart extends React.Component{
 	}
 
 	render(){
-		console.log(this.state);
+		// console.log(this.state);
 		if(this.state.data === ''){
 			return(
 				<div className='shoppingCartArea'>
@@ -132,7 +143,8 @@ class ShoppingCart extends React.Component{
 	}
 
 	componentDidMount(){
-		if(localStorage.getItem('state') !== null ){
+		if(localStorage.getItem('state') !== null && localStorage.getItem('state') !== 'nothing'){
+			console.log('hit');
 			var items = document.querySelectorAll(".cartList");
 			let total = 0;
 			let totalQuantity = 0;
