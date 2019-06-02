@@ -392,49 +392,20 @@ function (_React$Component) {
         },
         __self: this
       }, "Legal: legal@audio-boy.com"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "dolphinWrapperWrapper",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 20
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "dolphinWrapper",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 21
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        src: "https://i.imgur.com/hpFx9zI.gif",
-        className: "dolphin",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 22
-        },
-        __self: this
-      }))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "solicitation",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 25
+          lineNumber: 20
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
         className: "serious",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 26
+          lineNumber: 21
         },
         __self: this
-      }, "Audio-Boy does not accept unsolicited material")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "contactCover",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 28
-        },
-        __self: this
-      })))));
+      }, "Audio-Boy does not accept unsolicited material"))))));
     }
   }]);
 
@@ -446,7 +417,7 @@ react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
   href: "https://imgur.com/ebTCU1p",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 41
+    lineNumber: 34
   },
   __self: undefined
 }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
@@ -454,7 +425,7 @@ react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
   title: "source: imgur.com",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 41
+    lineNumber: 34
   },
   __self: undefined
 }));
@@ -19052,7 +19023,7 @@ if (true) {
 
 /***/ }),
 
-/***/ 10:
+/***/ 9:
 /*!********************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fpeterhahn%2Fsrc%2Fnew%2Faudio-boy%2Fpages%2Findex.js ***!
   \********************************************************************************************************************************/
@@ -19075,5 +19046,5 @@ module.exports = dll_6dc2816e14fab51b8269;
 
 /***/ })
 
-},[[10,"static/runtime/webpack.js","styles"]]]);
+},[[9,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map

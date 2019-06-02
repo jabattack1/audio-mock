@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -489,49 +489,20 @@ function (_React$Component) {
         },
         __self: this
       }, "Legal: legal@audio-boy.com"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "dolphinWrapperWrapper",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 20
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "dolphinWrapper",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 21
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        src: "https://i.imgur.com/hpFx9zI.gif",
-        className: "dolphin",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 22
-        },
-        __self: this
-      }))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "solicitation",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 25
+          lineNumber: 20
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
         className: "serious",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 26
+          lineNumber: 21
         },
         __self: this
-      }, "Audio-Boy does not accept unsolicited material")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "contactCover",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 28
-        },
-        __self: this
-      })))));
+      }, "Audio-Boy does not accept unsolicited material"))))));
     }
   }]);
 
@@ -543,7 +514,7 @@ react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
   href: "https://imgur.com/ebTCU1p",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 41
+    lineNumber: 34
   },
   __self: undefined
 }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
@@ -551,7 +522,7 @@ react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
   title: "source: imgur.com",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 41
+    lineNumber: 34
   },
   __self: undefined
 }));
@@ -4411,7 +4382,7 @@ if (false) {}
 
 /***/ }),
 
-/***/ 5:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

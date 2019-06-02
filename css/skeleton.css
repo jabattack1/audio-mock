@@ -944,10 +944,11 @@ input[type=radio]:checked ~ label{
 /*contact*/
 #contactHeader{
   margin-top:70px;
+  z-index:100;
 }
 .gridWrapperContact{
   position:relative;
-  /*top:200px;*/
+  top:200px;
   height:150px;
 }
 
@@ -955,9 +956,9 @@ input[type=radio]:checked ~ label{
   position:relative;
   /*display: table;*/
   width: 960px;
-  height:95px;
+  height:85px;
   background-color:white;
-  margin-top:200px;
+  margin-top:0px;
   /*font-weight:bold;*/
   word-wrap: break-word;
   -moz-hyphens:auto; 
@@ -966,9 +967,11 @@ input[type=radio]:checked ~ label{
   hyphens:auto;
   text-align:center;
   border-radius: 5px;
+  z-index:100;
 }
 
 .contactLinks{ 
+  margin-top:100px;
   /*display: table-cell;*/
   font-size:14px;
   font-weight:bold;
@@ -982,7 +985,7 @@ input[type=radio]:checked ~ label{
   color:#595959;
 }
 
-.dolphin{
+/*.dolphin{
   margin-top:6px;
   width:280px;
   height:100px;
@@ -997,9 +1000,9 @@ input[type=radio]:checked ~ label{
     top: 0px;
     -webkit-animation: moveToLeft 8s linear infinite;
     animation: moveToLeft 8s linear infinite;
-}
+}*/
 
-@-webkit-keyframes moveToLeft {
+/*@-webkit-keyframes moveToLeft {
     from {left: 30%;}
     to {left: -35%;}
 }
@@ -1012,7 +1015,7 @@ input[type=radio]:checked ~ label{
 .dophinWrapperWrapper{
   width:960px;
   z-index: 8;
-}
+}*/
 
 /*no demos*/
 
@@ -1029,7 +1032,7 @@ input[type=radio]:checked ~ label{
   z-index:4;
   /*margin: auto;*/
   top: 0; left: 0; bottom: 0; right: 0;
-  margin-top:30px;
+  margin-top:55px;
 }
 
 .biz1{
@@ -1061,14 +1064,7 @@ input[type=radio]:checked ~ label{
   z-index: 5;
 }
 
-.contactCover{
-  position: absolute;
-  width:960px;
-  height:50px;
-  background-color:black;
-  margin-top:-42px;
-  z-index:100;
-}
+
 
 /*footer*/
 
@@ -1076,7 +1072,7 @@ input[type=radio]:checked ~ label{
   position: relative;
   clear: both;
   height: 40px;
-  /*margin-top: 155px*/
+  margin-top: 185px
 }
 
 .footerWrapper2{
