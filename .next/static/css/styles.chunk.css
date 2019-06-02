@@ -1832,6 +1832,155 @@ input[type=radio]:checked ~ label{
 .rightArrow:hover{
 	filter: invert(85%);
 }
+
+.pn-ProductNav_WrapperStore {
+  position: relative;
+  /*padding: 0 11px;*/
+  box-sizing: border-box;
+  /*background-color:white;*/
+  width:960px;
+  top:200px;
+  height:250px;
+  background-color:black;
+  border-radius:4px;
+}
+
+.pnProductNavContentsStore{
+
+}
+
+.pn-ProductNavStore {
+	/*background-color:red;*/
+	margin:0 auto;
+	top:0;
+	width:860px;
+	height:250px;
+  display: flex;
+  /*overflow: scroll;*/
+  overflow-x: scroll;
+  /* Make this scrollable when needed */
+  overflow-x: auto;
+  /* We don't want vertical scrolling */
+  overflow-y: hidden;
+  /* For WebKit implementations, provide inertia scrolling */
+  -webkit-overflow-scrolling: touch;
+  /* We don't want internal inline elements to wrap */
+  /* If JS present, let's hide the default scrollbar */
+  /* positioning context for advancers */
+  white-space: nowrap;
+  position: relative;
+  font-size: 0;
+  /*min-width: 0*/
+}
+
+.js .pn-ProductNavStore {
+  /* Make an auto-hiding scroller for the 3 people using a IE */
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  /* Remove the default scrollbar for WebKit implementations */
+}
+
+.js .pn-ProductNavStore::-webkit-scrollbar {
+  display: none;
+}
+
+.pn-ProductNav_ContentsStore {
+  float: left;
+  transition: transform 0.2s ease-in-out;
+  position: relative;
+  margin-top:-3px;
+}
+
+.pn-ProductNav_Contents-no-transition {
+  transition: none;
+}
+
+.pn-ProductNav_LinkStore {
+  text-decoration: none;
+  color: black;
+  /*font-size: 1.2rem;*/
+  /*font-family: -apple-system, sans-serif;*/
+  display: inline-flex;
+  align-items: center;
+  height: 255px;
+  width:25ss0px;
+  /*white-space:wrap;*/
+  word-wrap:break-word;
+  /*padding: 0 11px;*/
+}
+.pn-ProductNav_LinkStore + .pn-ProductNav_LinkStore {
+  border-left-color: #eee;
+}
+.pn-ProductNav_LinkStore[aria-selected="true"] {
+  color: #111;
+}
+.pn-AdvancerStore {
+  /* Reset the button */
+  appearance: none;
+  background: transparent;
+  padding: 0;
+  border: 0;
+  /* Now style it as needed */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  /* Set the buttons invisible by default */
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.pn-AdvancerStore :focus {
+  outline: 0;
+}
+.pn-AdvancerStore :hover {
+  cursor: pointer;
+}
+.pn-Advancer_LeftStore {
+  left: 0;
+}
+[data-overflowing="both"] ~ .pn-Advancer_LeftStore, [data-overflowing="left"] ~ .pn-Advancer_LeftStore {
+  opacity: 1;
+}
+.pn-Advancer_RightStore {
+  right: 0;
+}
+[data-overflowing="both"] ~ .pn-Advancer_RightStore, [data-overflowing="right"] ~ .pn-Advancer_RightStore {
+  opacity: 1;
+}
+.pn-Advancer_Icon {
+  width: 50px;
+  height: 250px;
+  fill: white;
+}
+.pn-ProductNav_IndicatorStore {
+  /*position: absolute;*/
+  top:0;
+  bottom: 0;
+  left: 0;
+  height: 4px;
+  width: 40px;
+  background-color: transparent;
+  transform-origin: 0 0;
+  transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.leftArrowStore{
+	filter: invert(100%);
+	height:250px;
+	width:45px;
+}
+
+.leftArrowStore:hover{
+	filter: invert(85%);
+}
+
+.rightArrowStore{
+	filter: invert(100%);
+	height:250px;
+	width:45px;
+}
+
+.rightArrowStore:hover{
+	filter: invert(85%);
+}
 /*shopping cart page*/
 
 .deleteItem{
@@ -1854,16 +2003,24 @@ input[type=radio]:checked ~ label{
 	width:110px;
 	height:20px;
 	top:0;
+	/*margin-left:500px;*/
 	right:160px;
 	color:white;
 	background-color:#FF3F3F;
 	font-size:13px;
+	-webkit-transition:width 500ms;
+	-moz-transition:width 500ms;
+	transition:width 500ms;
 }
 
 .goToCart:hover{
+	/*width:115px;*/
 	cursor:pointer;
 	background-color:#FF6D6D;
 }
+
+
+
 
 .goToCartFromCart{
 	color:white;
@@ -2032,6 +2189,16 @@ input[type=radio]:checked ~ label{
 	font-weight:bold;
 }
 
+.finalBoxPromo{
+	position:relative;
+	list-style-type: none;
+	width:290px;
+	/*background-color:red;*/
+	margin-left:-25px;
+	margin-top:-20px;
+	padding-bottom:15px;
+}
+
 .finalBoxSubtotal{
 	position:relative;
 	list-style-type: none;
@@ -2049,25 +2216,6 @@ input[type=radio]:checked ~ label{
 	margin-left:-25px;
 	margin-top:-5px;
 }
-
-.finalBoxDollarSign{
-	position:relative;
-	color:black;
-	float:right;
-	text-align: right;
-	font-family:'verdana';
-}
-
-.priceTotal{
-	font-family:'verdana';
-	position:relative;
-	color:black;
-	float:right;
-	padding-right:5px;
-	text-align: right;
-	height:0px;
-}
-
 
 .finalBoxTax{
 	position:relative;
@@ -2088,6 +2236,24 @@ input[type=radio]:checked ~ label{
 	font-weight:bold;	
 }
 
+.finalBoxDollarSign{
+	position:relative;
+	color:black;
+	float:right;
+	text-align: right;
+	font-family:'verdana';
+}
+
+.priceTotal{
+	font-family:'verdana';
+	position:relative;
+	color:black;
+	float:right;
+	padding-right:5px;
+	text-align: right;
+	height:0px;
+}
+
 .questionMarkSub{
 	position:relative;
 	display:inline-block;
@@ -2097,6 +2263,57 @@ input[type=radio]:checked ~ label{
 
 .questionMarkSub:hover{
 	cursor:pointer;
+}
+
+#promoArrow{
+	position:relative;
+	display:inline-block;
+	width:10px;
+	padding-left:5px;
+}
+
+#promoArrow:hover{
+	cursor:pointer;
+}
+
+.fa-arrow-down{
+	content:url("https://i.imgur.com/vp4niLu.png");
+}
+
+.fa-arrow-up{
+	content:url("https://i.imgur.com/LsjUPax.png");
+}
+
+#popup{
+	position:absolute;
+	/*display:none;*/
+	width:190px;
+	height:130px;
+	background-color:red;
+	z-index:100;
+	float:left;
+	margin-left:27px;
+	margin-top:15px;
+	background: #969696;
+	border-radius:4px;
+	font-size:12px;
+	padding:10px;
+	color:white;
+}
+
+#popup:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 80%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-bottom-color: #969696;
+	border-top: 0;
+	border-right: 0;
+	margin-left: -15.5px;
+	margin-top: -20px;
 }
 
 #popup1{
@@ -2199,155 +2416,6 @@ input[type=radio]:checked ~ label{
 	color:white;
 	/*text-align:center;*/
 	display:inline-block;
-}
-
-.pn-ProductNav_WrapperStore {
-  position: relative;
-  /*padding: 0 11px;*/
-  box-sizing: border-box;
-  /*background-color:white;*/
-  width:960px;
-  top:200px;
-  height:250px;
-  background-color:black;
-  border-radius:4px;
-}
-
-.pnProductNavContentsStore{
-
-}
-
-.pn-ProductNavStore {
-	/*background-color:red;*/
-	margin:0 auto;
-	top:0;
-	width:860px;
-	height:250px;
-  display: flex;
-  /*overflow: scroll;*/
-  overflow-x: scroll;
-  /* Make this scrollable when needed */
-  overflow-x: auto;
-  /* We don't want vertical scrolling */
-  overflow-y: hidden;
-  /* For WebKit implementations, provide inertia scrolling */
-  -webkit-overflow-scrolling: touch;
-  /* We don't want internal inline elements to wrap */
-  /* If JS present, let's hide the default scrollbar */
-  /* positioning context for advancers */
-  white-space: nowrap;
-  position: relative;
-  font-size: 0;
-  /*min-width: 0*/
-}
-
-.js .pn-ProductNavStore {
-  /* Make an auto-hiding scroller for the 3 people using a IE */
-  -ms-overflow-style: -ms-autohiding-scrollbar;
-  /* Remove the default scrollbar for WebKit implementations */
-}
-
-.js .pn-ProductNavStore::-webkit-scrollbar {
-  display: none;
-}
-
-.pn-ProductNav_ContentsStore {
-  float: left;
-  transition: transform 0.2s ease-in-out;
-  position: relative;
-  margin-top:-3px;
-}
-
-.pn-ProductNav_Contents-no-transition {
-  transition: none;
-}
-
-.pn-ProductNav_LinkStore {
-  text-decoration: none;
-  color: black;
-  /*font-size: 1.2rem;*/
-  /*font-family: -apple-system, sans-serif;*/
-  display: inline-flex;
-  align-items: center;
-  height: 255px;
-  width:25ss0px;
-  /*white-space:wrap;*/
-  word-wrap:break-word;
-  /*padding: 0 11px;*/
-}
-.pn-ProductNav_LinkStore + .pn-ProductNav_LinkStore {
-  border-left-color: #eee;
-}
-.pn-ProductNav_LinkStore[aria-selected="true"] {
-  color: #111;
-}
-.pn-AdvancerStore {
-  /* Reset the button */
-  appearance: none;
-  background: transparent;
-  padding: 0;
-  border: 0;
-  /* Now style it as needed */
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  /* Set the buttons invisible by default */
-  opacity: 0;
-  transition: opacity 0.3s;
-}
-.pn-AdvancerStore :focus {
-  outline: 0;
-}
-.pn-AdvancerStore :hover {
-  cursor: pointer;
-}
-.pn-Advancer_LeftStore {
-  left: 0;
-}
-[data-overflowing="both"] ~ .pn-Advancer_LeftStore, [data-overflowing="left"] ~ .pn-Advancer_LeftStore {
-  opacity: 1;
-}
-.pn-Advancer_RightStore {
-  right: 0;
-}
-[data-overflowing="both"] ~ .pn-Advancer_RightStore, [data-overflowing="right"] ~ .pn-Advancer_RightStore {
-  opacity: 1;
-}
-.pn-Advancer_Icon {
-  width: 50px;
-  height: 250px;
-  fill: white;
-}
-.pn-ProductNav_IndicatorStore {
-  /*position: absolute;*/
-  top:0;
-  bottom: 0;
-  left: 0;
-  height: 4px;
-  width: 40px;
-  background-color: transparent;
-  transform-origin: 0 0;
-  transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
-}
-
-.leftArrowStore{
-	filter: invert(100%);
-	height:250px;
-	width:45px;
-}
-
-.leftArrowStore:hover{
-	filter: invert(85%);
-}
-
-.rightArrowStore{
-	filter: invert(100%);
-	height:250px;
-	width:45px;
-}
-
-.rightArrowStore:hover{
-	filter: invert(85%);
 }
 /*top banner*/
 

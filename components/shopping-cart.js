@@ -13,6 +13,8 @@ import '../css/normalize.css';
 import '../css/skeleton.css';
 import '../css/shoppingCart.css';
 
+var down;
+
 class ShoppingCart extends React.Component{
 
 	
@@ -82,9 +84,10 @@ class ShoppingCart extends React.Component{
 					<div className='finalBox'>
 						<p className='finalBoxHeading'>SUMMARY</p>
 						<ul className='allTheNumber'>
-							<li className='finalBoxSubtotal'>Subtotal<img className='questionMarkSub' id='popQuestion1' onClick={this.showPopup1} src='https://i.imgur.com/y6GROgd.png' /><div id='popup1'>The subtotal reflects the total price of your order before any applicable discounts. It does not include shipping costs and taxes.</div><p className='priceTotal'>{this.state.total}</p><span className='finalBoxDollarSign'>$</span></li>
+							<li className='finalBoxPromo' id='boxPromo'>Do you have a promo code?<img id='promoArrow' onClick={this.showPromo} src='https://i.imgur.com/vp4niLu.png' /><img className='questionMarkSub' id='popQuestion' onClick={this.showPopup} src='https://i.imgur.com/y6GROgd.png' /><div id='popup' hidden>If you are having trouble, please check the Terms & Conditions of the promotion, which are usually found by clicking "See Details" where the promotion was found online or in the footer of the email or mail.</div></li>
+							<li className='finalBoxSubtotal'>Subtotal<img className='questionMarkSub' id='popQuestion1' onClick={this.showPopup1} src='https://i.imgur.com/y6GROgd.png' /><div id='popup1' hidden>The subtotal reflects the total price of your order before any applicable discounts. It does not include shipping costs and taxes.</div><p className='priceTotal'>{this.state.total}</p><span className='finalBoxDollarSign'>$</span></li>
 							<li className='finalBoxShipping'>Estimated Shipping & Handling<p className='priceTotal'>{this.state.shipping}</p><span className='finalBoxDollarSign'>$</span></li>
-							<li className='finalBoxTax'>Estimated Tax<img className='questionMarkSub' src='https://i.imgur.com/y6GROgd.png' id='popQuestion2' onClick={this.showPopup2}/><div id='popup2'>The actual tax will be calculated based on the applicable state and local sales taxes when your order is shipped.</div><p className='priceTotal'>{this.state.tax}</p><span className='finalBoxDollarSign'>$</span></li>
+							<li className='finalBoxTax'>Estimated Tax<img className='questionMarkSub' src='https://i.imgur.com/y6GROgd.png' id='popQuestion2' onClick={this.showPopup2}/><div id='popup2' hidden>The actual tax will be calculated based on the applicable state and local sales taxes when your order is shipped.</div><p className='priceTotal'>{this.state.tax}</p><span className='finalBoxDollarSign'>$</span></li>
 							<li className='finalBoxTotal'>Tota<p className='priceTotal'>{this.state.totalAmount}</p><span className='finalBoxDollarSign'>$</span>l</li>
 						</ul>
 					</div>
@@ -104,9 +107,10 @@ class ShoppingCart extends React.Component{
 					<div className='finalBox'>
 						<p className='finalBoxHeading'>SUMMARY</p>
 						<ul className='allTheNumber'>
-							<li className='finalBoxSubtotal'>Subtotal<img className='questionMarkSub' id='popQuestion1' onClick={this.showPopup1} src='https://i.imgur.com/y6GROgd.png' /><div id='popup1'>The subtotal reflects the total price of your order before any applicable discounts. It does not include shipping costs and taxes.</div><p className='priceTotal'>{this.state.total}</p><span className='finalBoxDollarSign'>$</span></li>
+							<li className='finalBoxPromo' id='boxPromo'>Do you have a promo code?<img className='questionMarkSub' id='popQuestion' onClick={this.showPopup} src='https://i.imgur.com/y6GROgd.png' /><div id='popup' hidden>If you are having trouble, please check the Terms & Conditions of the promotion, which are usually found by clicking "See Details" where the promotion was found online or in the footer of the email or mail.</div></li>
+							<li className='finalBoxSubtotal'>Subtotal<img className='questionMarkSub' id='popQuestion1' onClick={this.showPopup1} src='https://i.imgur.com/y6GROgd.png' /><div id='popup1' hidden>The subtotal reflects the total price of your order before any applicable discounts. It does not include shipping costs and taxes.</div><p className='priceTotal'>{this.state.total}</p><span className='finalBoxDollarSign'>$</span></li>
 							<li className='finalBoxShipping'>Estimated Shipping & Handling<p className='priceTotal'>{this.state.shipping}</p><span className='finalBoxDollarSign'>$</span></li>
-							<li className='finalBoxTax'>Estimated Tax<img className='questionMarkSub' src='https://i.imgur.com/y6GROgd.png' id='popQuestion2' onClick={this.showPopup2}/><div id='popup2'>The actual tax will be calculated based on the applicable state and local sales taxes when your order is shipped.</div><p className='priceTotal'>{this.state.tax}</p><span className='finalBoxDollarSign'>$</span></li>
+							<li className='finalBoxTax'>Estimated Tax<img className='questionMarkSub' src='https://i.imgur.com/y6GROgd.png' id='popQuestion2' onClick={this.showPopup2}/><div id='popup2' hidden>The actual tax will be calculated based on the applicable state and local sales taxes when your order is shipped.</div><p className='priceTotal'>{this.state.tax}</p><span className='finalBoxDollarSign'>$</span></li>
 							<li className='finalBoxTotal'>Tota<p className='priceTotal'>{this.state.totalAmount}</p><span className='finalBoxDollarSign'>$</span>l</li>
 						</ul>
 					</div>
@@ -124,9 +128,10 @@ class ShoppingCart extends React.Component{
 					<div className='finalBox'>
 						<p className='finalBoxHeading'>SUMMARY</p>
 						<ul className='allTheNumber'>
-							<li className='finalBoxSubtotal'>Subtotal<img className='questionMarkSub' id='popQuestion1' onClick={this.showPopup1} src='https://i.imgur.com/y6GROgd.png' /><div id='popup1'>The subtotal reflects the total price of your order before any applicable discounts. It does not include shipping costs and taxes.</div><p className='priceTotal'>{this.state.total}</p><span className='finalBoxDollarSign'>$</span></li>
+							<li className='finalBoxPromo' id='boxPromo'>Do you have a promo code?<img className='questionMarkSub' id='popQuestion' onClick={this.showPopup} src='https://i.imgur.com/y6GROgd.png' /><div id='popup' hidden>If you are having trouble, please check the Terms & Conditions of the promotion, which are usually found by clicking "See Details" where the promotion was found online or in the footer of the email or mail.</div></li>
+							<li className='finalBoxSubtotal'>Subtotal<img className='questionMarkSub' id='popQuestion1' onClick={this.showPopup1} src='https://i.imgur.com/y6GROgd.png' /><div id='popup1' hidden>The subtotal reflects the total price of your order before any applicable discounts. It does not include shipping costs and taxes.</div><p className='priceTotal'>{this.state.total}</p><span className='finalBoxDollarSign'>$</span></li>
 							<li className='finalBoxShipping'>Estimated Shipping & Handling<p className='priceTotal'>{this.state.shipping}</p><span className='finalBoxDollarSign'>$</span></li>
-							<li className='finalBoxTax'>Estimated Tax<img className='questionMarkSub' src='https://i.imgur.com/y6GROgd.png' id='popQuestion2' onClick={this.showPopup2}/><div id='popup2'>The actual tax will be calculated based on the applicable state and local sales taxes when your order is shipped.</div><p className='priceTotal'>{this.state.tax}</p><span className='finalBoxDollarSign'>$</span></li>
+							<li className='finalBoxTax'>Estimated Tax<img className='questionMarkSub' src='https://i.imgur.com/y6GROgd.png' id='popQuestion2' onClick={this.showPopup2}/><div id='popup2' hidden>The actual tax will be calculated based on the applicable state and local sales taxes when your order is shipped.</div><p className='priceTotal'>{this.state.tax}</p><span className='finalBoxDollarSign'>$</span></li>
 							<li className='finalBoxTotal'>Tota<p className='priceTotal'>{this.state.totalAmount}</p><span className='finalBoxDollarSign'>$</span>l</li>
 						</ul>
 					</div>
@@ -142,29 +147,6 @@ class ShoppingCart extends React.Component{
 		localStorage.setItem('state','nothing');
 	}
 
-	showPopup1(){
-		console.log('pop1');
-			var x = document.getElementById("popup1");
-			var y = document.getElementById("popup2");
-			if (x.style.display === "none") {
-			    x.style.display = "block";
-			    y.style.display = "none";
-			} else {
-			    x.style.display = "none";
-			}
-	}
-
-	showPopup2(){
-		console.log('pop2');
-			var x = document.getElementById("popup2");
-			var y = document.getElementById("popup1");
-			if (x.style.display === "none") {
-			    x.style.display = "block";
-			    y.style.display = "none";
-			} else {
-			    x.style.display = "none";
-			}
-	}
 
 	componentDidMount(){
 		document.body.addEventListener('click', this.twoClicks);
@@ -189,36 +171,85 @@ class ShoppingCart extends React.Component{
 			var totalAmount = (total+shipping)+tax;
 			this.setState({total:total.toFixed(2), shipping:shipping.toFixed(2), tax:tax.toFixed(2), totalAmount:totalAmount.toFixed(2)});
 		}
-	}	 
+	}	
 
- 	twoClicks(){
- 		console.log('twos');
- 		var x = document.getElementById("popup1");
- 		var y = document.getElementById("popup2");
-		if (x.style.display === "block") {
-			x.style.display = "none";
-		} 
-		else{
-			x.style.display = "none";
-		}
-		if(y.style.display === "block") {
-			y.style.display = "none";
-		} 
-		else{
-			y.style.display = "none";
-		}
- 	}
-
-	hidePopup2(){
-		console.log('pop2a');
-			var x = document.getElementById("popup2");
-			if (x.style.display === "block") {
-			    x.style.display = "none";
+	showPopup(){
+		// console.log('pop1');
+			var x = document.getElementById("popup");
+			var y = document.getElementById("popup1");
+			var z = document.getElementById("popup2");
+			if (x.style.display === "none") {
+			    x.style.display = "block";
+			    y.style.display = "none";
+			    z.style.display = "none";
 			} 
 			else {
 			    x.style.display = "none";
 			}
 	}
+
+	showPopup1(){
+		// console.log('pop1');
+			var x = document.getElementById("popup");
+			var y = document.getElementById("popup1");
+			var z = document.getElementById("popup2");
+			if (y.style.display === "none") {
+			    y.style.display = "block";
+			    x.style.display = "none";
+			    z.style.display = "none";
+			} 
+			else {
+			    y.style.display = "none";
+			}
+	}
+
+	showPopup2(){
+		// console.log('pop2');
+			var x = document.getElementById("popup");
+			var y = document.getElementById("popup1");
+			var z = document.getElementById("popup2");
+			if (z.style.display === "none") {
+			    z.style.display = "block";
+			    x.style.display = "none";
+			    y.style.display = "none";
+			} 
+			else {
+			    z.style.display = "none";
+			}
+	} 
+
+	showPromo(){
+		var box = document.getElementById('boxPromo');
+  		var icon = document.getElementById('promoArrow');
+		if(down===true){
+			icon.className = 'fa fa-arrow-down'; 
+		    down=false; 
+		} 
+		else{
+		    icon.className = 'fa fa-arrow-up';
+		    down=true; 
+		}
+	}
+
+ 	// twoClicks(){
+ 	// 	// console.log('twos');
+ 	// 	var x = document.getElementById("popup1");
+ 	// 	var y = document.getElementById("popup2");
+ 	// 	// console.log(y.style.display);
+		// if (x.style.display === "block") {
+		// 	x.style.display = "none";
+		// } 
+		// else{
+		// 	x.style.display = "none";
+		// }
+		// if(y.style.display === "block") {
+		// 	y.style.display = "none";
+		// } 
+		// else{
+		// 	y.style.display = "none";
+		// }
+ 	// }
+
 }
 
 export default ShoppingCart;
