@@ -185,12 +185,96 @@
 }
 
 .allTheNumbers{
+
 }
+
+#promoForm{
+	display:inline-block;
+	width:220px;
+	float: left;
+}
+
+.promoButton{
+	display:inline-block;
+	margin-left:7px;
+	float: left;
+	background-color:#FCFCFC;
+}
+
+.promoDown{
+    height: 0;
+    overflow: hidden;
+   -moz-animation: slide .5s ease 0s forwards;
+   -webkit-animation: slide .5s ease 0s forwards;
+   -o-animation: slide .5s ease 0s forwards;
+   -ms-animation: slide .5s ease 0s forwards;
+    animation: slide .5s ease 0s forwards;
+}
+
+@-moz-keyframes slide 
+{
+from {height: 0;}
+to {height: 45px;}
+}
+
+@-webkit-keyframes slide
+{
+from {height: 0;}
+to {height: 45px;}
+}
+
+@-ms-keyframes slide 
+{
+from {height: 0;}
+to {height: 45px;}
+}
+
+@keyframes slide
+{
+from {height: 0;}
+to {height: 45px;}
+}
+
+.promoUp{
+    height: 45px;
+    overflow: hidden;
+   -moz-animation: slideBack .5s ease 0s forwards;
+   -webkit-animation: slideBack .5s ease 0s forwards;
+   -o-animation: slideBack .5s ease 0s forwards;
+   -ms-animation: slideBack .5s ease 0s forwards;
+    animation: slideBack .5s ease 0s forwards;
+}
+
+@-moz-keyframes slideBack 
+{
+from {height: 45px;}
+to {height: 0;}
+}
+
+@-webkit-keyframes slideBack
+{
+from {height: 45px;}
+to {height: 0;}
+}
+
+@-ms-keyframes slideBack 
+{
+from {height: 45px;}
+to {height: 0;}
+}
+
+@keyframes slideBack
+{
+from {height: 45px;}
+to {height: 0;}
+}
+
+
 
 .finalBox{
 	position:absolute;
 	width:300px;
-	height:220px;
+	min-height: 200px;
 	background-color:white;
 	float:right;
 	top:100px;
@@ -398,5 +482,7 @@
 	margin-left: -15.5px;
 	margin-top: -20px;
 }
+
+
 
 

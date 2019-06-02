@@ -13,7 +13,7 @@ import '../css/normalize.css';
 import '../css/skeleton.css';
 import '../css/shoppingCart.css';
 
-var down;
+var up;
 
 class ShoppingCart extends React.Component{
 
@@ -84,7 +84,7 @@ class ShoppingCart extends React.Component{
 					<div className='finalBox'>
 						<p className='finalBoxHeading'>SUMMARY</p>
 						<ul className='allTheNumber'>
-							<li className='finalBoxPromo' id='boxPromo'>Do you have a promo code?<img id='promoArrow' onClick={this.showPromo} src='https://i.imgur.com/vp4niLu.png' /><img className='questionMarkSub' id='popQuestion' onClick={this.showPopup} src='https://i.imgur.com/y6GROgd.png' /><div id='popup' hidden>If you are having trouble, please check the Terms & Conditions of the promotion, which are usually found by clicking "See Details" where the promotion was found online or in the footer of the email or mail.</div></li>
+							<li className='finalBoxPromo' id='boxPromo'>Do you have a promo code?<img id='promoArrow' onClick={this.showPromo} src='https://i.imgur.com/vp4niLu.png' /><img className='questionMarkSub' id='popQuestion' onClick={this.showPopup} src='https://i.imgur.com/y6GROgd.png' /><div id='popup' hidden>If you are having trouble, please check the Terms & Conditions of the promotion, which are usually found by clicking "See Details" where the promotion was found online or in the footer of the email or mail.</div><div id='promoField' hidden><input id='promoForm' type='text'/><button className='promoButton' type="submit">APPLY</button></div></li>
 							<li className='finalBoxSubtotal'>Subtotal<img className='questionMarkSub' id='popQuestion1' onClick={this.showPopup1} src='https://i.imgur.com/y6GROgd.png' /><div id='popup1' hidden>The subtotal reflects the total price of your order before any applicable discounts. It does not include shipping costs and taxes.</div><p className='priceTotal'>{this.state.total}</p><span className='finalBoxDollarSign'>$</span></li>
 							<li className='finalBoxShipping'>Estimated Shipping & Handling<p className='priceTotal'>{this.state.shipping}</p><span className='finalBoxDollarSign'>$</span></li>
 							<li className='finalBoxTax'>Estimated Tax<img className='questionMarkSub' src='https://i.imgur.com/y6GROgd.png' id='popQuestion2' onClick={this.showPopup2}/><div id='popup2' hidden>The actual tax will be calculated based on the applicable state and local sales taxes when your order is shipped.</div><p className='priceTotal'>{this.state.tax}</p><span className='finalBoxDollarSign'>$</span></li>
@@ -107,7 +107,7 @@ class ShoppingCart extends React.Component{
 					<div className='finalBox'>
 						<p className='finalBoxHeading'>SUMMARY</p>
 						<ul className='allTheNumber'>
-							<li className='finalBoxPromo' id='boxPromo'>Do you have a promo code?<img className='questionMarkSub' id='popQuestion' onClick={this.showPopup} src='https://i.imgur.com/y6GROgd.png' /><div id='popup' hidden>If you are having trouble, please check the Terms & Conditions of the promotion, which are usually found by clicking "See Details" where the promotion was found online or in the footer of the email or mail.</div></li>
+							<li className='finalBoxPromo' id='boxPromo'>Do you have a promo code?<img id='promoArrow' onClick={this.showPromo} src='https://i.imgur.com/vp4niLu.png' /><img className='questionMarkSub' id='popQuestion' onClick={this.showPopup} src='https://i.imgur.com/y6GROgd.png' /><div id='popup' hidden>If you are having trouble, please check the Terms & Conditions of the promotion, which are usually found by clicking "See Details" where the promotion was found online or in the footer of the email or mail.</div><div id='promoField' hidden><input id='promoForm' type='text'/><button className='promoButton' type="submit">APPLY</button></div></li>
 							<li className='finalBoxSubtotal'>Subtotal<img className='questionMarkSub' id='popQuestion1' onClick={this.showPopup1} src='https://i.imgur.com/y6GROgd.png' /><div id='popup1' hidden>The subtotal reflects the total price of your order before any applicable discounts. It does not include shipping costs and taxes.</div><p className='priceTotal'>{this.state.total}</p><span className='finalBoxDollarSign'>$</span></li>
 							<li className='finalBoxShipping'>Estimated Shipping & Handling<p className='priceTotal'>{this.state.shipping}</p><span className='finalBoxDollarSign'>$</span></li>
 							<li className='finalBoxTax'>Estimated Tax<img className='questionMarkSub' src='https://i.imgur.com/y6GROgd.png' id='popQuestion2' onClick={this.showPopup2}/><div id='popup2' hidden>The actual tax will be calculated based on the applicable state and local sales taxes when your order is shipped.</div><p className='priceTotal'>{this.state.tax}</p><span className='finalBoxDollarSign'>$</span></li>
@@ -128,7 +128,7 @@ class ShoppingCart extends React.Component{
 					<div className='finalBox'>
 						<p className='finalBoxHeading'>SUMMARY</p>
 						<ul className='allTheNumber'>
-							<li className='finalBoxPromo' id='boxPromo'>Do you have a promo code?<img className='questionMarkSub' id='popQuestion' onClick={this.showPopup} src='https://i.imgur.com/y6GROgd.png' /><div id='popup' hidden>If you are having trouble, please check the Terms & Conditions of the promotion, which are usually found by clicking "See Details" where the promotion was found online or in the footer of the email or mail.</div></li>
+							<li className='finalBoxPromo' id='boxPromo'>Do you have a promo code?<img id='promoArrow' onClick={this.showPromo} src='https://i.imgur.com/vp4niLu.png' /><img className='questionMarkSub' id='popQuestion' onClick={this.showPopup} src='https://i.imgur.com/y6GROgd.png' /><div id='popup' hidden>If you are having trouble, please check the Terms & Conditions of the promotion, which are usually found by clicking "See Details" where the promotion was found online or in the footer of the email or mail.</div><div id='promoField' hidden><input id='promoForm' type='text'/><button className='promoButton' type="submit">APPLY</button></div></li>
 							<li className='finalBoxSubtotal'>Subtotal<img className='questionMarkSub' id='popQuestion1' onClick={this.showPopup1} src='https://i.imgur.com/y6GROgd.png' /><div id='popup1' hidden>The subtotal reflects the total price of your order before any applicable discounts. It does not include shipping costs and taxes.</div><p className='priceTotal'>{this.state.total}</p><span className='finalBoxDollarSign'>$</span></li>
 							<li className='finalBoxShipping'>Estimated Shipping & Handling<p className='priceTotal'>{this.state.shipping}</p><span className='finalBoxDollarSign'>$</span></li>
 							<li className='finalBoxTax'>Estimated Tax<img className='questionMarkSub' src='https://i.imgur.com/y6GROgd.png' id='popQuestion2' onClick={this.showPopup2}/><div id='popup2' hidden>The actual tax will be calculated based on the applicable state and local sales taxes when your order is shipped.</div><p className='priceTotal'>{this.state.tax}</p><span className='finalBoxDollarSign'>$</span></li>
@@ -221,13 +221,20 @@ class ShoppingCart extends React.Component{
 	showPromo(){
 		var box = document.getElementById('boxPromo');
   		var icon = document.getElementById('promoArrow');
-		if(down===true){
-			icon.className = 'fa fa-arrow-down'; 
-		    down=false; 
+  		var promo = document.getElementById('promoField');
+		if(up===true){
+			console.log(promo);
+			promo.className = 'promoUp';
+			icon.className = 'fa-arrow-down'; 
+		    up=false; 
+		    // promo.style.display = "none";
 		} 
 		else{
-		    icon.className = 'fa fa-arrow-up';
-		    down=true; 
+			console.log(promo);
+		    promo.className = 'promoDown';
+		    icon.className = 'fa-arrow-up';
+		    promo.style.display = "block";
+		    up=true; 
 		}
 	}
 

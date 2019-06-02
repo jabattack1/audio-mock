@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 7);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -932,7 +932,7 @@ var _jsxFileName = "/Users/peterhahn/src/new/audio-boy/components/shopping-cart.
 
 
 
-var down;
+var up;
 
 var ShoppingCart =
 /*#__PURE__*/
@@ -1098,7 +1098,31 @@ function (_React$Component) {
             lineNumber: 87
           },
           __self: this
-        }, "If you are having trouble, please check the Terms & Conditions of the promotion, which are usually found by clicking \"See Details\" where the promotion was found online or in the footer of the email or mail.")), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("li", {
+        }, "If you are having trouble, please check the Terms & Conditions of the promotion, which are usually found by clicking \"See Details\" where the promotion was found online or in the footer of the email or mail."), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+          id: "promoField",
+          hidden: true,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 87
+          },
+          __self: this
+        }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("input", {
+          id: "promoForm",
+          type: "text",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 87
+          },
+          __self: this
+        }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("button", {
+          className: "promoButton",
+          type: "submit",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 87
+          },
+          __self: this
+        }, "APPLY"))), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("li", {
           className: "finalBoxSubtotal",
           __source: {
             fileName: _jsxFileName,
@@ -1295,6 +1319,15 @@ function (_React$Component) {
           },
           __self: this
         }, "Do you have a promo code?", react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("img", {
+          id: "promoArrow",
+          onClick: this.showPromo,
+          src: "https://i.imgur.com/vp4niLu.png",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 110
+          },
+          __self: this
+        }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("img", {
           className: "questionMarkSub",
           id: "popQuestion",
           onClick: this.showPopup,
@@ -1312,7 +1345,31 @@ function (_React$Component) {
             lineNumber: 110
           },
           __self: this
-        }, "If you are having trouble, please check the Terms & Conditions of the promotion, which are usually found by clicking \"See Details\" where the promotion was found online or in the footer of the email or mail.")), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("li", {
+        }, "If you are having trouble, please check the Terms & Conditions of the promotion, which are usually found by clicking \"See Details\" where the promotion was found online or in the footer of the email or mail."), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+          id: "promoField",
+          hidden: true,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 110
+          },
+          __self: this
+        }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("input", {
+          id: "promoForm",
+          type: "text",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 110
+          },
+          __self: this
+        }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("button", {
+          className: "promoButton",
+          type: "submit",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 110
+          },
+          __self: this
+        }, "APPLY"))), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("li", {
           className: "finalBoxSubtotal",
           __source: {
             fileName: _jsxFileName,
@@ -1510,6 +1567,15 @@ function (_React$Component) {
           },
           __self: this
         }, "Do you have a promo code?", react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("img", {
+          id: "promoArrow",
+          onClick: this.showPromo,
+          src: "https://i.imgur.com/vp4niLu.png",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 131
+          },
+          __self: this
+        }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("img", {
           className: "questionMarkSub",
           id: "popQuestion",
           onClick: this.showPopup,
@@ -1527,7 +1593,31 @@ function (_React$Component) {
             lineNumber: 131
           },
           __self: this
-        }, "If you are having trouble, please check the Terms & Conditions of the promotion, which are usually found by clicking \"See Details\" where the promotion was found online or in the footer of the email or mail.")), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("li", {
+        }, "If you are having trouble, please check the Terms & Conditions of the promotion, which are usually found by clicking \"See Details\" where the promotion was found online or in the footer of the email or mail."), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+          id: "promoField",
+          hidden: true,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 131
+          },
+          __self: this
+        }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("input", {
+          id: "promoForm",
+          type: "text",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 131
+          },
+          __self: this
+        }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("button", {
+          className: "promoButton",
+          type: "submit",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 131
+          },
+          __self: this
+        }, "APPLY"))), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("li", {
           className: "finalBoxSubtotal",
           __source: {
             fileName: _jsxFileName,
@@ -1751,13 +1841,19 @@ function (_React$Component) {
     value: function showPromo() {
       var box = document.getElementById('boxPromo');
       var icon = document.getElementById('promoArrow');
+      var promo = document.getElementById('promoField');
 
-      if (down === true) {
-        icon.className = 'fa fa-arrow-down';
-        down = false;
+      if (up === true) {
+        console.log(promo);
+        promo.className = 'promoUp';
+        icon.className = 'fa-arrow-down';
+        up = false; // promo.style.display = "none";
       } else {
-        icon.className = 'fa fa-arrow-up';
-        down = true;
+        console.log(promo);
+        promo.className = 'promoDown';
+        icon.className = 'fa-arrow-up';
+        promo.style.display = "block";
+        up = true;
       }
     } // twoClicks(){
     // 	// console.log('twos');
@@ -3347,7 +3443,7 @@ var ShoppingCartPage = function ShoppingCartPage(props) {
 
 /***/ }),
 
-/***/ 7:
+/***/ 3:
 /*!**************************************!*\
   !*** multi ./pages/shopping-cart.js ***!
   \**************************************/
