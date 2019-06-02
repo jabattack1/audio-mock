@@ -82,9 +82,9 @@ class ShoppingCart extends React.Component{
 					<div className='finalBox'>
 						<p className='finalBoxHeading'>SUMMARY</p>
 						<ul className='allTheNumber'>
-							<li className='finalBoxSubtotal'>Subtotal<p className='priceTotal'>{this.state.total}</p><span className='finalBoxDollarSign'>$</span></li>
+							<li className='finalBoxSubtotal'>Subtotal<img className='questionMarkSub' id='popQuestion1' onClick={this.showPopup1} src='https://i.imgur.com/y6GROgd.png' /><div id='popup1'>testtesttest</div><p className='priceTotal'>{this.state.total}</p><span className='finalBoxDollarSign'>$</span></li>
 							<li className='finalBoxShipping'>Estimated Shipping & Handling<p className='priceTotal'>{this.state.shipping}</p><span className='finalBoxDollarSign'>$</span></li>
-							<li className='finalBoxTax'>Estimated Tax<p className='priceTotal'>{this.state.tax}</p><span className='finalBoxDollarSign'>$</span></li>
+							<li className='finalBoxTax'>Estimated Tax<img className='questionMarkSub' src='https://i.imgur.com/y6GROgd.png' /><p className='priceTotal'>{this.state.tax}</p><span className='finalBoxDollarSign'>$</span></li>
 							<li className='finalBoxTotal'>Tota<p className='priceTotal'>{this.state.totalAmount}</p><span className='finalBoxDollarSign'>$</span>l</li>
 						</ul>
 					</div>
@@ -104,9 +104,9 @@ class ShoppingCart extends React.Component{
 					<div className='finalBox'>
 						<p className='finalBoxHeading'>SUMMARY</p>
 						<ul className='allTheNumber'>
-							<li className='finalBoxSubtotal'>Subtotal<p className='priceTotal'>{this.state.total}</p><span className='finalBoxDollarSign'>$</span></li>
+							<li className='finalBoxSubtotal'>Subtotal<img className='questionMarkSub' id='popQuestion1' onClick={this.showPopup1} src='https://i.imgur.com/y6GROgd.png' /><div id='popup1'>testtesttest</div><p className='priceTotal'>{this.state.total}</p><span className='finalBoxDollarSign'>$</span></li>
 							<li className='finalBoxShipping'>Estimated Shipping & Handling<p className='priceTotal'>{this.state.shipping}</p><span className='finalBoxDollarSign'>$</span></li>
-							<li className='finalBoxTax'>Estimated Tax<p className='priceTotal'>{this.state.tax}</p><span className='finalBoxDollarSign'>$</span></li>
+							<li className='finalBoxTax'>Estimated Tax<img className='questionMarkSub' src='https://i.imgur.com/y6GROgd.png' /><p className='priceTotal'>{this.state.tax}</p><span className='finalBoxDollarSign'>$</span></li>
 							<li className='finalBoxTotal'>Tota<p className='priceTotal'>{this.state.totalAmount}</p><span className='finalBoxDollarSign'>$</span>l</li>
 						</ul>
 					</div>
@@ -124,9 +124,9 @@ class ShoppingCart extends React.Component{
 					<div className='finalBox'>
 						<p className='finalBoxHeading'>SUMMARY</p>
 						<ul className='allTheNumber'>
-							<li className='finalBoxSubtotal'>Subtotal<p className='priceTotal'>{this.state.total}</p><span className='finalBoxDollarSign'>$</span></li>
+							<li className='finalBoxSubtotal'>Subtotal<img className='questionMarkSub' id='popQuestion1' onClick={this.showPopup1} src='https://i.imgur.com/y6GROgd.png' /><div id='popup1'>testtesttest</div><p className='priceTotal'>{this.state.total}</p><span className='finalBoxDollarSign'>$</span></li>
 							<li className='finalBoxShipping'>Estimated Shipping & Handling<p className='priceTotal'>{this.state.shipping}</p><span className='finalBoxDollarSign'>$</span></li>
-							<li className='finalBoxTax'>Estimated Tax<p className='priceTotal'>{this.state.tax}</p><span className='finalBoxDollarSign'>$</span></li>
+							<li className='finalBoxTax'>Estimated Tax<img className='questionMarkSub' src='https://i.imgur.com/y6GROgd.png' /><p className='priceTotal'>{this.state.tax}</p><span className='finalBoxDollarSign'>$</span></li>
 							<li className='finalBoxTotal'>Tota<p className='priceTotal'>{this.state.totalAmount}</p><span className='finalBoxDollarSign'>$</span>l</li>
 						</ul>
 					</div>
@@ -142,7 +142,19 @@ class ShoppingCart extends React.Component{
 		localStorage.setItem('state','nothing');
 	}
 
+	showPopup1(){
+		console.log('pop');
+
+			var x = document.getElementById("popup1");
+			if (x.style.display === "none") {
+			    x.style.display = "block";
+			} else {
+			    x.style.display = "none";
+			}
+	}
+
 	componentDidMount(){
+		document.getElementById("popup1").style.display = "none";
 		if(localStorage.getItem('state') !== null && localStorage.getItem('state') !== 'nothing'){
 			console.log('hit');
 			var items = document.querySelectorAll(".cartList");

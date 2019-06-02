@@ -10,7 +10,8 @@ const Layout3 = (props) => (
 		<link rel='icon' type='image/png' href='https://i.imgur.com/msETczs.png' />
 
 	</Head>
-		<div className='topBanner'>Subscribe <span className='bold'>NOW</span> for our updates & promotions! <span className='bold'><a className='linkHere'>OVER HERE</a></span> <Link href={`/shopping-cart`}><p className='goToCart'>Shopping Cart</p></Link>
+		<div className='topBanner'>Subscribe <span className='bold'>NOW</span> for our updates & promotions! <span className='bold'><a className='linkHere'>OVER HERE</a></span>
+		<Link href={`/shopping-cart`}><p className='goToCart'>Shopping Cart</p></Link>
 		</div>
 		<div className='containerWrapper'>
 			<div className='container'>

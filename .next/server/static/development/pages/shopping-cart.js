@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -670,38 +670,38 @@ var Layout3 = function Layout3(props) {
       lineNumber: 13
     },
     __self: this
-  }, "OVER HERE")), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
+  }, "OVER HERE")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
     href: "/shopping-cart",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 14
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "goToCart",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 14
     },
     __self: this
   }, "Shopping Cart"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "containerWrapper",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 16
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 17
     },
     __self: this
   }, props.children)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_footer2_js__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 21
     },
     __self: this
   }));
@@ -1069,7 +1069,24 @@ function (_React$Component) {
             lineNumber: 85
           },
           __self: this
-        }, "Subtotal", react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
+        }, "Subtotal", react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("img", {
+          className: "questionMarkSub",
+          id: "popQuestion1",
+          onClick: this.showPopup1,
+          src: "https://i.imgur.com/y6GROgd.png",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 85
+          },
+          __self: this
+        }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+          id: "popup1",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 85
+          },
+          __self: this
+        }, "testtesttest"), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
           className: "priceTotal",
           __source: {
             fileName: _jsxFileName,
@@ -1111,7 +1128,15 @@ function (_React$Component) {
             lineNumber: 87
           },
           __self: this
-        }, "Estimated Tax", react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
+        }, "Estimated Tax", react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("img", {
+          className: "questionMarkSub",
+          src: "https://i.imgur.com/y6GROgd.png",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 87
+          },
+          __self: this
+        }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
           className: "priceTotal",
           __source: {
             fileName: _jsxFileName,
@@ -1221,7 +1246,24 @@ function (_React$Component) {
             lineNumber: 107
           },
           __self: this
-        }, "Subtotal", react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
+        }, "Subtotal", react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("img", {
+          className: "questionMarkSub",
+          id: "popQuestion1",
+          onClick: this.showPopup1,
+          src: "https://i.imgur.com/y6GROgd.png",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 107
+          },
+          __self: this
+        }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+          id: "popup1",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 107
+          },
+          __self: this
+        }, "testtesttest"), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
           className: "priceTotal",
           __source: {
             fileName: _jsxFileName,
@@ -1263,7 +1305,15 @@ function (_React$Component) {
             lineNumber: 109
           },
           __self: this
-        }, "Estimated Tax", react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
+        }, "Estimated Tax", react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("img", {
+          className: "questionMarkSub",
+          src: "https://i.imgur.com/y6GROgd.png",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 109
+          },
+          __self: this
+        }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
           className: "priceTotal",
           __source: {
             fileName: _jsxFileName,
@@ -1374,7 +1424,24 @@ function (_React$Component) {
             lineNumber: 127
           },
           __self: this
-        }, "Subtotal", react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
+        }, "Subtotal", react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("img", {
+          className: "questionMarkSub",
+          id: "popQuestion1",
+          onClick: this.showPopup1,
+          src: "https://i.imgur.com/y6GROgd.png",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 127
+          },
+          __self: this
+        }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+          id: "popup1",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 127
+          },
+          __self: this
+        }, "testtesttest"), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
           className: "priceTotal",
           __source: {
             fileName: _jsxFileName,
@@ -1416,7 +1483,15 @@ function (_React$Component) {
             lineNumber: 129
           },
           __self: this
-        }, "Estimated Tax", react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
+        }, "Estimated Tax", react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("img", {
+          className: "questionMarkSub",
+          src: "https://i.imgur.com/y6GROgd.png",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 129
+          },
+          __self: this
+        }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
           className: "priceTotal",
           __source: {
             fileName: _jsxFileName,
@@ -1463,8 +1538,22 @@ function (_React$Component) {
       localStorage.setItem('state', 'nothing');
     }
   }, {
+    key: "showPopup1",
+    value: function showPopup1() {
+      console.log('pop');
+      var x = document.getElementById("popup1");
+
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+  }, {
     key: "componentDidMount",
     value: function componentDidMount() {
+      document.getElementById("popup1").style.display = "none";
+
       if (localStorage.getItem('state') !== null && localStorage.getItem('state') !== 'nothing') {
         console.log('hit');
         var items = document.querySelectorAll(".cartList");
@@ -3067,7 +3156,7 @@ var ShoppingCartPage = function ShoppingCartPage(props) {
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!**************************************!*\
   !*** multi ./pages/shopping-cart.js ***!
   \**************************************/
