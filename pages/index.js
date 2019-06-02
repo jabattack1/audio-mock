@@ -323,7 +323,7 @@ class Index extends React.Component {
     			<Parent artists={data} news={newsData} store={store}/>				
   			</Layout>
     	)
- 	 }
+ 	}
 
 }
 

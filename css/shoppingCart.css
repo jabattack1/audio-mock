@@ -224,9 +224,6 @@
 	font-family:'verdana';
 }
 
-
-
-
 .priceTotal{
 	font-family:'verdana';
 	position:relative;
@@ -271,15 +268,67 @@
 #popup1{
 	position:absolute;
 	/*display:none;*/
-	width:150px;
+	width:180px;
 	height:100px;
 	background-color:red;
 	z-index:100;
 	float:left;
-	margin-left:-140px;
-	margin-top:25px;
+	margin-left:-102px;
+	margin-top:15px;
+	background: #969696;
+	border-radius:4px;
+	font-size:12px;
+	padding:10px;
+	color:white;
 }
 
 
+#popup1:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 80%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-bottom-color: #969696;
+	border-top: 0;
+	border-right: 0;
+	margin-left: -15.5px;
+	margin-top: -20px;
+}
+
+#popup2{
+	position:absolute;
+	/*display:none;*/
+	width:180px;
+	height:80px;
+	background-color:red;
+	z-index:100;
+	float:left;
+	margin-left:-67px;
+	margin-top:15px;
+	background: #969696;
+	border-radius:4px;
+	font-size:12px;
+	padding:10px;
+	color:white;
+}
+
+
+#popup2:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 80%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-bottom-color: #969696;
+	border-top: 0;
+	border-right: 0;
+	margin-left: -15.5px;
+	margin-top: -20px;
+}
 
 

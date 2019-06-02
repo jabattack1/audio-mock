@@ -993,7 +993,7 @@ function (_React$Component) {
             lineNumber: 85
           },
           __self: this
-        }, "testtesttest"), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
+        }, "The subtotal reflects the total price of your order before any applicable discounts. It does not include shipping costs and taxes."), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
           className: "priceTotal",
           __source: {
             fileName: _jsxFileName,
@@ -1038,12 +1038,21 @@ function (_React$Component) {
         }, "Estimated Tax", react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("img", {
           className: "questionMarkSub",
           src: "https://i.imgur.com/y6GROgd.png",
+          id: "popQuestion2",
+          onClick: this.showPopup2,
           __source: {
             fileName: _jsxFileName,
             lineNumber: 87
           },
           __self: this
-        }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
+        }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+          id: "popup2",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 87
+          },
+          __self: this
+        }, "The actual tax will be calculated based on the applicable state and local sales taxes when your order is shipped."), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
           className: "priceTotal",
           __source: {
             fileName: _jsxFileName,
@@ -1170,7 +1179,7 @@ function (_React$Component) {
             lineNumber: 107
           },
           __self: this
-        }, "testtesttest"), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
+        }, "The subtotal reflects the total price of your order before any applicable discounts. It does not include shipping costs and taxes."), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
           className: "priceTotal",
           __source: {
             fileName: _jsxFileName,
@@ -1215,12 +1224,21 @@ function (_React$Component) {
         }, "Estimated Tax", react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("img", {
           className: "questionMarkSub",
           src: "https://i.imgur.com/y6GROgd.png",
+          id: "popQuestion2",
+          onClick: this.showPopup2,
           __source: {
             fileName: _jsxFileName,
             lineNumber: 109
           },
           __self: this
-        }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
+        }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+          id: "popup2",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 109
+          },
+          __self: this
+        }, "The actual tax will be calculated based on the applicable state and local sales taxes when your order is shipped."), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
           className: "priceTotal",
           __source: {
             fileName: _jsxFileName,
@@ -1348,7 +1366,7 @@ function (_React$Component) {
             lineNumber: 127
           },
           __self: this
-        }, "testtesttest"), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
+        }, "The subtotal reflects the total price of your order before any applicable discounts. It does not include shipping costs and taxes."), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
           className: "priceTotal",
           __source: {
             fileName: _jsxFileName,
@@ -1393,12 +1411,21 @@ function (_React$Component) {
         }, "Estimated Tax", react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("img", {
           className: "questionMarkSub",
           src: "https://i.imgur.com/y6GROgd.png",
+          id: "popQuestion2",
+          onClick: this.showPopup2,
           __source: {
             fileName: _jsxFileName,
             lineNumber: 129
           },
           __self: this
-        }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
+        }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+          id: "popup2",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 129
+          },
+          __self: this
+        }, "The actual tax will be calculated based on the applicable state and local sales taxes when your order is shipped."), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
           className: "priceTotal",
           __source: {
             fileName: _jsxFileName,
@@ -1447,11 +1474,27 @@ function (_React$Component) {
   }, {
     key: "showPopup1",
     value: function showPopup1() {
-      console.log('pop');
+      console.log('pop1');
       var x = document.getElementById("popup1");
+      var y = document.getElementById("popup2");
 
       if (x.style.display === "none") {
         x.style.display = "block";
+        y.style.display = "none";
+      } else {
+        x.style.display = "none";
+      }
+    }
+  }, {
+    key: "showPopup2",
+    value: function showPopup2() {
+      console.log('pop2');
+      var x = document.getElementById("popup2");
+      var y = document.getElementById("popup1");
+
+      if (x.style.display === "none") {
+        x.style.display = "block";
+        y.style.display = "none";
       } else {
         x.style.display = "none";
       }
@@ -1459,7 +1502,9 @@ function (_React$Component) {
   }, {
     key: "componentDidMount",
     value: function componentDidMount() {
+      document.body.addEventListener('click', this.twoClicks);
       document.getElementById("popup1").style.display = "none";
+      document.getElementById("popup2").style.display = "none";
 
       if (localStorage.getItem('state') !== null && localStorage.getItem('state') !== 'nothing') {
         console.log('hit');
@@ -1492,6 +1537,37 @@ function (_React$Component) {
           tax: tax.toFixed(2),
           totalAmount: totalAmount.toFixed(2)
         });
+      }
+    }
+  }, {
+    key: "twoClicks",
+    value: function twoClicks() {
+      console.log('twos');
+      var x = document.getElementById("popup1");
+      var y = document.getElementById("popup2");
+
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "none";
+      }
+
+      if (y.style.display === "block") {
+        y.style.display = "none";
+      } else {
+        y.style.display = "none";
+      }
+    }
+  }, {
+    key: "hidePopup2",
+    value: function hidePopup2() {
+      console.log('pop2a');
+      var x = document.getElementById("popup2");
+
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "none";
       }
     }
   }]);
@@ -17533,7 +17609,7 @@ var ShoppingCartPage = function ShoppingCartPage(props) {
 
 /***/ }),
 
-/***/ 8:
+/***/ 0:
 /*!*****************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fshopping-cart&absolutePagePath=%2FUsers%2Fpeterhahn%2Fsrc%2Fnew%2Faudio-boy%2Fpages%2Fshopping-cart.js ***!
   \*****************************************************************************************************************************************************/
@@ -17556,5 +17632,5 @@ module.exports = dll_6dc2816e14fab51b8269;
 
 /***/ })
 
-},[[8,"static/runtime/webpack.js","styles"]]]);
+},[[0,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=shopping-cart.js.map
