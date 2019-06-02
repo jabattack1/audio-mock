@@ -10,7 +10,8 @@
 
 .audioLetters{
   color:black;
-  transition: .3s color; 
+  transition: .3s color;
+  font-size:15px; 
 }
 
 .audioLetters:hover{
@@ -136,8 +137,10 @@ body {
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222; 
   background-color:black;
-  height:100%;
-  min-height:100%;
+  height:auto;
+/*  background-image: url("https://i.imgur.com/56Px8Kb.gif");
+  background-repeat: repeat-x;
+  background-size: 100px 100px;*/
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -983,6 +986,10 @@ input[type=radio]:checked ~ label{
 
 .contactLinks:hover{ 
   color:#595959;
+}
+
+.navLinks{
+  font-size:15px;
 }
 
 /*.dolphin{

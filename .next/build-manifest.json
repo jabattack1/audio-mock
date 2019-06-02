@@ -29,13 +29,13 @@
       "static/chunks/styles.js",
       "static/runtime/main.js"
     ],
-    "/shopping-cart": [
+    "/store": [
       "static/runtime/webpack.js",
       "static/css/styles.chunk.css",
       "static/chunks/styles.js",
       "static/runtime/main.js"
     ],
-    "/store": [
+    "/terms-of-use": [
       "static/runtime/webpack.js",
       "static/css/styles.chunk.css",
       "static/chunks/styles.js",

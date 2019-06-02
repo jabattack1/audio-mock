@@ -800,7 +800,7 @@ function (_React$Component) {
           lineNumber: 23
         },
         __self: this
-      }, "Artists")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
+      }, "ARTISTS")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
         className: "link",
         __source: {
           fileName: _jsxFileName,
@@ -819,7 +819,7 @@ function (_React$Component) {
           lineNumber: 24
         },
         __self: this
-      }, "News")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
+      }, "NEWS")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
         className: "link",
         __source: {
           fileName: _jsxFileName,
@@ -838,7 +838,7 @@ function (_React$Component) {
           lineNumber: 25
         },
         __self: this
-      }, "The Label")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
+      }, "THE LABEL")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
         className: "link",
         __source: {
           fileName: _jsxFileName,
@@ -857,7 +857,7 @@ function (_React$Component) {
           lineNumber: 26
         },
         __self: this
-      }, "Store")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
+      }, "STORE")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
         className: "link",
         __source: {
           fileName: _jsxFileName,
@@ -876,7 +876,7 @@ function (_React$Component) {
           lineNumber: 27
         },
         __self: this
-      }, "Contact"))));
+      }, "CONTACT"))));
     }
   }, {
     key: "componentDidMount",
@@ -19023,7 +19023,7 @@ if (true) {
 
 /***/ }),
 
-/***/ 9:
+/***/ 0:
 /*!********************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fpeterhahn%2Fsrc%2Fnew%2Faudio-boy%2Fpages%2Findex.js ***!
   \********************************************************************************************************************************/
@@ -19046,5 +19046,5 @@ module.exports = dll_6dc2816e14fab51b8269;
 
 /***/ })
 
-},[[9,"static/runtime/webpack.js","styles"]]]);
+},[[0,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map

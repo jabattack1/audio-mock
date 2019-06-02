@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -895,7 +895,7 @@ function (_React$Component) {
           lineNumber: 23
         },
         __self: this
-      }, "Artists")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
+      }, "ARTISTS")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
         className: "link",
         __source: {
           fileName: _jsxFileName,
@@ -914,7 +914,7 @@ function (_React$Component) {
           lineNumber: 24
         },
         __self: this
-      }, "News")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
+      }, "NEWS")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
         className: "link",
         __source: {
           fileName: _jsxFileName,
@@ -933,7 +933,7 @@ function (_React$Component) {
           lineNumber: 25
         },
         __self: this
-      }, "The Label")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
+      }, "THE LABEL")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
         className: "link",
         __source: {
           fileName: _jsxFileName,
@@ -952,7 +952,7 @@ function (_React$Component) {
           lineNumber: 26
         },
         __self: this
-      }, "Store")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
+      }, "STORE")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
         className: "link",
         __source: {
           fileName: _jsxFileName,
@@ -971,7 +971,7 @@ function (_React$Component) {
           lineNumber: 27
         },
         __self: this
-      }, "Contact"))));
+      }, "CONTACT"))));
     }
   }, {
     key: "componentDidMount",
@@ -4382,7 +4382,7 @@ if (false) {}
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
