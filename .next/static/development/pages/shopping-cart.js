@@ -109,7 +109,7 @@ function (_React$Component) {
             lineNumber: 26
           },
           __self: this
-        }, "Qty:"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        }, "Quantity"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
           className: "custom-select",
           __source: {
             fileName: _jsxFileName,
@@ -196,7 +196,7 @@ function (_React$Component) {
             lineNumber: 38
           },
           __self: this
-        }, "10"))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
+        }, "10"))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
           className: "dollarSign",
           __source: {
             fileName: _jsxFileName,
@@ -227,7 +227,7 @@ function (_React$Component) {
             lineNumber: 44
           },
           __self: this
-        }, "\u2715"));
+        }, "Remove"));
       } else {
         return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
           __source: {
@@ -1139,7 +1139,7 @@ function (_React$Component) {
             lineNumber: 93
           },
           __self: this
-        }, "Tota", react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
+        }, "Total", react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
           className: "priceTotal",
           __source: {
             fileName: _jsxFileName,
@@ -1153,11 +1153,19 @@ function (_React$Component) {
             lineNumber: 93
           },
           __self: this
-        }, "$"), "l"))), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        }, "$"))), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("button", {
+          className: "checkoutButton",
+          type: "submit",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 95
+          },
+          __self: this
+        }, "SECURE CHECKOUT")), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
           className: "titleWrapper",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 96
+            lineNumber: 97
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_12__["Element"], {
@@ -1166,14 +1174,14 @@ function (_React$Component) {
           className: "element",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 97
+            lineNumber: 98
           },
           __self: this
         }, "You Might Also Like")), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(_store_grid_js__WEBPACK_IMPORTED_MODULE_15__["default"], {
           store: _data_store_js__WEBPACK_IMPORTED_MODULE_17__["default"],
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 99
+            lineNumber: 100
           },
           __self: this
         }));
@@ -1183,21 +1191,21 @@ function (_React$Component) {
           className: "shoppingCartArea",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 107
+            lineNumber: 108
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(_navbar3_js__WEBPACK_IMPORTED_MODULE_16__["default"], {
           name: "Shopping Cart",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 108
+            lineNumber: 109
           },
           __self: this
         }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_12__["Link"], {
           href: "/shopping-cart",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 109
+            lineNumber: 110
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
@@ -1205,13 +1213,13 @@ function (_React$Component) {
           onClick: this.clear,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 109
+            lineNumber: 110
           },
           __self: this
         }, "Delete All Items")), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("ul", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 110
+            lineNumber: 111
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(_cart_js__WEBPACK_IMPORTED_MODULE_14__["default"], {
@@ -1220,28 +1228,28 @@ function (_React$Component) {
           data: this.state.data,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 111
+            lineNumber: 112
           },
           __self: this
         })), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
           className: "finalBox",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 113
+            lineNumber: 114
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
           className: "finalBoxHeading",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 114
+            lineNumber: 115
           },
           __self: this
         }, "SUMMARY"), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("ul", {
           className: "allTheNumber",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 115
+            lineNumber: 116
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("li", {
@@ -1249,7 +1257,7 @@ function (_React$Component) {
           id: "boxPromo",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 116
+            lineNumber: 117
           },
           __self: this
         }, "Do you have a promo code?", react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("img", {
@@ -1258,7 +1266,7 @@ function (_React$Component) {
           src: "https://i.imgur.com/vp4niLu.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 116
+            lineNumber: 117
           },
           __self: this
         }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("img", {
@@ -1268,7 +1276,7 @@ function (_React$Component) {
           src: "https://i.imgur.com/y6GROgd.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 116
+            lineNumber: 117
           },
           __self: this
         }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
@@ -1276,7 +1284,7 @@ function (_React$Component) {
           hidden: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 116
+            lineNumber: 117
           },
           __self: this
         }, "If you are having trouble, please check the Terms & Conditions of the promotion, which are usually found by clicking \"See Details\" where the promotion was found online or in the footer of the email or mail."), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
@@ -1284,7 +1292,7 @@ function (_React$Component) {
           hidden: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 116
+            lineNumber: 117
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("input", {
@@ -1292,7 +1300,7 @@ function (_React$Component) {
           type: "text",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 116
+            lineNumber: 117
           },
           __self: this
         }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("button", {
@@ -1300,14 +1308,14 @@ function (_React$Component) {
           type: "submit",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 116
+            lineNumber: 117
           },
           __self: this
         }, "APPLY"))), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("li", {
           className: "finalBoxSubtotal",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 117
+            lineNumber: 118
           },
           __self: this
         }, "Subtotal", react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("img", {
@@ -1317,7 +1325,7 @@ function (_React$Component) {
           src: "https://i.imgur.com/y6GROgd.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 117
+            lineNumber: 118
           },
           __self: this
         }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
@@ -1325,49 +1333,49 @@ function (_React$Component) {
           hidden: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 117
+            lineNumber: 118
           },
           __self: this
         }, "The subtotal reflects the total price of your order before any applicable discounts. It does not include shipping costs and taxes."), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
           className: "priceTotal",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 117
+            lineNumber: 118
           },
           __self: this
         }, this.state.total), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("span", {
           className: "finalBoxDollarSign",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 117
+            lineNumber: 118
           },
           __self: this
         }, "$")), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("li", {
           className: "finalBoxShipping",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 118
+            lineNumber: 119
           },
           __self: this
         }, "Estimated Shipping & Handling", react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
           className: "priceTotal",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 118
+            lineNumber: 119
           },
           __self: this
         }, this.state.shipping), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("span", {
           className: "finalBoxDollarSign",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 118
+            lineNumber: 119
           },
           __self: this
         }, "$")), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("li", {
           className: "finalBoxTax",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 119
+            lineNumber: 120
           },
           __self: this
         }, "Estimated Tax", react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("img", {
@@ -1377,7 +1385,7 @@ function (_React$Component) {
           onClick: this.showPopup2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 119
+            lineNumber: 120
           },
           __self: this
         }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
@@ -1385,49 +1393,57 @@ function (_React$Component) {
           hidden: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 119
+            lineNumber: 120
           },
           __self: this
         }, "The actual tax will be calculated based on the applicable state and local sales taxes when your order is shipped."), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
           className: "priceTotal",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 119
+            lineNumber: 120
           },
           __self: this
         }, this.state.tax), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("span", {
           className: "finalBoxDollarSign",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 119
+            lineNumber: 120
           },
           __self: this
         }, "$")), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("li", {
           className: "finalBoxTotal",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 120
+            lineNumber: 121
           },
           __self: this
-        }, "Tota", react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
+        }, "Total", react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
           className: "priceTotal",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 120
+            lineNumber: 121
           },
           __self: this
         }, this.state.totalAmount), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("span", {
           className: "finalBoxDollarSign",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 120
+            lineNumber: 121
           },
           __self: this
-        }, "$"), "l"))), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
-          className: "titleWrapper",
+        }, "$"))), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("button", {
+          className: "checkoutButton",
+          type: "submit",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 123
+          },
+          __self: this
+        }, "SECURE CHECKOUT")), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+          className: "titleWrapper",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 125
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_12__["Element"], {
@@ -1436,14 +1452,14 @@ function (_React$Component) {
           className: "element",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 124
+            lineNumber: 126
           },
           __self: this
         }, "You Might Also Like")), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(_store_grid_js__WEBPACK_IMPORTED_MODULE_15__["default"], {
           store: _data_store_js__WEBPACK_IMPORTED_MODULE_17__["default"],
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 126
+            lineNumber: 128
           },
           __self: this
         }));
@@ -1452,21 +1468,21 @@ function (_React$Component) {
           className: "shoppingCartArea",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 132
+            lineNumber: 134
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(_navbar3_js__WEBPACK_IMPORTED_MODULE_16__["default"], {
           name: "Shopping Cart",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 133
+            lineNumber: 135
           },
           __self: this
         }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_12__["Link"], {
           href: "/shopping-cart",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 134
+            lineNumber: 136
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
@@ -1474,13 +1490,14 @@ function (_React$Component) {
           onClick: this.clear,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 134
+            lineNumber: 136
           },
           __self: this
         }, "Delete All Items")), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("ul", {
+          className: "shopCart",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 135
+            lineNumber: 137
           },
           __self: this
         }, this.state.data.map(function (data, i) {
@@ -1490,7 +1507,7 @@ function (_React$Component) {
             data: data,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 136
+              lineNumber: 138
             },
             __self: this
           }));
@@ -1498,21 +1515,21 @@ function (_React$Component) {
           className: "finalBox",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 138
+            lineNumber: 140
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
           className: "finalBoxHeading",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 139
+            lineNumber: 141
           },
           __self: this
         }, "SUMMARY"), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("ul", {
           className: "allTheNumber",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 140
+            lineNumber: 142
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("li", {
@@ -1520,7 +1537,7 @@ function (_React$Component) {
           id: "boxPromo",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 141
+            lineNumber: 143
           },
           __self: this
         }, "Do you have a promo code?", react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("img", {
@@ -1529,7 +1546,7 @@ function (_React$Component) {
           src: "https://i.imgur.com/vp4niLu.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 141
+            lineNumber: 143
           },
           __self: this
         }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("img", {
@@ -1539,7 +1556,7 @@ function (_React$Component) {
           src: "https://i.imgur.com/y6GROgd.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 141
+            lineNumber: 143
           },
           __self: this
         }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
@@ -1547,7 +1564,7 @@ function (_React$Component) {
           hidden: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 141
+            lineNumber: 143
           },
           __self: this
         }, "If you are having trouble, please check the Terms & Conditions of the promotion, which are usually found by clicking \"See Details\" where the promotion was found online or in the footer of the email or mail."), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
@@ -1555,7 +1572,7 @@ function (_React$Component) {
           hidden: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 141
+            lineNumber: 143
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("input", {
@@ -1563,7 +1580,7 @@ function (_React$Component) {
           type: "text",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 141
+            lineNumber: 143
           },
           __self: this
         }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("button", {
@@ -1571,14 +1588,14 @@ function (_React$Component) {
           type: "submit",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 141
+            lineNumber: 143
           },
           __self: this
         }, "APPLY"))), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("li", {
           className: "finalBoxSubtotal",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 142
+            lineNumber: 144
           },
           __self: this
         }, "Subtotal", react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("img", {
@@ -1588,7 +1605,7 @@ function (_React$Component) {
           src: "https://i.imgur.com/y6GROgd.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 142
+            lineNumber: 144
           },
           __self: this
         }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
@@ -1596,49 +1613,49 @@ function (_React$Component) {
           hidden: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 142
+            lineNumber: 144
           },
           __self: this
         }, "The subtotal reflects the total price of your order before any applicable discounts. It does not include shipping costs and taxes."), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
           className: "priceTotal",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 142
+            lineNumber: 144
           },
           __self: this
         }, this.state.total), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("span", {
           className: "finalBoxDollarSign",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 142
+            lineNumber: 144
           },
           __self: this
         }, "$")), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("li", {
           className: "finalBoxShipping",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 143
+            lineNumber: 145
           },
           __self: this
         }, "Estimated Shipping & Handling", react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
           className: "priceTotal",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 143
+            lineNumber: 145
           },
           __self: this
         }, this.state.shipping), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("span", {
           className: "finalBoxDollarSign",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 143
+            lineNumber: 145
           },
           __self: this
         }, "$")), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("li", {
           className: "finalBoxTax",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 144
+            lineNumber: 146
           },
           __self: this
         }, "Estimated Tax", react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("img", {
@@ -1648,7 +1665,7 @@ function (_React$Component) {
           onClick: this.showPopup2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 144
+            lineNumber: 146
           },
           __self: this
         }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
@@ -1656,49 +1673,57 @@ function (_React$Component) {
           hidden: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 144
+            lineNumber: 146
           },
           __self: this
         }, "The actual tax will be calculated based on the applicable state and local sales taxes when your order is shipped."), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
           className: "priceTotal",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 144
+            lineNumber: 146
           },
           __self: this
         }, this.state.tax), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("span", {
           className: "finalBoxDollarSign",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 144
+            lineNumber: 146
           },
           __self: this
         }, "$")), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("li", {
           className: "finalBoxTotal",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 145
+            lineNumber: 147
           },
           __self: this
-        }, "Tota", react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
+        }, "Total", react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
           className: "priceTotal",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 145
+            lineNumber: 147
           },
           __self: this
         }, this.state.totalAmount), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("span", {
           className: "finalBoxDollarSign",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 145
+            lineNumber: 147
           },
           __self: this
-        }, "$"), "l"))), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+        }, "$"))), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("button", {
+          className: "checkoutButton",
+          type: "submit",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 149
+          },
+          __self: this
+        }, "SECURE CHECKOUT")), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
           className: "titleWrapper",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 148
+            lineNumber: 151
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_12__["Element"], {
@@ -1707,14 +1732,14 @@ function (_React$Component) {
           className: "element",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 149
+            lineNumber: 152
           },
           __self: this
         }, "You Might Also Like")), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(_store_grid_js__WEBPACK_IMPORTED_MODULE_15__["default"], {
           store: _data_store_js__WEBPACK_IMPORTED_MODULE_17__["default"],
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 151
+            lineNumber: 154
           },
           __self: this
         }));
@@ -18214,7 +18239,7 @@ var ShoppingCartPage = function ShoppingCartPage(props) {
 
 /***/ }),
 
-/***/ 0:
+/***/ 10:
 /*!*****************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fshopping-cart&absolutePagePath=%2FUsers%2Fpeterhahn%2Fsrc%2Fnew%2Faudio-boy%2Fpages%2Fshopping-cart.js ***!
   \*****************************************************************************************************************************************************/
@@ -18237,5 +18262,5 @@ module.exports = dll_6dc2816e14fab51b8269;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js","styles"]]]);
+},[[10,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=shopping-cart.js.map

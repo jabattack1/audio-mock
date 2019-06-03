@@ -23,7 +23,7 @@ class Cart extends React.Component{
 							<p className='cartItemName'>{this.props.data.name}</p>
 						</a>
 						<p className='cartItemSize'>{this.props.data.size}</p>
-						<p className='cartItemQuantity'>Qty:</p>
+						<p className='cartItemQuantity'>Quantity</p>
 						<div className="custom-select">
 						  <select className='select-selected' id='quantity' onMouseOver={this.setQuantity} defaultValue={this.props.data.quantity}>
 						    <option value="1">1</option>
@@ -38,10 +38,10 @@ class Cart extends React.Component{
 						    <option value="10">10</option>
 						  </select>
 						</div>
-						<span className='dollarSign'>$</span>
+						<div className='dollarSign'>$</div>
 						<p className='cartItemPrice'>{this.props.data.price}</p>
 						<p className='cartItemOrigPrice' hidden>{this.props.data.orig}</p>
-						<p className='deleteItem' id='x' onMouseOver={this.deleteItem}>&#10005;</p>
+						<p className='deleteItem' id='x' onMouseOver={this.deleteItem}>Remove</p>
 					</li>
 			)
 		}

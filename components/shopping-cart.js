@@ -90,8 +90,9 @@ class ShoppingCart extends React.Component{
 							<li className='finalBoxSubtotal'>Subtotal<img className='questionMarkSub' id='popQuestion1' onClick={this.showPopup1} src='https://i.imgur.com/y6GROgd.png' /><div id='popup1' hidden>The subtotal reflects the total price of your order before any applicable discounts. It does not include shipping costs and taxes.</div><p className='priceTotal'>{this.state.total}</p><span className='finalBoxDollarSign'>$</span></li>
 							<li className='finalBoxShipping'>Estimated Shipping & Handling<p className='priceTotal'>{this.state.shipping}</p><span className='finalBoxDollarSign'>$</span></li>
 							<li className='finalBoxTax'>Estimated Tax<img className='questionMarkSub' src='https://i.imgur.com/y6GROgd.png' id='popQuestion2' onClick={this.showPopup2}/><div id='popup2' hidden>The actual tax will be calculated based on the applicable state and local sales taxes when your order is shipped.</div><p className='priceTotal'>{this.state.tax}</p><span className='finalBoxDollarSign'>$</span></li>
-							<li className='finalBoxTotal'>Tota<p className='priceTotal'>{this.state.totalAmount}</p><span className='finalBoxDollarSign'>$</span>l</li>
+							<li className='finalBoxTotal'>Total<p className='priceTotal'>{this.state.totalAmount}</p><span className='finalBoxDollarSign'>$</span></li>									
 						</ul>
+						<button className='checkoutButton' type="submit">SECURE CHECKOUT</button>
 					</div>
 					<div className='titleWrapper'>
 	    				<Element id='labelHeader' name="label" className="element">You Might Also Like</Element>
@@ -117,8 +118,9 @@ class ShoppingCart extends React.Component{
 							<li className='finalBoxSubtotal'>Subtotal<img className='questionMarkSub' id='popQuestion1' onClick={this.showPopup1} src='https://i.imgur.com/y6GROgd.png' /><div id='popup1' hidden>The subtotal reflects the total price of your order before any applicable discounts. It does not include shipping costs and taxes.</div><p className='priceTotal'>{this.state.total}</p><span className='finalBoxDollarSign'>$</span></li>
 							<li className='finalBoxShipping'>Estimated Shipping & Handling<p className='priceTotal'>{this.state.shipping}</p><span className='finalBoxDollarSign'>$</span></li>
 							<li className='finalBoxTax'>Estimated Tax<img className='questionMarkSub' src='https://i.imgur.com/y6GROgd.png' id='popQuestion2' onClick={this.showPopup2}/><div id='popup2' hidden>The actual tax will be calculated based on the applicable state and local sales taxes when your order is shipped.</div><p className='priceTotal'>{this.state.tax}</p><span className='finalBoxDollarSign'>$</span></li>
-							<li className='finalBoxTotal'>Tota<p className='priceTotal'>{this.state.totalAmount}</p><span className='finalBoxDollarSign'>$</span>l</li>
+							<li className='finalBoxTotal'>Total<p className='priceTotal'>{this.state.totalAmount}</p><span className='finalBoxDollarSign'>$</span></li>
 						</ul>
+						<button className='checkoutButton' type="submit">SECURE CHECKOUT</button>
 					</div>
 					<div className='titleWrapper'>
 	    				<Element id='labelHeader' name="label" className="element">You Might Also Like</Element>
@@ -132,7 +134,7 @@ class ShoppingCart extends React.Component{
 				<div className='shoppingCartArea'>
 					<Navbar3 name='Shopping Cart' />
 					<Link href={`/shopping-cart`}><p className='goToCartFromCart' onClick={this.clear}>Delete All Items</p></Link>
-					<ul>
+					<ul className='shopCart'>
 					{this.state.data.map((data, i) => <Cart {...this.parsedData} key={i} i={i} data={data} />)}		
 					</ul>
 					<div className='finalBox'>
@@ -142,8 +144,9 @@ class ShoppingCart extends React.Component{
 							<li className='finalBoxSubtotal'>Subtotal<img className='questionMarkSub' id='popQuestion1' onClick={this.showPopup1} src='https://i.imgur.com/y6GROgd.png' /><div id='popup1' hidden>The subtotal reflects the total price of your order before any applicable discounts. It does not include shipping costs and taxes.</div><p className='priceTotal'>{this.state.total}</p><span className='finalBoxDollarSign'>$</span></li>
 							<li className='finalBoxShipping'>Estimated Shipping & Handling<p className='priceTotal'>{this.state.shipping}</p><span className='finalBoxDollarSign'>$</span></li>
 							<li className='finalBoxTax'>Estimated Tax<img className='questionMarkSub' src='https://i.imgur.com/y6GROgd.png' id='popQuestion2' onClick={this.showPopup2}/><div id='popup2' hidden>The actual tax will be calculated based on the applicable state and local sales taxes when your order is shipped.</div><p className='priceTotal'>{this.state.tax}</p><span className='finalBoxDollarSign'>$</span></li>
-							<li className='finalBoxTotal'>Tota<p className='priceTotal'>{this.state.totalAmount}</p><span className='finalBoxDollarSign'>$</span>l</li>
+							<li className='finalBoxTotal'>Total<p className='priceTotal'>{this.state.totalAmount}</p><span className='finalBoxDollarSign'>$</span></li>
 						</ul>
+						<button className='checkoutButton' type="submit">SECURE CHECKOUT</button>
 					</div>
 					<div className='titleWrapper'>
 	    				<Element id='labelHeader' name="label" className="element">You Might Also Like</Element>
