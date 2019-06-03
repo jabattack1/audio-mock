@@ -9,10 +9,18 @@ if (typeof window !== 'undefined') {
 	console.log('shine');
     var data = localStorage.getItem('state');
 	var parsedData = JSON.parse(data);
-	console.log(parsedData);
-	for(var i in parsedData) {
-	 total= total + parseInt(parsedData[i].quantity);
-    }
+	console.log('parsedData'+parsedData);
+	if(parsedData!==null){
+		if(parsedData.length<1){
+			for(var i in parsedData) {
+				total= total + parseInt(parsedData[i].quantity);
+		    }
+		}
+		else{
+			total=parseInt(parsedData.quantity);
+		}
+	}
+	console.log('wtf'+total);
 }
 
 const Layout2 = (props) => (

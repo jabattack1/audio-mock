@@ -1311,6 +1311,12 @@ input[type=radio]:checked ~ label{
   color:#FFB71E;
 }
 
+.totalLove{
+  position:absolute;
+  color:black;
+  margin-top:-20px;
+}
+
 
 
 

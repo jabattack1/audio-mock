@@ -186,9 +186,12 @@ class ShoppingCart extends React.Component{
 			var shipping = ((totalQuantity/3) * 4.49)+baseShipping;
 			var tax = total*.0725
 			var totalAmount = (total+shipping)+tax;
+			console.log('lion');
 			this.setState({total:total.toFixed(2), shipping:shipping.toFixed(2), tax:tax.toFixed(2), totalAmount:totalAmount.toFixed(2)});
 		}
-	}	
+
+	}
+
 
 	showPopup(){
 		// console.log('pop1');

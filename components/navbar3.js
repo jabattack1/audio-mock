@@ -23,8 +23,32 @@ class Navbar3 extends React.Component {
 
 
 	render () {
+
+		var total=0;
+
+		if (typeof window !== 'undefined') {
+		    var data = localStorage.getItem('state');
+		    console.log(data)
+		    if(data !== 'nothing'){
+				var parsedData = JSON.parse(data);
+				console.log('parsedData'+parsedData);
+				if(parsedData!==null){
+					if(parsedData.length<1){
+						for(var i in parsedData) {
+							total= total + parseInt(parsedData[i].quantity);
+					    }
+					}
+					else{
+						total=parseInt(parsedData.quantity);
+					}
+				}
+			}
+		}
+		console.log('wtf'+total);
+
 	    return(
 		    <div className="nav3">
+		    	<p className="totalLove">{total}</p>
 		        <li className="link3"><a className='parrot' href='/'>Home</a></li>
 		        <p className="artistHeadLine">{this.state.name}</p>
 		    </div>
