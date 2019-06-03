@@ -3,6 +3,17 @@ import Navbar from './navbar.js';
 import Footer from './footer.js';
 import Link from 'next/link';
 
+var total=0;
+
+if (typeof window !== 'undefined') {
+	console.log('shine');
+    var data = localStorage.getItem('state');
+	var parsedData = JSON.parse(data);
+	console.log(parsedData);
+	for(var i in parsedData) {
+	 total= total + parseInt(parsedData[i].quantity);
+    }
+}
 
 const Layout = (props) => (
 	<div>
@@ -12,7 +23,7 @@ const Layout = (props) => (
 
 	</Head>
 		<div className='topBanner'>Subscribe <span className='bold'>NOW</span> for our updates & promotions! <span className='bold'><a className='linkHere'>OVER HERE</a></span> 
-		<Link href={`/shopping-cart`}><p className='goToCart'>Shopping Cart</p></Link>
+		<Link href={`/shopping-cart`}><p className='goToCart'>Shopping Cart{total}</p></Link>
 		</div>
 		<Navbar />
 		<div className='containerWrapper'>

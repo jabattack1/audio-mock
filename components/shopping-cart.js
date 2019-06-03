@@ -44,7 +44,7 @@ class ShoppingCart extends React.Component{
 			}
 		}
 	    else if(localStorage.getItem('state')!== null && localStorage.getItem('state') !== 'nothing'){
-	    // localStorage.clear();
+	    	console.log('pFloyd')
 	    	var data = localStorage.getItem('state');
 		    let parsedData = JSON.parse(data);
 		    // console.log('steph');
