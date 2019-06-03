@@ -356,9 +356,9 @@ function (_React$Component) {
 
 /***/ }),
 
-/***/ "./components/footer2.js":
+/***/ "./components/footer3.js":
 /*!*******************************!*\
-  !*** ./components/footer2.js ***!
+  !*** ./components/footer3.js ***!
   \*******************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -369,7 +369,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/peterhahn/src/new/audio-boy/components/footer2.js";
+var _jsxFileName = "/Users/peterhahn/src/new/audio-boy/components/footer3.js";
 
 
 
@@ -382,128 +382,128 @@ function year() {
   return spit;
 }
 
-var Footer2 = function Footer2() {
+var Footer3 = function Footer3() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "footerWrapper2",
+    className: "footerWrapper3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 12
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "footer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 13
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "footerMenu",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 14
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 15
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "footerLink",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 16
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     id: "copyright",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 17
     },
     __self: this
   }, "\xA9 ", year(), " Audio-Boy")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "footerLink",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 21
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "/privacy-policy",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 21
     },
     __self: this
   }, "Privay Policy")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "footerLink",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 22
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "/terms-of-use",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 22
     },
     __self: this
   }, "Terms of Use")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "footerLink",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 23
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "/ad-choices",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 23
     },
     __self: this
   }, "Ad Choices")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "footerLink",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 24
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "/cookie-policy",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 24
     },
     __self: this
   }, "Cookie Policy")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "footerLink",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 25
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "/jobs",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 25
     },
     __self: this
   }, "Jobs"))))));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Footer2);
+/* harmony default export */ __webpack_exports__["default"] = (Footer3);
 
 /***/ }),
 
-/***/ "./components/layout3.js":
+/***/ "./components/layout4.js":
 /*!*******************************!*\
-  !*** ./components/layout3.js ***!
+  !*** ./components/layout4.js ***!
   \*******************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -514,16 +514,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _footer2_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./footer2.js */ "./components/footer2.js");
+/* harmony import */ var _footer3_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./footer3.js */ "./components/footer3.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "/Users/peterhahn/src/new/audio-boy/components/layout3.js";
+var _jsxFileName = "/Users/peterhahn/src/new/audio-boy/components/layout4.js";
 
 
 
 
 
-var Layout3 = function Layout3(props) {
+var Layout4 = function Layout4(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
@@ -607,7 +607,7 @@ var Layout3 = function Layout3(props) {
       lineNumber: 17
     },
     __self: this
-  }, props.children)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_footer2_js__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, props.children)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_footer3_js__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21
@@ -616,7 +616,7 @@ var Layout3 = function Layout3(props) {
   }));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Layout3);
+/* harmony default export */ __webpack_exports__["default"] = (Layout4);
 
 /***/ }),
 
@@ -18168,7 +18168,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var _components_shopping_cart_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/shopping-cart.js */ "./components/shopping-cart.js");
-/* harmony import */ var _components_layout3_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/layout3.js */ "./components/layout3.js");
+/* harmony import */ var _components_layout4_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/layout4.js */ "./components/layout4.js");
 /* harmony import */ var _data_artistList_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../data/artistList.js */ "./data/artistList.js");
 /* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../css/normalize.css */ "./css/normalize.css");
 /* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_css_normalize_css__WEBPACK_IMPORTED_MODULE_6__);
@@ -18188,7 +18188,7 @@ var _jsxFileName = "/Users/peterhahn/src/new/audio-boy/pages/shopping-cart.js";
 
 
 var ShoppingCartPage = function ShoppingCartPage(props) {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_layout3_js__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_layout4_js__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16
@@ -18214,7 +18214,7 @@ var ShoppingCartPage = function ShoppingCartPage(props) {
 
 /***/ }),
 
-/***/ 10:
+/***/ 0:
 /*!*****************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fshopping-cart&absolutePagePath=%2FUsers%2Fpeterhahn%2Fsrc%2Fnew%2Faudio-boy%2Fpages%2Fshopping-cart.js ***!
   \*****************************************************************************************************************************************************/
@@ -18237,5 +18237,5 @@ module.exports = dll_6dc2816e14fab51b8269;
 
 /***/ })
 
-},[[10,"static/runtime/webpack.js","styles"]]]);
+},[[0,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=shopping-cart.js.map

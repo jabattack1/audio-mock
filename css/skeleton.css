@@ -142,6 +142,7 @@ textarea {
 
 
 html {
+  display:table;width:100%;
   font-size: 62.5%; }
 body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
@@ -1137,7 +1138,14 @@ input[type=radio]:checked ~ label{
   position: relative;
   clear: both;
   height: 40px;
-  /*margin-top: 40px*/
+/*  margin-top: 195px*/
+}
+
+.footerWrapper3{
+  position: relative;
+  clear: both;
+  height: 40px;
+  margin-top: 215px
 }
 
 .footer {
