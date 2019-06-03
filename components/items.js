@@ -148,7 +148,7 @@ class Items extends React.Component{
 			let itemPrice = document.getElementById('itemPrice').innerHTML;
 
 	    	let itemName = document.getElementById('button').value;
-	    	let itemImage = document.getElementsByTagName("img")[0].src;
+	    	let itemImage = document.getElementById('itemMPhoto').src;
 
 	    	if (document.getElementById('s-option').checked) {
 	  			itemSize = document.getElementById('s-option').value;

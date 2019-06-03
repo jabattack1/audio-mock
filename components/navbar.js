@@ -1,7 +1,9 @@
 import React from 'react';
 import Head from 'next/head';
 import { render } from 'react-dom';
-import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
+import {DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
+import {Link as Clink } from 'react-scroll';
+import Link from 'next/link';
 
 import styled from 'styled-components';
 
@@ -17,14 +19,36 @@ class Navbar extends React.Component {
   	}
 
 	render () {
+
+		var total=0;
+
+		if (typeof window !== 'undefined') {
+		    var data = localStorage.getItem('state');
+		    console.log('nav1'+data);
+		    if(data !== 'nothing'){
+				var parsedData = JSON.parse(data);
+				if(parsedData!==null){
+					if(parsedData.length!==undefined){
+						for(var i in parsedData) {
+							total = total + parseInt(parsedData[i].quantity);
+					    }
+					}
+					else{
+						total = parseInt(parsedData.quantity);
+					}
+				}
+			}
+		}
+
 	    return(
 		    <div className="nav">
 		      <ul>
-		        <li className="link"><Link className='audioLetters' activeClass="active" to="artists" spy={true} smooth={true} duration={500}>ARTISTS</Link></li>
-		        <li className="link"><Link className='audioLetters' activeClass="active" to="news" spy={true} smooth={true} duration={500}>NEWS</Link></li>
-		       	<li className="link"><Link className='audioLetters' activeClass="active" to="label" spy={true} smooth={true} duration={500}>THE LABEL</Link></li>
-		        <li className="link"><Link className='audioLetters' activeClass="active" to="store" spy={true} smooth={true} duration={500}>STORE</Link></li>
-		        <li className="link"><Link className='audioLetters' activeClass="active" to="contact" spy={true} smooth={true} duration={500}>CONTACT</Link></li>
+		        <li className="link"><Clink className='audioLetters' activeClass="active" to="artists" spy={true} smooth={true} duration={500}>ARTISTS</Clink></li>
+		        <li className="link"><Clink  className='audioLetters' activeClass="active" to="news" spy={true} smooth={true} duration={500}>NEWS</Clink></li>
+		       	<li className="link"><Clink  className='audioLetters' activeClass="active" to="label" spy={true} smooth={true} duration={500}>THE LABEL</Clink></li>
+		        <li className="link"><Clink  className='audioLetters' activeClass="active" to="store" spy={true} smooth={true} duration={500}>STORE</Clink></li>
+		        <li className="link"><Clink  className='audioLetters' activeClass="active" to="contact" spy={true} smooth={true} duration={500}>CONTACT</Clink></li>
+		      <Link href={`/shopping-cart`}><span className='goToCart1'><img src='https://i.imgur.com/O4wSpvB.png' className='cartImage' /><p className='cartQuantity'>{total}</p></span></Link>
 		      </ul>
 		    </div>
 	    )

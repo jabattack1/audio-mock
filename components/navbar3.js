@@ -1,7 +1,8 @@
 import React from 'react';
 import Head from 'next/head';
 import { render } from 'react-dom';
-import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
+import { DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
+import Link from 'next/link';
 
 import styled from 'styled-components';
 
@@ -28,29 +29,26 @@ class Navbar3 extends React.Component {
 
 		if (typeof window !== 'undefined') {
 		    var data = localStorage.getItem('state');
-		    console.log(data)
 		    if(data !== 'nothing'){
 				var parsedData = JSON.parse(data);
-				console.log('parsedData'+parsedData);
 				if(parsedData!==null){
-					if(parsedData.length<1){
+					if(parsedData.length!==undefined){
 						for(var i in parsedData) {
-							total= total + parseInt(parsedData[i].quantity);
+							total = total + parseInt(parsedData[i].quantity);
 					    }
 					}
 					else{
-						total=parseInt(parsedData.quantity);
+						total = parseInt(parsedData.quantity);
 					}
 				}
 			}
 		}
-		console.log('wtf'+total);
 
 	    return(
 		    <div className="nav3">
-		    	<p className="totalLove">{total}</p>
 		        <li className="link3"><a className='parrot' href='/'>Home</a></li>
 		        <p className="artistHeadLine">{this.state.name}</p>
+		    	<Link href={`/shopping-cart`}><span className='goToCart3'><img src='https://i.imgur.com/O4wSpvB.png' className='cartImage' /><p className='cartQuantity'>{total}</p></span></Link>
 		    </div>
 	    )
 	}

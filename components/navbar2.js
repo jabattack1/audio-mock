@@ -1,7 +1,8 @@
 import React from 'react';
 import Head from 'next/head';
 import { render } from 'react-dom';
-import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
+import { DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
+import Link from 'next/link';
 
 import styled from 'styled-components';
 
@@ -17,6 +18,26 @@ class Navbar2 extends React.Component {
   	}
 
 	render () {
+
+		var total=0;
+
+		if (typeof window !== 'undefined') {
+		    var data = localStorage.getItem('state');
+		    if(data !== 'nothing'){
+				var parsedData = JSON.parse(data);
+				if(parsedData!==null){
+					if(parsedData.length!==undefined){
+						for(var i in parsedData) {
+							total = total + parseInt(parsedData[i].quantity);
+					    }
+					}
+					else{
+						total = parseInt(parsedData.quantity);
+					}
+				}
+			}
+		}
+
 	    return(
 		    <div className="nav">
 		      <ul>
@@ -27,6 +48,7 @@ class Navbar2 extends React.Component {
 		        <li className="navLinks"><a className='policyNav' href='/cookie-policy'>COOKIE POLICY</a></li>
 		        <li className="navLinks"><a className='policyNav' href='/jobs'>JOBS</a></li>
 		      </ul>
+		      <Link href={`/shopping-cart`}><span className='goToCart2'><img src='https://i.imgur.com/O4wSpvB.png' className='cartImage' /><p className='cartQuantity'>{total}</p></span></Link>
 		    </div>
 	    )
 	}

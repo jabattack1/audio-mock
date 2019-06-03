@@ -1,5 +1,6 @@
 
 .pn-ProductNav_Wrapper {
+  display:flex;
   position: relative;
   /*padding: 0 11px;*/
   box-sizing: border-box;
@@ -11,11 +12,27 @@
   border-radius:4px;
 }
 
+@media only screen and (max-width:700px) {
+  .pn-ProductNav_Wrapper {
+    position: relative;
+    /*padding: 0 11px;*/
+    box-sizing: border-box;
+    /*background-color:white;*/
+    width:500px;
+    top:200px;
+    height:250px;
+    background-color:black;
+    border-radius:4px;
+  }
+}
+
+
 .pnProductNavContents{
 
 }
 
 .pn-ProductNav {
+  display:flex;
 	/*background-color:red;*/
 	margin:0 auto;
 	top:0;
