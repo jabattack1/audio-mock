@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -897,20 +897,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_10__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! next/head */ "next/head");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_11__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! react-scroll */ "react-scroll");
+/* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(react_scroll__WEBPACK_IMPORTED_MODULE_12__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_13__);
 /* harmony import */ var _cart_js__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./cart.js */ "./components/cart.js");
-/* harmony import */ var _navbar3_js__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./navbar3.js */ "./components/navbar3.js");
-/* harmony import */ var _css_artist_css__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../css/artist.css */ "./css/artist.css");
-/* harmony import */ var _css_artist_css__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(_css_artist_css__WEBPACK_IMPORTED_MODULE_16__);
-/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../css/normalize.css */ "./css/normalize.css");
-/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(_css_normalize_css__WEBPACK_IMPORTED_MODULE_17__);
-/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../css/skeleton.css */ "./css/skeleton.css");
-/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_18___default = /*#__PURE__*/__webpack_require__.n(_css_skeleton_css__WEBPACK_IMPORTED_MODULE_18__);
-/* harmony import */ var _css_shoppingCart_css__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../css/shoppingCart.css */ "./css/shoppingCart.css");
-/* harmony import */ var _css_shoppingCart_css__WEBPACK_IMPORTED_MODULE_19___default = /*#__PURE__*/__webpack_require__.n(_css_shoppingCart_css__WEBPACK_IMPORTED_MODULE_19__);
+/* harmony import */ var _store_grid_js__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./store-grid.js */ "./components/store-grid.js");
+/* harmony import */ var _navbar3_js__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./navbar3.js */ "./components/navbar3.js");
+/* harmony import */ var _data_store_js__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../data/store.js */ "./data/store.js");
+/* harmony import */ var _css_artist_css__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../css/artist.css */ "./css/artist.css");
+/* harmony import */ var _css_artist_css__WEBPACK_IMPORTED_MODULE_18___default = /*#__PURE__*/__webpack_require__.n(_css_artist_css__WEBPACK_IMPORTED_MODULE_18__);
+/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../css/normalize.css */ "./css/normalize.css");
+/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_19___default = /*#__PURE__*/__webpack_require__.n(_css_normalize_css__WEBPACK_IMPORTED_MODULE_19__);
+/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../css/skeleton.css */ "./css/skeleton.css");
+/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_20___default = /*#__PURE__*/__webpack_require__.n(_css_skeleton_css__WEBPACK_IMPORTED_MODULE_20__);
+/* harmony import */ var _css_shoppingCart_css__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../css/shoppingCart.css */ "./css/shoppingCart.css");
+/* harmony import */ var _css_shoppingCart_css__WEBPACK_IMPORTED_MODULE_21___default = /*#__PURE__*/__webpack_require__.n(_css_shoppingCart_css__WEBPACK_IMPORTED_MODULE_21__);
 
 
 
@@ -922,6 +924,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var _jsxFileName = "/Users/peterhahn/src/new/audio-boy/components/shopping-cart.js";
+
+
 
 
 
@@ -1004,21 +1008,21 @@ function (_React$Component) {
           className: "shoppingCartArea",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 78
+            lineNumber: 80
           },
           __self: this
-        }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(_navbar3_js__WEBPACK_IMPORTED_MODULE_15__["default"], {
+        }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(_navbar3_js__WEBPACK_IMPORTED_MODULE_16__["default"], {
           name: "Shopping Cart",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 79
+            lineNumber: 81
           },
           __self: this
-        }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_12___default.a, {
+        }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_12__["Link"], {
           href: "/shopping-cart",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 80
+            lineNumber: 82
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
@@ -1026,41 +1030,41 @@ function (_React$Component) {
           onClick: this.clear,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 80
+            lineNumber: 82
           },
           __self: this
         }, "Delete All Items")), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("ul", {
           className: "ah",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 81
+            lineNumber: 83
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(_cart_js__WEBPACK_IMPORTED_MODULE_14__["default"], {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 82
+            lineNumber: 84
           },
           __self: this
         })), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
           className: "finalBox",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 84
+            lineNumber: 86
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
           className: "finalBoxHeading",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 85
+            lineNumber: 87
           },
           __self: this
         }, "SUMMARY"), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("ul", {
           className: "allTheNumber",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 86
+            lineNumber: 88
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("li", {
@@ -1068,7 +1072,7 @@ function (_React$Component) {
           id: "boxPromo",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 87
+            lineNumber: 89
           },
           __self: this
         }, "Do you have a promo code?", react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("img", {
@@ -1077,7 +1081,7 @@ function (_React$Component) {
           src: "https://i.imgur.com/vp4niLu.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 87
+            lineNumber: 89
           },
           __self: this
         }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("img", {
@@ -1087,7 +1091,7 @@ function (_React$Component) {
           src: "https://i.imgur.com/y6GROgd.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 87
+            lineNumber: 89
           },
           __self: this
         }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
@@ -1095,7 +1099,7 @@ function (_React$Component) {
           hidden: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 87
+            lineNumber: 89
           },
           __self: this
         }, "If you are having trouble, please check the Terms & Conditions of the promotion, which are usually found by clicking \"See Details\" where the promotion was found online or in the footer of the email or mail."), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
@@ -1103,7 +1107,7 @@ function (_React$Component) {
           hidden: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 87
+            lineNumber: 89
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("input", {
@@ -1111,7 +1115,7 @@ function (_React$Component) {
           type: "text",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 87
+            lineNumber: 89
           },
           __self: this
         }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("button", {
@@ -1119,14 +1123,14 @@ function (_React$Component) {
           type: "submit",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 87
+            lineNumber: 89
           },
           __self: this
         }, "APPLY"))), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("li", {
           className: "finalBoxSubtotal",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 88
+            lineNumber: 90
           },
           __self: this
         }, "Subtotal", react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("img", {
@@ -1136,7 +1140,7 @@ function (_React$Component) {
           src: "https://i.imgur.com/y6GROgd.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 88
+            lineNumber: 90
           },
           __self: this
         }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
@@ -1144,49 +1148,49 @@ function (_React$Component) {
           hidden: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 88
+            lineNumber: 90
           },
           __self: this
         }, "The subtotal reflects the total price of your order before any applicable discounts. It does not include shipping costs and taxes."), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
           className: "priceTotal",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 88
+            lineNumber: 90
           },
           __self: this
         }, this.state.total), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("span", {
           className: "finalBoxDollarSign",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 88
+            lineNumber: 90
           },
           __self: this
         }, "$")), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("li", {
           className: "finalBoxShipping",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 89
+            lineNumber: 91
           },
           __self: this
         }, "Estimated Shipping & Handling", react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
           className: "priceTotal",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 89
+            lineNumber: 91
           },
           __self: this
         }, this.state.shipping), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("span", {
           className: "finalBoxDollarSign",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 89
+            lineNumber: 91
           },
           __self: this
         }, "$")), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("li", {
           className: "finalBoxTax",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 90
+            lineNumber: 92
           },
           __self: this
         }, "Estimated Tax", react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("img", {
@@ -1196,7 +1200,7 @@ function (_React$Component) {
           onClick: this.showPopup2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 90
+            lineNumber: 92
           },
           __self: this
         }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
@@ -1204,66 +1208,89 @@ function (_React$Component) {
           hidden: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 90
+            lineNumber: 92
           },
           __self: this
         }, "The actual tax will be calculated based on the applicable state and local sales taxes when your order is shipped."), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
           className: "priceTotal",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 90
+            lineNumber: 92
           },
           __self: this
         }, this.state.tax), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("span", {
           className: "finalBoxDollarSign",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 90
+            lineNumber: 92
           },
           __self: this
         }, "$")), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("li", {
           className: "finalBoxTotal",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 91
+            lineNumber: 93
           },
           __self: this
         }, "Tota", react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
           className: "priceTotal",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 91
+            lineNumber: 93
           },
           __self: this
         }, this.state.totalAmount), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("span", {
           className: "finalBoxDollarSign",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 91
+            lineNumber: 93
           },
           __self: this
-        }, "$"), "l"))));
+        }, "$"), "l"))), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+          className: "titleWrapper",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 96
+          },
+          __self: this
+        }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_12__["Element"], {
+          id: "labelHeader",
+          name: "label",
+          className: "element",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 97
+          },
+          __self: this
+        }, "You Might Also Like")), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(_store_grid_js__WEBPACK_IMPORTED_MODULE_15__["default"], {
+          store: _data_store_js__WEBPACK_IMPORTED_MODULE_17__["default"],
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 99
+          },
+          __self: this
+        }));
       } else if (this.state.data.length == undefined) {
         console.log('loca');
         return react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
           className: "shoppingCartArea",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 101
+            lineNumber: 107
           },
           __self: this
-        }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(_navbar3_js__WEBPACK_IMPORTED_MODULE_15__["default"], {
+        }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(_navbar3_js__WEBPACK_IMPORTED_MODULE_16__["default"], {
           name: "Shopping Cart",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 102
+            lineNumber: 108
           },
           __self: this
-        }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_12___default.a, {
+        }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_12__["Link"], {
           href: "/shopping-cart",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 103
+            lineNumber: 109
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
@@ -1271,13 +1298,13 @@ function (_React$Component) {
           onClick: this.clear,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 103
+            lineNumber: 109
           },
           __self: this
         }, "Delete All Items")), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("ul", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 104
+            lineNumber: 110
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(_cart_js__WEBPACK_IMPORTED_MODULE_14__["default"], {
@@ -1286,28 +1313,28 @@ function (_React$Component) {
           data: this.state.data,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 105
+            lineNumber: 111
           },
           __self: this
         })), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
           className: "finalBox",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 107
+            lineNumber: 113
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
           className: "finalBoxHeading",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 108
+            lineNumber: 114
           },
           __self: this
         }, "SUMMARY"), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("ul", {
           className: "allTheNumber",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 109
+            lineNumber: 115
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("li", {
@@ -1315,7 +1342,7 @@ function (_React$Component) {
           id: "boxPromo",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 110
+            lineNumber: 116
           },
           __self: this
         }, "Do you have a promo code?", react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("img", {
@@ -1324,7 +1351,7 @@ function (_React$Component) {
           src: "https://i.imgur.com/vp4niLu.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 110
+            lineNumber: 116
           },
           __self: this
         }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("img", {
@@ -1334,7 +1361,7 @@ function (_React$Component) {
           src: "https://i.imgur.com/y6GROgd.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 110
+            lineNumber: 116
           },
           __self: this
         }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
@@ -1342,7 +1369,7 @@ function (_React$Component) {
           hidden: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 110
+            lineNumber: 116
           },
           __self: this
         }, "If you are having trouble, please check the Terms & Conditions of the promotion, which are usually found by clicking \"See Details\" where the promotion was found online or in the footer of the email or mail."), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
@@ -1350,7 +1377,7 @@ function (_React$Component) {
           hidden: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 110
+            lineNumber: 116
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("input", {
@@ -1358,7 +1385,7 @@ function (_React$Component) {
           type: "text",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 110
+            lineNumber: 116
           },
           __self: this
         }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("button", {
@@ -1366,14 +1393,14 @@ function (_React$Component) {
           type: "submit",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 110
+            lineNumber: 116
           },
           __self: this
         }, "APPLY"))), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("li", {
           className: "finalBoxSubtotal",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 111
+            lineNumber: 117
           },
           __self: this
         }, "Subtotal", react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("img", {
@@ -1383,7 +1410,7 @@ function (_React$Component) {
           src: "https://i.imgur.com/y6GROgd.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 111
+            lineNumber: 117
           },
           __self: this
         }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
@@ -1391,49 +1418,49 @@ function (_React$Component) {
           hidden: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 111
+            lineNumber: 117
           },
           __self: this
         }, "The subtotal reflects the total price of your order before any applicable discounts. It does not include shipping costs and taxes."), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
           className: "priceTotal",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 111
+            lineNumber: 117
           },
           __self: this
         }, this.state.total), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("span", {
           className: "finalBoxDollarSign",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 111
+            lineNumber: 117
           },
           __self: this
         }, "$")), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("li", {
           className: "finalBoxShipping",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 112
+            lineNumber: 118
           },
           __self: this
         }, "Estimated Shipping & Handling", react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
           className: "priceTotal",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 112
+            lineNumber: 118
           },
           __self: this
         }, this.state.shipping), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("span", {
           className: "finalBoxDollarSign",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 112
+            lineNumber: 118
           },
           __self: this
         }, "$")), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("li", {
           className: "finalBoxTax",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 113
+            lineNumber: 119
           },
           __self: this
         }, "Estimated Tax", react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("img", {
@@ -1443,7 +1470,7 @@ function (_React$Component) {
           onClick: this.showPopup2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 113
+            lineNumber: 119
           },
           __self: this
         }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
@@ -1451,65 +1478,88 @@ function (_React$Component) {
           hidden: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 113
+            lineNumber: 119
           },
           __self: this
         }, "The actual tax will be calculated based on the applicable state and local sales taxes when your order is shipped."), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
           className: "priceTotal",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 113
+            lineNumber: 119
           },
           __self: this
         }, this.state.tax), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("span", {
           className: "finalBoxDollarSign",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 113
+            lineNumber: 119
           },
           __self: this
         }, "$")), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("li", {
           className: "finalBoxTotal",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 114
+            lineNumber: 120
           },
           __self: this
         }, "Tota", react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
           className: "priceTotal",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 114
+            lineNumber: 120
           },
           __self: this
         }, this.state.totalAmount), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("span", {
           className: "finalBoxDollarSign",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 114
+            lineNumber: 120
           },
           __self: this
-        }, "$"), "l"))));
-      } else {
-        return react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
-          className: "shoppingCartArea",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 122
-          },
-          __self: this
-        }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(_navbar3_js__WEBPACK_IMPORTED_MODULE_15__["default"], {
-          name: "Shopping Cart",
+        }, "$"), "l"))), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+          className: "titleWrapper",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 123
           },
           __self: this
-        }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_12___default.a, {
-          href: "/shopping-cart",
+        }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_12__["Element"], {
+          id: "labelHeader",
+          name: "label",
+          className: "element",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 124
+          },
+          __self: this
+        }, "You Might Also Like")), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(_store_grid_js__WEBPACK_IMPORTED_MODULE_15__["default"], {
+          store: _data_store_js__WEBPACK_IMPORTED_MODULE_17__["default"],
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 126
+          },
+          __self: this
+        }));
+      } else {
+        return react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+          className: "shoppingCartArea",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 132
+          },
+          __self: this
+        }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(_navbar3_js__WEBPACK_IMPORTED_MODULE_16__["default"], {
+          name: "Shopping Cart",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 133
+          },
+          __self: this
+        }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_12__["Link"], {
+          href: "/shopping-cart",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 134
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
@@ -1517,13 +1567,13 @@ function (_React$Component) {
           onClick: this.clear,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 124
+            lineNumber: 134
           },
           __self: this
         }, "Delete All Items")), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("ul", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 125
+            lineNumber: 135
           },
           __self: this
         }, this.state.data.map(function (data, i) {
@@ -1533,7 +1583,7 @@ function (_React$Component) {
             data: data,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 126
+              lineNumber: 136
             },
             __self: this
           }));
@@ -1541,21 +1591,21 @@ function (_React$Component) {
           className: "finalBox",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 128
+            lineNumber: 138
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
           className: "finalBoxHeading",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 129
+            lineNumber: 139
           },
           __self: this
         }, "SUMMARY"), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("ul", {
           className: "allTheNumber",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 130
+            lineNumber: 140
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("li", {
@@ -1563,7 +1613,7 @@ function (_React$Component) {
           id: "boxPromo",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 131
+            lineNumber: 141
           },
           __self: this
         }, "Do you have a promo code?", react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("img", {
@@ -1572,7 +1622,7 @@ function (_React$Component) {
           src: "https://i.imgur.com/vp4niLu.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 131
+            lineNumber: 141
           },
           __self: this
         }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("img", {
@@ -1582,7 +1632,7 @@ function (_React$Component) {
           src: "https://i.imgur.com/y6GROgd.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 131
+            lineNumber: 141
           },
           __self: this
         }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
@@ -1590,7 +1640,7 @@ function (_React$Component) {
           hidden: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 131
+            lineNumber: 141
           },
           __self: this
         }, "If you are having trouble, please check the Terms & Conditions of the promotion, which are usually found by clicking \"See Details\" where the promotion was found online or in the footer of the email or mail."), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
@@ -1598,7 +1648,7 @@ function (_React$Component) {
           hidden: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 131
+            lineNumber: 141
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("input", {
@@ -1606,7 +1656,7 @@ function (_React$Component) {
           type: "text",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 131
+            lineNumber: 141
           },
           __self: this
         }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("button", {
@@ -1614,14 +1664,14 @@ function (_React$Component) {
           type: "submit",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 131
+            lineNumber: 141
           },
           __self: this
         }, "APPLY"))), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("li", {
           className: "finalBoxSubtotal",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 132
+            lineNumber: 142
           },
           __self: this
         }, "Subtotal", react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("img", {
@@ -1631,7 +1681,7 @@ function (_React$Component) {
           src: "https://i.imgur.com/y6GROgd.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 132
+            lineNumber: 142
           },
           __self: this
         }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
@@ -1639,49 +1689,49 @@ function (_React$Component) {
           hidden: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 132
+            lineNumber: 142
           },
           __self: this
         }, "The subtotal reflects the total price of your order before any applicable discounts. It does not include shipping costs and taxes."), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
           className: "priceTotal",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 132
+            lineNumber: 142
           },
           __self: this
         }, this.state.total), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("span", {
           className: "finalBoxDollarSign",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 132
+            lineNumber: 142
           },
           __self: this
         }, "$")), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("li", {
           className: "finalBoxShipping",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 133
+            lineNumber: 143
           },
           __self: this
         }, "Estimated Shipping & Handling", react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
           className: "priceTotal",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 133
+            lineNumber: 143
           },
           __self: this
         }, this.state.shipping), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("span", {
           className: "finalBoxDollarSign",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 133
+            lineNumber: 143
           },
           __self: this
         }, "$")), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("li", {
           className: "finalBoxTax",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 134
+            lineNumber: 144
           },
           __self: this
         }, "Estimated Tax", react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("img", {
@@ -1691,7 +1741,7 @@ function (_React$Component) {
           onClick: this.showPopup2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 134
+            lineNumber: 144
           },
           __self: this
         }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
@@ -1699,45 +1749,68 @@ function (_React$Component) {
           hidden: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 134
+            lineNumber: 144
           },
           __self: this
         }, "The actual tax will be calculated based on the applicable state and local sales taxes when your order is shipped."), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
           className: "priceTotal",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 134
+            lineNumber: 144
           },
           __self: this
         }, this.state.tax), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("span", {
           className: "finalBoxDollarSign",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 134
+            lineNumber: 144
           },
           __self: this
         }, "$")), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("li", {
           className: "finalBoxTotal",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 135
+            lineNumber: 145
           },
           __self: this
         }, "Tota", react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
           className: "priceTotal",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 135
+            lineNumber: 145
           },
           __self: this
         }, this.state.totalAmount), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("span", {
           className: "finalBoxDollarSign",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 135
+            lineNumber: 145
           },
           __self: this
-        }, "$"), "l"))));
+        }, "$"), "l"))), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+          className: "titleWrapper",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 148
+          },
+          __self: this
+        }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_12__["Element"], {
+          id: "labelHeader",
+          name: "label",
+          className: "element",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 149
+          },
+          __self: this
+        }, "You Might Also Like")), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(_store_grid_js__WEBPACK_IMPORTED_MODULE_15__["default"], {
+          store: _data_store_js__WEBPACK_IMPORTED_MODULE_17__["default"],
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 151
+          },
+          __self: this
+        }));
       }
     }
   }, {
@@ -1883,6 +1956,249 @@ function (_React$Component) {
 
 /***/ }),
 
+/***/ "./components/store-grid.js":
+/*!**********************************!*\
+  !*** ./components/store-grid.js ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/extends */ "./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! next/head */ "next/head");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! styled-components */ "styled-components");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _store_js__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./store.js */ "./components/store.js");
+/* harmony import */ var _shopping_cart_js__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./shopping-cart.js */ "./components/shopping-cart.js");
+/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../css/normalize.css */ "./css/normalize.css");
+/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_css_normalize_css__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../css/skeleton.css */ "./css/skeleton.css");
+/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_css_skeleton_css__WEBPACK_IMPORTED_MODULE_14__);
+
+
+
+
+
+
+
+
+var _jsxFileName = "/Users/peterhahn/src/new/audio-boy/components/store-grid.js";
+
+
+
+
+
+
+
+
+var StoreGrid =
+/*#__PURE__*/
+function (_React$Component) {
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__["default"])(StoreGrid, _React$Component);
+
+  function StoreGrid() {
+    var _getPrototypeOf2;
+
+    var _this;
+
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__["default"])(this, StoreGrid);
+
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__["default"])(this, (_getPrototypeOf2 = Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__["default"])(StoreGrid)).call.apply(_getPrototypeOf2, [this].concat(args)));
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this), "state", {});
+
+    return _this;
+  }
+
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__["default"])(StoreGrid, [{
+    key: "render",
+    value: function render() {
+      var _this2 = this;
+
+      return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+        className: "storeWrapper",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 20
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+        className: "storeBox",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21
+        },
+        __self: this
+      }, this.props.store.map(function (post, i) {
+        return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_store_js__WEBPACK_IMPORTED_MODULE_11__["default"], Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, _this2.props, {
+          key: i,
+          i: i,
+          store: post,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 22
+          },
+          __self: this
+        }));
+      })));
+    }
+  }]);
+
+  return StoreGrid;
+}(react__WEBPACK_IMPORTED_MODULE_8___default.a.Component);
+
+/* harmony default export */ __webpack_exports__["default"] = (StoreGrid);
+
+/***/ }),
+
+/***/ "./components/store.js":
+/*!*****************************!*\
+  !*** ./components/store.js ***!
+  \*****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! next/head */ "next/head");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! styled-components */ "styled-components");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../css/normalize.css */ "./css/normalize.css");
+/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_css_normalize_css__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../css/skeleton.css */ "./css/skeleton.css");
+/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_css_skeleton_css__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _css_styleStore_css__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../css/styleStore.css */ "./css/styleStore.css");
+/* harmony import */ var _css_styleStore_css__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_css_styleStore_css__WEBPACK_IMPORTED_MODULE_11__);
+
+
+
+
+
+var _jsxFileName = "/Users/peterhahn/src/new/audio-boy/components/store.js";
+
+
+
+
+
+
+
+
+var Store =
+/*#__PURE__*/
+function (_React$Component) {
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(Store, _React$Component);
+
+  function Store() {
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Store);
+
+    return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Store).apply(this, arguments));
+  }
+
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Store, [{
+    key: "render",
+    value: function render() {
+      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("figure", {
+        className: "grid-figureStore",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 16
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "grid-figure-wrapStore",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
+        href: "/store?code=".concat(this.props.store.code),
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        alt: this.props.store.code,
+        className: "grid-store",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
+        src: this.props.store.display_src,
+        alt: this.props.store.name,
+        className: "itemPhoto",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 20
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+        className: "itemName",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21
+        },
+        __self: this
+      }, this.props.store.name), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+        className: "itemColor",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22
+        },
+        __self: this
+      }, this.props.store.color), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+        className: "itemQuick",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 23
+        },
+        __self: this
+      }, this.props.store.quick), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+        className: "itemPrice",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 24
+        },
+        __self: this
+      }, "$", this.props.store.price)))));
+    }
+  }]);
+
+  return Store;
+}(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
+
+/* harmony default export */ __webpack_exports__["default"] = (Store);
+
+/***/ }),
+
 /***/ "./css/artist.css":
 /*!************************!*\
   !*** ./css/artist.css ***!
@@ -1949,6 +2265,17 @@ function (_React$Component) {
 
 /***/ }),
 
+/***/ "./css/styleStore.css":
+/*!****************************!*\
+  !*** ./css/styleStore.css ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
 /***/ "./data/artistList.js":
 /*!****************************!*\
   !*** ./data/artistList.js ***!
@@ -1995,6 +2322,86 @@ var artistList = [{
 //   "id": "1",
 //   "display_src": `https://i.imgur.com/K0MuJet.png`
 // }
+
+/***/ }),
+
+/***/ "./data/store.js":
+/*!***********************!*\
+  !*** ./data/store.js ***!
+  \***********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+var store = [{
+  "code": "1",
+  "name": "Audio-Boy T-Shirt (Limited)",
+  "id": "1",
+  "display_src": "https://i.imgur.com/Ag5EuDG.jpg",
+  "price": "29.99",
+  "description": "Audio-Boy delivers to you a minimalistic style soft cotton slim fit t-shirt that will keep you comfortable and styling all day long.",
+  "color": "Black/White",
+  "quick": "Men's T-Shirt",
+  "size": '',
+  "quantity": "1"
+}, {
+  "code": "2",
+  "name": "Audio-Boy Sweatshirt (Limited)",
+  "id": "1",
+  "display_src": "https://i.imgur.com/3y7G9NA.png",
+  "price": "49.99",
+  "description": "Audio-Boy delivers to you a minimalistic style soft cotton slim fit t-shirt that will keep you comfortable and styling all day long.",
+  "color": "Black/White",
+  "quick": "Men's Sweatshirt",
+  "size": "",
+  "quantity": "1"
+}, {
+  "code": "3",
+  "name": "Audio-Boy Sweatshirt (Limited)",
+  "id": "1",
+  "display_src": "https://i.imgur.com/3y7G9NA.png",
+  "price": "49.99",
+  "description": "Audio-Boy delivers to you a minimalistic style soft cotton slim fit t-shirt that will keep you comfortable and styling all day long.",
+  "color": "Black/White",
+  "quick": "Men's Sweatshirt",
+  "size": '',
+  "quantity": "1"
+}, {
+  "code": "4",
+  "name": "Audio-Boy Sweatshirt (Limited)",
+  "id": "1",
+  "display_src": "https://i.imgur.com/3y7G9NA.png",
+  "price": "49.99",
+  "description": "Audio-Boy delivers to you a minimalistic style soft cotton slim fit t-shirt that will keep you comfortable and styling all day long.",
+  "color": "Black/White",
+  "quick": "Men's Sweatshirt",
+  "size": '',
+  "quantity": "1"
+}, {
+  "code": "5",
+  "name": "Audio-Boy Sweatshirt (Limited)",
+  "id": "1",
+  "display_src": "https://i.imgur.com/3y7G9NA.png",
+  "price": "49.99",
+  "description": "Audio-Boy delivers to you a minimalistic style soft cotton slim fit t-shirt that will keep you comfortable and styling all day long.",
+  "color": "Black/White",
+  "quick": "Men's Sweatshirt",
+  "size": '',
+  "quantity": "1"
+}, {
+  "code": "6",
+  "name": "Audio-Boy Sweatshirt (Limited)",
+  "id": "1",
+  "display_src": "https://i.imgur.com/3y7G9NA.png",
+  "price": "49.99",
+  "description": "Audio-Boy delivers to you a minimalistic style soft cotton slim fit t-shirt that will keep you comfortable and styling all day long.",
+  "color": "Black/White",
+  "quick": "Men's Sweatshirt",
+  "size": '',
+  "quantity": "1"
+}];
+/* harmony default export */ __webpack_exports__["default"] = (store);
 
 /***/ }),
 
@@ -3443,7 +3850,7 @@ var ShoppingCartPage = function ShoppingCartPage(props) {
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!**************************************!*\
   !*** multi ./pages/shopping-cart.js ***!
   \**************************************/

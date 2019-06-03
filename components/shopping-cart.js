@@ -1,12 +1,14 @@
 import React, { Component, PropTypes } from 'react';
 import Head from 'next/head';
-import Link from 'next/link';
+import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 
 import styled from 'styled-components';
 
 import Cart from './cart.js'
-
+import StoreGrid from './store-grid.js';
 import Navbar3 from './navbar3.js';
+
+import store from '../data/store.js';
 
 import '../css/artist.css';
 import '../css/normalize.css';
@@ -91,6 +93,10 @@ class ShoppingCart extends React.Component{
 							<li className='finalBoxTotal'>Tota<p className='priceTotal'>{this.state.totalAmount}</p><span className='finalBoxDollarSign'>$</span>l</li>
 						</ul>
 					</div>
+					<div className='titleWrapper'>
+	    				<Element id='labelHeader' name="label" className="element">You Might Also Like</Element>
+	    			</div>
+					<StoreGrid store={store} />
 				</div>
 			)
 		}
@@ -114,6 +120,10 @@ class ShoppingCart extends React.Component{
 							<li className='finalBoxTotal'>Tota<p className='priceTotal'>{this.state.totalAmount}</p><span className='finalBoxDollarSign'>$</span>l</li>
 						</ul>
 					</div>
+					<div className='titleWrapper'>
+	    				<Element id='labelHeader' name="label" className="element">You Might Also Like</Element>
+	    			</div>
+					<StoreGrid store={store} />
 				</div>
 			)
 		}
@@ -135,6 +145,10 @@ class ShoppingCart extends React.Component{
 							<li className='finalBoxTotal'>Tota<p className='priceTotal'>{this.state.totalAmount}</p><span className='finalBoxDollarSign'>$</span>l</li>
 						</ul>
 					</div>
+					<div className='titleWrapper'>
+	    				<Element id='labelHeader' name="label" className="element">You Might Also Like</Element>
+	    			</div>
+					<StoreGrid store={store} />
 				</div>
 			)
 		}

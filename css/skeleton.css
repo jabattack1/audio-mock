@@ -202,7 +202,7 @@ input[type="button"] {
   text-decoration: none;
   white-space: nowrap;
   background-color:transparent;
-  border-radius: 4px;
+  /*border-radius: 4px;*/
   /*border: 1px solid #bbb;*/
   cursor: pointer;
   box-sizing: border-box; }
@@ -254,7 +254,7 @@ select {
   padding: 6px 10px;/*  The 6px vertically centers text on FF, ignored by Webkit */
   background-color: #fff;
   border: 1px solid #D1D1D1;
-  border-radius: 4px;
+  /*border-radius: 4px;*/
   box-shadow: none;
   box-sizing: border-box; }
 /* Removes awkward default styles on some inputs for iOS */
@@ -565,7 +565,7 @@ hr {
 .grid-news{
   width: 500px;
   height:250px;
-  background-color:#FF3F3F;
+  background-color:white;
   overflow-y:hidden;
   white-space: normal;
   /*border-radius: 5px;*/
@@ -587,12 +587,13 @@ hr {
   margin-left:150px;
   width: 350px;
   font-family:'verdana';
-  font-size:14px;
+  font-size:10px;
   word-wrap: break-word;
   -moz-hyphens:auto; 
   -webkit-hyphens:auto; 
   -o-hyphens:auto; 
   hyphens:auto;
+  padding:3px;
   /*text-align: center;*/
 }
 
@@ -600,7 +601,8 @@ hr {
   position:relative;
   margin-left:150px;
   width: 350px;
-  background-color:white;
+  border-bottom: solid 1px black;
+  /*background-color:white;*/
   font-weight:bold;
   font-size:14px;
   word-wrap: break-word;
@@ -621,9 +623,10 @@ hr {
   margin-left:150px;
   width: 350px;
   height:250px;
+  padding:3px;
   /*background-color:#FFFF6B;*/
   /*font-weight:bold;*/
-  font-size:14px;
+  font-size:12px;
   word-wrap: break-word;
   -moz-hyphens:auto; 
   -webkit-hyphens:auto; 
@@ -674,7 +677,7 @@ hr {
   -o-hyphens:auto; 
   hyphens:auto;
   text-align: center;
-  border-radius: 5px;
+  /*border-radius: 5px;*/
 }
 
 /*Grid Store*/
@@ -729,7 +732,7 @@ hr {
 .grid-figure-wrapStore{
   width: 250px;
   height:250px;
-  border-right: 4px solid black;
+  /*border-right: 4px solid black;*/
   vertical-align:middle;
   display:table-cell;
 }
@@ -737,7 +740,7 @@ hr {
 .grid-store{
   width: 250px;
   height:250px;
-  border: 1px solid white;
+  /*border: 1px solid white;*/
   background-color:black;
   overflow-y:hidden;
   white-space: normal;
@@ -750,15 +753,6 @@ hr {
   height:500px;
   /*background-color:red;*/
 }
-.itemName{
-  position:relative;
-  padding-top:10px;
-  text-align:center;
-  font-weight:bold;
-  color:white;
-  width:250px;
-  height:21px;
-}
 
 .itemPhoto{
   position:relative;
@@ -766,16 +760,58 @@ hr {
   width:250px;
   margin:0 auto;
   background-position: center;
-  margin-top:-17px;
-  border-bottom:1px solid white;
-  border-top:1px solid white;
+  margin-top:0px;
+  /*border-bottom:1px solid white;*/
+  /*border-top:1px solid white;*/
+}
+
+.itemName{
+  position:relative;
+  /*padding-top:10px;*/
+  /*text-align:center;*/
+  font-weight:bold;
+  color:white;
+  width:250px;
+  /*height:21px;*/
+  font-size:13px;
+  padding-left:10px;
+  /*background-color:red;*/
+}
+
+.itemColor{
+  position:relative;
+  /*padding-top:10px;*/
+  /*text-align:center;*/
+  font-weight:bold;
+  color:white;
+  width:250px;
+  margin-top:-27px;
+  /*height:21px;*/
+  font-size:10px;
+  padding-left:10px;
+}
+
+.itemQuick{
+  position:relative;
+  /*padding-top:10px;*/
+  /*text-align:center;*/
+  font-weight:bold;
+  color:white;
+  width:250px;
+  margin-top:-27px;
+  /*height:21px;*/
+  font-size:10px;
+  padding-left:10px;
 }
 
 .itemPrice{
   font-family:'verdana';
   position:relative;
-  text-align:center;
+  margin-top:-30px;
+  /*text-align:center;*/
   color:white;
+  font-size:13px;
+  padding-left:10px;
 }
 
 #itemName{
@@ -802,8 +838,8 @@ hr {
   background-color:#FF3F3F;
   display:inline-block;
   top:-334px;
-  border-bottom-right-radius: 5px;
-  border-top-right-radius: 5px;
+  /*border-bottom-right-radius: 5px;*/
+/*  border-top-right-radius: 5px;*/
 }
 
 .itemMainColor{
@@ -983,7 +1019,7 @@ input[type=radio]:checked ~ label{
   -o-hyphens:auto; 
   hyphens:auto;
   text-align:center;
-  border-radius: 5px;
+  /*border-radius: 5px;*/
   z-index:100;
 }
 
@@ -998,7 +1034,8 @@ input[type=radio]:checked ~ label{
   vertical-align:middle;
 }
 
-.contactLinks:hover{ 
+.email:hover{ 
+  cursor:pointer;
   color:#595959;
 }
 

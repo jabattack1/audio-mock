@@ -3,7 +3,8 @@ import Head from 'next/head';
 
 import styled from 'styled-components';
 
-import Store from './store.js'
+import Store from './store.js';
+import ShoppingCart from './shopping-cart.js';
 
 import '../css/normalize.css';
 import '../css/skeleton.css';

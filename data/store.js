@@ -7,6 +7,7 @@ const store = [
     "price":"29.99",
     "description":"Audio-Boy delivers to you a minimalistic style soft cotton slim fit t-shirt that will keep you comfortable and styling all day long.",
     "color":"Black/White",
+    "quick":"Men's T-Shirt",
     "size":'',
     "quantity":"1"
   },
@@ -16,6 +17,9 @@ const store = [
     "id": "1",
     "display_src": `https://i.imgur.com/3y7G9NA.png`,
     "price":"49.99",
+    "description":"Audio-Boy delivers to you a minimalistic style soft cotton slim fit t-shirt that will keep you comfortable and styling all day long.",
+    "color":"Black/White",
+    "quick":"Men's Sweatshirt",
     "size":"",
     "quantity":"1"
   },
@@ -25,6 +29,9 @@ const store = [
     "id": "1",
     "display_src": `https://i.imgur.com/3y7G9NA.png`,
     "price":"49.99",
+    "description":"Audio-Boy delivers to you a minimalistic style soft cotton slim fit t-shirt that will keep you comfortable and styling all day long.",
+    "color":"Black/White",
+    "quick":"Men's Sweatshirt",
     "size":'',
     "quantity":"1"
   },
@@ -34,6 +41,9 @@ const store = [
     "id": "1",
     "display_src": `https://i.imgur.com/3y7G9NA.png`,
     "price":"49.99",
+    "description":"Audio-Boy delivers to you a minimalistic style soft cotton slim fit t-shirt that will keep you comfortable and styling all day long.",
+    "color":"Black/White",
+    "quick":"Men's Sweatshirt",
     "size":'',
     "quantity":"1"
   },
@@ -43,6 +53,9 @@ const store = [
     "id": "1",
     "display_src": `https://i.imgur.com/3y7G9NA.png`,
     "price":"49.99",
+    "description":"Audio-Boy delivers to you a minimalistic style soft cotton slim fit t-shirt that will keep you comfortable and styling all day long.",
+    "color":"Black/White",
+    "quick":"Men's Sweatshirt",
     "size":'',
     "quantity":"1"
   },
@@ -52,6 +65,9 @@ const store = [
     "id": "1",
     "display_src": `https://i.imgur.com/3y7G9NA.png`,
     "price":"49.99",
+    "description":"Audio-Boy delivers to you a minimalistic style soft cotton slim fit t-shirt that will keep you comfortable and styling all day long.",
+    "color":"Black/White",
+    "quick":"Men's Sweatshirt",
     "size":'',
     "quantity":"1"
   }
