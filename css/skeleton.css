@@ -1,6 +1,13 @@
 
 
-
+.frontLogo{
+  position:absolute;
+  display:flex;
+  height:170px; 
+  width:170px;
+  z-index:10;
+  content:url('https://i.imgur.com/msETczs.png');
+}
 
 
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,300,600');
@@ -370,16 +377,6 @@ hr {
   float:left;
 }
 
-.frontLogo{
-  position:absolute;
-  display:flex;
-  height:170px; 
-  width:170px;
-  z-index:10;
-  content:url('https://i.imgur.com/msETczs.png');
-}
-
-
 .tech-slideshow {
   height: 400px;
   max-width: 960px;
@@ -590,8 +587,8 @@ tech-slideshow .mover-1 {
   width: 960px;
   margin-left:-3px;
   margin-top:-3px;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+/*  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;*/
 }
 
 
@@ -1631,6 +1628,16 @@ only screen and (min-device-pixel-ratio : 1.5) {
     padding:10px;
     /*position: absolute;*/
     bottom:0;
+  }
+
+  .frontLogo{
+    position:absolute;
+    margin-top:-620px;
+    margin-left:20px;
+    height:620px; 
+    width:350px;
+    z-index:10;
+    content:url('https://i.imgur.com/RShtLUt.png');
   }
 }
 
