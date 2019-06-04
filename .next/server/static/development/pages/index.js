@@ -2123,6 +2123,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(_css_normalize_css__WEBPACK_IMPORTED_MODULE_17__);
 /* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../css/skeleton.css */ "./css/skeleton.css");
 /* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_18___default = /*#__PURE__*/__webpack_require__.n(_css_skeleton_css__WEBPACK_IMPORTED_MODULE_18__);
+/* harmony import */ var _css_mobile_css__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../css/mobile.css */ "./css/mobile.css");
+/* harmony import */ var _css_mobile_css__WEBPACK_IMPORTED_MODULE_19___default = /*#__PURE__*/__webpack_require__.n(_css_mobile_css__WEBPACK_IMPORTED_MODULE_19__);
 
 
 
@@ -2130,6 +2132,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var _jsxFileName = "/Users/peterhahn/src/new/audio-boy/components/parent.js";
+
 
 
 
@@ -2213,18 +2216,78 @@ function (_React$Component) {
           lineNumber: 40
         },
         __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "tech-slideshow",
+      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "mobileLogo",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 41
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        id: "bannerSunMobile",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 42
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
+        src: "https://i.imgur.com/QEuTfm8.gif",
+        id: "spaceDropMobile",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 43
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
+        src: "https://i.imgur.com/SMLpXaX.png",
+        id: "auditorySignMoon",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 44
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h1", {
+        id: "sunMoon",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 45
+        },
+        __self: this
+      }, "I DON'T WANT TO GO AND SEE THE SUN"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
+        src: "https://i.imgur.com/imjFfzu.png",
+        id: "singleSunMobile",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 46
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        id: "moonWrapper",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 48
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
+        src: "https://i.imgur.com/aFP9ONd.gif",
+        id: "moonMobile",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 49
+        },
+        __self: this
+      })))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "tech-slideshow",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 53
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "bannerSun",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 43
+          lineNumber: 54
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
@@ -2232,39 +2295,37 @@ function (_React$Component) {
         className: "spaceDrop",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 44
+          lineNumber: 55
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
         src: "https://i.imgur.com/SMLpXaX.png",
-        title: "source: imgur.com",
         className: "auditorySign",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 45
+          lineNumber: 56
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "moon",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 46
+          lineNumber: 57
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
         src: "https://i.imgur.com/imjFfzu.png",
-        title: "source: imgur.com",
         className: "singleSun",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 47
+          lineNumber: 58
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h1", {
         className: "sun",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 48
+          lineNumber: 59
         },
         __self: this
       }, "I DON'T WANT TO GO AND SEE THE SUN"))))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
@@ -2272,7 +2333,7 @@ function (_React$Component) {
         id: "artistWrapper",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 53
+          lineNumber: 64
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_8__["Element"], {
@@ -2280,27 +2341,34 @@ function (_React$Component) {
         className: "element",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 54
+          lineNumber: 65
         },
         __self: this
       }, "Artists")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 56
+          lineNumber: 67
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_artists_grid_js__WEBPACK_IMPORTED_MODULE_10__["default"], Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, this.props, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 57
+          lineNumber: 68
         },
         __self: this
       }))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "artistNewsSpacer",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 70
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "titleWrapper",
         id: "newsWrapper",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 59
+          lineNumber: 72
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_8__["Element"], {
@@ -2308,33 +2376,33 @@ function (_React$Component) {
         className: "element",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 60
+          lineNumber: 73
         },
         __self: this
       }, "News - ", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
         className: "small",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 60
+          lineNumber: 73
         },
         __self: this
       }, "Scroll Right to See More"))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 62
+          lineNumber: 75
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_news_grid_scroll_js__WEBPACK_IMPORTED_MODULE_15__["default"], Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, this.props, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 63
+          lineNumber: 76
         },
         __self: this
       }))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "newsLabelSpacer",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 65
+          lineNumber: 78
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
@@ -2342,7 +2410,7 @@ function (_React$Component) {
         id: "aboutWrapper",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 67
+          lineNumber: 80
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_8__["Element"], {
@@ -2351,26 +2419,26 @@ function (_React$Component) {
         className: "element",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 68
+          lineNumber: 81
         },
         __self: this
       }, "The Label")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 70
+          lineNumber: 83
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_about_label_js__WEBPACK_IMPORTED_MODULE_12__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 71
+          lineNumber: 84
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "labelStoreSpacer",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 73
+          lineNumber: 86
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
@@ -2378,7 +2446,7 @@ function (_React$Component) {
         id: "storeWrapper",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 75
+          lineNumber: 88
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_8__["Element"], {
@@ -2387,26 +2455,26 @@ function (_React$Component) {
         className: "element",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 76
+          lineNumber: 89
         },
         __self: this
       }, "Store")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 78
+          lineNumber: 91
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_store_grid_js__WEBPACK_IMPORTED_MODULE_13__["default"], Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, this.props, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 79
+          lineNumber: 92
         },
         __self: this
       }))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "storeContactSpacer",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 81
+          lineNumber: 94
         },
         __self: this
       })))));
@@ -3937,6 +4005,17 @@ function (_React$Component) {
 /*!***************************!*\
   !*** ./css/bootstrap.css ***!
   \***************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ "./css/mobile.css":
+/*!************************!*\
+  !*** ./css/mobile.css ***!
+  \************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 

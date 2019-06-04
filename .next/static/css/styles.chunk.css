@@ -439,6 +439,10 @@ th {
   content:url('https://i.imgur.com/msETczs.png');
 }
 
+.mobileLogo{
+  display: none;
+}
+
 textarea {
     border: none;
     overflow: auto;
@@ -1815,9 +1819,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
 }
 
 @media only screen and (max-width:850px) {
-  .aboutImage{
-    display:none;
-  }
+
   #newsWrapper{
     margin-top:0px;
   }
@@ -1864,42 +1866,64 @@ only screen and (min-device-pixel-ratio : 1.5) {
     /*height:40px;*/
     background-color:#7D83FF;
     z-index:0;
-    margin-top:-160px;
+    margin-top:-170px;
+    /*z-index:5;*/
     /*display: table-cell;*/
     vertical-align: middle;
   }
 }
 
 @media only screen and (max-width:850px) {
-  .aboutImage{
-    display:none;
-  }
-  #newsWrapper{
-    margin-top:0px;
-  }
-  #aboutWrapper{
-    margin-top:0px;
-  }
-  #storeWrapper{
-    margin-top:0px;
-  }
-  #contactWrapper{
-    margin-top:0px;
-    height:25px;
-  }
-  .store-grid{
-    /*width:360px;*/
-  }
+  .artists-grid{
+  position:relative;
+  display: flex;
+  float:left;
+  width: 500px;
+  height:500px;
 }
 
-@media only screen and (max-width:850px) {
+.grid-figure{
+  position: relative;
+  margin: 0 auto;
+  width:500px;
+  height:500px;
+  /*background:black;*/
+}
+
+.grid-figure-wrap{
+  width: 500px;
+  height:500px;
+  border-right: 4px solid black;
+}
+
+.artistNewsSpacer{
+  width:500px;
+  height:300px;
+}
+
+.gridWrapperAbout{
+  position:relative;
+  top:200px;
+  height:490px;
+  background-color:white;
+}
+
+.aboutImage{
+  position:relative;
+  height:300px;
+  width: 500px;
+  margin-left:-6px;
+  margin-top:-3px;
+/*  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;*/
+}
 
   .aboutContent{
     position:relative;
     padding:3px;
     /*margin-top:300px;*/
-    width: 840px;
-    height:200px;
+    width: 494px;
+    height:500px;
     background-color:white;
     font-size:13.5px;
     /*font-weight:bold;*/
@@ -1911,6 +1935,11 @@ only screen and (min-device-pixel-ratio : 1.5) {
     text-align: center;
     /*border-radius: 5px;*/
   }
+
+.labelStoreSpacer{
+  position:relative;
+  height:80px;
+}
 
   .contactContent{
     position:relative;
@@ -2058,16 +2087,25 @@ only screen and (min-device-pixel-ratio : 1.5) {
   .frontLogo{
     position:absolute;
     margin-top:-620px;
-    margin-left:20px;
-    height:620px; 
-    width:350px;
-    z-index:10;
-    content:url('https://i.imgur.com/RShtLUt.png');
+    margin-left:0px;
+    height:100px; 
+    width:100px;
+    z-index:100;
   }
+
+  .mobileLogo{
+    position:absolute;
+    display:block;
+    z-index:10;
+    margin-top:-620px;
+    margin-left:0px;
+  }
+
 }
 
 
 @media only screen and (max-width:550px) {
+
   .storeWrapper{
     width: 50%;
     height:500px;
@@ -3030,6 +3068,83 @@ to {height: 0;}
 	/*text-align:center;*/
 	display:inline-block;
 }
+/*mobile*/
+
+#bannerSunMobile{
+  position:absolute;
+  top:0px;
+  left:0px;
+  height:620px; 
+  width:370px;
+  vertical-align: middle;
+  z-index:5;
+}
+
+#spaceDropMobile{
+	top:0px;
+  left:0px;
+  position:absolute;
+  height:620px;
+  width:370px;
+  overflow:hidden;
+}
+
+#moonWrapper{
+  position:absolute;
+  top:0px;
+  left:0px;
+  height:620px; 
+  width:370px;
+  vertical-align: middle;
+  background:transparent;
+}
+
+#moonMobile {
+  position:absolute;
+  display:block;
+  margin-left:24%;
+  margin-top:50%;
+  width: 200px;
+  height: 200px;
+  z-index: 8;
+}
+
+
+#auditorySignMoon{
+  position:absolute;
+  top:100px;
+  left:0;
+  right:0;
+  width:350px;
+  margin:0 auto;
+  z-index:100;
+}
+
+#singleSunMobile{
+  position:absolute;
+  width:160px;
+  left:0;
+  right:0;
+  bottom:100px;
+  margin:0 auto;
+  z-index:9;
+}
+
+#sunMoon{
+  position:absolute;
+  font-family:'Arial Black';
+  left:0;
+  right:0;
+  bottom:150px;
+  margin:auto 0;
+  text-align:center;
+  width:370px;
+  z-index:100;
+  font-weight:bold;
+  font-size:16px;
+  padding-bottom:30px;
+  color:#FFB71E;
+}
 /*top banner*/
 
 .topBanner{
@@ -3178,6 +3293,7 @@ to {height: 0;}
     margin:0 auto;
     display: flex;
     align-items: center;
+    /*z-index:10;*/
     /*position:relative;*/
   }
  
