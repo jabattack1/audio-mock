@@ -68,7 +68,7 @@
 	display:inline-flex;
 	width:40px;
 	height:20px;
-	top:-123px;
+	top:-137px;
 	margin-left:921px;
 	/*left:1000px;*/
 	color:white;
@@ -577,5 +577,7 @@ to {height: 0;}
 }
 
 
+@media only screen and (max-width:850px) {
 
 
+}

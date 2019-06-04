@@ -50,7 +50,7 @@ class Parent extends React.Component {
 				            		</div>   
 				          		</div>
 				        	</div>
-				        	<div className='titleWrapper'>
+				        	<div className='titleWrapper' id='artistWrapper'>
 				        	    <Element name="artists" className="element">Artists</Element>
 	    					</div>
 				        	<div>
@@ -79,12 +79,6 @@ class Parent extends React.Component {
 				        		<StoreGrid{...this.props} />
 				        	</div>
 				        	<div className='storeContactSpacer'>
-				        	</div>
-				        	<div className='titleWrapper' id='contactWrapper'>
-	    						<Element id='contactHeader' name="contact" className="element">Contact</Element>
-	    					</div>
-	    					<div>
-				        		<Contact/>
 				        	</div>
 				      	</div>
 				    </div>

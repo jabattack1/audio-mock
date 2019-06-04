@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 9);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -1379,37 +1379,18 @@ function (_React$Component) {
           lineNumber: 49
         },
         __self: this
-      }, "STORE")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("li", {
-        className: "link",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 50
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_11__["Link"], {
-        className: "audioLetters",
-        activeClass: "active",
-        to: "contact",
-        spy: true,
-        smooth: true,
-        duration: 500,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 50
-        },
-        __self: this
-      }, "CONTACT")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_12___default.a, {
+      }, "STORE")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_12___default.a, {
         href: "/shopping-cart",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 51
+          lineNumber: 50
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("span", {
         className: "goToCart1",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 51
+          lineNumber: 50
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("img", {
@@ -1417,14 +1398,14 @@ function (_React$Component) {
         className: "cartImage",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 51
+          lineNumber: 50
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("p", {
         className: "cartQuantity",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 51
+          lineNumber: 50
         },
         __self: this
       }, total)))));
@@ -2288,6 +2269,7 @@ function (_React$Component) {
         __self: this
       }, "I DON'T WANT TO GO AND SEE THE SUN"))))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "titleWrapper",
+        id: "artistWrapper",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 53
@@ -2427,36 +2409,7 @@ function (_React$Component) {
           lineNumber: 81
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "titleWrapper",
-        id: "contactWrapper",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 83
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_8__["Element"], {
-        id: "contactHeader",
-        name: "contact",
-        className: "element",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 84
-        },
-        __self: this
-      }, "Contact")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 86
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_contact_js__WEBPACK_IMPORTED_MODULE_14__["default"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 87
-        },
-        __self: this
-      }))))));
+      })))));
     }
   }]);
 
@@ -6280,7 +6233,7 @@ if (false) {}
 
 /***/ }),
 
-/***/ 3:
+/***/ 9:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
