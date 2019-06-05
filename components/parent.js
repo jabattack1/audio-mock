@@ -89,7 +89,7 @@ class Parent extends React.Component {
 				        	<div className='titleWrapper' id='aboutWrapper'>
 	    						<Element id='labelHeader' name="label" className="element">The Label</Element>
 	    					</div>
-	    					<div>
+	    					<div className='aboutTop'>
 				        		<AboutLabel/>
 				        	</div>
 				        	<div className='labelStoreSpacer'>

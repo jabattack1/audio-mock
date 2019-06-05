@@ -77,7 +77,13 @@ function (_React$Component) {
           lineNumber: 16
         },
         __self: this
-      }), "Audio Boy is an independent recording company with ambitions of becoming home to the very best forward-thinking and innovative artists. Our reputation in the music industry is something we feel a great responsibility for and we pride ourselves as a company who offers an unparalleled experience for the artists and listeners alike. With a focus on influencing the world's pop culture without any boundaries, and a passionate approach towards discovering and nurturing musical talent - Audio Boy is currently home to The Electronic Auditory Rebels and many more to come in the future!")));
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17
+        },
+        __self: this
+      }, "Audio Boy is an independent recording company with ambitions of becoming home to the very best forward-thinking and innovative artists. Our reputation in the music industry is something we feel a great responsibility for and we pride ourselves as a company who offers an unparalleled experience for the artists and listeners alike. With a focus on influencing the world's pop culture without any boundaries, and a passionate approach towards discovering and nurturing musical talent - Audio Boy is currently home to The Electronic Auditory Rebels and many more to come in the future!"))));
     }
   }]);
 
@@ -2495,6 +2501,7 @@ function (_React$Component) {
         },
         __self: this
       }, "The Label")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "aboutTop",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 92
@@ -21097,7 +21104,7 @@ if (true) {
 
 /***/ }),
 
-/***/ 10:
+/***/ 0:
 /*!********************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fpeterhahn%2Fsrc%2Fnew%2Faudio-boy%2Fpages%2Findex.js ***!
   \********************************************************************************************************************************/
@@ -21120,5 +21127,5 @@ module.exports = dll_6dc2816e14fab51b8269;
 
 /***/ })
 
-},[[10,"static/runtime/webpack.js","styles"]]]);
+},[[0,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map
