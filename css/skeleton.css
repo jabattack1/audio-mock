@@ -104,9 +104,6 @@ body {
   background-repeat: repeat;
   background-size: 400px 400px;
   background-attachment: fixed;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -134,7 +131,9 @@ p {
   margin-top: 0; }
 
 
-
+.one-half column{
+  width:50%
+}
 
 .button,
 button,
@@ -590,24 +589,18 @@ tech-slideshow .mover-1 {
 
 /*about label*/
 
-.aboutTop{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
 .gridWrapperAbout{
   min-width: 0;
   position:relative;
   top:200px;
   height:250px;
-  display: flex;
+/*  display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: wrap;*/
 }
 
 .aboutContent{
-  max-width: 99.4%;
+  max-width: 955px;
   position:relative;
   padding:2px;
   /*margin-top:300px;*/
@@ -1647,7 +1640,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
   position:relative;
   top:200px;
   height:420px;
-  background-color:white;
+  /*background-color:white;*/
 }
 
 .aboutImage{
@@ -1835,7 +1828,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
 @media only screen and (max-width:725px) {
   .aboutContent{
     width: 750px;
-    height:425px;
+    height:420px;
   }
 
   .aboutImage{
@@ -1861,6 +1854,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
 
   .aboutContent{
     width: 680px;
+    height:430px;
   }
 
   .storeWrapper{
@@ -1875,7 +1869,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
 @media only screen and (max-width:680px) {
   .aboutContent{
     width: 670px;
-    height:425px;
+    height:435px;
   }
 
   .aboutImage{
@@ -1887,7 +1881,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
 @media only screen and (max-width:650px) {
   .aboutContent{
     width: 660px;
-    height:425px;
+    height:435px;
   }
 
   .aboutImage{
@@ -1899,7 +1893,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
 @media only screen and (max-width:620px) {
   .aboutContent{
     width: 640px;
-    height:425px;
+    height:435px;
   }
 
   .aboutImage{
@@ -1927,7 +1921,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
     position:relative;
     top:200px;
     height:480px;
-    background-color:white;
+    /*background-color:white;*/
   }
 
   .grid-figure{
@@ -1939,7 +1933,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
   }
   .aboutContent{
     width: 532px;
-    height:200px;
+    height:210px;
   }
 
   .aboutImage{
@@ -2032,7 +2026,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
 @media only screen and (max-width:550px) {
   .aboutContent{
     width: 495px;
-    height:425px;
+    height:470px;
   }
 
   .aboutImage{

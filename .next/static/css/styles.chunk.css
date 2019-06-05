@@ -531,9 +531,6 @@ body {
   background-repeat: repeat;
   background-size: 400px 400px;
   background-attachment: fixed;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -561,7 +558,9 @@ p {
   margin-top: 0; }
 
 
-
+.one-half column{
+  width:50%
+}
 
 .button,
 button,
@@ -1017,24 +1016,18 @@ tech-slideshow .mover-1 {
 
 /*about label*/
 
-.aboutTop{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
 .gridWrapperAbout{
   min-width: 0;
   position:relative;
   top:200px;
   height:250px;
-  display: flex;
+/*  display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: wrap;*/
 }
 
 .aboutContent{
-  max-width: 99.4%;
+  max-width: 955px;
   position:relative;
   padding:2px;
   /*margin-top:300px;*/
@@ -2072,7 +2065,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
   position:relative;
   top:200px;
   height:420px;
-  background-color:white;
+  /*background-color:white;*/
 }
 
 .aboutImage{
@@ -2260,7 +2253,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
 @media only screen and (max-width:725px) {
   .aboutContent{
     width: 750px;
-    height:425px;
+    height:420px;
   }
 
   .aboutImage{
@@ -2286,6 +2279,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
 
   .aboutContent{
     width: 680px;
+    height:430px;
   }
 
   .storeWrapper{
@@ -2300,7 +2294,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
 @media only screen and (max-width:680px) {
   .aboutContent{
     width: 670px;
-    height:425px;
+    height:435px;
   }
 
   .aboutImage{
@@ -2312,7 +2306,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
 @media only screen and (max-width:650px) {
   .aboutContent{
     width: 660px;
-    height:425px;
+    height:435px;
   }
 
   .aboutImage{
@@ -2324,7 +2318,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
 @media only screen and (max-width:620px) {
   .aboutContent{
     width: 640px;
-    height:425px;
+    height:435px;
   }
 
   .aboutImage{
@@ -2352,7 +2346,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
     position:relative;
     top:200px;
     height:480px;
-    background-color:white;
+    /*background-color:white;*/
   }
 
   .grid-figure{
@@ -2364,7 +2358,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
   }
   .aboutContent{
     width: 532px;
-    height:200px;
+    height:210px;
   }
 
   .aboutImage{
@@ -2457,7 +2451,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
 @media only screen and (max-width:550px) {
   .aboutContent{
     width: 495px;
-    height:425px;
+    height:470px;
   }
 
   .aboutImage{
@@ -2673,155 +2667,6 @@ only screen and (min-device-pixel-ratio : 1.5) {
 }
 
 .rightArrow:hover{
-	filter: invert(85%);
-}
-
-.pn-ProductNav_WrapperStore {
-  position: relative;
-  /*padding: 0 11px;*/
-  box-sizing: border-box;
-  /*background-color:white;*/
-  width:960px;
-  top:200px;
-  height:250px;
-  background-color:black;
-  border-radius:4px;
-}
-
-.pnProductNavContentsStore{
-
-}
-
-.pn-ProductNavStore {
-	/*background-color:red;*/
-	margin:0 auto;
-	top:0;
-	width:860px;
-	height:250px;
-  display: flex;
-  /*overflow: scroll;*/
-  overflow-x: scroll;
-  /* Make this scrollable when needed */
-  overflow-x: auto;
-  /* We don't want vertical scrolling */
-  overflow-y: hidden;
-  /* For WebKit implementations, provide inertia scrolling */
-  -webkit-overflow-scrolling: touch;
-  /* We don't want internal inline elements to wrap */
-  /* If JS present, let's hide the default scrollbar */
-  /* positioning context for advancers */
-  white-space: nowrap;
-  position: relative;
-  font-size: 0;
-  /*min-width: 0*/
-}
-
-.js .pn-ProductNavStore {
-  /* Make an auto-hiding scroller for the 3 people using a IE */
-  -ms-overflow-style: -ms-autohiding-scrollbar;
-  /* Remove the default scrollbar for WebKit implementations */
-}
-
-.js .pn-ProductNavStore::-webkit-scrollbar {
-  display: none;
-}
-
-.pn-ProductNav_ContentsStore {
-  float: left;
-  transition: transform 0.2s ease-in-out;
-  position: relative;
-  margin-top:-3px;
-}
-
-.pn-ProductNav_Contents-no-transition {
-  transition: none;
-}
-
-.pn-ProductNav_LinkStore {
-  text-decoration: none;
-  color: black;
-  /*font-size: 1.2rem;*/
-  /*font-family: -apple-system, sans-serif;*/
-  display: inline-flex;
-  align-items: center;
-  height: 255px;
-  width:25ss0px;
-  /*white-space:wrap;*/
-  word-wrap:break-word;
-  /*padding: 0 11px;*/
-}
-.pn-ProductNav_LinkStore + .pn-ProductNav_LinkStore {
-  border-left-color: #eee;
-}
-.pn-ProductNav_LinkStore[aria-selected="true"] {
-  color: #111;
-}
-.pn-AdvancerStore {
-  /* Reset the button */
-  appearance: none;
-  background: transparent;
-  padding: 0;
-  border: 0;
-  /* Now style it as needed */
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  /* Set the buttons invisible by default */
-  opacity: 0;
-  transition: opacity 0.3s;
-}
-.pn-AdvancerStore :focus {
-  outline: 0;
-}
-.pn-AdvancerStore :hover {
-  cursor: pointer;
-}
-.pn-Advancer_LeftStore {
-  left: 0;
-}
-[data-overflowing="both"] ~ .pn-Advancer_LeftStore, [data-overflowing="left"] ~ .pn-Advancer_LeftStore {
-  opacity: 1;
-}
-.pn-Advancer_RightStore {
-  right: 0;
-}
-[data-overflowing="both"] ~ .pn-Advancer_RightStore, [data-overflowing="right"] ~ .pn-Advancer_RightStore {
-  opacity: 1;
-}
-.pn-Advancer_Icon {
-  width: 50px;
-  height: 250px;
-  fill: white;
-}
-.pn-ProductNav_IndicatorStore {
-  /*position: absolute;*/
-  top:0;
-  bottom: 0;
-  left: 0;
-  height: 4px;
-  width: 40px;
-  background-color: transparent;
-  transform-origin: 0 0;
-  transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
-}
-
-.leftArrowStore{
-	filter: invert(100%);
-	height:250px;
-	width:45px;
-}
-
-.leftArrowStore:hover{
-	filter: invert(85%);
-}
-
-.rightArrowStore{
-	filter: invert(100%);
-	height:250px;
-	width:45px;
-}
-
-.rightArrowStore:hover{
 	filter: invert(85%);
 }
 /*shopping cart page*/
@@ -3423,6 +3268,155 @@ to {height: 0;}
 
 }
 
+
+.pn-ProductNav_WrapperStore {
+  position: relative;
+  /*padding: 0 11px;*/
+  box-sizing: border-box;
+  /*background-color:white;*/
+  width:960px;
+  top:200px;
+  height:250px;
+  background-color:black;
+  border-radius:4px;
+}
+
+.pnProductNavContentsStore{
+
+}
+
+.pn-ProductNavStore {
+	/*background-color:red;*/
+	margin:0 auto;
+	top:0;
+	width:860px;
+	height:250px;
+  display: flex;
+  /*overflow: scroll;*/
+  overflow-x: scroll;
+  /* Make this scrollable when needed */
+  overflow-x: auto;
+  /* We don't want vertical scrolling */
+  overflow-y: hidden;
+  /* For WebKit implementations, provide inertia scrolling */
+  -webkit-overflow-scrolling: touch;
+  /* We don't want internal inline elements to wrap */
+  /* If JS present, let's hide the default scrollbar */
+  /* positioning context for advancers */
+  white-space: nowrap;
+  position: relative;
+  font-size: 0;
+  /*min-width: 0*/
+}
+
+.js .pn-ProductNavStore {
+  /* Make an auto-hiding scroller for the 3 people using a IE */
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  /* Remove the default scrollbar for WebKit implementations */
+}
+
+.js .pn-ProductNavStore::-webkit-scrollbar {
+  display: none;
+}
+
+.pn-ProductNav_ContentsStore {
+  float: left;
+  transition: transform 0.2s ease-in-out;
+  position: relative;
+  margin-top:-3px;
+}
+
+.pn-ProductNav_Contents-no-transition {
+  transition: none;
+}
+
+.pn-ProductNav_LinkStore {
+  text-decoration: none;
+  color: black;
+  /*font-size: 1.2rem;*/
+  /*font-family: -apple-system, sans-serif;*/
+  display: inline-flex;
+  align-items: center;
+  height: 255px;
+  width:25ss0px;
+  /*white-space:wrap;*/
+  word-wrap:break-word;
+  /*padding: 0 11px;*/
+}
+.pn-ProductNav_LinkStore + .pn-ProductNav_LinkStore {
+  border-left-color: #eee;
+}
+.pn-ProductNav_LinkStore[aria-selected="true"] {
+  color: #111;
+}
+.pn-AdvancerStore {
+  /* Reset the button */
+  appearance: none;
+  background: transparent;
+  padding: 0;
+  border: 0;
+  /* Now style it as needed */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  /* Set the buttons invisible by default */
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.pn-AdvancerStore :focus {
+  outline: 0;
+}
+.pn-AdvancerStore :hover {
+  cursor: pointer;
+}
+.pn-Advancer_LeftStore {
+  left: 0;
+}
+[data-overflowing="both"] ~ .pn-Advancer_LeftStore, [data-overflowing="left"] ~ .pn-Advancer_LeftStore {
+  opacity: 1;
+}
+.pn-Advancer_RightStore {
+  right: 0;
+}
+[data-overflowing="both"] ~ .pn-Advancer_RightStore, [data-overflowing="right"] ~ .pn-Advancer_RightStore {
+  opacity: 1;
+}
+.pn-Advancer_Icon {
+  width: 50px;
+  height: 250px;
+  fill: white;
+}
+.pn-ProductNav_IndicatorStore {
+  /*position: absolute;*/
+  top:0;
+  bottom: 0;
+  left: 0;
+  height: 4px;
+  width: 40px;
+  background-color: transparent;
+  transform-origin: 0 0;
+  transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.leftArrowStore{
+	filter: invert(100%);
+	height:250px;
+	width:45px;
+}
+
+.leftArrowStore:hover{
+	filter: invert(85%);
+}
+
+.rightArrowStore{
+	filter: invert(100%);
+	height:250px;
+	width:45px;
+}
+
+.rightArrowStore:hover{
+	filter: invert(85%);
+}
 /*artist page*/
 .parrot{
 /*	border-bottom-left-radius: 4px;
