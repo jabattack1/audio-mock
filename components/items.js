@@ -89,7 +89,9 @@ class Items extends React.Component{
 		return(
 			<div className='always'>
 				<Navbar3 name={this.state.name}/>
+				<div className='itemMainPhotoContainer' >
 				<img className='itemMainPhoto' id='itemMPhoto' src={this.state.image1} />
+				</div>
 				<p className='itemMainPrice'>$<span id='itemPrice'>{this.state.price}</span></p>
 				<p className='itemMainDescription'>{this.state.description}</p>
 				<input className='itemMainCode' id='itemCode' defaultValue={this.state.code} hidden/>

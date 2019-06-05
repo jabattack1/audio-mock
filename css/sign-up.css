@@ -1,0 +1,163 @@
+
+
+.signUpBox{
+	width:960px;
+	height:600px;
+}
+
+#signUpHeading{
+	/*background-color:red;*/
+	display:block;
+	margin:0 auto;
+	color:white;
+	text-align:center;
+	font-size:22px;
+}
+
+#firstNameSignUpText{
+	position:relative;
+	text-transform: uppercase;
+	color:white;
+	/*font-family:'GothamBook';*/
+	/*font-weight:bold;*/
+	/*float:left;*/
+	width:300px;
+	text-align: left;
+}
+
+#firstNameSignup{
+	/*color:white;*/
+	position:relative;
+	height:30px;
+	width:400px;
+	/*background-color:green;*/
+}
+
+#lastNameSignUpText{
+	position:relative;
+	text-transform: uppercase;
+	color:white;
+	/*font-family:'GothamBook';*/
+	/*font-weight:bold;*/
+	/*float:left;*/
+	width:300px;
+	text-align: left;
+}
+
+#lastNameSignup{
+	/*color:white;*/
+	position:relative;
+	height:30px;
+	width:400px;
+	/*background-color:green;*/
+}
+
+#emailSignUpText{
+	color:white;
+	text-transform: uppercase;
+	position:relative;
+	width:300px;
+	/*background-color:black;*/
+	text-align: left;
+}
+
+#emailSignUp{
+	position:relative;
+/*	margin-left:0px;
+	margin-top:30px;*/
+	height:30px;
+	width:400px;
+}
+
+#birthdaySignUpText{
+	color:white;
+	position:relative;
+	text-transform: uppercase;
+	width:300px;
+	text-align: left;
+}
+
+#monthSignup{
+	position:relative;
+	width:50px;
+	height:30px;
+/*	margin-left:340px;
+	margin-top:-215px;*/
+}
+
+#daySignup{
+	position:relative;
+	width:50px;
+	height:30px;
+	margin-left:10px;
+}
+
+#yearSignup{
+	position:relative;
+	width:97px;
+	height:30px;
+	margin-left:10px;
+}
+
+#genderSignUpText{
+	color:white;
+	position:relative;
+	text-transform: uppercase;
+	margin-left:450px;
+	margin-top:-295px;
+	width:300px;
+	/*background-color:black;*/
+	text-align: left;
+}
+
+#femaleCheck{
+	color:white;
+ 	position:relative;
+  	/*margin-top:-183px;*/
+  	margin-left:225px;
+}
+
+#checkboxText{
+	color:white;
+	margin-left:10px;
+	/*text-align: center;*/
+}
+
+#maleCheck{
+  	position:relative;
+  	margin-top:-40px;
+  	margin-left:270px;
+}
+
+#signupButton{
+	position:relative;
+	font-family:'GothamBook';
+	font-weight:bold;
+	font-size: 12px;
+	padding-top:3px;
+	padding-bottom:3px;
+	padding-left:20px;
+	padding-right:20px;
+	background-color:black;
+	border-style:solid;
+    border-color:black;
+    border-width:4px;
+    color:white;
+    outline:0;
+    text-align: center;
+    margin-left:500px;
+    margin-top:-90px;
+}
+
+#signupButton:active{
+	background-color:white;
+	border-color:black;
+	color:black;
+	outline:0;
+}
+
+
+
+
+
+

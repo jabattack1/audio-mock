@@ -30,10 +30,10 @@ const Layout = (props) => (
 	<div>
 	<Head>
 		<title>Audio-Boy</title>
-		<link rel='icon' type='image/png' href='https://i.imgur.com/msETczs.png' />
+		<link rel='icon' type='image/png' href='https://i.imgur.com/Xc2Et4w.png' />
 
 	</Head>
-		<div className='topBanner'>Subscribe <span className='bold'>NOW</span> for our updates & promotions! <span className='bold'><a className='linkHere'>OVER HERE</a></span> 
+		<div className='topBanner'>Subscribe <span className='bold'>NOW</span> for our updates & promotions! <span className='bold'><Link href={`/sign-up-page`}>OVER HERE</Link></span> 
 		</div>
 		<Navbar />
 		<div className='containerWrapper'>

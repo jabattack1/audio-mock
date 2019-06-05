@@ -16,6 +16,7 @@ import StoreGridScroll from './store-grid-scroll.js';
 import '../css/normalize.css';
 import '../css/skeleton.css';
 import '../css/mobile.css';
+import '../css/scroller.css';
 
 
 class Parent extends React.Component {
@@ -44,6 +45,14 @@ class Parent extends React.Component {
 													<img src="https://i.imgur.com/SMLpXaX.png" id='auditorySignMoon' />
 													<h1 id='sunMoon'>I DON'T WANT TO GO AND SEE THE SUN</h1>
 													<img src="https://i.imgur.com/imjFfzu.png" id='singleSunMobile'/>
+												</div>
+												<div id='moonWrapper'>
+												 	<img src='https://i.imgur.com/aFP9ONd.gif' id='moonMobile' />
+												</div>
+												<div id='bannerSideMobile' className="crt">
+													<div class="example3">
+														<h3><img src="https://i.imgur.com/SMLpXaX.png" id='auditorySignMoonScroller' /><br/><br/><span id='scrollerSun'>I Don't Want to Go And See THe Sun</span><br/><br/>IN STORES NOW<br/><br/>iTunes<br/>Wherever else<br/>Spotify<br/>Google Play</h3>
+													</div>
 												</div>
 												<div id='moonWrapper'>
 												 	<img src='https://i.imgur.com/aFP9ONd.gif' id='moonMobile' />

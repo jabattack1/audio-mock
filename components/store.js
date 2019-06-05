@@ -17,7 +17,9 @@ class Store extends React.Component{
 					<div className='grid-figure-wrapStore'>
 						<Link href={`/store?code=${this.props.store.code}`}>
 						<div alt={this.props.store.code} className='grid-store'>
-							<img src={this.props.store.display_src} alt={this.props.store.name} className='itemPhoto' />
+							<div className='itemPhotoContainer'>
+								<img src={this.props.store.display_src} alt={this.props.store.name} className='itemPhoto' />
+							</div>
 							<p className='itemName'>{this.props.store.name}</p>
 							<p className='itemColor'>{this.props.store.color}</p>
 							<p className='itemQuick'>{this.props.store.quick}</p>

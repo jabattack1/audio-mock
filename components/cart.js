@@ -19,8 +19,10 @@ class Cart extends React.Component{
 			return(
 					<li className='cartList'>
 						<a href={`/store?code=${this.props.data.code}`}>
+						<div className='cartItemImageContainer'>
 							<img className='cartItemImage' src={this.props.data.image1} />
-							<p className='cartItemName'>{this.props.data.name}</p>
+						</div>
+						<p className='cartItemName'>{this.props.data.name}</p>
 						</a>
 						<p className='cartItemSize'>{this.props.data.size}</p>
 						<p className='cartItemQuantity'>Quantity</p>
