@@ -1487,7 +1487,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
   }
 
   .aboutImage{
-    width:933px;
+    width:935px;
     position:relative;
     height:100px;
     /*width: 960px;*/
@@ -1644,13 +1644,8 @@ only screen and (min-device-pixel-ratio : 1.5) {
 }
 
 .aboutImage{
-  position:relative;
   height:300px;
   width: 854px;
-  margin-left:-6px;
-  margin-top:-3px;
-/*  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;*/
 }
 
   .aboutContent{
