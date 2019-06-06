@@ -3,28 +3,8 @@ import Navbar from './navbar.js';
 import Footer from './footer.js';
 import Link from 'next/link';
 
-// var total=0;
-
-// if (typeof window !== 'undefined') {
-// 	console.log('shine');
-//     var data = localStorage.getItem('state');
-//     console.log(data)
-//     if(data !== 'nothing'){
-// 		var parsedData = JSON.parse(data);
-// 		console.log('parsedData'+parsedData);
-// 		if(parsedData!==null){
-// 			if(parsedData.length<1){
-// 				for(var i in parsedData) {
-// 					total= total + parseInt(parsedData[i].quantity);
-// 			    }
-// 			}
-// 			else{
-// 				total=parseInt(parsedData.quantity);
-// 			}
-// 		}
-// 	}
-// 	console.log('wtf'+total);
-// }
+import SignUp from '../components/sign-up.js';
+import Layout5 from '../components/layout5.js';
 
 const Layout = (props) => (
 	<div>
@@ -33,16 +13,25 @@ const Layout = (props) => (
 		<link rel='icon' type='image/png' href='https://i.imgur.com/Xc2Et4w.png' />
 
 	</Head>
-		<div className='topBanner'>Subscribe <span className='bold'>NOW</span> for our updates & promotions! <span className='bold'><Link href={`/sign-up-page`}><span className='linkHere'>OVER HERE</span></Link></span> 
+		<div className='topBanner'>Subscribe <span className='bold'>NOW</span> for our updates & promotions! <span className='bold'><span className='linkHere' id="myBtn" >OVER HERE</span></span> 
 		</div>
 		<Navbar />
-		<div className='containerWrapper'>
+		<div className='containerWrapper' id='parentContainer'>
 			<div className='container'>
+			<SignUp />
 				{props.children}
 			</div>
 		</div>
 		<Footer />
 	</div>
 );
+
+
+function signUpFrom(){
+	console.log('love');
+	var elem = document.getElementById('signBox');
+	document.getElementById('parentContainer').scrolling = 'no';
+	elem.style.display = 'block';
+}
 
 export default Layout;

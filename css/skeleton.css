@@ -5,7 +5,7 @@
   display:flex;
   height:170px; 
   width:170px;
-  z-index:10;
+  z-index:8;
   content:url('https://i.imgur.com/QpsNlJb.png');
 }
 
@@ -105,6 +105,10 @@ body {
   background-size:cover;
   background-attachment: fixed;
   background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url("https://i.imgur.com/2Wz4J4O.png");
+}
+
+body.modal-open {
+    overflow: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -631,8 +635,8 @@ tech-slideshow .mover-1 {
 }
 
 .aboutWrite{
-  width:950px;
-  margin-left:5px;
+  width:98%;
+  margin-left:8px;
 }
 
 
@@ -1752,7 +1756,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
     margin-left:0px;
     height:100px; 
     width:100px;
-    z-index:100;
+    z-index:8;
   }
 
   .mobileLogo{

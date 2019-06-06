@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -1137,6 +1137,206 @@ var Footer = function Footer() {
 
 /***/ }),
 
+/***/ "./components/footer2.js":
+/*!*******************************!*\
+  !*** ./components/footer2.js ***!
+  \*******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "/Users/peterhahn/src/new/audio-boy/components/footer2.js";
+
+
+
+function year() {
+  if (false) { var spit, theDate; }
+
+  return spit;
+}
+
+var Footer2 = function Footer2() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "footerWrapper2",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "footer",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "footerMenu",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "footerLink",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    id: "copyright",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }, "\xA9 ", year(), " Audio-Boy")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "footerLink",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "/privacy-policy",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }, "Privay Policy")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "footerLink",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "/terms-of-use",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }, "Terms of Use")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "footerLink",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "/ad-choices",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, "Ad Choices")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "footerLink",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "/cookie-policy",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }, "Cookie Policy")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "footerLink",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "/jobs",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }, "Jobs")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "footerContacts",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "footerLink",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "email",
+    href: "info@audio-boy.com",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  }, "info@audio-boy.com")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "footerLink",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "email",
+    href: "pr@audio-boy.com",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: this
+  }, "pr@audio-boy.com")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "footerLink",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "email",
+    href: "hr@audio-boy.com",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    },
+    __self: this
+  }, "legal@audio-boy.com"))))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Footer2);
+
+/***/ }),
+
 /***/ "./components/layout.js":
 /*!******************************!*\
   !*** ./components/layout.js ***!
@@ -1154,50 +1354,34 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _footer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./footer.js */ "./components/footer.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _components_sign_up_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/sign-up.js */ "./components/sign-up.js");
+/* harmony import */ var _components_layout5_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/layout5.js */ "./components/layout5.js");
 var _jsxFileName = "/Users/peterhahn/src/new/audio-boy/components/layout.js";
 
 
 
 
- // var total=0;
-// if (typeof window !== 'undefined') {
-// 	console.log('shine');
-//     var data = localStorage.getItem('state');
-//     console.log(data)
-//     if(data !== 'nothing'){
-// 		var parsedData = JSON.parse(data);
-// 		console.log('parsedData'+parsedData);
-// 		if(parsedData!==null){
-// 			if(parsedData.length<1){
-// 				for(var i in parsedData) {
-// 					total= total + parseInt(parsedData[i].quantity);
-// 			    }
-// 			}
-// 			else{
-// 				total=parseInt(parsedData.quantity);
-// 			}
-// 		}
-// 	}
-// 	console.log('wtf'+total);
-// }
+
+
+
 
 var Layout = function Layout(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 10
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 11
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 12
     },
     __self: this
   }, "Audio-Boy"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -1206,74 +1390,167 @@ var Layout = function Layout(props) {
     href: "https://i.imgur.com/Xc2Et4w.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 13
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "topBanner",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 16
     },
     __self: this
   }, "Subscribe ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "bold",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 16
     },
     __self: this
   }, "NOW"), " for our updates & promotions! ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "bold",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
-    href: "/sign-up-page",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 16
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "linkHere",
+    id: "myBtn",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 16
     },
     __self: this
-  }, "OVER HERE")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_navbar_js__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, "OVER HERE"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_navbar_js__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 18
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "containerWrapper",
+    id: "parentContainer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 19
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
+      lineNumber: 20
     },
     __self: this
-  }, props.children)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_footer_js__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_sign_up_js__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 21
+    },
+    __self: this
+  }), props.children)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_footer_js__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
     },
     __self: this
   }));
 };
 
+function signUpFrom() {
+  console.log('love');
+  var elem = document.getElementById('signBox');
+  document.getElementById('parentContainer').scrolling = 'no';
+  elem.style.display = 'block';
+}
+
 /* harmony default export */ __webpack_exports__["default"] = (Layout);
+
+/***/ }),
+
+/***/ "./components/layout5.js":
+/*!*******************************!*\
+  !*** ./components/layout5.js ***!
+  \*******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "next/head");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _footer2_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./footer2.js */ "./components/footer2.js");
+/* harmony import */ var _navbar2_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./navbar2.js */ "./components/navbar2.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_4__);
+var _jsxFileName = "/Users/peterhahn/src/new/audio-boy/components/layout5.js";
+
+
+
+
+
+
+var Layout5 = function Layout5(props) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, "Audio-Boy"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
+    rel: "icon",
+    type: "image/png",
+    href: "https://i.imgur.com/Xc2Et4w.png",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_navbar2_js__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "containerWrapper",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "container",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, props.children)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_footer2_js__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Layout5);
 
 /***/ }),
 
@@ -1549,6 +1826,293 @@ function (_React$Component) {
 }(react__WEBPACK_IMPORTED_MODULE_8___default.a.Component);
 
 /* harmony default export */ __webpack_exports__["default"] = (Navbar);
+
+/***/ }),
+
+/***/ "./components/navbar2.js":
+/*!*******************************!*\
+  !*** ./components/navbar2.js ***!
+  \*******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/promise */ "./node_modules/@babel/runtime-corejs2/core-js/promise.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/parse-int */ "./node_modules/@babel/runtime-corejs2/core-js/parse-int.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! next/head */ "next/head");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! react-dom */ "react-dom");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! react-scroll */ "react-scroll");
+/* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(react_scroll__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! styled-components */ "styled-components");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../css/normalize.css */ "./css/normalize.css");
+/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_css_normalize_css__WEBPACK_IMPORTED_MODULE_14__);
+/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../css/skeleton.css */ "./css/skeleton.css");
+/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_css_skeleton_css__WEBPACK_IMPORTED_MODULE_15__);
+
+
+
+
+
+
+
+
+var _jsxFileName = "/Users/peterhahn/src/new/audio-boy/components/navbar2.js";
+
+
+
+
+
+
+
+
+
+var Navbar2 =
+/*#__PURE__*/
+function (_React$Component) {
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_7__["default"])(Navbar2, _React$Component);
+
+  function Navbar2(props) {
+    var _this;
+
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Navbar2);
+
+    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__["default"])(Navbar2).call(this, props));
+    _this.scrollToTop = _this.scrollToTop.bind(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this));
+    return _this;
+  }
+
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_3__["default"])(Navbar2, [{
+    key: "render",
+    value: function render() {
+      var total = 0;
+
+      if (typeof window !== 'undefined') {
+        var data = localStorage.getItem('state');
+
+        if (data !== 'nothing') {
+          var parsedData = JSON.parse(data);
+
+          if (parsedData !== null) {
+            if (parsedData.length !== undefined) {
+              for (var i in parsedData) {
+                total = total + _babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_1___default()(parsedData[i].quantity);
+              }
+            } else {
+              total = _babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_1___default()(parsedData.quantity);
+            }
+          }
+        }
+      }
+
+      return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+        className: "nav",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 42
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("ul", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 43
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("li", {
+        className: "navLinks",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 44
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
+        className: "policyNav",
+        href: "/",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 44
+        },
+        __self: this
+      }, "HOME")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("li", {
+        className: "navLinks",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 45
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
+        className: "policyNav",
+        href: "/privacy-policy",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 45
+        },
+        __self: this
+      }, "PRIVACY POLICY")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("li", {
+        className: "navLinks",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 46
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
+        className: "policyNav",
+        href: "/terms-of-use",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 46
+        },
+        __self: this
+      }, "TERMS OF USE")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("li", {
+        className: "navLinks",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 47
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
+        className: "policyNav",
+        href: "/ad-choices",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 47
+        },
+        __self: this
+      }, "AD CHOICES")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("li", {
+        className: "navLinks",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 48
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
+        className: "policyNav",
+        href: "/cookie-policy",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 48
+        },
+        __self: this
+      }, "COOKIE POLICY")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("li", {
+        className: "navLinks",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 49
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
+        className: "policyNav",
+        href: "/jobs",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 49
+        },
+        __self: this
+      }, "JOBS"))), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_12___default.a, {
+        href: "/shopping-cart",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 51
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("span", {
+        className: "goToCart2",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 51
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("img", {
+        src: "https://i.imgur.com/O4wSpvB.png",
+        className: "cartImage",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 51
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("p", {
+        className: "cartQuantity",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 51
+        },
+        __self: this
+      }, total))));
+    }
+  }, {
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      react_scroll__WEBPACK_IMPORTED_MODULE_11__["Events"].scrollEvent.register('begin', function () {
+        console.log("begin", arguments);
+      });
+      react_scroll__WEBPACK_IMPORTED_MODULE_11__["Events"].scrollEvent.register('end', function () {
+        console.log("end", arguments);
+      });
+    }
+  }, {
+    key: "scrollToTop",
+    value: function scrollToTop() {
+      react_scroll__WEBPACK_IMPORTED_MODULE_11__["animateScroll"].scrollToTop();
+    }
+  }, {
+    key: "scrollTo",
+    value: function scrollTo() {
+      react_scroll__WEBPACK_IMPORTED_MODULE_11__["scroller"].scrollTo('scroll-to-element', {
+        duration: 800,
+        delay: 0,
+        smooth: 'easeInOutQuart'
+      });
+    }
+  }, {
+    key: "scrollToWithContainer",
+    value: function scrollToWithContainer() {
+      var goToContainer = new _babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_0___default.a(function (resolve, reject) {
+        react_scroll__WEBPACK_IMPORTED_MODULE_11__["Events"].scrollEvent.register('end', function () {
+          resolve();
+          react_scroll__WEBPACK_IMPORTED_MODULE_11__["Events"].scrollEvent.remove('end');
+        });
+        react_scroll__WEBPACK_IMPORTED_MODULE_11__["scroller"].scrollTo('scroll-container', {
+          duration: 800,
+          delay: 0,
+          smooth: 'easeInOutQuart'
+        });
+      });
+      goToContainer.then(function () {
+        return react_scroll__WEBPACK_IMPORTED_MODULE_11__["scroller"].scrollTo('scroll-container-second-element', {
+          duration: 800,
+          delay: 0,
+          smooth: 'easeInOutQuart',
+          containerId: 'scroll-container'
+        });
+      });
+    }
+  }, {
+    key: "componentWillUnmount",
+    value: function componentWillUnmount() {
+      react_scroll__WEBPACK_IMPORTED_MODULE_11__["Events"].scrollEvent.remove('begin');
+      react_scroll__WEBPACK_IMPORTED_MODULE_11__["Events"].scrollEvent.remove('end');
+    }
+  }]);
+
+  return Navbar2;
+}(react__WEBPACK_IMPORTED_MODULE_8___default.a.Component);
+
+/* harmony default export */ __webpack_exports__["default"] = (Navbar2);
 
 /***/ }),
 
@@ -2199,14 +2763,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _contact_js__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./contact.js */ "./components/contact.js");
 /* harmony import */ var _news_grid_scroll_js__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./news-grid-scroll.js */ "./components/news-grid-scroll.js");
 /* harmony import */ var _store_grid_scroll_js__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./store-grid-scroll.js */ "./components/store-grid-scroll.js");
-/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../css/normalize.css */ "./css/normalize.css");
-/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(_css_normalize_css__WEBPACK_IMPORTED_MODULE_17__);
-/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../css/skeleton.css */ "./css/skeleton.css");
-/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_18___default = /*#__PURE__*/__webpack_require__.n(_css_skeleton_css__WEBPACK_IMPORTED_MODULE_18__);
-/* harmony import */ var _css_mobile_css__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../css/mobile.css */ "./css/mobile.css");
-/* harmony import */ var _css_mobile_css__WEBPACK_IMPORTED_MODULE_19___default = /*#__PURE__*/__webpack_require__.n(_css_mobile_css__WEBPACK_IMPORTED_MODULE_19__);
-/* harmony import */ var _css_scroller_css__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../css/scroller.css */ "./css/scroller.css");
-/* harmony import */ var _css_scroller_css__WEBPACK_IMPORTED_MODULE_20___default = /*#__PURE__*/__webpack_require__.n(_css_scroller_css__WEBPACK_IMPORTED_MODULE_20__);
+/* harmony import */ var _components_sign_up_js__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../components/sign-up.js */ "./components/sign-up.js");
+/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../css/normalize.css */ "./css/normalize.css");
+/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_18___default = /*#__PURE__*/__webpack_require__.n(_css_normalize_css__WEBPACK_IMPORTED_MODULE_18__);
+/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../css/skeleton.css */ "./css/skeleton.css");
+/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_19___default = /*#__PURE__*/__webpack_require__.n(_css_skeleton_css__WEBPACK_IMPORTED_MODULE_19__);
+/* harmony import */ var _css_mobile_css__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../css/mobile.css */ "./css/mobile.css");
+/* harmony import */ var _css_mobile_css__WEBPACK_IMPORTED_MODULE_20___default = /*#__PURE__*/__webpack_require__.n(_css_mobile_css__WEBPACK_IMPORTED_MODULE_20__);
+/* harmony import */ var _css_scroller_css__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../css/scroller.css */ "./css/scroller.css");
+/* harmony import */ var _css_scroller_css__WEBPACK_IMPORTED_MODULE_21___default = /*#__PURE__*/__webpack_require__.n(_css_scroller_css__WEBPACK_IMPORTED_MODULE_21__);
 
 
 
@@ -2214,6 +2779,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var _jsxFileName = "/Users/peterhahn/src/new/audio-boy/components/parent.js";
+
 
 
 
@@ -2247,70 +2813,70 @@ function (_React$Component) {
       return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 34
+          lineNumber: 36
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "container",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 35
+          lineNumber: 37
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "row",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 36
+          lineNumber: 38
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "one-half column",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 37
+          lineNumber: 39
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "bannerWrapper",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 38
+          lineNumber: 40
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "image123",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 39
+          lineNumber: 41
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "imgContainer",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 40
+          lineNumber: 42
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
         className: "frontLogo",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 41
+          lineNumber: 43
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "mobileLogo",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 42
+          lineNumber: 44
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         id: "bannerSunMobile",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 43
+          lineNumber: 45
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
@@ -2318,7 +2884,7 @@ function (_React$Component) {
         id: "spaceDropMobile",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 44
+          lineNumber: 46
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
@@ -2326,14 +2892,14 @@ function (_React$Component) {
         id: "auditorySignMoon",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 45
+          lineNumber: 47
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h1", {
         id: "sunMoon",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 46
+          lineNumber: 48
         },
         __self: this
       }, "I DON'T WANT TO GO AND SEE THE SUN"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
@@ -2341,14 +2907,14 @@ function (_React$Component) {
         id: "singleSunMobile",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 47
+          lineNumber: 49
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         id: "moonWrapper",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 49
+          lineNumber: 51
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
@@ -2356,7 +2922,7 @@ function (_React$Component) {
         id: "moonMobile",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 50
+          lineNumber: 52
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
@@ -2364,20 +2930,20 @@ function (_React$Component) {
         className: "crt",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 52
+          lineNumber: 54
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        class: "example3",
+        className: "example3",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 53
+          lineNumber: 55
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h3", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 54
+          lineNumber: 56
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
@@ -2385,75 +2951,75 @@ function (_React$Component) {
         id: "auditorySignMoonScroller",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 54
+          lineNumber: 56
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 54
+          lineNumber: 56
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 54
+          lineNumber: 56
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
         id: "scrollerSun",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 54
+          lineNumber: 56
         },
         __self: this
       }, "I Don't Want to Go And See THe Sun"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 54
+          lineNumber: 56
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 54
+          lineNumber: 56
         },
         __self: this
       }), "IN STORES NOW", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 54
+          lineNumber: 56
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 54
+          lineNumber: 56
         },
         __self: this
       }), "iTunes", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 54
+          lineNumber: 56
         },
         __self: this
       }), "Wherever else", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 54
+          lineNumber: 56
         },
         __self: this
       }), "Spotify", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 54
+          lineNumber: 56
         },
         __self: this
       }), "Google Play"))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         id: "moonWrapper",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 57
+          lineNumber: 59
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
@@ -2461,21 +3027,21 @@ function (_React$Component) {
         id: "moonMobile",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 58
+          lineNumber: 60
         },
         __self: this
       })))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "tech-slideshow",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 62
+          lineNumber: 64
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "bannerSun",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 63
+          lineNumber: 65
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
@@ -2483,7 +3049,7 @@ function (_React$Component) {
         className: "spaceDrop",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 64
+          lineNumber: 66
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
@@ -2491,14 +3057,14 @@ function (_React$Component) {
         className: "auditorySign",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 65
+          lineNumber: 67
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "moon",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 66
+          lineNumber: 68
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
@@ -2506,14 +3072,14 @@ function (_React$Component) {
         className: "singleSun",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 67
+          lineNumber: 69
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h1", {
         className: "sun",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 68
+          lineNumber: 70
         },
         __self: this
       }, "I DON'T WANT TO GO AND SEE THE SUN"))))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
@@ -2521,7 +3087,7 @@ function (_React$Component) {
         id: "artistWrapper",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 73
+          lineNumber: 75
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_8__["Element"], {
@@ -2529,26 +3095,26 @@ function (_React$Component) {
         className: "element",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 74
+          lineNumber: 76
         },
         __self: this
       }, "Artists")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 76
+          lineNumber: 78
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_artists_grid_js__WEBPACK_IMPORTED_MODULE_10__["default"], Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, this.props, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 77
+          lineNumber: 79
         },
         __self: this
       }))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "artistNewsSpacer",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 79
+          lineNumber: 81
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
@@ -2556,7 +3122,7 @@ function (_React$Component) {
         id: "newsWrapper",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 81
+          lineNumber: 83
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_8__["Element"], {
@@ -2564,33 +3130,33 @@ function (_React$Component) {
         className: "element",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 82
+          lineNumber: 84
         },
         __self: this
       }, "News - ", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
         className: "small",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 82
+          lineNumber: 84
         },
         __self: this
       }, "Scroll Right to See More"))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 84
+          lineNumber: 86
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_news_grid_scroll_js__WEBPACK_IMPORTED_MODULE_15__["default"], Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, this.props, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 85
+          lineNumber: 87
         },
         __self: this
       }))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "newsLabelSpacer",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 87
+          lineNumber: 89
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
@@ -2598,7 +3164,7 @@ function (_React$Component) {
         id: "aboutWrapper",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 89
+          lineNumber: 91
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_8__["Element"], {
@@ -2607,19 +3173,19 @@ function (_React$Component) {
         className: "element",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 90
+          lineNumber: 92
         },
         __self: this
       }, "The Label")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 92
+          lineNumber: 94
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_about_label_js__WEBPACK_IMPORTED_MODULE_12__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 93
+          lineNumber: 95
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
@@ -2627,7 +3193,7 @@ function (_React$Component) {
         id: "storeWrapper",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 96
+          lineNumber: 98
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_8__["Element"], {
@@ -2636,26 +3202,26 @@ function (_React$Component) {
         className: "element",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 97
+          lineNumber: 99
         },
         __self: this
       }, "Store")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 99
+          lineNumber: 101
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_store_grid_js__WEBPACK_IMPORTED_MODULE_13__["default"], Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, this.props, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 100
+          lineNumber: 102
         },
         __self: this
       }))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "storeContactSpacer",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 102
+          lineNumber: 104
         },
         __self: this
       })))));
@@ -3779,6 +4345,551 @@ function (_React$Component) {
 
 /***/ }),
 
+/***/ "./components/sign-up.js":
+/*!*******************************!*\
+  !*** ./components/sign-up.js ***!
+  \*******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! next/head */ "next/head");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! styled-components */ "styled-components");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../css/normalize.css */ "./css/normalize.css");
+/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_css_normalize_css__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../css/skeleton.css */ "./css/skeleton.css");
+/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_css_skeleton_css__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var _css_mobile_css__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../css/mobile.css */ "./css/mobile.css");
+/* harmony import */ var _css_mobile_css__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_css_mobile_css__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var _css_scroller_css__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../css/scroller.css */ "./css/scroller.css");
+/* harmony import */ var _css_scroller_css__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_css_scroller_css__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var _css_sign_up_css__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../css/sign-up.css */ "./css/sign-up.css");
+/* harmony import */ var _css_sign_up_css__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_css_sign_up_css__WEBPACK_IMPORTED_MODULE_14__);
+/* harmony import */ var _css_shoppingCart_css__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../css/shoppingCart.css */ "./css/shoppingCart.css");
+/* harmony import */ var _css_shoppingCart_css__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_css_shoppingCart_css__WEBPACK_IMPORTED_MODULE_15__);
+
+
+
+
+
+
+
+var _jsxFileName = "/Users/peterhahn/src/new/audio-boy/components/sign-up.js";
+
+
+
+
+
+
+
+
+
+
+var SignUp =
+/*#__PURE__*/
+function (_React$Component) {
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__["default"])(SignUp, _React$Component);
+
+  function SignUp(props) {
+    var _this;
+
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, SignUp);
+
+    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(SignUp).call(this, props));
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "state", {
+      month: '',
+      yearh: '',
+      day: '',
+      phone: '' // (document).ready(function() {
+      // $("#male").click(function (evt) { 
+      // if($('#male').prop('checked') == true){
+      //   $('#gender').val('male');
+      //   $('#maleCheck').removeClass('signupOption').addClass('highlight');
+      //   $('#female').attr('checked', false);
+      //   $('#femaleCheck').removeClass('highlight').addClass('signupOption');
+      //   evt.stopPropagation();
+      // }
+      // else{
+      //   $('#maleCheck').removeClass('highlight').addClass('signupOption');
+      //   evt.stopPropagation();
+      //   $('#gender').val('');
+      // }
+      // });
+
+    });
+
+    _this.state = {
+      month: '',
+      year: '',
+      day: '',
+      phone: ''
+    };
+    _this.isNumberKeyMonth = _this.isNumberKeyMonth.bind(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this));
+    _this.isNumberKeyYear = _this.isNumberKeyYear.bind(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this));
+    _this.isNumberKeyDay = _this.isNumberKeyDay.bind(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this));
+    _this.isNumberKeyPhone = _this.isNumberKeyPhone.bind(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this));
+    return _this;
+  }
+
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(SignUp, [{
+    key: "render",
+    value: function render() {
+      if (typeof window !== 'undefined') {
+        // Get the modal
+        var modal = document.getElementById("myModal"); // Get the button that opens the modal
+
+        var btn = document.getElementById("myBtn"); // Get the <span> element that closes the modal
+
+        var span = document.getElementsByClassName("close")[0]; // When the user clicks on the button, open the modal 
+
+        btn.onclick = function () {
+          modal.style.display = "block";
+        }; // When the user clicks on <span> (x), close the modal
+
+
+        span.onclick = function () {
+          modal.style.display = "none";
+        }; // When the user clicks anywhere outside of the modal, close it
+
+
+        window.onclick = function (event) {
+          if (event.target == modal) {
+            modal.style.display = "none";
+          }
+        };
+      }
+
+      console.log(this.state);
+      return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 87
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        id: "myModal",
+        class: "modal",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 88
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        class: "modal-content",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 89
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("span", {
+        class: "close",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 90
+        },
+        __self: this
+      }, "\xD7"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "signUpBox",
+        id: "signBox",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 91
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("form", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 92
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        id: "signUp",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 93
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h3", {
+        id: "signUpHeading",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 94
+        },
+        __self: this
+      }, "GET BLASTED BY EMAILS FROM"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
+        src: "https://i.imgur.com/QpsNlJb.png",
+        id: "signUpImage",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 95
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", {
+        id: "signUpSay",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 96
+        },
+        __self: this
+      }, "Sign up and get exclusive promotional discounts on merchandise and information on upcoming events. We promise not to blast you with a ton of emails."), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("label", {
+        htmlFor: "first_name",
+        id: "firstNameSignUpText",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 97
+        },
+        __self: this
+      }, "First Name"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("input", {
+        type: "text",
+        name: "first_name",
+        id: "firstNameSignup",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 98
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("label", {
+        htmlFor: "last_name",
+        id: "lastNameSignUpText",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 99
+        },
+        __self: this
+      }, "Last Name"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("input", {
+        type: "text",
+        name: "last_name",
+        id: "lastNameSignup",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 100
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("label", {
+        htmlFor: "email",
+        id: "emailSignUpText",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 101
+        },
+        __self: this
+      }, "Email"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("input", {
+        type: "text",
+        name: "email_field",
+        id: "emailSignUp",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 102
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("label", {
+        htmlFor: "phone",
+        id: "phoneSignUpText",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 103
+        },
+        __self: this
+      }, "Phone Number"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("input", {
+        type: "tel",
+        pattern: "[0-9]{3}-[0-9]{3}-[0-9]{4}",
+        name: "phone_field",
+        id: "phoneSignUp",
+        onChange: this.isNumberKeyPhone,
+        value: this.state.phone,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 104
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "genderStuff",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 105
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("label", {
+        htmlFor: "gender",
+        id: "genderSignUpText",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 106
+        },
+        __self: this
+      }, "Gender"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("label", {
+        id: "femaleCheck",
+        className: "signupOption",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 107
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("input", {
+        type: "checkbox",
+        id: "femaleCheckActual",
+        className: "signupCheckBox",
+        value: "female",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 108
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("span", {
+        id: "checkboxTextFemale",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 108
+        },
+        __self: this
+      }, "FEMALE")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("label", {
+        id: "maleCheck",
+        className: "signupOption",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 110
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("input", {
+        type: "checkbox",
+        htmlFor: "gender",
+        id: "maleCheckActual",
+        name: "sex",
+        className: "signupCheckBox",
+        value: "male",
+        onClick: this.checkMale,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 111
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("span", {
+        id: "checkboxTextMale",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 111
+        },
+        __self: this
+      }, "MALE")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("input", {
+        name: "gender",
+        id: "gender",
+        hidden: true,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 113
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "birthdayStuff",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 115
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("label", {
+        htmlFor: "dob",
+        id: "birthdaySignUpText",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 116
+        },
+        __self: this
+      }, "Birthday"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("input", {
+        type: "text",
+        name: "month",
+        id: "monthSignup",
+        pattern: "[0-9]*",
+        minLength: "2",
+        maxLength: "2",
+        autoComplete: "off",
+        onChange: this.isNumberKeyMonth,
+        value: this.state.month,
+        placeholder: "MO",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 117
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("input", {
+        type: "text",
+        name: "day",
+        id: "daySignup",
+        pattern: "[0-9]*",
+        minLength: "2",
+        maxLength: "2",
+        autoComplete: "off",
+        onChange: this.isNumberKeyDay,
+        value: this.state.day,
+        placeholder: "DAY",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 118
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("input", {
+        type: "text",
+        name: "year",
+        id: "yearSignup",
+        pattern: "[0-9]*",
+        minLength: "4",
+        maxLength: "4",
+        autoComplete: "off",
+        onChange: this.isNumberKeyYear,
+        value: this.state.year,
+        placeholder: "YEAR",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 119
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("label", {
+        htmlFor: "country",
+        id: "countrySignUpText",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 121
+        },
+        __self: this
+      }, "Country of Origin"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("input", {
+        type: "text",
+        name: "country_field",
+        id: "countrySignUp",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 122
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("label", {
+        htmlFor: "fav_artist",
+        id: "artistSignUpText",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 123
+        },
+        __self: this
+      }, "Favorite Artist"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("input", {
+        type: "text",
+        name: "fav_artist",
+        id: "artistSignup",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 124
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("button", {
+        id: "signupButton",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 125
+        },
+        __self: this
+      }, "REGISTER")))))));
+    }
+  }, {
+    key: "isNumberKeyMonth",
+    value: function isNumberKeyMonth(e) {
+      var re = /^[0-9\b]+$/;
+
+      if (e.target.value == '' || re.test(e.target.value)) {
+        this.setState({
+          month: e.target.value
+        });
+      } else {
+        return false;
+      }
+    }
+  }, {
+    key: "isNumberKeyYear",
+    value: function isNumberKeyYear(e) {
+      var re = /^[0-9\b]+$/;
+
+      if (e.target.value == '' || re.test(e.target.value)) {
+        this.setState({
+          year: e.target.value
+        });
+      } else {
+        return false;
+      }
+    }
+  }, {
+    key: "isNumberKeyDay",
+    value: function isNumberKeyDay(e) {
+      var re = /^[0-9\b]+$/;
+
+      if (e.target.value == '' || re.test(e.target.value)) {
+        this.setState({
+          day: e.target.value
+        });
+      } else {
+        return false;
+      }
+    }
+  }, {
+    key: "isNumberKeyPhone",
+    value: function isNumberKeyPhone(e) {
+      var re = /^[0-9\b]+$/;
+
+      if (e.target.value == '' || re.test(e.target.value)) {
+        this.setState({
+          phone: e.target.value
+        });
+      } else {
+        return false;
+      }
+    }
+  }, {
+    key: "checkMale",
+    value: function checkMale() {
+      var checkbox = document.getElementById("maleCheck");
+      checkbox.addEventListener('change', function (e) {
+        if (checkbox.children[0].checked) {
+          console.log('the lion');
+        }
+      }); // console.log('stimpy');
+      // var isChecked= document.getElementById('femaleCheck').checked;
+      // console.log(isChecked);
+      // if(document.getElementById('maleCheck').check == true){
+      // 	console.log('time');
+      // $('#gender').val('female');
+      // $('#femaleCheck').removeClass('signupOption').addClass('highlight');
+      // $('#male').attr('checked', false);
+      // $('#maleCheck').removeClass('highlight').addClass('signupOption');
+      // evt.stopPropagation();
+      // }
+      // else{
+      // $('#femaleCheck').removeClass('highlight').addClass('signupOption');
+      // evt.stopPropagation();
+      // $('#gender').val('');
+      // }
+    }
+  }, {
+    key: "validEmail",
+    value: function validEmail(v) {
+      var r = new RegExp("[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?");
+      return v.match(r) == null ? false : true;
+    }
+  }]);
+
+  return SignUp;
+}(react__WEBPACK_IMPORTED_MODULE_7___default.a.Component);
+
+/* harmony default export */ __webpack_exports__["default"] = (SignUp);
+
+/***/ }),
+
 /***/ "./components/store-grid-scroll.js":
 /*!*****************************************!*\
   !*** ./components/store-grid-scroll.js ***!
@@ -4237,6 +5348,17 @@ function (_React$Component) {
 /*!******************************!*\
   !*** ./css/shoppingCart.css ***!
   \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ "./css/sign-up.css":
+/*!*************************!*\
+  !*** ./css/sign-up.css ***!
+  \*************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -6511,7 +7633,7 @@ if (false) {}
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
