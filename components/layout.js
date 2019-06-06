@@ -33,7 +33,7 @@ const Layout = (props) => (
 		<link rel='icon' type='image/png' href='https://i.imgur.com/Xc2Et4w.png' />
 
 	</Head>
-		<div className='topBanner'>Subscribe <span className='bold'>NOW</span> for our updates & promotions! <span className='bold'><Link href={`/sign-up-page`}>OVER HERE</Link></span> 
+		<div className='topBanner'>Subscribe <span className='bold'>NOW</span> for our updates & promotions! <span className='bold'><Link href={`/sign-up-page`}><span className='linkHere'>OVER HERE</span></Link></span> 
 		</div>
 		<Navbar />
 		<div className='containerWrapper'>

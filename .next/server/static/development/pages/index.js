@@ -172,6 +172,7 @@ function (_React$Component) {
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+        className: "aboutWrite",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 17
@@ -981,6 +982,7 @@ var Footer = function Footer() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    className: "footerContactOutside",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16
@@ -1235,7 +1237,14 @@ var Layout = function Layout(props) {
       lineNumber: 36
     },
     __self: this
-  }, "OVER HERE"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_navbar_js__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "linkHere",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: this
+  }, "OVER HERE")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_navbar_js__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 38

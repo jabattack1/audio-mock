@@ -13,7 +13,7 @@ const Footer = () => (
     <div className='footerWrapper'>
 		<div className='footer'>
 			<div className='footerMenu'>
-				<ul>
+				<ul className='footerContactOutside'>
 					<li className='footerLink'>
 						<p id="copyright">
 							© {year()} Audio-Boy

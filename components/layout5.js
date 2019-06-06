@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Footer2 from './footer2.js';
-import Navbar3 from './navbar3.js';
+import Navbar2 from './navbar2.js';
 import Link from 'next/link';
 
 const Layout5 = (props) => (
@@ -8,8 +8,9 @@ const Layout5 = (props) => (
 	<Head>
 		<title>Audio-Boy</title>
 		<link rel='icon' type='image/png' href='https://i.imgur.com/Xc2Et4w.png' />
+
 	</Head>
-		<Navbar3 />
+		<Navbar2 />
 		<div className='containerWrapper'>
 			<div className='container'>
 				{props.children}

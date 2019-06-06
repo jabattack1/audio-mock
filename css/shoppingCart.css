@@ -6,6 +6,8 @@
 	color:#FF3F3F;
 	margin-top:-97px;
 	margin-left:180px;
+	/*background-color:red;*/
+	width:60px;
 }
 
 .deleteItem:hover{
@@ -205,7 +207,7 @@
 	display:inline-block;
 	color:white;
 	margin-top:45px;
-	margin-left:-325px;
+	margin-left:-360px;
 }
 
 /* The container must be positioned relative: */
@@ -213,7 +215,7 @@
   position: relative;
   width:80px;
   top:-55px;
-  left:70px;
+  left:135px;
   /*display:inline-block;*/
   color:white;
   /*background-color:red;*/
@@ -221,7 +223,7 @@
 
 
 .select-selected {
-  background-color:black;
+  background-color:transparent;
   /*width:60px;*/
 }
 

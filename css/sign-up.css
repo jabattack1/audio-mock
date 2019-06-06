@@ -1,17 +1,27 @@
 
+.parrotSignUp{
+	width:960px;
+	margin:0 auto;
+}
+
+.link3SignUp{
+}
 
 .signUpBox{
 	width:960px;
-	height:600px;
+	padding-bottom:30px;
+/*	height:500px;*/
 }
 
 #signUpHeading{
 	/*background-color:red;*/
 	display:block;
 	margin:0 auto;
+	width:960px;
 	color:white;
 	text-align:center;
-	font-size:22px;
+	font-size:30px;
+	padding-bottom:30px;
 }
 
 #firstNameSignUpText{
@@ -69,6 +79,28 @@
 	width:400px;
 }
 
+#phoneSignUpText{
+	color:white;
+	text-transform: uppercase;
+	position:relative;
+	width:300px;
+	/*background-color:black;*/
+	text-align: left;
+}
+
+#phoneSignUp{
+	position:relative;
+/*	margin-left:0px;
+	margin-top:30px;*/
+	height:30px;
+	width:400px;
+}
+
+.birthdayStuff{
+	margin-left:450px;
+	margin-top:15px;
+}
+
 #birthdaySignUpText{
 	color:white;
 	position:relative;
@@ -99,6 +131,10 @@
 	margin-left:10px;
 }
 
+.genderStuff{
+	margin-top:0px;
+}
+
 #genderSignUpText{
 	color:white;
 	position:relative;
@@ -110,43 +146,103 @@
 	text-align: left;
 }
 
+#checkboxTextFemale{
+	position:absolute;
+	color:black;
+	margin-left:-5px;
+	margin-top:4px;
+	/*text-align: center;*/
+}
+
 #femaleCheck{
 	color:white;
  	position:relative;
   	/*margin-top:-183px;*/
-  	margin-left:225px;
+  	margin-left:450px;
+  	margin-top:-1px;
+  	height:31px;
+  	width:73px;
+  	background-color:white;
 }
 
-#checkboxText{
-	color:white;
-	margin-left:10px;
+#checkboxTextMale{
+	position:absolute;
+	color:black;
+	margin-left:4px;
+	margin-top:4px;
 	/*text-align: center;*/
 }
 
 #maleCheck{
   	position:relative;
-  	margin-top:-40px;
-  	margin-left:270px;
+  	margin-top:-36px;
+  	margin-left:535px;
+  	height:31px;
+  	width:73px;
+  	background-color:white;
 }
+
+#countrySignUpText{
+	color:white;
+	text-transform: uppercase;
+	position:relative;
+	width:300px;
+	margin-left:450px;
+	/*background-color:black;*/
+	text-align: left;
+}
+
+#countrySignUp{
+	position:relative;
+	margin-left:450px;
+	height:30px;
+	width:400px;
+}
+
+#artistSignUpText{
+	position:relative;
+	text-transform: uppercase;
+	color:white;
+	/*font-family:'GothamBook';*/
+	/*font-weight:bold;*/
+	/*float:left;*/
+	width:300px;
+	text-align: left;
+	margin-left:450px;
+	/*margin-top:14px;*/
+}
+
+#artistSignup{
+	/*color:white;*/
+	position:relative;
+	height:30px;
+	width:400px;
+	margin-left:450px;
+	margin-top:0px;
+	/*background-color:green;*/
+}
+
 
 #signupButton{
 	position:relative;
 	font-family:'GothamBook';
 	font-weight:bold;
 	font-size: 12px;
-	padding-top:3px;
-	padding-bottom:3px;
+/*	padding-top:3px;
+	padding-bottom:3px;*/
 	padding-left:20px;
 	padding-right:20px;
-	background-color:black;
-	border-style:solid;
-    border-color:black;
-    border-width:4px;
-    color:white;
+	background-color:white;
+	/*border-style:solid;*/
+    /*border-color:black;*/
+    /*border-width:4px;*/
+    color:black;
     outline:0;
+    width:960px;
     text-align: center;
-    margin-left:500px;
-    margin-top:-90px;
+    /*margin-left:500px;*/
+    margin:0 auto;
+    margin-top:22px;
 }
 
 #signupButton:active{
