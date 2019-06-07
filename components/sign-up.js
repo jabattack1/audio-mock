@@ -17,14 +17,13 @@ class SignUp extends React.Component{
        this.state = {
            fields: {},
            phone:'',
+           gender:'male',
            errors: {}
        }
-		this.isNumberKeyMonth = this.isNumberKeyMonth.bind(this);
-		this.isNumberKeyYear = this.isNumberKeyYear.bind(this);
-		this.isNumberKeyDay = this.isNumberKeyDay.bind(this);
 		this.isNumberKeyPhone = this.isNumberKeyPhone.bind(this);
+		this.checkMale = this.checkMale.bind(this);
+		this.checkFemale = this.checkFemale.bind(this);
     }
-
 
 	// (document).ready(function() {
 
@@ -48,33 +47,35 @@ class SignUp extends React.Component{
 
 
 	render(){
-if (typeof window !== 'undefined') {
-			// Get the modal
-var modal = document.getElementById("myModal");
+		console.log(this.state);
+		if (typeof window !== 'undefined') {
+					// Get the modal
+			var modal = document.getElementById("myModal");
 
-// Get the button that opens the modal
-var btn = document.getElementById("myBtn");
+			// Get the button that opens the modal
+			var btn = document.getElementById("myBtn");
 
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+			// Get the <span> element that closes the modal
+			var span = document.getElementsByClassName("close")[0];
 
-// When the user clicks on the button, open the modal 
-btn.onclick = function() {
-  modal.style.display = "block";
-}
+			// When the user clicks on the button, open the modal 
+			btn.onclick = function() {
+			  modal.style.display = "block";
+			}
 
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
-}
+			// When the user clicks on <span> (x), close the modal
+			span.onclick = function() {
+			  modal.style.display = "none";
+			}
 
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
-}
+			// When the user clicks anywhere outside of the modal, close it
+			window.onclick = function(event) {
+			  if (event.target == modal) {
+			    modal.style.display = "none";
+			  }
+			}
+
+		}
 		console.log(this.state);
 		return(
 			<div>
@@ -100,10 +101,10 @@ window.onclick = function(event) {
 								<div className='genderStuff'>
 									<label htmlFor='gender' id='genderSignUpText' >Gender</label>
 									<label id='femaleCheck' className='signupOption'>
-									<input type='checkbox' id='femaleCheckActual' className='signupCheckBox' value='female' onClick={this.checkFemale}/><span id='checkboxTextFemale'>FEMALE</span>
+									<div id='femaleCheckActual' className='signupCheckBox' onClick={this.checkFemale}><span id='checkboxTextFemale'>FEMALE</span></div>
 									</label>
 									<label id='maleCheck' className='signupOption'>
-									<input type='checkbox' htmlFor='gender' id='maleCheckActual' name='sex' className='signupCheckBox' value='male' onClick={this.checkMale} /><span id='checkboxTextMale'>MALE</span>
+									<div  id='maleCheckActual' className='signupCheckBox' onClick={this.checkMale}><span id='checkboxTextMale'>MALE</span></div>
 									</label>
 									<input name='gender' id='gender' hidden />
 								</div>
@@ -415,65 +416,36 @@ window.onclick = function(event) {
 	    }
 	}
 
-
 	checkMale(){
-		var checkbox = document.getElementById("maleCheck");
-		checkbox.addEventListener('change', function(e) {
-  			if(checkbox.children[0].checked){
-  				console.log('the lion');
-  			}
-		});
-		// console.log('stimpy');
-		// var isChecked= document.getElementById('femaleCheck').checked;
-		// console.log(isChecked);
-		// if(document.getElementById('maleCheck').check == true){
-		// 	console.log('time');
-  // $('#gender').val('female');
-  // $('#femaleCheck').removeClass('signupOption').addClass('highlight');
-  // $('#male').attr('checked', false);
-  // $('#maleCheck').removeClass('highlight').addClass('signupOption');
-  // evt.stopPropagation();
-		// }
-		// else{
-  // $('#femaleCheck').removeClass('highlight').addClass('signupOption');
-  // evt.stopPropagation();
-  // $('#gender').val('');
-		// }
-
-	}
+		console.log('the lion');
+		var maleColor = document.getElementById('maleCheck').style.backgroundColor;
+		var femaleColor = document.getElementById('femaleCheck').style.backgroundColor;
+		if(femaleColor === 'white'){	
+		}
+		else{
+			document.getElementById('checkboxTextMale').style.color = 'white';
+			document.getElementById('maleCheck').style.backgroundColor = 'black';
+			document.getElementById('checkboxTextFemale').style.color = 'black';
+			document.getElementById('femaleCheck').style.backgroundColor = 'white';
+			this.setState({gender:'male'});
+		}
+ 	}
 
 	checkFemale(){
-		var checkbox = document.getElementById("femaleCheck");
-		checkbox.addEventListener('change', function(e) {
-  			if(checkbox.children[0].checked){
-  				console.log('the lioness');
-  			}
-		});
-		// console.log('stimpy');
-		// var isChecked= document.getElementById('femaleCheck').checked;
-		// console.log(isChecked);
-		// if(document.getElementById('maleCheck').check == true){
-		// 	console.log('time');
-  // $('#gender').val('female');
-  // $('#femaleCheck').removeClass('signupOption').addClass('highlight');
-  // $('#male').attr('checked', false);
-  // $('#maleCheck').removeClass('highlight').addClass('signupOption');
-  // evt.stopPropagation();
-		// }
-		// else{
-  // $('#femaleCheck').removeClass('highlight').addClass('signupOption');
-  // evt.stopPropagation();
-  // $('#gender').val('');
-		// }
-
+  		console.log('the lioness');
+		var femaleColor = document.getElementById('femaleCheck').style.backgroundColor;
+		var maleColor = document.getElementById('maleCheck').style.backgroundColor;
+		if(maleColor ==='white'){
+		}
+		else{
+			document.getElementById('checkboxTextFemale').style.color = 'white';
+			document.getElementById('femaleCheck').style.backgroundColor = 'black';		
+			document.getElementById('checkboxTextMale').style.color = 'black';
+			document.getElementById('maleCheck').style.backgroundColor = 'white';
+			this.setState({gender:'female'});
+		}
 	}
 
-	// validateEmail(email) {
-	// 	console.log('')
-	// 	console.log(email);
-	//     var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-	//     return re.test(String(email).toLowerCase());
-	// }
 
 	handleValidation(){
         let fields = this.state.fields;

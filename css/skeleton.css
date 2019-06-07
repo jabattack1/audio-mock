@@ -5,7 +5,7 @@
   display:flex;
   height:170px; 
   width:170px;
-  z-index:8;
+  z-index:10;
   content:url('https://i.imgur.com/QpsNlJb.png');
 }
 
@@ -1626,40 +1626,40 @@ only screen and (min-device-pixel-ratio : 1.5) {
     vertical-align: middle;
   }
 
-.artists-grid{
-  position:relative;
-  margin: 0 auto;
-  display: flex;
-  float:left;
-  width: 500px;
-  height:500px;
-}
+  .artists-grid{
+    position:relative;
+    margin: 0 auto;
+    display: flex;
+    float:left;
+    width: 500px;
+    height:500px;
+  }
 
-.grid-figure{
-  position: relative;
-  margin-left:160px;
-  width:500px;
-  height:500px;
-  /*background:red;*/
-}
+  .grid-figure{
+    position: relative;
+    margin-left:160px;
+    width:500px;
+    height:500px;
+    /*background:red;*/
+  }
 
-.grid-figure-wrap{
-  width: 500px;
-  height:500px;
-  /*border-right: 4px solid black;*/
-}
+  .grid-figure-wrap{
+    width: 500px;
+    height:500px;
+    /*border-right: 4px solid black;*/
+  }
 
-.artistNewsSpacer{
-  width:500px;
-  height:300px;
-}
+  .artistNewsSpacer{
+    width:500px;
+    height:300px;
+  }
 
-.gridWrapperAbout{
-  position:relative;
-  top:200px;
-  height:270px;
-  /*background-color:white;*/
-}
+  .gridWrapperAbout{
+    position:relative;
+    top:200px;
+    height:270px;
+    /*background-color:white;*/
+  }
 
 
   .aboutContent{
@@ -1667,10 +1667,10 @@ only screen and (min-device-pixel-ratio : 1.5) {
     height:215px;
   }
 
-.labelStoreSpacer{
-  position:relative;
-  height:70px;
-}
+  .labelStoreSpacer{
+    position:relative;
+    height:70px;
+  }
 
   .contactContent{
     position:relative;
@@ -1689,6 +1689,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
     /*border-radius: 5px;*/
     z-index:100;
   }
+
   .contactLinks{ 
     /*margin-top:10px;*/
     display: inline-flex;
@@ -1756,7 +1757,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
     margin-left:0px;
     height:100px; 
     width:100px;
-    z-index:8;
+    z-index:100;
   }
 
   .mobileLogo{
@@ -1765,6 +1766,10 @@ only screen and (min-device-pixel-ratio : 1.5) {
     z-index:10;
     margin-top:-620px;
     margin-left:0px;
+  }
+
+  #bannerSunMobile{
+    display:block;
   }
 }
 

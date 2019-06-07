@@ -42,22 +42,19 @@ class Parent extends React.Component {
 				            		<div className="imgContainer">
 				            			<img className='frontLogo' />
 				            				<div className='mobileLogo'>
-					            				<div id='bannerSunMobile'>
+												<div id='bannerSideMobile' className="crt">
+													<div className="example3">
+														<h3><img src="https://i.imgur.com/SMLpXaX.png" id='auditorySignMoonScroller' /><br/><br/><span id='scrollerSun'>I Don't Want to Go And See The Sun</span><br/><br/>IN STORES NOW<br/><br/>iTunes<br/>Wherever else<br/>Spotify<br/>Google Play</h3>
+													</div>
+												</div>
+													<div id='bannerSunMobile' hidden>
 												 	<img src='https://i.imgur.com/QEuTfm8.gif' id='spaceDropMobile' />
 													<img src="https://i.imgur.com/SMLpXaX.png" id='auditorySignMoon' />
 													<h1 id='sunMoon'>I DON'T WANT TO GO AND SEE THE SUN</h1>
 													<img src="https://i.imgur.com/imjFfzu.png" id='singleSunMobile'/>
-												</div>
-												<div id='moonWrapper'>
-												 	<img src='https://i.imgur.com/aFP9ONd.gif' id='moonMobile' />
-												</div>
-												<div id='bannerSideMobile' className="crt">
-													<div className="example3">
-														<h3><img src="https://i.imgur.com/SMLpXaX.png" id='auditorySignMoonScroller' /><br/><br/><span id='scrollerSun'>I Don't Want to Go And See THe Sun</span><br/><br/>IN STORES NOW<br/><br/>iTunes<br/>Wherever else<br/>Spotify<br/>Google Play</h3>
+													<div id='moonWrapper'>
+													 	<img src='https://i.imgur.com/aFP9ONd.gif' id='moonMobile' />
 													</div>
-												</div>
-												<div id='moonWrapper'>
-												 	<img src='https://i.imgur.com/aFP9ONd.gif' id='moonMobile' />
 												</div>
 											</div>
 				            		</div>
