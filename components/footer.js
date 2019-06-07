@@ -11,7 +11,7 @@ function year(){
 
 const Footer = () => (
     <div className='footerWrapper'>
-		<div className='footer'>
+		<div className='footer' name='footer'>
 			<div className='footerMenu'>
 				<ul className='footerContactOutside'>
 					<li className='footerLink'>

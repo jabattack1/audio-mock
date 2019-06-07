@@ -47,7 +47,6 @@ class SignUp extends React.Component{
 
 
 	render(){
-		console.log(this.state);
 		if (typeof window !== 'undefined') {
 					// Get the modal
 			var modal = document.getElementById("myModal");
@@ -74,7 +73,6 @@ class SignUp extends React.Component{
 			    modal.style.display = "none";
 			  }
 			}
-
 		}
 		console.log(this.state);
 		return(

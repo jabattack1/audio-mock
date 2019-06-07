@@ -2,6 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import { render } from 'react-dom';
 import { DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
+import {Link as Clink } from 'react-scroll';
 import Link from 'next/link';
 
 import styled from 'styled-components';
@@ -48,7 +49,10 @@ class Navbar3 extends React.Component {
 		    <div className="nav3">
 		        <li className="link3"><a className='parrot' href='/'>Home</a></li>
 		        <p className="artistHeadLine">{this.state.name}</p>
-		    	<Link href={`/shopping-cart`}><span className='goToCart3'><img src='https://i.imgur.com/O4wSpvB.png' className='cartImage' /><p className='cartQuantity'>{total}</p></span></Link>
+		    	<Link href={`/shopping-cart`}><span className='goToCart3'><img src='https://i.imgur.com/O4wSpvB.png' className='cartImage' /><p className='cartQuantity'>{total}</p></span>
+		    	</Link>
+		    	<Clink  className='emailUsLink4' activeClass="active" to="footer" spy={true} smooth={true} duration={500}><img src='https://i.imgur.com/tWjrmNt.png' className='emailUs4'/>
+		     	</Clink>
 		    </div>
 	    )
 	}

@@ -27,11 +27,11 @@ const Layout = (props) => (
 );
 
 
-function signUpFrom(){
-	console.log('love');
-	var elem = document.getElementById('signBox');
-	document.getElementById('parentContainer').scrolling = 'no';
-	elem.style.display = 'block';
-}
+// function signUpFrom(){
+// 	console.log('love');
+// 	var elem = document.getElementById('signBox');
+// 	document.getElementById('parentContainer').scrolling = 'no';
+// 	elem.style.display = 'block';
+// }
 
 export default Layout;

@@ -2,28 +2,11 @@ import Head from 'next/head';
 import Footer3 from './footer3.js';
 import Link from 'next/link';
 
+import SignUp from '../components/sign-up.js';
+
 var total=0;
 
-// if (typeof window !== 'undefined') {
-// 	console.log('shine');
-//     var data = localStorage.getItem('state');
-//     console.log(data)
-//     if(data !== 'nothing'){
-// 		var parsedData = JSON.parse(data);
-// 		console.log('parsedData'+parsedData);
-// 		if(parsedData!==null){
-// 			if(parsedData.length<1){
-// 				for(var i in parsedData) {
-// 					total= total + parseInt(parsedData[i].quantity);
-// 			    }
-// 			}
-// 			else{
-// 				total=parseInt(parsedData.quantity);
-// 			}
-// 		}
-// 	}
-// 	console.log('wtf'+total);
-// }
+
 
 const Layout4 = (props) => (
 	<div>
@@ -32,10 +15,11 @@ const Layout4 = (props) => (
 			<link rel='icon' type='image/png' href='https://i.imgur.com/Xc2Et4w.png' />
 
 		</Head>
-		<div className='topBanner'>Subscribe <span className='bold'>NOW</span> for our updates & promotions! <span className='bold'><a className='linkHere'>OVER HERE</a></span>
+		<div className='topBanner'>Subscribe <span className='bold'>NOW</span> for our updates & promotions! <span className='bold'><span className='linkHere' id="myBtn">OVER HERE</span></span>
 		</div>
 		<div className='containerWrapper'>
 			<div className='container'>
+			<SignUp />
 				{props.children}
 			</div>
 		</div>

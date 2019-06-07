@@ -47,7 +47,9 @@ class Navbar extends React.Component {
 		        <li className="link"><Clink  className='audioLetters' activeClass="active" to="news" spy={true} smooth={true} duration={500}>NEWS</Clink></li>
 		       	<li className="link"><Clink  className='audioLetters' activeClass="active" to="label" spy={true} smooth={true} duration={500}>THE LABEL</Clink></li>
 		        <li className="link"><Clink  className='audioLetters' activeClass="active" to="store" spy={true} smooth={true} duration={500}>STORE</Clink></li>
-		      <Link href={`/shopping-cart`}><span className='goToCart1'><img src='https://i.imgur.com/O4wSpvB.png' className='cartImage' /><p className='cartQuantity'>{total}</p></span></Link>
+		     	<Link href={`/shopping-cart`}><span className='goToCart1'><img src='https://i.imgur.com/O4wSpvB.png' className='cartImage' /><p className='cartQuantity'>{total}</p></span></Link>
+		     	<Clink  className='emailUsLink1' activeClass="active" to="footer" spy={true} smooth={true} duration={500}><img src='https://i.imgur.com/tWjrmNt.png' className='emailUs1'/>
+		     	</Clink>
 		      </ul>
 		    </div>
 	    )

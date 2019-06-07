@@ -105,7 +105,53 @@
 	/*background-color:#FF3F3F;*/
 }
 
+.emailUsLink1{
+	margin-left:922px;
+	background-color:red;
+	height:100px;
+	z-index:100;
+}
 
+.emailUs1{
+	margin-top:-81px;
+	width:17px;
+	z-index:100;
+	margin-right:210px;
+	text-align: right;
+	float:right;
+}
+
+.emailUsLink2{
+	margin-left:922px;
+	background-color:red;
+	height:100px;
+	z-index:100;
+}
+
+.emailUs2{
+	margin-top:-72px;
+	width:17px;
+	z-index:100;
+	margin-right:210px;
+	text-align: right;
+	float:right;
+}
+
+.emailUsLink3{
+	margin-left:922px;
+	background-color:red;
+	height:100px;
+	z-index:100;
+}
+
+.emailUs3{
+	margin-top:-186px;
+	width:17px;
+	z-index:100;
+	margin-right:-210px;
+	text-align: right;
+	float:right;
+}
 
 .goToCartFromCart{
 	color:white;

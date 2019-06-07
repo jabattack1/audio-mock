@@ -3,6 +3,7 @@ import Navbar2 from './navbar2.js';
 import Footer2 from './footer2.js';
 import Link from 'next/link';
 
+import SignUp from '../components/sign-up.js';
 // var total=0;
 
 // if (typeof window !== 'undefined') {
@@ -33,11 +34,12 @@ const Layout2 = (props) => (
 		<link rel='icon' type='image/png' href='https://i.imgur.com/Xc2Et4w.png' />
 
 	</Head>
-		<div className='topBanner'>Subscribe <span className='bold'>NOW</span> for our updates & promotions! <span className='bold'><a className='linkHere'>OVER HERE</a></span>
+		<div className='topBanner'>Subscribe <span className='bold'>NOW</span> for our updates & promotions! <span className='bold'><span className='linkHere' id="myBtn">OVER HERE</span></span>
 		</div>
 		<Navbar2 />
 		<div className='containerWrapper'>
 			<div className='container'>
+			<SignUp />
 				{props.children}
 			</div>
 		</div>
