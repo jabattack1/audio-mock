@@ -40,8 +40,7 @@ class Cart extends React.Component{
 						    <option value="10">10</option>
 						  </select>
 						</div>
-						<div className='dollarSign'>$</div>
-						<p className='cartItemPrice'>{this.props.data.price}</p>
+						<p className='cartItemPrice'><span>$</span>{this.props.data.price}</p>
 						<p className='cartItemOrigPrice' hidden>{this.props.data.orig}</p>
 						<p className='deleteItem' id='x' onMouseOver={this.deleteItem}>Remove</p>
 					</li>
@@ -73,9 +72,10 @@ class Cart extends React.Component{
 		        if(data.length === undefined){
 		        	console.log('oneA');
 		        	data.quantity = selected.children[3].children[0].value;
-		        	var multiple = selected.children[3].children[0].value
-					var total = multiple * selected.children[6].innerHTML
-					data.price = total.toFixed(2)
+		        	var multiple = selected.children[3].children[0].value;
+		        	console.log(multiple);
+					var total = multiple * selected.children[5].innerHTML.replace(/[$]/g,"");;
+					data.price = total.toFixed(2);
 		        	localStorage.clear();
 					localStorage.setItem('state',JSON.stringify(data));
 					location.reload();
@@ -83,9 +83,10 @@ class Cart extends React.Component{
 		        else if(data.length === 1){
 		        	console.log('oneB');
 		        	data[0].quantity = selected.children[3].children[0].value;
-		        	var multiple = selected.children[3].children[0].value
-					var total = multiple * selected.children[6].innerHTML
-					data[0].price = total.toFixed(2)
+		        	var multiple = selected.children[3].children[0].value;
+		        	console.log(multiple);
+					var total = multiple * selected.children[5].innerHTML.replace(/[$]/g,"");;
+					data[0].price = total.toFixed(2);
 		        	localStorage.clear();
 					localStorage.setItem('state',JSON.stringify(data));
 					location.reload();
@@ -96,9 +97,9 @@ class Cart extends React.Component{
 					        console.log('two or more');
 					        // var items = document.querySelectorAll(".cartList");
 					        data[i].quantity = items[i].children[3].children[0].value;
-					        var multiple = items[i].children[3].children[0].value
-					        var total = multiple * items[i].children[6].innerHTML
-					        data[i].price = total.toFixed(2)
+					        var multiple = items[i].children[3].children[0].value;
+					        var total = multiple * items[i].children[5].innerHTML.replace(/[$]/g,"");;
+					        data[i].price = total.toFixed(2);
 					        localStorage.clear();
 					        localStorage.setItem('state',JSON.stringify(data));
 					        location.reload();

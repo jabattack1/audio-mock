@@ -41,18 +41,17 @@ class Navbar2 extends React.Component {
 
 	    return(
 		    <div className="nav">
-		      <ul>
-		        <li className="navLinks"><a className='policyNav' href='/'>HOME</a></li>
-		        <li className="navLinks"><a className='policyNav' href='/privacy-policy'>PRIVACY POLICY</a></li>
-		       	<li className="navLinks"><a className='policyNav' href='/terms-of-use'>TERMS OF USE</a></li>
-		        <li className="navLinks"><a className='policyNav' href='/ad-choices'>AD CHOICES</a></li>
-		        <li className="navLinks"><a className='policyNav' href='/cookie-policy'>COOKIE POLICY</a></li>
-		        <li className="navLinks"><a className='policyNav' href='/jobs'>JOBS</a></li>
-		      </ul>
-		      <Link href={`/shopping-cart`}><span className='goToCart2'><img src='https://i.imgur.com/O4wSpvB.png' className='cartImage' /><p className='cartQuantity'>{total}</p></span>
-		      </Link>
-		      	<Clink  className='emailUsLink2' activeClass="active" to="footer" spy={true} smooth={true} duration={500}><img src='https://i.imgur.com/tWjrmNt.png' className='emailUs2'/>
-		     	</Clink>
+		    	<ul>
+			        <li className="navLinks"><a className='policyNav' href='/'>HOME</a></li>
+			        <li className="navLinks"><a className='policyNav' href='/privacy-policy'>PRIVACY POLICY</a></li>
+			       	<li className="navLinks"><a className='policyNav' href='/terms-of-use'>TERMS OF USE</a></li>
+			        <li className="navLinks"><a className='policyNav' href='/ad-choices'>AD CHOICES</a></li>
+			        <li className="navLinks"><a className='policyNav' href='/cookie-policy'>COOKIE POLICY</a></li>
+			        <li className="navLinks"><a className='policyNav' href='/jobs'>JOBS</a></li>
+		    	</ul>
+		    	<Link href={`/shopping-cart`}><span className='goToCart2'><img src='https://i.imgur.com/O4wSpvB.png' className='cartImage' /><p className='cartQuantity'>{total}</p></span>
+		    	</Link>
+		     	<a className='emailUsLink2' href='mailto:info@audio-boy.com'><img src='https://i.imgur.com/tWjrmNt.png' className='emailUs2'/></a>
 		    </div>
 	    )
 	}

@@ -60,8 +60,13 @@
 	/*font-family:'GothamBook';*/
 	/*font-weight:bold;*/
 	/*float:left;*/
-	width:300px;
+	width:100%;
 	text-align: left;
+}
+
+#firstNameSignUpText:after{
+    content:"*" ;
+    color:red   
 }
 
 #firstNameSignup{
@@ -80,8 +85,13 @@
 	/*font-family:'GothamBook';*/
 	/*font-weight:bold;*/
 	/*float:left;*/
-	width:300px;
+	width:100%;
 	text-align: left;
+}
+
+#lastNameSignUpText:after{
+    content:"*" ;
+    color:red   
 }
 
 #lastNameSignup{
@@ -97,9 +107,14 @@
 	color:black;
 	text-transform: uppercase;
 	position:relative;
-	width:300px;
+	width:100%;
 	/*background-color:black;*/
 	text-align: left;
+}
+
+#emailSignUpText:after{
+    content:"*" ;
+    color:red   
 }
 
 #emailSignUp{
@@ -351,3 +366,28 @@
   text-decoration: none;
   cursor: pointer;
 }
+
+
+#firstNameError{
+	position:absolute;
+	right:0;
+
+}
+
+#lastNameError{
+	position:absolute;
+	right:0;
+}
+
+#emailError{
+	position:absolute;
+	right:0;
+}
+
+#genderWarning{
+	position:absolute;
+	font-size:10px;	
+	margin-left:65px;
+	margin-top:-24px;
+}
+

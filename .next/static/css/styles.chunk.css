@@ -430,6 +430,26 @@ th {
 }
 
 
+/*#load{
+    width:100%;
+    height:100%;
+    position:fixed;
+    z-index:9999;
+    background:url("https://i.imgur.com/GnMGfjM.gif") no-repeat center center rgba(0,0,0,0.25);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+       -webkit-transition: opacity 3s ease-in-out;
+    -moz-transition: opacity 3s ease-in-out;
+    -ms-transition: opacity 3s ease-in-out;
+    -o-transition: opacity 3s ease-in-out;
+     opacity: 1;
+}*/
+
+
+                    
+
 .frontLogo{
   position:absolute;
   display:flex;
@@ -527,11 +547,11 @@ body {
   color: #222; 
   background-color:#070707;
   height:auto;
-  /*background-image: url("https://i.imgur.com/2Wz4J4O.png");*/
+  /*background-image: url('https://i.imgur.com/0pf2yoQ.gif');*/
   /*background-repeat: repeat;*/
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('https://i.imgur.com/0pf2yoQ.gif');
   background-size:cover;
   background-attachment: fixed;
-  background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url("https://i.imgur.com/2Wz4J4O.png");
 }
 
 body.modal-open {
@@ -825,6 +845,7 @@ hr {
   position: relative;
   overflow: hidden;
   transform: translate3d(0, 0, 0);
+  z-index: 9;
 }
 
 tech-slideshow .mover-1 {
@@ -855,7 +876,7 @@ tech-slideshow .mover-1 {
   position:relative;
   width:960px;
   /*height:40px;*/
-  background-color:#7D83FF;
+  background-color:#636BFF;
   z-index:0;
   top:190px;
   /*display: table-cell;*/
@@ -893,7 +914,7 @@ tech-slideshow .mover-1 {
 .grid-figure-wrap{
   width: 200px;
   height:200px;
-  border-right: 4px solid black;
+  /*border-right: 4px solid black;*/
 }
 
 .grid-figure-wrap:hover{
@@ -969,9 +990,15 @@ tech-slideshow .mover-1 {
   /*text-align: center;*/
 }
 
+#newsHeadlineWrapper{
+  width:100%;
+  height:20px;
+  /*background-color:red;*/
+}
+
 .newsHeadline{
   position:relative;
-  margin-left:150px;
+  text-align:center;
   width: 350px;
   border-bottom: solid 1px black;
   /*background-color:white;*/
@@ -1037,7 +1064,7 @@ tech-slideshow .mover-1 {
   /*padding:2px;*/
   /*margin-top:300px;*/
   /*width: 954px;*/
-  height:200px;
+  height:250px;
   background-color:white;
   font-size:13.5px;
   /*font-weight:bold;*/
@@ -1053,7 +1080,7 @@ tech-slideshow .mover-1 {
 .aboutImage{
   max-width: 100%;
   position:relative;
-  height:100px;
+  height:100%;
   /*width: 960px;*/
   /*margin-left:-3px;*/
   /*margin-top:-3px;*/
@@ -1562,7 +1589,7 @@ input[type=radio]:checked ~ label{
 
 .footer {
   position: relative;
-  border-top: 1px solid #FF3F3F;
+  /*border-top: 1px solid #FF3F3F;*/
   bottom:0px;
   left:0;
   height:200px;
@@ -1683,23 +1710,6 @@ input[type=radio]:checked ~ label{
   cursor:pointer;
 }*/
 
-.socialHolder{
-  position:relative;
-}
-.socialHolder li{
-  display:inline-block;
-  padding:8px;
-}
-
-.socialHolder li img{
-  width:40px;
-  filter: invert(100%);
-}
-
-.socialHolder li img:hover{
-  cursor:pointer;
-  filter: invert(80%);
-}
 
 /* IE 6 */
 * html .footer {
@@ -2044,7 +2054,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
     position:relative;
     width:960px;
     /*height:40px;*/
-    background-color:#7D83FF;
+    background-color:#636BFF;
     z-index:0;
     margin-top:-400px;
     /*display: table-cell;*/
@@ -2370,7 +2380,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
     position:relative;
     width:960px;
     /*height:40px;*/
-    background-color:#7D83FF;
+    background-color:#636BFF;
     z-index:0;
     margin-top:-170px;
     /*z-index:5;*/
@@ -2737,162 +2747,13 @@ only screen and (min-device-pixel-ratio : 1.5) {
 .rightArrow:hover{
 	filter: invert(85%);
 }
-
-.pn-ProductNav_WrapperStore {
-  position: relative;
-  /*padding: 0 11px;*/
-  box-sizing: border-box;
-  /*background-color:white;*/
-  width:960px;
-  top:200px;
-  height:250px;
-  background-color:black;
-  border-radius:4px;
-}
-
-.pnProductNavContentsStore{
-
-}
-
-.pn-ProductNavStore {
-	/*background-color:red;*/
-	margin:0 auto;
-	top:0;
-	width:860px;
-	height:250px;
-  display: flex;
-  /*overflow: scroll;*/
-  overflow-x: scroll;
-  /* Make this scrollable when needed */
-  overflow-x: auto;
-  /* We don't want vertical scrolling */
-  overflow-y: hidden;
-  /* For WebKit implementations, provide inertia scrolling */
-  -webkit-overflow-scrolling: touch;
-  /* We don't want internal inline elements to wrap */
-  /* If JS present, let's hide the default scrollbar */
-  /* positioning context for advancers */
-  white-space: nowrap;
-  position: relative;
-  font-size: 0;
-  /*min-width: 0*/
-}
-
-.js .pn-ProductNavStore {
-  /* Make an auto-hiding scroller for the 3 people using a IE */
-  -ms-overflow-style: -ms-autohiding-scrollbar;
-  /* Remove the default scrollbar for WebKit implementations */
-}
-
-.js .pn-ProductNavStore::-webkit-scrollbar {
-  display: none;
-}
-
-.pn-ProductNav_ContentsStore {
-  float: left;
-  transition: transform 0.2s ease-in-out;
-  position: relative;
-  margin-top:-3px;
-}
-
-.pn-ProductNav_Contents-no-transition {
-  transition: none;
-}
-
-.pn-ProductNav_LinkStore {
-  text-decoration: none;
-  color: black;
-  /*font-size: 1.2rem;*/
-  /*font-family: -apple-system, sans-serif;*/
-  display: inline-flex;
-  align-items: center;
-  height: 255px;
-  width:25ss0px;
-  /*white-space:wrap;*/
-  word-wrap:break-word;
-  /*padding: 0 11px;*/
-}
-.pn-ProductNav_LinkStore + .pn-ProductNav_LinkStore {
-  border-left-color: #eee;
-}
-.pn-ProductNav_LinkStore[aria-selected="true"] {
-  color: #111;
-}
-.pn-AdvancerStore {
-  /* Reset the button */
-  appearance: none;
-  background: transparent;
-  padding: 0;
-  border: 0;
-  /* Now style it as needed */
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  /* Set the buttons invisible by default */
-  opacity: 0;
-  transition: opacity 0.3s;
-}
-.pn-AdvancerStore :focus {
-  outline: 0;
-}
-.pn-AdvancerStore :hover {
-  cursor: pointer;
-}
-.pn-Advancer_LeftStore {
-  left: 0;
-}
-[data-overflowing="both"] ~ .pn-Advancer_LeftStore, [data-overflowing="left"] ~ .pn-Advancer_LeftStore {
-  opacity: 1;
-}
-.pn-Advancer_RightStore {
-  right: 0;
-}
-[data-overflowing="both"] ~ .pn-Advancer_RightStore, [data-overflowing="right"] ~ .pn-Advancer_RightStore {
-  opacity: 1;
-}
-.pn-Advancer_Icon {
-  width: 50px;
-  height: 250px;
-  fill: white;
-}
-.pn-ProductNav_IndicatorStore {
-  /*position: absolute;*/
-  top:0;
-  bottom: 0;
-  left: 0;
-  height: 4px;
-  width: 40px;
-  background-color: transparent;
-  transform-origin: 0 0;
-  transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
-}
-
-.leftArrowStore{
-	filter: invert(100%);
-	height:250px;
-	width:45px;
-}
-
-.leftArrowStore:hover{
-	filter: invert(85%);
-}
-
-.rightArrowStore{
-	filter: invert(100%);
-	height:250px;
-	width:45px;
-}
-
-.rightArrowStore:hover{
-	filter: invert(85%);
-}
 /*shopping cart page*/
 
 .deleteItem{
 	/*display:inline-block;*/
 	position:relative;
 	color:#FF3F3F;
-	margin-top:-97px;
+	margin-top:-98px;
 	margin-left:180px;
 	/*background-color:red;*/
 	width:60px;
@@ -2908,7 +2769,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
 }
 
 .shopCart{
-
+	margin-top:-55px;
 }
 
 .goToCart1{
@@ -2995,9 +2856,13 @@ only screen and (min-device-pixel-ratio : 1.5) {
 
 .emailUsLink1{
 	margin-left:922px;
-	background-color:red;
-	height:100px;
+	/*background-color:red;*/
+	/*height:100px;*/
 	z-index:100;
+}
+
+.emailUsLink1:hover{
+	cursor:pointer;
 }
 
 .emailUs1{
@@ -3026,14 +2891,15 @@ only screen and (min-device-pixel-ratio : 1.5) {
 }
 
 .emailUsLink3{
-	margin-left:922px;
+	margin-left:0px;
+	margin-top:-150px;
 	background-color:red;
 	height:100px;
 	z-index:100;
 }
 
 .emailUs3{
-	margin-top:-186px;
+	margin-top:-162px;
 	width:17px;
 	z-index:100;
 	margin-right:-210px;
@@ -3046,7 +2912,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
 	position:relative;
 	/*background-color:red;*/
 	width:140px;
-	/*top:80px;*/
+	top:-50px;
 	left:0px;
 }
 
@@ -3057,7 +2923,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
 
 
 .cartList{
-	margin-top:25px;
+	/*margin-top:25px;*/
 	margin-left:-30px;
 	left:0;
 	bottom:0;
@@ -3067,6 +2933,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
 }
 
 .ah{
+	margin-top:-60px;
 	/*list-style-type: none;*/
 }
 
@@ -3104,14 +2971,16 @@ only screen and (min-device-pixel-ratio : 1.5) {
 	font-size:12px;
 }
 
+
 .dollarSign{
 	color:white;
+	display:inline-block;
+	position:relative;
+	top:-101px;
+	right:-518px;
+	/*float:right;*/
+	text-align: right;
 	font-family:'verdana';
-	/*display:inline-block;*/
-	margin-top:-101px;
-	margin-right:40px;
-	text-align:right;
-	float:right;
 }
 
 .cartItemPrice{
@@ -3311,7 +3180,7 @@ to {height: 0;}
 	min-height: 200px;
 	background-color:white;
 	float:right;
-	top:100px;
+	top:105px;
 	right:0px;
 	/*border-radius: 4px;*/
   	/*border: 2px solid #FF3F3F;*/
@@ -3533,6 +3402,155 @@ to {height: 0;}
 
 }
 
+
+.pn-ProductNav_WrapperStore {
+  position: relative;
+  /*padding: 0 11px;*/
+  box-sizing: border-box;
+  /*background-color:white;*/
+  width:960px;
+  top:200px;
+  height:250px;
+  background-color:black;
+  border-radius:4px;
+}
+
+.pnProductNavContentsStore{
+
+}
+
+.pn-ProductNavStore {
+	/*background-color:red;*/
+	margin:0 auto;
+	top:0;
+	width:860px;
+	height:250px;
+  display: flex;
+  /*overflow: scroll;*/
+  overflow-x: scroll;
+  /* Make this scrollable when needed */
+  overflow-x: auto;
+  /* We don't want vertical scrolling */
+  overflow-y: hidden;
+  /* For WebKit implementations, provide inertia scrolling */
+  -webkit-overflow-scrolling: touch;
+  /* We don't want internal inline elements to wrap */
+  /* If JS present, let's hide the default scrollbar */
+  /* positioning context for advancers */
+  white-space: nowrap;
+  position: relative;
+  font-size: 0;
+  /*min-width: 0*/
+}
+
+.js .pn-ProductNavStore {
+  /* Make an auto-hiding scroller for the 3 people using a IE */
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  /* Remove the default scrollbar for WebKit implementations */
+}
+
+.js .pn-ProductNavStore::-webkit-scrollbar {
+  display: none;
+}
+
+.pn-ProductNav_ContentsStore {
+  float: left;
+  transition: transform 0.2s ease-in-out;
+  position: relative;
+  margin-top:-3px;
+}
+
+.pn-ProductNav_Contents-no-transition {
+  transition: none;
+}
+
+.pn-ProductNav_LinkStore {
+  text-decoration: none;
+  color: black;
+  /*font-size: 1.2rem;*/
+  /*font-family: -apple-system, sans-serif;*/
+  display: inline-flex;
+  align-items: center;
+  height: 255px;
+  width:25ss0px;
+  /*white-space:wrap;*/
+  word-wrap:break-word;
+  /*padding: 0 11px;*/
+}
+.pn-ProductNav_LinkStore + .pn-ProductNav_LinkStore {
+  border-left-color: #eee;
+}
+.pn-ProductNav_LinkStore[aria-selected="true"] {
+  color: #111;
+}
+.pn-AdvancerStore {
+  /* Reset the button */
+  appearance: none;
+  background: transparent;
+  padding: 0;
+  border: 0;
+  /* Now style it as needed */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  /* Set the buttons invisible by default */
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.pn-AdvancerStore :focus {
+  outline: 0;
+}
+.pn-AdvancerStore :hover {
+  cursor: pointer;
+}
+.pn-Advancer_LeftStore {
+  left: 0;
+}
+[data-overflowing="both"] ~ .pn-Advancer_LeftStore, [data-overflowing="left"] ~ .pn-Advancer_LeftStore {
+  opacity: 1;
+}
+.pn-Advancer_RightStore {
+  right: 0;
+}
+[data-overflowing="both"] ~ .pn-Advancer_RightStore, [data-overflowing="right"] ~ .pn-Advancer_RightStore {
+  opacity: 1;
+}
+.pn-Advancer_Icon {
+  width: 50px;
+  height: 250px;
+  fill: white;
+}
+.pn-ProductNav_IndicatorStore {
+  /*position: absolute;*/
+  top:0;
+  bottom: 0;
+  left: 0;
+  height: 4px;
+  width: 40px;
+  background-color: transparent;
+  transform-origin: 0 0;
+  transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.leftArrowStore{
+	filter: invert(100%);
+	height:250px;
+	width:45px;
+}
+
+.leftArrowStore:hover{
+	filter: invert(85%);
+}
+
+.rightArrowStore{
+	filter: invert(100%);
+	height:250px;
+	width:45px;
+}
+
+.rightArrowStore:hover{
+	filter: invert(85%);
+}
 /*artist page*/
 .parrot{
 /*	border-bottom-left-radius: 4px;
@@ -3548,6 +3566,7 @@ to {height: 0;}
 	float:left;
 	width:400px;
 	height:400px;
+	margin-top:-50px;
 }
 
 .artistVideo{
@@ -3556,16 +3575,40 @@ to {height: 0;}
 	height:400px;
 	z-index:100;
 	bottom:30px;
+	margin-top:0px;
 }
 
 .bio{
 	position:relative;
-	width:560px;
+	width:540px;
 	height:345px;
 	color:white;
+	margin-top:-50px;
+	margin-left:20px;
 	/*text-align:center;*/
 	display:inline-block;
 }
+
+.socialHolder{
+  position:relative;
+  left:12px;
+}
+.socialHolder li{
+  display:inline-block;
+  padding:8px;
+}
+
+.socialHolder li img{
+  width:40px;
+  filter: invert(100%);
+}
+
+.socialHolder li img:hover{
+  cursor:pointer;
+  filter: invert(80%);
+}
+
+
 /*mobile*/
 
 #bannerSunMobile{
@@ -3878,8 +3921,13 @@ to {height: 0;}
 	/*font-family:'GothamBook';*/
 	/*font-weight:bold;*/
 	/*float:left;*/
-	width:300px;
+	width:100%;
 	text-align: left;
+}
+
+#firstNameSignUpText:after{
+    content:"*" ;
+    color:red   
 }
 
 #firstNameSignup{
@@ -3898,8 +3946,13 @@ to {height: 0;}
 	/*font-family:'GothamBook';*/
 	/*font-weight:bold;*/
 	/*float:left;*/
-	width:300px;
+	width:100%;
 	text-align: left;
+}
+
+#lastNameSignUpText:after{
+    content:"*" ;
+    color:red   
 }
 
 #lastNameSignup{
@@ -3915,9 +3968,14 @@ to {height: 0;}
 	color:black;
 	text-transform: uppercase;
 	position:relative;
-	width:300px;
+	width:100%;
 	/*background-color:black;*/
 	text-align: left;
+}
+
+#emailSignUpText:after{
+    content:"*" ;
+    color:red   
 }
 
 #emailSignUp{
@@ -4169,6 +4227,46 @@ to {height: 0;}
   text-decoration: none;
   cursor: pointer;
 }
+
+
+#firstNameError{
+	position:absolute;
+	right:0;
+
+}
+
+#lastNameError{
+	position:absolute;
+	right:0;
+}
+
+#emailError{
+	position:absolute;
+	right:0;
+}
+
+#genderWarning{
+	position:absolute;
+	font-size:10px;	
+	margin-left:65px;
+	margin-top:-24px;
+}
+
+
+/*
+.contactDropdown{
+	 width:145px;
+	 height:25px;
+	 background-color:#FF3F3F;
+	 margin-top:-63px;
+	 margin-left:975px;
+	 z-index:100;
+	 display:none;
+	 transition: block 0s, opacity 0.7s linear;
+	 text-align:center;
+	 font-size:15px;
+}*/
+
 
 /*top banner*/
 

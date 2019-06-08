@@ -13,6 +13,8 @@ const Layout = (props) => (
 		<link rel='icon' type='image/png' href='https://i.imgur.com/Xc2Et4w.png' />
 
 	</Head>
+		<div id="load"></div>
+		<div id='heat'>
 		<div className='topBanner'>Subscribe <span className='bold'>NOW</span> for our updates & promotions! <span className='bold'><span className='linkHere' id="myBtn" >OVER HERE</span></span> 
 		</div>
 		<Navbar />
@@ -24,8 +26,23 @@ const Layout = (props) => (
 		</div>
 		<Footer />
 	</div>
+	</div>
 );
 
+// if (process.browser){
+// document.onreadystatechange = function () {
+//   var state = document.readyState
+//   if (state == 'interactive') {
+//        document.getElementById('heat').style.visibility="hidden";
+//   } else if (state == 'complete') {
+//       setTimeout(function(){
+//          document.getElementById('interactive');
+//          document.getElementById('load').style.visibility="hidden";
+//          document.getElementById('heat').style.visibility="visible";
+//       },1);
+//   }
+// }
+// }
 
 // function signUpFrom(){
 // 	console.log('love');

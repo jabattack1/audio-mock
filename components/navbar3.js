@@ -51,8 +51,7 @@ class Navbar3 extends React.Component {
 		        <p className="artistHeadLine">{this.state.name}</p>
 		    	<Link href={`/shopping-cart`}><span className='goToCart3'><img src='https://i.imgur.com/O4wSpvB.png' className='cartImage' /><p className='cartQuantity'>{total}</p></span>
 		    	</Link>
-		    	<Clink  className='emailUsLink3' activeClass="active" to="footer" spy={true} smooth={true} duration={500}><img src='https://i.imgur.com/tWjrmNt.png' className='emailUs3'/>
-		     	</Clink>
+		     	<a className='emailUsLink3' href='mailto:info@audio-boy.com'><img src='https://i.imgur.com/tWjrmNt.png' className='emailUs3'/></a>
 		    </div>
 	    )
 	}

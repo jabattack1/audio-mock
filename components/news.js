@@ -21,7 +21,9 @@ class News extends React.Component{
 						<div alt={this.props.news.code} className='grid-news'>
 							<img className='newsImage' src={this.props.news.display_src} />
 							<div className='newsDate'>{this.props.news.date}</div>
+							<div id='newsHeadlineWrapper'>
 							<div className='newsHeadline'>{this.props.news.headline}</div>
+							</div>
 							<div className='newsContent'>{this.props.news.content}</div>
 						</div>
 					</div>

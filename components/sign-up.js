@@ -15,9 +15,7 @@ class SignUp extends React.Component{
 		super(props);
 
        this.state = {
-           fields: {},
-           phone:'',
-           gender:'male',
+           fields: {gender:'male', country:'USA'},
            errors: {}
        }
 		this.isNumberKeyPhone = this.isNumberKeyPhone.bind(this);
@@ -74,7 +72,7 @@ class SignUp extends React.Component{
 			  }
 			}
 		}
-		console.log(this.state);
+
 		return(
 			<div>
 				<div id="myModal" className="modal">
@@ -86,32 +84,30 @@ class SignUp extends React.Component{
 								<h3 id='signUpHeading'>GET BLASTED BY EMAILS FROM</h3>
 								<img src='https://i.imgur.com/QpsNlJb.png' id='signUpImage' />
 								<p id='signUpSay'>Sign up and get exclusive promotional discounts on merchandise and information on upcoming events. We promise not to blast you with a ton of emails.</p>
-								<label htmlFor='first_name' id='firstNameSignUpText'>First Name</label>
+								<label htmlFor='first_name' id='firstNameSignUpText'>First Name<span id='firstNameError' style={{color: "red"}}>{this.state.errors["first_name"]}</span></label>
 								<input ref='first_name' type='text' name='first_name' id='firstNameSignup' onChange={this.handleChange.bind(this, "first_name")} value={this.state.fields["first_name"]}/>
-								<span style={{color: "red"}}>{this.state.errors["first_name"]}</span>
-								<label htmlFor='last_name' id='lastNameSignUpText' >Last Name</label>
+								<label htmlFor='last_name' id='lastNameSignUpText' >Last Name<span id='lastNameError' style={{color: "red"}}>{this.state.errors["last_name"]}</span></label>
 								<input ref='last_name' type='text' name='last_name' id='lastNameSignup' onChange={this.handleChange.bind(this, "last_name")} value={this.state.fields["last_name"]}/>
-								<span style={{color: "red"}}>{this.state.errors["last_name"]}</span>
-								<label htmlFor='email' id='emailSignUpText' >Email</label>
+								<label htmlFor='email' id='emailSignUpText' >Email<span id='emailError' style={{color: "red"}}>{this.state.errors["email"]}</span></label>
 								<input ref='email' type='text' name='email_field' id='emailSignUp' onChange={this.handleChange.bind(this, "email")} value={this.state.fields["email"]}/>
 								<label htmlFor='phone' id='phoneSignUpText' >Phone Number</label>
-								<input ref='phone' type='tel' pattern='[0-9]{3}-[0-9]{3}-[0-9]{4}' name='phone_field' id='phoneSignUp' onChange={this.isNumberKeyPhone} value={this.state.phone}/>
+								<input ref='phone' type='tel' pattern='[0-9]{3}-[0-9]{3}-[0-9]{4}' name='phone_field' id='phoneSignUp' onChange={this.handleChange.bind(this, "phone")} value={this.state.fields["phone"]}/>
 								<div className='genderStuff'>
 									<label htmlFor='gender' id='genderSignUpText' >Gender</label>
 									<label id='femaleCheck' className='signupOption'>
-									<div id='femaleCheckActual' className='signupCheckBox' onClick={this.checkFemale}><span id='checkboxTextFemale'>FEMALE</span></div>
+									<div id='femaleCheckActual' className='signupCheckBox' onClick={this.checkFemale.bind(this, 'gender')}><span id='checkboxTextFemale'>FEMALE</span></div>
 									</label>
 									<label id='maleCheck' className='signupOption'>
-									<div  id='maleCheckActual' className='signupCheckBox' onClick={this.checkMale}><span id='checkboxTextMale'>MALE</span></div>
+									<div  id='maleCheckActual' className='signupCheckBox' onClick={this.checkMale.bind(this, 'gender')}><span id='checkboxTextMale'>MALE</span></div>
 									</label>
 									<input name='gender' id='gender' hidden />
 								</div>
 								<div className='birthdayStuff'>
 									<label htmlFor='dob' id ='birthdaySignUpText' >Birthday</label>
-									<input type='date' name='bday' id='bdaySignup'/>
+									<input type='date' name='bday' id='bdaySignup' onChange={this.handleChange.bind(this, "dob")} value={this.state.fields["dob"]}/>
 								</div>
 								<label htmlFor='country' id='countrySignUpText' >Country of Origin</label>
-								<select name='country_field' id='countrySignUp'>
+								<select name='country_field' id='countrySignUp' onChange={this.handleChange.bind(this, "country")} value={this.state.fields["country"]}>
 									<option value="AFG">Afghanistan</option>
 									<option value="ALA">Åland Islands</option>
 									<option value="ALB">Albania</option>
@@ -362,9 +358,9 @@ class SignUp extends React.Component{
 									<option value="ZMB">Zambia</option>
 									<option value="ZWE">Zimbabwe</option>
 								</select>
-								<label htmlFor='fav_artist' id='artistSignUpText' >Favorite Artist</label>
-								<input type='text' name='fav_artist' id='artistSignup' />
-								<button id='signupButton'>REGISTER</button>
+								<label htmlFor='fav_artist' id='artistSignUpText'>Favorite Artist</label>
+								<input type='text' name='fav_artist' id='artistSignup' onChange={this.handleChange.bind(this, "fav")} value={this.state.fields["fav"]}/>
+								<button id='signupButton' onClick= {this.contactSubmit.bind(this)}>REGISTER</button>
 							</div> 
 							</form>
 						</div>
@@ -414,7 +410,7 @@ class SignUp extends React.Component{
 	    }
 	}
 
-	checkMale(){
+	checkMale(field, e){
 		console.log('the lion');
 		var maleColor = document.getElementById('maleCheck').style.backgroundColor;
 		var femaleColor = document.getElementById('femaleCheck').style.backgroundColor;
@@ -425,11 +421,13 @@ class SignUp extends React.Component{
 			document.getElementById('maleCheck').style.backgroundColor = 'black';
 			document.getElementById('checkboxTextFemale').style.color = 'black';
 			document.getElementById('femaleCheck').style.backgroundColor = 'white';
-			this.setState({gender:'male'});
+	        let fields = this.state.fields;
+	        fields[field] = 'male'        
+	        this.setState({fields});
 		}
  	}
 
-	checkFemale(){
+	checkFemale(field, e){
   		console.log('the lioness');
 		var femaleColor = document.getElementById('femaleCheck').style.backgroundColor;
 		var maleColor = document.getElementById('maleCheck').style.backgroundColor;
@@ -439,37 +437,59 @@ class SignUp extends React.Component{
 			document.getElementById('checkboxTextFemale').style.color = 'white';
 			document.getElementById('femaleCheck').style.backgroundColor = 'black';		
 			document.getElementById('checkboxTextMale').style.color = 'black';
-			document.getElementById('maleCheck').style.backgroundColor = 'white';
-			this.setState({gender:'female'});
+			document.getElementById('maleCheck').style.backgroundColor = 'white';  
+	        let fields = this.state.fields;
+	        fields[field] = 'female'        
+	        this.setState({fields});
 		}
 	}
 
 
 	handleValidation(){
+		console.log('vietnam');
         let fields = this.state.fields;
         let errors = {};
         let formIsValid = true;
 
         //Name
-        if(!fields["name"]){
+        if(!fields["first_name"]){
+        	console.log('vietnamNoName');
            formIsValid = false;
-           errors["name"] = "Cannot be empty";
+           errors["first_name"] = "You can't leave this blank";
         }
 
-        if(typeof fields["name"] !== "undefined"){
-           if(!fields["name"].match(/^[a-zA-Z]+$/)){
+        if(typeof fields["first_name"] !== "undefined"){
+        	console.log('vietnamName');
+           if(!fields["first_name"].match(/^[a-zA-Z]+$/)){
               formIsValid = false;
-              errors["name"] = "Only letters";
+              errors["first_name"] = "Only letters";
+           }        
+        }
+
+         //Name
+        if(!fields["last_name"]){
+        	console.log('vietnamNoLastName');
+           formIsValid = false;
+           errors["last_name"] = "You can't leave this blank";
+        }
+
+        if(typeof fields["last_name"] !== "undefined"){
+        	console.log('vietnamLastName');
+           if(!fields["last_name"].match(/^[a-zA-Z]+$/)){
+              formIsValid = false;
+              errors["last_name"] = "Only letters";
            }        
         }
 
         //Email
         if(!fields["email"]){
+        	console.log('vietnamNoEmail');
            formIsValid = false;
-           errors["email"] = "Cannot be empty";
+           errors["email"] = "You can't leave this blank";
         }
 
         if(typeof fields["email"] !== "undefined"){
+        	console.log('vietnamEmail');
            let lastAtPos = fields["email"].lastIndexOf('@');
            let lastDotPos = fields["email"].lastIndexOf('.');
 
@@ -477,19 +497,32 @@ class SignUp extends React.Component{
               formIsValid = false;
               errors["email"] = "Email is not valid";
             }
-       } 
+		} 
 
-       this.setState({errors: errors});
-       return formIsValid;
+		// Phone
+        if(!fields["phone"]){
+        	console.log('vietnamNoPhone');
+           formIsValid = false;
+           errors["phone"] = "Cannot be empty";
+        }
+
+		if(typeof fields["phone"] !== "undefined"){
+		}
+
+        console.log(this.state);
+       	this.setState({errors: errors});
+       	return formIsValid;
    	}
 
    	contactSubmit(e){
         e.preventDefault();
-
         if(this.handleValidation()){
-           alert("Form submitted");
-        }else{
-           alert("Form has errors.")
+        	console.log('7');
+           alert("Thank you! You'll be receiving a confirmation email shortly.");
+           location.reload();
+        }
+        else{
+
         }
 
     }

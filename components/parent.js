@@ -65,7 +65,7 @@ class Parent extends React.Component {
 					 						<div className='moon'></div>
 					 						<img src="https://i.imgur.com/imjFfzu.png" className='singleSun'/>
 					 						<h1 className='sun'>I DON'T WANT TO GO AND SEE THE SUN</h1>
-									</div>
+										</div>
 				            		</div>   
 				          		</div>
 				        	</div>
@@ -91,8 +91,9 @@ class Parent extends React.Component {
 	    					<div>
 				        		<AboutLabel/>
 				        	</div>
-
-				        	<div className='titleWrapper' id='storeWrapper'>
+				        	<div className='storeContactSpacer'>
+				        	</div>
+							<div className='titleWrapper' id='storeWrapper'>
 	    						<Element id='storeHeader' name="store" className="element">Store</Element>
 	    					</div>
 	    					<div>
