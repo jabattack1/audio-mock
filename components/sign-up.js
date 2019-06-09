@@ -10,6 +10,8 @@ import '../css/scroller.css';
 import '../css/sign-up.css';
 import '../css/shoppingCart.css';
 
+var Inputmask = require('inputmask');
+
 class SignUp extends React.Component{
 	constructor(props) {
 		super(props);
@@ -22,26 +24,6 @@ class SignUp extends React.Component{
 		this.checkMale = this.checkMale.bind(this);
 		this.checkFemale = this.checkFemale.bind(this);
     }
-
-	// (document).ready(function() {
-
-
-
-
-// $("#male").click(function (evt) { 
-// if($('#male').prop('checked') == true){
-//   $('#gender').val('male');
-//   $('#maleCheck').removeClass('signupOption').addClass('highlight');
-//   $('#female').attr('checked', false);
-//   $('#femaleCheck').removeClass('highlight').addClass('signupOption');
-//   evt.stopPropagation();
-// }
-// else{
-//   $('#maleCheck').removeClass('highlight').addClass('signupOption');
-//   evt.stopPropagation();
-//   $('#gender').val('');
-// }
-// });
 
 
 	render(){
@@ -85,13 +67,13 @@ class SignUp extends React.Component{
 								<img src='https://i.imgur.com/QpsNlJb.png' id='signUpImage' />
 								<p id='signUpSay'>Sign up and get exclusive promotional discounts on merchandise and information on upcoming events. We promise not to blast you with a ton of emails.</p>
 								<label htmlFor='first_name' id='firstNameSignUpText'>First Name<span id='firstNameError' style={{color: "red"}}>{this.state.errors["first_name"]}</span></label>
-								<input ref='first_name' type='text' name='first_name' id='firstNameSignup' onChange={this.handleChange.bind(this, "first_name")} value={this.state.fields["first_name"]}/>
+								<input ref='first_name' type='text' name='first_name' id='firstNameSignup' onChange={this.handleChange.bind(this, "first_name")} value={this.state.fields["first_name"]}/><span className='greenCheck' id='firstNameCheck' style={{color:"green"}}>&#x2713;</span>
 								<label htmlFor='last_name' id='lastNameSignUpText' >Last Name<span id='lastNameError' style={{color: "red"}}>{this.state.errors["last_name"]}</span></label>
-								<input ref='last_name' type='text' name='last_name' id='lastNameSignup' onChange={this.handleChange.bind(this, "last_name")} value={this.state.fields["last_name"]}/>
+								<input ref='last_name' type='text' name='last_name' id='lastNameSignup' onChange={this.handleChange.bind(this, "last_name")} value={this.state.fields["last_name"]}/><span className='greenCheck' id='lastNameCheck' style={{color:"green"}}>&#x2713;</span>
 								<label htmlFor='email' id='emailSignUpText' >Email<span id='emailError' style={{color: "red"}}>{this.state.errors["email"]}</span></label>
-								<input ref='email' type='text' name='email_field' id='emailSignUp' onChange={this.handleChange.bind(this, "email")} value={this.state.fields["email"]}/>
+								<input ref='email' type='text' name='email_field' id='emailSignUp' onChange={this.handleChange.bind(this, "email")} value={this.state.fields["email"]}/><span className='greenCheck' id='emailCheck' style={{color:"green"}}>&#x2713;</span>
 								<label htmlFor='phone' id='phoneSignUpText' >Phone Number</label>
-								<input ref='phone' type='tel' pattern='[0-9]{3}-[0-9]{3}-[0-9]{4}' name='phone_field' id='phoneSignUp' onChange={this.handleChange.bind(this, "phone")} value={this.state.fields["phone"]}/>
+								<input ref='phone' type='tel' pattern='[0-9]{3}-[0-9]{3}-[0-9]{4}' name='phone_field' id='phoneSignUp' onChange={this.handleChange.bind(this, "phone")} value={this.state.fields["phone"]} required/><span className='greenCheck' id='phoneCheck' style={{color:"green"}}>&#x2713;</span>
 								<div className='genderStuff'>
 									<label htmlFor='gender' id='genderSignUpText' >Gender</label>
 									<label id='femaleCheck' className='signupOption'>
@@ -359,7 +341,7 @@ class SignUp extends React.Component{
 									<option value="ZWE">Zimbabwe</option>
 								</select>
 								<label htmlFor='fav_artist' id='artistSignUpText'>Favorite Artist</label>
-								<input type='text' name='fav_artist' id='artistSignup' onChange={this.handleChange.bind(this, "fav")} value={this.state.fields["fav"]}/>
+								<input type='text' name='fav_artist' id='artistSignup' onChange={this.handleChange.bind(this, "fav")} value={this.state.fields["fav"]}/><span className='greenCheck' id='artistCheck' style={{color:"green"}}>&#x2713;</span>
 								<button id='signupButton' onClick= {this.contactSubmit.bind(this)}>REGISTER</button>
 							</div> 
 							</form>
@@ -519,6 +501,7 @@ class SignUp extends React.Component{
         if(this.handleValidation()){
         	console.log('7');
            alert("Thank you! You'll be receiving a confirmation email shortly.");
+           console.log(this.state);
            location.reload();
         }
         else{
@@ -527,12 +510,84 @@ class SignUp extends React.Component{
 
     }
 
-    handleChange(field, e){  
-  
-	        let fields = this.state.fields;
-	        fields[field] = e.target.value;        
-	        this.setState({fields});
+    handleChange(field, e){   
+	    let fields = this.state.fields;
+	    fields[field] = e.target.value; 
+	    var firstCheck = document.getElementById("firstNameCheck");
+	    var lastCheck = document.getElementById("lastNameCheck");
+	    var emCheck = document.getElementById("emailCheck");
+	    var phCheck = document.getElementById("phoneCheck");
+	    var favCheck = document.getElementById("artistCheck");
+	    var birthCheck = document.getElementById("birthCheck");
 
+	    if(fields['first_name']){
+	    	if(fields["first_name"].length>1){
+	    		firstCheck.style.display = "block";
+	    	}
+	    	else{
+	    		firstCheck.style.display = "none";
+	    	}
+    	}
+
+    	if(fields['last_name']){
+	    	if(fields["last_name"].length>1){
+	    		lastCheck.style.display = "block";
+	    	}
+	    	else{
+	    		lastCheck.style.display = "none";
+	    	}
+    	}
+
+    	if(fields['email']){
+	    	if(this.email(fields['email'])===true){
+	    		emCheck.style.display = "block";
+	    	}
+	    	else{
+	    		emCheck.style.display = "none";
+	    	}
+    	}
+
+    	if(fields['phone']){
+	    	if(this.phone(fields['phone'])===true){
+	    		phCheck.style.display = "block";
+	    	}
+	    	else{
+	    		phCheck.style.display = "none";
+	    	}
+    	}
+
+
+    	if(fields['fav']){
+	    	if(fields["fav"].length>1){
+	    		artistCheck.style.display = "block";
+	    	}
+	    	else{
+	    		artistCheck.style.display = "none";
+	    	}
+    	}
+	    
+	    this.setState({fields});
+
+    }
+
+    email(value){
+        return /^((([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+(\.([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+)*)|((\x22)((((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(([\x01-\x08\x0b\x0c\x0e-\x1f\x7f]|\x21|[\x23-\x5b]|[\x5d-\x7e]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(\\([\x01-\x09\x0b\x0c\x0d-\x7f]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]))))*(((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(\x22)))@((([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.)+(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))$/i.test(value);
+  	}
+
+  	phone(value){
+  		console.log(value);
+  		return /^(\()?[2-9]{1}\d{2}(\))?(-|\s)?\d{3}(-|\s)\d{4}$/i.test(value);
+  	}
+
+  	// dob(value){
+  	// 	var d = /\d{4}\/\d{1,2}\/\d{1,2}/;		
+  	// 	return d.test(value);
+  	// }
+
+    componentDidMount(){
+    	var selector = document.getElementById("phoneSignUp");
+    	var im = new Inputmask({"mask": "(999) 999-9999"});
+		im.mask(selector);
     }
 
 

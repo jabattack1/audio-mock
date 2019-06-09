@@ -11,7 +11,7 @@ const Layout = (props) => (
 	<Head>
 		<title>Audio-Boy</title>
 		<link rel='icon' type='image/png' href='https://i.imgur.com/Xc2Et4w.png' />
-
+		<script src="dist/inputmask.js"></script>
 	</Head>
 		<div id="load"></div>
 		<div id='heat'>

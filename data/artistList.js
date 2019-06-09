@@ -6,7 +6,7 @@ const artistList = [
 	    "url":"/auditory",
 	    "mv":"https://www.youtube.com/embed/U9z9jWbHY08",
 	    "bio":"This is the band that will help change pop culture. This is the band that will help change pop culture. This is the band that will help change pop culture. This is the band that will help change pop culture.This is the band that will help change pop culture. This is the band that will help change pop culture. This is the band that will help change pop culture. This is the band that will help change pop culture. This is the band that will help change pop culture. This is the band that will help change pop culture. This is the band that will help change pop culture. This is the band that will help change pop culture. This is the band that will help change pop culture.",
-	    "display_src": `https://i.imgur.com/AwJ6kdN.jpg`,
+	    "display_src": `https://i.imgur.com/U0EqmXO.jpg`,
 	    "youtube":'',
 	    "twitter":'',
 	    "instagram":'',
@@ -31,7 +31,6 @@ const artistList = [
 	//     "display_src": `https://i.imgur.com/K0MuJet.png`
 	// }
 ];
-
 
 export default artistList;
 

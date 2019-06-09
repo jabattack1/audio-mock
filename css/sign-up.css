@@ -20,6 +20,13 @@
 [aria-hidden="false"] { display: block; }
 
 
+.greenCheck{
+	position:absolute;
+	margin-left:440px;
+	margin-top:-40px;
+	display:none;
+}
+
 .signUp{
 	/*position:absolute;*/
 	margin:0 auto;
