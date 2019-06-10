@@ -205,8 +205,17 @@
 
 @media only screen and (max-width: 420px) {
 
+.frontLogo{
+    position:absolute;
+    margin-top:-640px;
+    margin-left:0px;
+    height:100px; 
+    width:100px;
+    z-index:100;
+}
 
 #bannerSunMobile{
+	top:-20px;
   height:620px; 
   width:300px;
 }
@@ -214,6 +223,11 @@
 #spaceDropMobile{
   height:620px;
   width:300px;
+}
+
+.sunMobile{
+	width:280px;
+	top:400px;
 }
 
 #moonWrapper{
@@ -224,16 +238,17 @@
 #moonMobile {
   position:absolute;
   display:block;
-  margin-left:24%;
-  margin-top:50%;
-  width: 200px;
-  height: 200px;
+  margin-left:80px;
+  margin-top:220px;
+  width: 150px;
+  height: 150px;
   z-index: 8;
 }
 
 
 #auditorySignMoon{
-  width:350px;
+  width:280px;
+  top:140px;
 }
 
 #auditorySignMoonScroller{
@@ -249,6 +264,7 @@
 
 #singleSunMobile{
   width:160px;
+  top:430px;
 }
 
 #sunMoon{
@@ -265,6 +281,47 @@
   font-size:16px;
   padding-bottom:30px;
   color:#FFB71E;
+}
+
+.gridWrapper{
+  position:relative;
+  /*top:200px;*/
+  height:250px;
+}
+
+.grid-figure-wrap{
+  width: 380px;
+  height:380px;
+  margin:0 auto;
+  margin-left:-27px;
+  /*border-right: 4px solid black;*/
+}
+.titleWrapper{
+	width:420px;
+}
+.newLabelSpacer{
+display:none;
+}
+
+#newsWrapper{
+}
+
+.scrollWrap{
+	width:0px;
+	height:330px;
+}
+
+.artistNewsSpacer{
+	display:none;
+}
+
+.pn-ProductNav_Wrapper {
+	left:0;
+    width:420px;
+}
+
+.aboutContent{
+	height:220px;
 }
 
 }
@@ -363,15 +420,17 @@ html[data-useragent*="Chrome"] .plSel,
 html[data-useragent*="Chrome"] .plSel:hover { background-color:black!important; }
 
 /* Chrome / Android / Tablet */
+@media only screen and (min-width: 420px) and (max-width: 420px) {
+html[data-useragent*="Chrome"][data-useragent*="Android"] body{overflow-x:hidden;}
 html[data-useragent*="Chrome"][data-useragent*="Android"] audio {width:100%; margin:0 auto; display:block;}
-
+}
 
 /* Audio Player Media Queries
 ================================================== */
 
 /* Tablet Portrait */
 @media only screen and (min-width: 420px) and (max-width: 420px) {
-audio { width:100%; margin:0 auto; display:block;}
+html[data-useragent*="Chrome"][data-useragent*="Android"] body{overflow-x:hidden;}
 html[data-useragent*="MSIE 9.0"] audio { width:100%; margin:0 auto; display:block;}
 html[data-useragent*="MSIE 10.0"] audio { width:100%; margin:0 auto; display:block;}
 html[data-useragent*="rv:11.0"] audio { width:100%; margin:0 auto; display:block;}
@@ -382,7 +441,7 @@ html[data-useragent*="Chrome"][data-useragent*="Android"] audio { width:100%; }
 
 /* Mobile Landscape */
 @media only screen and (min-width: 420px) and (max-width: 420px) {
-audio { width:100%; margin:0 auto; display:block;}
+html[data-useragent*="Chrome"][data-useragent*="Android"] body{overflow-x:hidden;}
 html[data-useragent*="MSIE 9.0"] audio { width:100%; margin:0 auto; display:block;}
 html[data-useragent*="MSIE 10.0"] audio { width:100%; margin:0 auto; display:block;}
 html[data-useragent*="rv:11.0"] audio { width:100%; margin:0 auto; display:block;}
@@ -393,8 +452,8 @@ html[data-useragent*="Chrome"][data-useragent*="Mobile"] audio { width:100%; }
 }
 
 /* Mobile Portrait */
-@media only screen and (max-width: 420px) {
-audio { width:100%; margin:0 auto; display:block;}
+@media only screen and (max-width: 420px) {	
+html[data-useragent*="Chrome"][data-useragent*="Android"] body{overflow-x:hidden;}
 html[data-useragent*="MSIE 9.0"] audio { width:100%; margin:0 auto; display:block;}
 html[data-useragent*="MSIE 10.0"] audio { width:100%; margin:0 auto; display:block;}
 html[data-useragent*="rv:11.0"] audio { width:100%; margin:0 auto; display:block;}

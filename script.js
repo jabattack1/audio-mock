@@ -1,5 +1,14 @@
 if (process.browser){
+  document.addEventListener('touchstart', this.touchstart);
+  document.addEventListener('touchmove', this.touchmove);
 
+  function touchstart(e) {
+      e.preventDefault()
+  }
+
+  function touchmove(e) {
+      e.preventDefault()
+  }
 
 	var x, i, j, selElmnt, a, b, c;
 /* Look for any elements with the class "custom-select": */

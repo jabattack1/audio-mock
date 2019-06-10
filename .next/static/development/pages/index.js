@@ -3142,6 +3142,7 @@ function (_React$Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_8__["Element"], {
+        id: "newsHeader",
         name: "news",
         className: "element",
         __source: {
@@ -3157,6 +3158,7 @@ function (_React$Component) {
         },
         __self: this
       }, "Scroll Right to See More"))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: "scrollWrap",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 83

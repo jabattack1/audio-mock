@@ -126,7 +126,9 @@ body {
   background-attachment: fixed;
   overflow-x:hidden;
 }
-
+html.touch body {
+     overflow-x:hidden;
+}
 body.modal-open {
     overflow: hidden;
 }

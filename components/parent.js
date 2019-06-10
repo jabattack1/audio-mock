@@ -77,10 +77,10 @@ class Parent extends React.Component {
 				        	</div>
 				        	<div className='artistNewsSpacer'>
 				        	</div>
-				        	<div className='titleWrapper' id='newsWrapper'>
-	    						<Element name="news" className="element">News - <span className='small'>Scroll Right to See More</span></Element>
+				        	<div className='titleWrapper' id='newsWrapper'> 
+	    						<Element id='newsHeader' name="news" className="element">News - <span className='small'>Scroll Right to See More</span></Element>
 	    					</div>
-	    					<div>
+	    					<div className='scrollWrap'>
 				        		<NewsGridScroll {...this.props} />
 				        	</div>
 				        	<div className='newsLabelSpacer'>
