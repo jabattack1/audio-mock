@@ -2998,14 +2998,15 @@ function (_React$Component) {
           lineNumber: 52
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h1", {
-        id: "sunMoon",
+      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
+        className: "sunMobile",
+        src: "https://i.imgur.com/U3bPNPC.png",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 53
         },
         __self: this
-      }, "I DON'T WANT TO GO AND SEE THE SUN"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
+      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
         src: "https://i.imgur.com/imjFfzu.png",
         id: "singleSunMobile",
         __source: {
@@ -3073,14 +3074,15 @@ function (_React$Component) {
           lineNumber: 66
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h1", {
+      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
         className: "sun",
+        src: "https://i.imgur.com/U3bPNPC.png",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 67
         },
         __self: this
-      }, "I DON'T WANT TO GO AND SEE THE SUN"))))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+      }))))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "titleWrapper",
         id: "artistWrapper",
         __source: {
@@ -29001,7 +29003,7 @@ if (true) {
 
 /***/ }),
 
-/***/ 0:
+/***/ 10:
 /*!********************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fpeterhahn%2Fsrc%2Fnew%2Faudio-boy%2Fpages%2Findex.js ***!
   \********************************************************************************************************************************/
@@ -29024,5 +29026,5 @@ module.exports = dll_6dc2816e14fab51b8269;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js","styles"]]]);
+},[[10,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map

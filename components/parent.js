@@ -50,7 +50,7 @@ class Parent extends React.Component {
 													<div id='bannerSunMobile' hidden>
 												 	<img src='https://i.imgur.com/QEuTfm8.gif' id='spaceDropMobile' />
 													<img src="https://i.imgur.com/SMLpXaX.png" id='auditorySignMoon' />
-													<h1 id='sunMoon'>I DON'T WANT TO GO AND SEE THE SUN</h1>
+													<img className='sunMobile' src='https://i.imgur.com/U3bPNPC.png' />
 													<img src="https://i.imgur.com/imjFfzu.png" id='singleSunMobile'/>
 													<div id='moonWrapper'>
 													 	<img src='https://i.imgur.com/aFP9ONd.gif' id='moonMobile' />
@@ -64,7 +64,7 @@ class Parent extends React.Component {
 					 						<img src="https://i.imgur.com/SMLpXaX.png" className='auditorySign' />
 					 						<div className='moon'></div>
 					 						<img src="https://i.imgur.com/imjFfzu.png" className='singleSun'/>
-					 						<h1 className='sun'>I DON'T WANT TO GO AND SEE THE SUN</h1>
+					 						<img className='sun' src='https://i.imgur.com/U3bPNPC.png' />
 										</div>
 				            		</div>   
 				          		</div>

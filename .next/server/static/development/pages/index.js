@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -3097,14 +3097,15 @@ function (_React$Component) {
           lineNumber: 52
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h1", {
-        id: "sunMoon",
+      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
+        className: "sunMobile",
+        src: "https://i.imgur.com/U3bPNPC.png",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 53
         },
         __self: this
-      }, "I DON'T WANT TO GO AND SEE THE SUN"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
+      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
         src: "https://i.imgur.com/imjFfzu.png",
         id: "singleSunMobile",
         __source: {
@@ -3172,14 +3173,15 @@ function (_React$Component) {
           lineNumber: 66
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h1", {
+      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
         className: "sun",
+        src: "https://i.imgur.com/U3bPNPC.png",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 67
         },
         __self: this
-      }, "I DON'T WANT TO GO AND SEE THE SUN"))))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+      }))))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "titleWrapper",
         id: "artistWrapper",
         __source: {
@@ -9697,7 +9699,7 @@ if (false) {}
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

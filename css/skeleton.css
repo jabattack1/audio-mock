@@ -1302,6 +1302,14 @@ input[type=radio]:checked ~ label{
   width:100%;
 }
 
+.bannerSun1{
+  position:relative;
+  background:black;
+  height:400px;
+  margin-left:-200px;
+  width:1200px;
+}
+
 .spaceDrop{
   position:relative;
   width:960px;
@@ -1338,16 +1346,42 @@ input[type=radio]:checked ~ label{
 
 .sun{
   position:absolute;
+  bottom:20px;
+  display:block;
+  margin:0 auto;
+  left:0;
+  right:0;
+  width:900px;
+  z-index:100;
+  padding-bottom:30px;
+  color:#FFB71E;
+}
+
+.sunMobile{
+  position:absolute;
+  bottom:150px;
+  display:block;
+  margin:0 auto;
+  left:0;
+  right:0;
+  width:350px;
+  z-index:100;
+  padding-bottom:30px;
+  color:#FFB71E;
+}
+
+.sun1{
+  position:absolute;
   font-family:'Arial Black';
   left:0;
   right:0;
   bottom:20px;
   margin:auto 0;
   text-align:center;
-  width:960px;
+  width:1200px;
   z-index:100;
   font-weight:bold;
-  font-size:40px;
+  font-size:50px;
   padding-bottom:30px;
   color:#FFB71E;
 }
