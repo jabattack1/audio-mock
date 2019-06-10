@@ -2134,7 +2134,8 @@ html[data-useragent*="Chrome"] audio { width:100%; margin:0 auto; display:block;
 html[data-useragent*="Chrome"][data-useragent*="Mobile"] audio { width:100%; }
 
   body{
-    width:420px
+    width:420px;
+    overflow:hidden;
   }
   .aboutContent{
     width: 420px;
