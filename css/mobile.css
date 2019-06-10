@@ -205,6 +205,11 @@
 
 @media only screen and (max-width: 420px) {
 
+.containerWrapper{
+  margin: 0 auto;
+  width:420px;
+}
+
 .frontLogo{
     position:absolute;
     margin-top:-640px;
@@ -313,8 +318,9 @@
 }
 
 .pn-ProductNav_Wrapper {
-	left:-500px;
-	margin-top:-140px;
+	top:65px;
+	/*left:-500px;*/
+	/*margin-top:-100px;*/
     width:420px;
 }
 
@@ -323,11 +329,11 @@
 }
 
 #aboutWrapper{
-	top:80px;
+	top:-60px;
 }
 
 .gridWrapperAbout{
-	top:90px;
+	top:-45px;
 }
 
 /*.gridWrapperAbout{
@@ -343,11 +349,11 @@
 }
 
 #storeWrapper{
-	top:90px;
+	top:-50px;
 }
 
 .storeWrapper{
-	top:-90px;
+	top:-235px;
 }
 
 .grid-figureStore{
@@ -355,7 +361,7 @@
 }
 
 .footerWrapper{
-  top:-120px;
+  top:-260px;
 }
 
 .footerContactOutside{
@@ -374,7 +380,7 @@
 }
 
 .footerContacts{
-	width:420px;
+	width:400px;
 	text-align:center;
 }
 
