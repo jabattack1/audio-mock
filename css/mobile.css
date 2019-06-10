@@ -373,6 +373,17 @@
 	text-align:center;
 }
 
+.footerEmail{
+	margin:0 auto;
+	display:block;
+	background-color:red;
+}
+
+.footerEmail li a{
+	margin-left:10px;
+	width:100px;
+}
+
 }
 
 

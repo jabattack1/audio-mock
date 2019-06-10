@@ -27,7 +27,7 @@ const Footer = () => (
 				</ul>
 			</div>
 			<div className='footerContacts'>
-				<ul>
+				<ul className='footerEmail'>
 					<li className='footerLink'><a className='email' href="info@audio-boy.com">info@audio-boy.com</a></li>
 					<li className='footerLink'><a className='email' href="pr@audio-boy.com">pr@audio-boy.com</a></li>
 					<li className='footerLink'><a className='email' href="hr@audio-boy.com">legal@audio-boy.com</a></li>

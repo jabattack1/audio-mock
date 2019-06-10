@@ -1085,6 +1085,7 @@ var Footer = function Footer() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    className: "footerEmail",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 30
