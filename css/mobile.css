@@ -201,3 +201,71 @@
   pointer-events: none;
   animation: flicker 0.15s infinite;
 }
+
+
+@media only screen and (max-width: 420px) {
+
+
+#bannerSunMobile{
+  height:620px; 
+  width:300px;
+}
+
+#spaceDropMobile{
+  height:620px;
+  width:300px;
+}
+
+#moonWrapper{
+  height:620px; 
+  width:300px;
+}
+
+#moonMobile {
+  position:absolute;
+  display:block;
+  margin-left:24%;
+  margin-top:50%;
+  width: 200px;
+  height: 200px;
+  z-index: 8;
+}
+
+
+#auditorySignMoon{
+  width:350px;
+}
+
+#auditorySignMoonScroller{
+  position:relative;
+  top:100px;
+  left:0;
+  right:0;
+  width:350px;
+  margin:0 auto;
+  z-index:100;
+  padding-bottom:90px;
+}
+
+#singleSunMobile{
+  width:160px;
+}
+
+#sunMoon{
+  position:absolute;
+  font-family:'Arial Black';
+  left:0;
+  right:0;
+  bottom:150px;
+  margin:auto 0;
+  text-align:center;
+  width:300px;
+  z-index:100;
+  font-weight:bold;
+  font-size:16px;
+  padding-bottom:30px;
+  color:#FFB71E;
+}
+
+
+}
