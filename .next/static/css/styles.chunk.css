@@ -4099,19 +4099,24 @@ to {height: 0;}
 }
 
 
+
+.scrollWrap{
+	margin-top:0px;
+}
+
 #newsWrapper{
 	left:0px;
-	top:40px;
+	top:50px;
 }
 
 .pn-ProductNav_Wrapper {
-	top:60px;
-	left:0;
+	left:-500px;
+	margin-top:-140px;
     width:420px;
 }
 
 .newsLabelSpacer{
-	display:none;
+	height:150px;
 }
 
 #aboutWrapper{
@@ -4173,7 +4178,7 @@ to {height: 0;}
 .footerEmail{
 	margin:0 auto;
 	display:block;
-	background-color:red;
+	/*background-color:red;*/
 }
 
 .footerEmail li a{
