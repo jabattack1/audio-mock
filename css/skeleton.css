@@ -124,6 +124,7 @@ body {
   background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('https://i.imgur.com/0pf2yoQ.gif');
   background-size:cover;
   background-attachment: fixed;
+  overflow-x:none;
 }
 
 body.modal-open {
