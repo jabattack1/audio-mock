@@ -1852,7 +1852,11 @@ only screen and (min-device-pixel-ratio : 1.5) {
     margin-left:18px;
     margin-right:18px;
   }
-
+  body{
+    background-color:black;
+    background-image: url('https://i.imgur.com/HCSaiD6.png');
+    background-repeat: repeat-y;
+  }
 }
 
 @media only screen and (max-width:800px) {

@@ -2278,7 +2278,11 @@ only screen and (min-device-pixel-ratio : 1.5) {
     margin-left:18px;
     margin-right:18px;
   }
-
+  body{
+    background-color:black;
+    background-image: url('https://i.imgur.com/HCSaiD6.png');
+    background-repeat: repeat-y;
+  }
 }
 
 @media only screen and (max-width:800px) {
@@ -3137,53 +3141,6 @@ only screen and (min-device-pixel-ratio : 1.5) {
   pointer-events: none;
   animation: flicker 0.15s infinite;
 }
-
-.example3 {
- height: 620px;	
- overflow: hidden;
- position: relative;
-}
-.example3 h3 {
-	font-size:20px;
- position: absolute;
- color:white;
- width: 100%;
- height: 100%;
- margin: 0;
- line-height: 50px;
- text-align: center;
- /* Starting position */
- -moz-transform:translateY(100%);
- -webkit-transform:translateY(100%);	
- transform:translateY(100%);
- /* Apply animation to this element */	
- -moz-animation: example3 8s linear infinite;
- -webkit-animation: example3 8s linear infinite;
- animation: example3 8s linear infinite;
-}
-/* Move it (define the animation) */
-@-moz-keyframes example3 {
- 0%   { -moz-transform: translateY(-100%); }
- 100% { -moz-transform: translateY(100%); }
-}
-@-webkit-keyframes example3 {
- 0%   { -webkit-transform: translateY(-100%); }
- 100% { -webkit-transform: translateY(100%); }
-}
-@keyframes example3 {
- 100%   { 
- -moz-transform: translateY(-100%); /* Firefox bug fix */
- -webkit-transform: translateY(-100%); /* Firefox bug fix */
- transform: translateY(-100%); 		
- }
- 0% { 
- -moz-transform: translateY(100%); /* Firefox bug fix */
- -webkit-transform: translateY(100%); /* Firefox bug fix */
- transform: translateY(100%); 
- }
-}
-
-
 /*shopping cart page*/
 
 .deleteItem{
@@ -3894,6 +3851,53 @@ to {height: 0;}
 .socialHolder li img:hover{
   cursor:pointer;
   filter: invert(80%);
+}
+
+
+
+.example3 {
+ height: 620px;	
+ overflow: hidden;
+ position: relative;
+}
+.example3 h3 {
+	font-size:20px;
+ position: absolute;
+ color:white;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 50px;
+ text-align: center;
+ /* Starting position */
+ -moz-transform:translateY(100%);
+ -webkit-transform:translateY(100%);	
+ transform:translateY(100%);
+ /* Apply animation to this element */	
+ -moz-animation: example3 8s linear infinite;
+ -webkit-animation: example3 8s linear infinite;
+ animation: example3 8s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes example3 {
+ 0%   { -moz-transform: translateY(-100%); }
+ 100% { -moz-transform: translateY(100%); }
+}
+@-webkit-keyframes example3 {
+ 0%   { -webkit-transform: translateY(-100%); }
+ 100% { -webkit-transform: translateY(100%); }
+}
+@keyframes example3 {
+ 100%   { 
+ -moz-transform: translateY(-100%); /* Firefox bug fix */
+ -webkit-transform: translateY(-100%); /* Firefox bug fix */
+ transform: translateY(-100%); 		
+ }
+ 0% { 
+ -moz-transform: translateY(100%); /* Firefox bug fix */
+ -webkit-transform: translateY(100%); /* Firefox bug fix */
+ transform: translateY(100%); 
+ }
 }
 
 
