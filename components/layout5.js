@@ -10,6 +10,7 @@ const Layout5 = (props) => (
 		<link rel='icon' type='image/png' href='https://i.imgur.com/Xc2Et4w.png' />
 
 	</Head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<Navbar2 />
 		<div className='containerWrapper'>
 			<div className='container'>
