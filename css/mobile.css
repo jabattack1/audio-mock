@@ -296,32 +296,73 @@
   margin-left:-27px;
   /*border-right: 4px solid black;*/
 }
+
 .titleWrapper{
 	width:420px;
 }
-.newLabelSpacer{
-display:none;
-}
+
 
 #newsWrapper{
-}
-
-.scrollWrap{
-	width:0px;
-	height:330px;
-}
-
-.artistNewsSpacer{
-	display:none;
+	left:0px;
+	top:40px;
 }
 
 .pn-ProductNav_Wrapper {
-	left:0;
+	top:60px;
+	/*left:-500px;*/
     width:420px;
 }
 
+.newsLabelSpacer{
+	display:none;
+}
+
+#aboutWrapper{
+	top:80px;
+}
+
+.gridWrapperAbout{
+	top:90px;
+}
+
+/*.gridWrapperAbout{
+  top:0px;
+}*/
+
 .aboutContent{
 	height:220px;
+}
+
+.labelStoreSpacer{
+	display:none;
+}
+
+#storeWrapper{
+	top:90px;
+}
+
+.storeWrapper{
+	top:-90px;
+}
+
+.grid-figureStore{
+	width:420px;
+}
+
+.footerWrapper{
+  top:-120px;
+}
+
+.footerLink{
+
+  display: inline-block;
+  padding:5px;
+  /*position: absolute;*/
+  bottom:0;
+}
+
+.footerLink a{
+	font-size:9px;
 }
 
 }
