@@ -4105,8 +4105,8 @@ to {height: 0;}
 }
 
 .pn-ProductNav_Wrapper {
-	/*top:60px;*/
-	/*left:-500px;*/
+	top:60px;
+	left:0;
     width:420px;
 }
 
@@ -4150,8 +4150,11 @@ to {height: 0;}
   top:-120px;
 }
 
-.footerLink{
+.footerContactOutside{
+	margin:0 auto;
+}
 
+.footerLink{
   display: inline-block;
   padding:5px;
   /*position: absolute;*/
