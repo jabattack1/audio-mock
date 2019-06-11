@@ -72,8 +72,8 @@
 }
 
 #firstNameSignUpText:after{
-    content:"*" ;
-    color:red   
+    content:"*";
+    color:black;   
 }
 
 #firstNameSignup{
@@ -98,7 +98,7 @@
 
 #lastNameSignUpText:after{
     content:"*" ;
-    color:red   
+    color:black;   
 }
 
 #lastNameSignup{
@@ -121,7 +121,7 @@
 
 #emailSignUpText:after{
     content:"*" ;
-    color:red   
+    color:black;   
 }
 
 #emailSignUp{
