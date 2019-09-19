@@ -71,7 +71,7 @@ function (_React$Component) {
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
         className: "aboutImage",
-        src: "https://i.imgur.com/hG0vG7Q.gif",
+        src: "https://i.imgur.com/G0Y6Wdz.gif",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 16
@@ -7270,34 +7270,32 @@ function (_React$Component) {
 __webpack_require__.r(__webpack_exports__);
 var artistList = [{
   "code": "abcd",
-  "name": "The Electronic Auditory Rebels",
+  "name": "Pink Floyd",
   "id": "1",
   "url": "/auditory",
   "mv": "https://www.youtube.com/embed/U9z9jWbHY08",
-  "bio": "This is the band that will help change pop culture. This is the band that will help change pop culture. This is the band that will help change pop culture. This is the band that will help change pop culture.This is the band that will help change pop culture. This is the band that will help change pop culture. This is the band that will help change pop culture. This is the band that will help change pop culture. This is the band that will help change pop culture. This is the band that will help change pop culture. This is the band that will help change pop culture. This is the band that will help change pop culture. This is the band that will help change pop culture.",
-  "display_src": "https://i.imgur.com/U0EqmXO.jpg",
+  "bio": "This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real.",
+  "display_src": "https://i.imgur.com/bVfnYf8.jpg",
   "youtube": '',
   "twitter": '',
   "instagram": '',
-  "facebook": '' // {
-  //     "code": "dbcde",
-  //     "name": "Britney Spears",
-  //     "id": "1",
-  //     "url":"/auditory2",
-  //     "mv":"https://www.youtube.com/embed/7LEmer7wwHI",
-  //     "bio":"This is the qsdfdafdband that will help change pop culture.",
-  //     "display_src": `https://i.imgur.com/K0MuJet.png`
-  // },
-  // 	{
-  //     "code": "dbcde",
-  //     "name": "Britney Spears",
-  //     "id": "1",
-  //     "url":"/auditory2",
-  //     "mv":"https://www.youtube.com/embed/7LEmer7wwHI",
-  //     "bio":"This is the qsdfdafdband that will help change pop culture.",
-  //     "display_src": `https://i.imgur.com/K0MuJet.png`
-  // }
-
+  "facebook": ''
+}, {
+  "code": "dbcde",
+  "name": "Led Zepplin",
+  "id": "1",
+  "url": "/auditory2",
+  "mv": "https://www.youtube.com/embed/7LEmer7wwHI",
+  "bio": "This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real.",
+  "display_src": "https://i.imgur.com/rOmTCsD.jpg"
+}, {
+  "code": "dbcde",
+  "name": "Velvet Underground",
+  "id": "1",
+  "url": "/auditory2",
+  "mv": "https://www.youtube.com/embed/7LEmer7wwHI",
+  "bio": "This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real.",
+  "display_src": "https://i.imgur.com/Cl6tqkb.jpg"
 }];
 /* harmony default export */ __webpack_exports__["default"] = (artistList); //  {
 //   "code": "abcde",
