@@ -27,7 +27,7 @@ class Auditory extends React.Component{
 	    	console.log('trash');
 	    	if(typeof window !== 'undefined'){
 		    	var retrievedObject = localStorage.getItem('id');
-		    	console.log(result.props[propsJSON.parse(retrievedObject)]);
+		    	console.log(this.props);
 	    	}
 	    }
 	    else{
