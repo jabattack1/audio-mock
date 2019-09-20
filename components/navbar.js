@@ -25,7 +25,6 @@ class Navbar extends React.Component {
 
 		if (typeof window !== 'undefined') {
 		    var data = localStorage.getItem('state');
-		    console.log('nav1'+data);
 		    if(data !== 'nothing'){
 				var parsedData = JSON.parse(data);
 				if(parsedData!==null){
@@ -56,23 +55,19 @@ class Navbar extends React.Component {
 	}
 
 	dropEmail(){
-		console.log('convo');
 		document.getElementById('contactDrop').style.display = 'block';
 	}
 
 	hideEmail(){
-		console.log('convosation');
 		document.getElementById('contactDrop').style.display = 'none';
 	}
 
 	componentDidMount() {
 
 	    Events.scrollEvent.register('begin', function () {
-	      console.log("begin", arguments);
 	    });
 
 	    Events.scrollEvent.register('end', function () {
-	      console.log("end", arguments);
 	    });
 
 	}

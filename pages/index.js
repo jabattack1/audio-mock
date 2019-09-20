@@ -134,7 +134,6 @@ class Index extends React.Component {
 			});
 
 			pnAdvancerRight.addEventListener("click", function() {
-				console.log('slave');
 			    // If in the middle of a move return
 			    if (SETTINGS.navBarTravelling === true) {
 			        return;

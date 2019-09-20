@@ -44,7 +44,7 @@ class Auditory extends React.Component{
 	}
 
 	render(){
-
+		console.log('this', this);
 		return(
 			<div className='artistArea'>
 				<Navbar3 name={this.state.name}/>

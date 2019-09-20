@@ -21,7 +21,7 @@ class Items extends React.Component{
 	    super(props)
 
 	    this.addToCart = this.addToCart.bind(this);
-	    // console.log(this.props)
+
 	    let store = this.props.store;
 	   	let itemNumber = this.props.code.code;
 
@@ -66,7 +66,6 @@ class Items extends React.Component{
 		const check = function(el) {
 		
 			var button = document.getElementById("button");
-
 			var nbr_checked_radios = document.querySelectorAll('input[type=radio]:checked').length;
 
 			if (nbr_checked_radios>0) {
@@ -142,7 +141,6 @@ class Items extends React.Component{
 	}
 
 	addToCart = function(){
-		console.log('ADD');
 		"use strict";
 			let stuff;
 	    	let itemSize;
@@ -165,8 +163,7 @@ class Items extends React.Component{
 	  			itemSize = document.getElementById('xl-option').value;
 			}
 			// this.setState({size:itemSize,name:itemName,image1:itemImage, code:itemCode, quantity:1})
-			// console.log('underrated');
-			// console.log(itemPrice);
+
 			var myData = localStorage.getItem('state');
 
 			if(myData !== null && myData !== 'nothing'){

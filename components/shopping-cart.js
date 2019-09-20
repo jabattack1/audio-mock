@@ -24,7 +24,6 @@ class ShoppingCart extends React.Component{
 	    super()
 
 	    if (typeof localStorage === "undefined" || localStorage.getItem('state') === null) {
-	    	console.log('undefined');
 		  	this.state = {
 				data:'',
 				total:'0.00',
@@ -34,7 +33,6 @@ class ShoppingCart extends React.Component{
 			}
 		}
 		else if(localStorage.getItem('state') === 'nothing'){
-	    	console.log('undefined');
 		  	this.state = {
 				data:'',
 				total:'0.00',
@@ -44,11 +42,9 @@ class ShoppingCart extends React.Component{
 			}
 		}
 	    else if(localStorage.getItem('state')!== null && localStorage.getItem('state') !== 'nothing'){
-	    	console.log('pFloyd')
 	    	var data = localStorage.getItem('state');
 		    let parsedData = JSON.parse(data);
-		    // console.log('steph');
-		    // console.log(parsedData);
+
 			this.state = {
 				data:parsedData,
 				total:'',
@@ -58,7 +54,6 @@ class ShoppingCart extends React.Component{
 			}		
 		}
 		else{
-			console.log('control');
 			this.state = {
 				data:'',
 				total:'',
@@ -74,7 +69,6 @@ class ShoppingCart extends React.Component{
 	}
 
 	render(){
-		// console.log(this.state);
 		if(this.state.data === ''){
 			return(
 				<div className='shoppingCartArea'>
@@ -103,7 +97,6 @@ class ShoppingCart extends React.Component{
 		}
 
 		else if(this.state.data.length == undefined){
-			console.log('loca');
 			return(
 				<div className='shoppingCartArea'>
 					<Navbar3 name='Shopping Cart' />
@@ -158,7 +151,6 @@ class ShoppingCart extends React.Component{
 	}
 
 	clear(){
-		// console.log('famicon');
 		localStorage.clear();
 		location.reload();
 		localStorage.setItem('state','nothing');
@@ -170,7 +162,6 @@ class ShoppingCart extends React.Component{
 		document.getElementById("popup1").style.display = "none";
 		document.getElementById("popup2").style.display = "none";
 		if(localStorage.getItem('state') !== null && localStorage.getItem('state') !== 'nothing'){
-			console.log('hit');
 			var items = document.querySelectorAll(".cartList");
 			let total = 0;
 			let totalQuantity = 0;
@@ -194,7 +185,6 @@ class ShoppingCart extends React.Component{
 
 
 	showPopup(){
-		// console.log('pop1');
 			var x = document.getElementById("popup");
 			var y = document.getElementById("popup1");
 			var z = document.getElementById("popup2");
@@ -209,7 +199,6 @@ class ShoppingCart extends React.Component{
 	}
 
 	showPopup1(){
-		// console.log('pop1');
 			var x = document.getElementById("popup");
 			var y = document.getElementById("popup1");
 			var z = document.getElementById("popup2");
@@ -224,7 +213,6 @@ class ShoppingCart extends React.Component{
 	}
 
 	showPopup2(){
-		// console.log('pop2');
 			var x = document.getElementById("popup");
 			var y = document.getElementById("popup1");
 			var z = document.getElementById("popup2");
@@ -243,14 +231,12 @@ class ShoppingCart extends React.Component{
   		var icon = document.getElementById('promoArrow');
   		var promo = document.getElementById('promoField');
 		if(up===true){
-			console.log(promo);
 			promo.className = 'promoUp';
 			icon.className = 'fa-arrow-down'; 
 		    up=false; 
 		    // promo.style.display = "none";
 		} 
 		else{
-			console.log(promo);
 		    promo.className = 'promoDown';
 		    icon.className = 'fa-arrow-up';
 		    promo.style.display = "block";

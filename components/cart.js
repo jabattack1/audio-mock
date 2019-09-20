@@ -57,7 +57,6 @@ class Cart extends React.Component{
 	}
 
 	setQuantity(){
-		console.log('SELECT');
 		"use strict";
 		var items = document.querySelectorAll(".cartList");
 		var myData = localStorage.getItem('state');
@@ -112,7 +111,6 @@ class Cart extends React.Component{
 	}
 
 	deleteItem(){
-		console.log('DELETE');
 		"use strict";
 		var items = document.querySelectorAll(".cartList");
 		var myData = localStorage.getItem('state');

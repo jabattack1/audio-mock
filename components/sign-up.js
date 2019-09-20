@@ -370,7 +370,6 @@ class SignUp extends React.Component{
 	}
 
 	checkMale(field, e){
-		console.log('the lion');
 		var maleColor = document.getElementById('maleCheck').style.backgroundColor;
 		var femaleColor = document.getElementById('femaleCheck').style.backgroundColor;
 		if(femaleColor === 'white'){	
@@ -387,7 +386,6 @@ class SignUp extends React.Component{
  	}
 
 	checkFemale(field, e){
-  		console.log('the lioness');
 		var femaleColor = document.getElementById('femaleCheck').style.backgroundColor;
 		var maleColor = document.getElementById('maleCheck').style.backgroundColor;
 		if(maleColor ==='white'){
@@ -405,7 +403,6 @@ class SignUp extends React.Component{
 
 
 	handleValidation(){
-		console.log('vietnam');
         let fields = this.state.fields;
         let errors = {};
         let formIsValid = true;
@@ -418,7 +415,6 @@ class SignUp extends React.Component{
         }
 
         if(typeof fields["first_name"] !== "undefined"){
-        	console.log('vietnamName');
            if(!fields["first_name"].match(/^[a-zA-Z]+$/)){
               formIsValid = false;
               errors["first_name"] = "Only letters";
@@ -427,13 +423,11 @@ class SignUp extends React.Component{
 
          //Name
         if(!fields["last_name"]){
-        	console.log('vietnamNoLastName');
            formIsValid = false;
            errors["last_name"] = "You can't leave this blank";
         }
 
         if(typeof fields["last_name"] !== "undefined"){
-        	console.log('vietnamLastName');
            if(!fields["last_name"].match(/^[a-zA-Z]+$/)){
               formIsValid = false;
               errors["last_name"] = "Only letters";
@@ -442,13 +436,11 @@ class SignUp extends React.Component{
 
         //Email
         if(!fields["email"]){
-        	console.log('vietnamNoEmail');
            formIsValid = false;
            errors["email"] = "You can't leave this blank";
         }
 
         if(typeof fields["email"] !== "undefined"){
-        	console.log('vietnamEmail');
            let lastAtPos = fields["email"].lastIndexOf('@');
            let lastDotPos = fields["email"].lastIndexOf('.');
 
@@ -460,7 +452,6 @@ class SignUp extends React.Component{
 
 		// Phone
         if(!fields["phone"]){
-        	console.log('vietnamNoPhone');
            formIsValid = false;
            errors["phone"] = "Cannot be empty";
         }
@@ -468,7 +459,6 @@ class SignUp extends React.Component{
 		if(typeof fields["phone"] !== "undefined"){
 		}
 
-        console.log(this.state);
        	this.setState({errors: errors});
        	return formIsValid;
    	}
@@ -476,9 +466,7 @@ class SignUp extends React.Component{
    	contactSubmit(e){
         e.preventDefault();
         if(this.handleValidation()){
-        	console.log('7');
            alert("Thank you! You'll be receiving a confirmation email shortly.");
-           console.log(this.state);
            location.reload();
         }
         else{
@@ -552,7 +540,6 @@ class SignUp extends React.Component{
   	}
 
   	phone(value){
-  		console.log(value);
   		return /^(\()?[2-9]{1}\d{2}(\))?(-|\s)?\d{3}(-|\s)\d{4}$/i.test(value);
   	}
 

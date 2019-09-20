@@ -81,6 +81,7 @@ function (_React$Component) {
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Auditory, [{
     key: "render",
     value: function render() {
+      console.log('this', this);
       return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         className: "artistArea",
         __source: {
@@ -723,12 +724,8 @@ function (_React$Component) {
   }, {
     key: "componentDidMount",
     value: function componentDidMount() {
-      react_scroll__WEBPACK_IMPORTED_MODULE_11__["Events"].scrollEvent.register('begin', function () {
-        console.log("begin", arguments);
-      });
-      react_scroll__WEBPACK_IMPORTED_MODULE_11__["Events"].scrollEvent.register('end', function () {
-        console.log("end", arguments);
-      });
+      react_scroll__WEBPACK_IMPORTED_MODULE_11__["Events"].scrollEvent.register('begin', function () {});
+      react_scroll__WEBPACK_IMPORTED_MODULE_11__["Events"].scrollEvent.register('end', function () {});
     }
   }, {
     key: "scrollToTop",
@@ -3044,7 +3041,6 @@ function (_React$Component) {
   }, {
     key: "checkMale",
     value: function checkMale(field, e) {
-      console.log('the lion');
       var maleColor = document.getElementById('maleCheck').style.backgroundColor;
       var femaleColor = document.getElementById('femaleCheck').style.backgroundColor;
 
@@ -3063,7 +3059,6 @@ function (_React$Component) {
   }, {
     key: "checkFemale",
     value: function checkFemale(field, e) {
-      console.log('the lioness');
       var femaleColor = document.getElementById('femaleCheck').style.backgroundColor;
       var maleColor = document.getElementById('maleCheck').style.backgroundColor;
 
@@ -3082,7 +3077,6 @@ function (_React$Component) {
   }, {
     key: "handleValidation",
     value: function handleValidation() {
-      console.log('vietnam');
       var fields = this.state.fields;
       var errors = {};
       var formIsValid = true; //Name
@@ -3094,8 +3088,6 @@ function (_React$Component) {
       }
 
       if (typeof fields["first_name"] !== "undefined") {
-        console.log('vietnamName');
-
         if (!fields["first_name"].match(/^[a-zA-Z]+$/)) {
           formIsValid = false;
           errors["first_name"] = "Only letters";
@@ -3104,14 +3096,11 @@ function (_React$Component) {
 
 
       if (!fields["last_name"]) {
-        console.log('vietnamNoLastName');
         formIsValid = false;
         errors["last_name"] = "You can't leave this blank";
       }
 
       if (typeof fields["last_name"] !== "undefined") {
-        console.log('vietnamLastName');
-
         if (!fields["last_name"].match(/^[a-zA-Z]+$/)) {
           formIsValid = false;
           errors["last_name"] = "Only letters";
@@ -3120,13 +3109,11 @@ function (_React$Component) {
 
 
       if (!fields["email"]) {
-        console.log('vietnamNoEmail');
         formIsValid = false;
         errors["email"] = "You can't leave this blank";
       }
 
       if (typeof fields["email"] !== "undefined") {
-        console.log('vietnamEmail');
         var lastAtPos = fields["email"].lastIndexOf('@');
         var lastDotPos = fields["email"].lastIndexOf('.');
 
@@ -3138,14 +3125,12 @@ function (_React$Component) {
 
 
       if (!fields["phone"]) {
-        console.log('vietnamNoPhone');
         formIsValid = false;
         errors["phone"] = "Cannot be empty";
       }
 
       if (typeof fields["phone"] !== "undefined") {}
 
-      console.log(this.state);
       this.setState({
         errors: errors
       });
@@ -3157,9 +3142,7 @@ function (_React$Component) {
       e.preventDefault();
 
       if (this.handleValidation()) {
-        console.log('7');
         alert("Thank you! You'll be receiving a confirmation email shortly.");
-        console.log(this.state);
         location.reload();
       } else {}
     }
@@ -3227,7 +3210,6 @@ function (_React$Component) {
   }, {
     key: "phone",
     value: function phone(value) {
-      console.log(value);
       return /^(\()?[2-9]{1}\d{2}(\))?(-|\s)?\d{3}(-|\s)\d{4}$/i.test(value);
     } // dob(value){
     // 	var d = /\d{4}\/\d{1,2}\/\d{1,2}/;		
