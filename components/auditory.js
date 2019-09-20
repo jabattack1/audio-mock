@@ -23,7 +23,7 @@ class Auditory extends React.Component{
   			return obj.code === itemNumber
 		})
 	    console.log('result', result);
-	    if(result.length === 0){
+	    if(result.length == 0){
 	    	console.log('trash');
 	    	var retrievedObject = localStorage.getItem('id');
 	    	console.log('retrievedObject: ', JSON.parse(retrievedObject));
