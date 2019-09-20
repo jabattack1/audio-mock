@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 6);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -129,7 +129,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/peterhahn/src/new/audio-boy/components/auditory.js";
+var _jsxFileName = "/Users/peterhahn/src/new/audio-boy-mock/components/auditory.js";
 
 
 
@@ -305,7 +305,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/peterhahn/src/new/audio-boy/components/footer2.js";
+var _jsxFileName = "/Users/peterhahn/src/new/audio-boy-mock/components/footer2.js";
 
 
 
@@ -509,7 +509,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _components_sign_up_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/sign-up.js */ "./components/sign-up.js");
-var _jsxFileName = "/Users/peterhahn/src/new/audio-boy/components/layout3.js";
+var _jsxFileName = "/Users/peterhahn/src/new/audio-boy-mock/components/layout3.js";
 
 
 
@@ -657,7 +657,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/peterhahn/src/new/audio-boy/components/navbar3.js";
+var _jsxFileName = "/Users/peterhahn/src/new/audio-boy-mock/components/navbar3.js";
 
 
 
@@ -886,7 +886,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/peterhahn/src/new/audio-boy/components/sign-up.js";
+var _jsxFileName = "/Users/peterhahn/src/new/audio-boy-mock/components/sign-up.js";
 
 
 
@@ -4078,7 +4078,7 @@ module.exports = function (it) {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-var core = module.exports = { version: '2.6.8' };
+var core = module.exports = { version: '2.6.9' };
 if (typeof __e == 'number') __e = core; // eslint-disable-line no-undef
 
 
@@ -4781,7 +4781,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_css_skeleton_css__WEBPACK_IMPORTED_MODULE_7__);
 /* harmony import */ var _css_bootstrap_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../css/bootstrap.css */ "./css/bootstrap.css");
 /* harmony import */ var _css_bootstrap_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_8__);
-var _jsxFileName = "/Users/peterhahn/src/new/audio-boy/pages/auditory.js";
+var _jsxFileName = "/Users/peterhahn/src/new/audio-boy-mock/pages/auditory.js";
 
 
 
@@ -4820,14 +4820,14 @@ var AuditoryPage = function AuditoryPage(props) {
 
 /***/ }),
 
-/***/ 6:
+/***/ 5:
 /*!*********************************!*\
   !*** multi ./pages/auditory.js ***!
   \*********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/peterhahn/src/new/audio-boy/pages/auditory.js */"./pages/auditory.js");
+module.exports = __webpack_require__(/*! /Users/peterhahn/src/new/audio-boy-mock/pages/auditory.js */"./pages/auditory.js");
 
 
 /***/ }),
