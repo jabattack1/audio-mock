@@ -9,7 +9,7 @@ import Layout5 from '../components/layout5.js';
 const Layout = (props) => (
 	<div>
 	<Head>
-		<title>Audio-Boy</title>
+		<title>Mock Records</title>
 		<link rel='icon' type='image/png' href='https://i.imgur.com/Xc2Et4w.png' />
 		<script src="dist/inputmask.js"></script>
 	</Head>

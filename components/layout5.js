@@ -6,7 +6,7 @@ import Link from 'next/link';
 const Layout5 = (props) => (
 	<div>
 	<Head>
-		<title>Audio-Boy</title>
+		<title>Mock Records</title>
 		<link rel='icon' type='image/png' href='https://i.imgur.com/Xc2Et4w.png' />
 
 	</Head>
