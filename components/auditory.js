@@ -24,6 +24,7 @@ class Auditory extends React.Component{
 		})
 	    console.log('result', result);
 	    if(result.length === 0){
+	    	console.log('trash');
 	    	var retrievedObject = localStorage.getItem('id');
 	    	console.log('retrievedObject: ', JSON.parse(retrievedObject));
 	    }
