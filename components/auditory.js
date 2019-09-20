@@ -22,7 +22,7 @@ class Auditory extends React.Component{
 	    let result = artist.filter(obj => {
   			return obj.code === itemNumber
 		})
-	    console.log('result', result);
+	    console.log('result', result.length);
 	    result.map((e) => 
 
 			this.state = {
