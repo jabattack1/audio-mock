@@ -24,7 +24,7 @@ class Auditory extends React.Component{
 		})
 
 	    result.map((e) => 
-
+	    	console.log('e', e);
 			this.state = {
 				image1:e.display_src,
 				name:e.name,
