@@ -22,9 +22,7 @@ class Auditory extends React.Component{
 	    let result = artist.filter(obj => {
   			return obj.code === itemNumber
 		})
-	    console.log('results', result);
 	    if(result.length < 1){
-	    	console.log('trash');
 	    	if(typeof window !== 'undefined'){
 		    	var retrievedObject = localStorage.getItem('id');
 		    	var retrievedData = this.props.artist[JSON.parse(retrievedObject)];
@@ -40,6 +38,7 @@ class Auditory extends React.Component{
 				    	facebook:e.facebook
 					}
 		    	);
+		  	console.log('thisThat', this);
 	    	}
 	    }
 	    else{
