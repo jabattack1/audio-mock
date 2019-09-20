@@ -29,7 +29,6 @@ class Auditory extends React.Component{
 	    	console.log('retrievedObject: ', JSON.parse(retrievedObject));
 	    }
 	    else{
-	    	console.log('yankees');
 	    	if(typeof window !== 'undefined'){
 		    	localStorage.clear();
 		    	localStorage.setItem('id', JSON.stringify(result[0].id));
@@ -54,7 +53,6 @@ class Auditory extends React.Component{
 	}
 
 	render(){
-		console.log('this', this);
 		return(
 			<div className='artistArea'>
 				<Navbar3 name={this.state.name}/>
