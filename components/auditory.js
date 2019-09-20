@@ -27,6 +27,16 @@ class Auditory extends React.Component{
 		    	var retrievedObject = localStorage.getItem('id');
 		    	var retrievedData = this.props.artist[JSON.parse(retrievedObject)];
 		    	console.log('d', retrievedData);
+		    	this.state = {
+					image1:retrievedData.display_src,
+					name:retrievedData.name,
+					mv:retrievedData.mv,
+					bio:retrievedData.bio,
+			    	youtube:retrievedData.youtube,
+			    	twitter:retrievedData.twitter,
+			    	instagram:retrievedData.instagram,
+			    	facebook:retrievedData.facebook
+				}
 		  	
 	    	}
 	    }

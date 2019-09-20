@@ -19,7 +19,11 @@ const artistList = [
 	    "url":"/auditory2",
 	    "mv":"https://www.youtube.com/embed/7LEmer7wwHI",
 	    "bio":"This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real.",
-	    "display_src": `https://i.imgur.com/rOmTCsD.jpg`
+	    "display_src": `https://i.imgur.com/rOmTCsD.jpg`,
+	    "youtube":'',
+	    "twitter":'',
+	    "instagram":'',
+	    "facebook":'',
 	},
 	{
 	    "code": "dbcded",
@@ -28,7 +32,11 @@ const artistList = [
 	    "url":"/auditory2",
 	    "mv":"https://www.youtube.com/embed/7LEmer7wwHI",
 	    "bio":"This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real.",
-	    "display_src": `https://i.imgur.com/Cl6tqkb.jpg`
+	    "display_src": `https://i.imgur.com/Cl6tqkb.jpg`,
+	    "youtube":'',
+	    "twitter":'',
+	    "instagram":'',
+	    "facebook":'',
 	},
 	{
 	    "code": "dbcdef",
@@ -37,7 +45,11 @@ const artistList = [
 	    "url":"/auditory2",
 	    "mv":"https://www.youtube.com/embed/7LEmer7wwHI",
 	    "bio":"This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real.",
-	    "display_src": `https://i.imgur.com/M2Qoa0j.jpg`
+	    "display_src": `https://i.imgur.com/M2Qoa0j.jpg`,
+	    "youtube":'',
+	    "twitter":'',
+	    "instagram":'',
+	    "facebook":'',
 	}
 ];
 
