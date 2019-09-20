@@ -3035,64 +3035,6 @@ html[data-useragent*="Chrome"][data-useragent*="Mobile"] audio { width:100%; }
 .rightArrowStore:hover{
 	filter: invert(85%);
 }
-/*artist page*/
-.parrot{
-/*	border-bottom-left-radius: 4px;
-  	border-bottom-right-radius: 4px;*/
-}
-
-.artistBackground{
-	width:100%;
-}
-
-.artistMainPhoto{
-	position:relative;
-	float:left;
-	width:400px;
-	height:400px;
-	margin-top:-50px;
-}
-
-.artistVideo{
-	position:relative;
-	width:960px;
-	height:400px;
-	z-index:100;
-	bottom:30px;
-	margin-top:0px;
-}
-
-.bio{
-	position:relative;
-	width:540px;
-	height:345px;
-	color:white;
-	margin-top:-50px;
-	margin-left:20px;
-	/*text-align:center;*/
-	display:inline-block;
-}
-
-.socialHolder{
-  position:relative;
-  left:12px;
-}
-.socialHolder li{
-  display:inline-block;
-  padding:8px;
-}
-
-.socialHolder li img{
-  width:40px;
-  filter: invert(100%);
-}
-
-.socialHolder li img:hover{
-  cursor:pointer;
-  filter: invert(80%);
-}
-
-
 /*mobile*/
 
 #bannerSunMobile{
@@ -3693,53 +3635,6 @@ and (max-device-width : 480px) {
 }
 
 }
-
-.example3 {
- height: 620px;	
- overflow: hidden;
- position: relative;
-}
-.example3 h3 {
-	font-size:20px;
- position: absolute;
- color:white;
- width: 100%;
- height: 100%;
- margin: 0;
- line-height: 50px;
- text-align: center;
- /* Starting position */
- -moz-transform:translateY(100%);
- -webkit-transform:translateY(100%);	
- transform:translateY(100%);
- /* Apply animation to this element */	
- -moz-animation: example3 8s linear infinite;
- -webkit-animation: example3 8s linear infinite;
- animation: example3 8s linear infinite;
-}
-/* Move it (define the animation) */
-@-moz-keyframes example3 {
- 0%   { -moz-transform: translateY(-100%); }
- 100% { -moz-transform: translateY(100%); }
-}
-@-webkit-keyframes example3 {
- 0%   { -webkit-transform: translateY(-100%); }
- 100% { -webkit-transform: translateY(100%); }
-}
-@keyframes example3 {
- 100%   { 
- -moz-transform: translateY(-100%); /* Firefox bug fix */
- -webkit-transform: translateY(-100%); /* Firefox bug fix */
- transform: translateY(-100%); 		
- }
- 0% { 
- -moz-transform: translateY(100%); /* Firefox bug fix */
- -webkit-transform: translateY(100%); /* Firefox bug fix */
- transform: translateY(100%); 
- }
-}
-
-
 /*shopping cart page*/
 
 .deleteItem{
@@ -4394,6 +4289,111 @@ to {height: 0;}
 
 
 }
+
+/*artist page*/
+.parrot{
+/*	border-bottom-left-radius: 4px;
+  	border-bottom-right-radius: 4px;*/
+}
+
+.artistBackground{
+	width:100%;
+}
+
+.artistMainPhoto{
+	position:relative;
+	float:left;
+	width:400px;
+	height:400px;
+	margin-top:-50px;
+}
+
+.artistVideo{
+	position:relative;
+	width:960px;
+	height:400px;
+	z-index:100;
+	bottom:30px;
+	margin-top:0px;
+}
+
+.bio{
+	position:relative;
+	width:540px;
+	height:345px;
+	color:white;
+	margin-top:-50px;
+	margin-left:20px;
+	/*text-align:center;*/
+	display:inline-block;
+}
+
+.socialHolder{
+  position:relative;
+  left:12px;
+}
+.socialHolder li{
+  display:inline-block;
+  padding:8px;
+}
+
+.socialHolder li img{
+  width:40px;
+  filter: invert(100%);
+}
+
+.socialHolder li img:hover{
+  cursor:pointer;
+  filter: invert(80%);
+}
+
+
+
+.example3 {
+ height: 620px;	
+ overflow: hidden;
+ position: relative;
+}
+.example3 h3 {
+	font-size:20px;
+ position: absolute;
+ color:white;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 50px;
+ text-align: center;
+ /* Starting position */
+ -moz-transform:translateY(100%);
+ -webkit-transform:translateY(100%);	
+ transform:translateY(100%);
+ /* Apply animation to this element */	
+ -moz-animation: example3 8s linear infinite;
+ -webkit-animation: example3 8s linear infinite;
+ animation: example3 8s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes example3 {
+ 0%   { -moz-transform: translateY(-100%); }
+ 100% { -moz-transform: translateY(100%); }
+}
+@-webkit-keyframes example3 {
+ 0%   { -webkit-transform: translateY(-100%); }
+ 100% { -webkit-transform: translateY(100%); }
+}
+@keyframes example3 {
+ 100%   { 
+ -moz-transform: translateY(-100%); /* Firefox bug fix */
+ -webkit-transform: translateY(-100%); /* Firefox bug fix */
+ transform: translateY(-100%); 		
+ }
+ 0% { 
+ -moz-transform: translateY(100%); /* Firefox bug fix */
+ -webkit-transform: translateY(100%); /* Firefox bug fix */
+ transform: translateY(100%); 
+ }
+}
+
 
 
 .parrotSignUp{

@@ -1,1052 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
-
-/***/ "./components/about-label.js":
-/*!***********************************!*\
-  !*** ./components/about-label.js ***!
-  \***********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../css/normalize.css */ "./css/normalize.css");
-/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_css_normalize_css__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../css/skeleton.css */ "./css/skeleton.css");
-/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_css_skeleton_css__WEBPACK_IMPORTED_MODULE_9__);
-
-
-
-
-
-var _jsxFileName = "/Users/peterhahn/src/new/audio-boy-mock/components/about-label.js";
-
-
-
-
-
-
-var AboutLabel =
-/*#__PURE__*/
-function (_React$Component) {
-  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(AboutLabel, _React$Component);
-
-  function AboutLabel() {
-    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, AboutLabel);
-
-    return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(AboutLabel).apply(this, arguments));
-  }
-
-  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(AboutLabel, [{
-    key: "render",
-    value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 13
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "gridWrapperAbout",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 14
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "aboutContent",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 15
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        className: "aboutImage",
-        src: "https://i.imgur.com/G0Y6Wdz.gif",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 16
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
-        className: "aboutWrite",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 17
-        },
-        __self: this
-      }, "Audio Boy is an independent recording company with ambitions of becoming home to the very best forward-thinking and innovative artists. Our reputation in the music industry is something we feel a great responsibility for and we pride ourselves as a company who offers an unparalleled experience for the artists and listeners alike. With a focus on influencing the world's pop culture without any boundaries, and a passionate approach towards discovering and nurturing musical talent - Audio Boy is currently home to The Electronic Auditory Rebels and many more to come in the future!"))));
-    }
-  }]);
-
-  return AboutLabel;
-}(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
-
-/* harmony default export */ __webpack_exports__["default"] = (AboutLabel);
-
-/***/ }),
-
-/***/ "./components/artists-grid.js":
-/*!************************************!*\
-  !*** ./components/artists-grid.js ***!
-  \************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/extends */ "./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-/* harmony import */ var _artists_js__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./artists.js */ "./components/artists.js");
-/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../css/normalize.css */ "./css/normalize.css");
-/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_css_normalize_css__WEBPACK_IMPORTED_MODULE_12__);
-/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../css/skeleton.css */ "./css/skeleton.css");
-/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_css_skeleton_css__WEBPACK_IMPORTED_MODULE_13__);
-
-
-
-
-
-
-
-
-var _jsxFileName = "/Users/peterhahn/src/new/audio-boy-mock/components/artists-grid.js";
-
-
-
-
-
-
-
-var ArtistsGrid =
-/*#__PURE__*/
-function (_React$Component) {
-  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__["default"])(ArtistsGrid, _React$Component);
-
-  function ArtistsGrid() {
-    var _getPrototypeOf2;
-
-    var _this;
-
-    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__["default"])(this, ArtistsGrid);
-
-    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-
-    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__["default"])(this, (_getPrototypeOf2 = Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__["default"])(ArtistsGrid)).call.apply(_getPrototypeOf2, [this].concat(args)));
-
-    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this), "state", {});
-
-    return _this;
-  }
-
-  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__["default"])(ArtistsGrid, [{
-    key: "render",
-    value: function render() {
-      var _this2 = this;
-
-      return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "gridWrapper",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 19
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "artists-grid",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 20
-        },
-        __self: this
-      }, this.props.artists.map(function (post, i) {
-        return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_artists_js__WEBPACK_IMPORTED_MODULE_11__["default"], Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, _this2.props, {
-          key: i,
-          i: i,
-          artist: post,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 21
-          },
-          __self: this
-        }));
-      })));
-    }
-  }]);
-
-  return ArtistsGrid;
-}(react__WEBPACK_IMPORTED_MODULE_8___default.a.Component);
-
-/* harmony default export */ __webpack_exports__["default"] = (ArtistsGrid);
-
-/***/ }),
-
-/***/ "./components/artists.js":
-/*!*******************************!*\
-  !*** ./components/artists.js ***!
-  \*******************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../css/normalize.css */ "./css/normalize.css");
-/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_css_normalize_css__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../css/skeleton.css */ "./css/skeleton.css");
-/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_css_skeleton_css__WEBPACK_IMPORTED_MODULE_10__);
-
-
-
-
-
-var _jsxFileName = "/Users/peterhahn/src/new/audio-boy-mock/components/artists.js";
-
-
-
-
-
-
-
-var Artists =
-/*#__PURE__*/
-function (_React$Component) {
-  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(Artists, _React$Component);
-
-  function Artists() {
-    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Artists);
-
-    return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Artists).apply(this, arguments));
-  }
-
-  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Artists, [{
-    key: "render",
-    value: function render() {
-      var _this$props$artist = this.props.artist,
-          artist = _this$props$artist.artist,
-          i = _this$props$artist.i;
-      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("figure", {
-        className: "grid-figure",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 16
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "grid-figure-wrap",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 17
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
-        href: "/auditory?code=".concat(this.props.artist.code),
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 18
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        src: this.props.artist.display_src,
-        alt: this.props.artist.name,
-        className: "grid-artist",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 19
-        },
-        __self: this
-      }))));
-    }
-  }]);
-
-  return Artists;
-}(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
-
-/* harmony default export */ __webpack_exports__["default"] = (Artists);
-
-/***/ }),
-
-/***/ "./components/cart.js":
-/*!****************************!*\
-  !*** ./components/cart.js ***!
-  \****************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/json/stringify */ "./node_modules/@babel/runtime-corejs2/core-js/json/stringify.js");
-/* harmony import */ var _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var react_horizontal_scrolling_menu__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-horizontal-scrolling-menu */ "./node_modules/react-horizontal-scrolling-menu/build/index.js");
-/* harmony import */ var react_horizontal_scrolling_menu__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react_horizontal_scrolling_menu__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../css/normalize.css */ "./css/normalize.css");
-/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_css_normalize_css__WEBPACK_IMPORTED_MODULE_11__);
-/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../css/skeleton.css */ "./css/skeleton.css");
-/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_css_skeleton_css__WEBPACK_IMPORTED_MODULE_12__);
-/* harmony import */ var _css_style_css__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../css/style.css */ "./css/style.css");
-/* harmony import */ var _css_style_css__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_css_style_css__WEBPACK_IMPORTED_MODULE_13__);
-/* harmony import */ var _css_shoppingCart_css__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../css/shoppingCart.css */ "./css/shoppingCart.css");
-/* harmony import */ var _css_shoppingCart_css__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_css_shoppingCart_css__WEBPACK_IMPORTED_MODULE_14__);
-
-
-
-
-
-
-var _jsxFileName = "/Users/peterhahn/src/new/audio-boy-mock/components/cart.js";
-
-
-
-
-
-
-
-
-
-
-var Cart =
-/*#__PURE__*/
-function (_React$Component) {
-  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__["default"])(Cart, _React$Component);
-
-  function Cart() {
-    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__["default"])(this, Cart);
-
-    return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__["default"])(Cart).apply(this, arguments));
-  }
-
-  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__["default"])(Cart, [{
-    key: "render",
-    value: function render() {
-      // console.log(this.props.data);
-      if (this.props.data) {
-        return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("li", {
-          className: "cartList",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 20
-          },
-          __self: this
-        }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
-          href: "/store?code=".concat(this.props.data.code),
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 21
-          },
-          __self: this
-        }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-          className: "cartItemImageContainer",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 22
-          },
-          __self: this
-        }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
-          className: "cartItemImage",
-          src: this.props.data.image1,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 23
-          },
-          __self: this
-        })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
-          className: "cartItemName",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 25
-          },
-          __self: this
-        }, this.props.data.name)), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
-          className: "cartItemSize",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 27
-          },
-          __self: this
-        }, this.props.data.size), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
-          className: "cartItemQuantity",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 28
-          },
-          __self: this
-        }, "Quantity"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-          className: "custom-select",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 29
-          },
-          __self: this
-        }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("select", {
-          className: "select-selected",
-          id: "quantity",
-          onMouseOver: this.setQuantity,
-          defaultValue: this.props.data.quantity,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 30
-          },
-          __self: this
-        }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("option", {
-          value: "1",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 31
-          },
-          __self: this
-        }, "1"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("option", {
-          value: "2",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 32
-          },
-          __self: this
-        }, "2"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("option", {
-          value: "3",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 33
-          },
-          __self: this
-        }, "3"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("option", {
-          value: "4",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 34
-          },
-          __self: this
-        }, "4"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("option", {
-          value: "5",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 35
-          },
-          __self: this
-        }, "5"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("option", {
-          value: "6",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 36
-          },
-          __self: this
-        }, "6"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("option", {
-          value: "7",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 37
-          },
-          __self: this
-        }, "7"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("option", {
-          value: "8",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 38
-          },
-          __self: this
-        }, "8"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("option", {
-          value: "9",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 39
-          },
-          __self: this
-        }, "9"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("option", {
-          value: "10",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 40
-          },
-          __self: this
-        }, "10"))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
-          className: "cartItemPrice",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 43
-          },
-          __self: this
-        }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 43
-          },
-          __self: this
-        }, "$"), this.props.data.price), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
-          className: "cartItemOrigPrice",
-          hidden: true,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 44
-          },
-          __self: this
-        }, this.props.data.orig), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
-          className: "deleteItem",
-          id: "x",
-          onMouseOver: this.deleteItem,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 45
-          },
-          __self: this
-        }, "Remove"));
-      } else {
-        return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 51
-          },
-          __self: this
-        }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
-          className: "empty",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 52
-          },
-          __self: this
-        }, "Your shopping cart is empty."));
-      }
-    }
-  }, {
-    key: "setQuantity",
-    value: function setQuantity() {
-      console.log('SELECT');
-      "use strict";
-
-      var items = document.querySelectorAll(".cartList");
-      var myData = localStorage.getItem('state');
-      var data = JSON.parse(myData);
-
-      var _loop = function _loop() {
-        items[k].index = k;
-        var selected = items[k];
-        selectOption = items[k].children[3];
-        selectOption.addEventListener("change", function () {
-          var id = selected.index;
-
-          if (data.length === undefined) {
-            console.log('oneA');
-            data.quantity = selected.children[3].children[0].value;
-            var multiple = selected.children[3].children[0].value;
-            console.log(multiple);
-            var total = multiple * selected.children[5].innerHTML.replace(/[$]/g, "");
-            ;
-            data.price = total.toFixed(2);
-            localStorage.clear();
-            localStorage.setItem('state', _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_0___default()(data));
-            location.reload();
-          } else if (data.length === 1) {
-            console.log('oneB');
-            data[0].quantity = selected.children[3].children[0].value;
-            var multiple = selected.children[3].children[0].value;
-            console.log(multiple);
-            var total = multiple * selected.children[5].innerHTML.replace(/[$]/g, "");
-            ;
-            data[0].price = total.toFixed(2);
-            localStorage.clear();
-            localStorage.setItem('state', _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_0___default()(data));
-            location.reload();
-          } else {
-            for (var i = 0; i < data.length; i++) {
-              if (i === id) {
-                console.log('two or more'); // var items = document.querySelectorAll(".cartList");
-
-                data[i].quantity = items[i].children[3].children[0].value;
-                var multiple = items[i].children[3].children[0].value;
-                var total = multiple * items[i].children[5].innerHTML.replace(/[$]/g, "");
-                ;
-                data[i].price = total.toFixed(2);
-                localStorage.clear();
-                localStorage.setItem('state', _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_0___default()(data));
-                location.reload();
-              }
-            }
-          }
-        });
-      };
-
-      for (var k = 0; k < items.length; k++) {
-        var selectOption;
-
-        _loop();
-      }
-
-      ;
-    }
-  }, {
-    key: "deleteItem",
-    value: function deleteItem() {
-      console.log('DELETE');
-      "use strict";
-
-      var items = document.querySelectorAll(".cartList");
-      var myData = localStorage.getItem('state');
-      var data = JSON.parse(myData);
-
-      var _loop2 = function _loop2() {
-        items[i].index = i;
-        deleteButton = items[i].children[7];
-        var ufo = items[i];
-        deleteButton.addEventListener("click", function (e) {
-          var id = ufo.index;
-
-          if (data.length === undefined || data.length === 1) {
-            localStorage.clear();
-            location.reload();
-          } else {
-            for (var i = 0; i < data.length; i++) {
-              if (i === id) {
-                var s = data.splice(i, 1);
-                localStorage.clear();
-                localStorage.setItem('state', _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_0___default()(data));
-                location.reload();
-              }
-            }
-          }
-        });
-      };
-
-      for (var i = 0; i < items.length; i++) {
-        var deleteButton;
-
-        _loop2();
-      }
-
-      ;
-    }
-  }]);
-
-  return Cart;
-}(react__WEBPACK_IMPORTED_MODULE_6___default.a.Component);
-
-/* harmony default export */ __webpack_exports__["default"] = (Cart);
-
-/***/ }),
-
-/***/ "./components/contact.js":
-/*!*******************************!*\
-  !*** ./components/contact.js ***!
-  \*******************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../css/normalize.css */ "./css/normalize.css");
-/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_css_normalize_css__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../css/skeleton.css */ "./css/skeleton.css");
-/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_css_skeleton_css__WEBPACK_IMPORTED_MODULE_9__);
-
-
-
-
-
-var _jsxFileName = "/Users/peterhahn/src/new/audio-boy-mock/components/contact.js";
-
-
-
-
-
-
-var Contact =
-/*#__PURE__*/
-function (_React$Component) {
-  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(Contact, _React$Component);
-
-  function Contact() {
-    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Contact);
-
-    return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Contact).apply(this, arguments));
-  }
-
-  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Contact, [{
-    key: "render",
-    value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 13
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "gridWrapperContact",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 14
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "contactContent",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 15
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "contact",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 16
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
-        className: "contactLinks",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 17
-        },
-        __self: this
-      }, "Inquiries/Questions: ", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
-        className: "email",
-        href: "info@audio-boy.com",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 17
-        },
-        __self: this
-      }, "info@audio-boy.com")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
-        className: "contactLinks",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 18
-        },
-        __self: this
-      }, "Media: ", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
-        className: "email",
-        href: "pr@audio-boy.com",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 18
-        },
-        __self: this
-      }, "pr@audio-boy.com")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
-        className: "contactLinks",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 19
-        },
-        __self: this
-      }, "Legal: ", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
-        className: "email",
-        href: "hr@audio-boy.com",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 19
-        },
-        __self: this
-      }, "legal@audio-boy.com")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
-        className: "contactLinks",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 20
-        },
-        __self: this
-      }, "Store: ", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
-        className: "email",
-        href: "info@audio-boy.com",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 20
-        },
-        __self: this
-      }, "info@audio-boy.com")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "solicitation",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 21
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
-        className: "serious",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 22
-        },
-        __self: this
-      }, "Audio-Boy does not accept unsolicited material"))))));
-    }
-  }]);
-
-  return Contact;
-}(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
-
-/* harmony default export */ __webpack_exports__["default"] = (Contact);
-react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
-  href: "https://imgur.com/ebTCU1p",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 35
-  },
-  __self: undefined
-}, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-  src: "https://i.imgur.com/ebTCU1p.gif",
-  title: "source: imgur.com",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 35
-  },
-  __self: undefined
-}));
-
-/***/ }),
-
-/***/ "./components/footer.js":
-/*!******************************!*\
-  !*** ./components/footer.js ***!
-  \******************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/peterhahn/src/new/audio-boy-mock/components/footer.js";
-
-
-
-function year() {
-  if (true) {
-    var theDate = new Date();
-    var spit = theDate.getFullYear();
-  }
-
-  return spit;
-}
-
-var Footer = function Footer() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "footerWrapper",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "footer",
-    name: "footer",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "footerMenu",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    className: "footerContactOutside",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "footerLink",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    id: "copyright",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18
-    },
-    __self: this
-  }, "\xA9 ", year(), " Audio-Boy")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "footerLink",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "/privacy-policy",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22
-    },
-    __self: this
-  }, "Privay Policy")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "footerLink",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "/terms-of-use",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23
-    },
-    __self: this
-  }, "Terms of Use")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "footerLink",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "/ad-choices",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24
-    },
-    __self: this
-  }, "Ad Choices")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "footerLink",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "/cookie-policy",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25
-    },
-    __self: this
-  }, "Cookie Policy")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "footerLink",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "/jobs",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26
-    },
-    __self: this
-  }, "Jobs")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "footerContacts",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    className: "footerEmail",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "footerLink",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "email",
-    href: "info@audio-boy.com",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31
-    },
-    __self: this
-  }, "info@audio-boy.com")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "footerLink",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "email",
-    href: "pr@audio-boy.com",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32
-    },
-    __self: this
-  }, "pr@audio-boy.com")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "footerLink",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "email",
-    href: "hr@audio-boy.com",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33
-    },
-    __self: this
-  }, "legal@audio-boy.com"))))));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Footer);
-
-/***/ }),
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/terms-of-use.js"],{
 
 /***/ "./components/footer2.js":
 /*!*******************************!*\
@@ -1251,10 +203,10 @@ var Footer2 = function Footer2() {
 
 /***/ }),
 
-/***/ "./components/layout.js":
-/*!******************************!*\
-  !*** ./components/layout.js ***!
-  \******************************/
+/***/ "./components/layout2.js":
+/*!*******************************!*\
+  !*** ./components/layout2.js ***!
+  \*******************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1264,38 +216,56 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _navbar_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./navbar.js */ "./components/navbar.js");
-/* harmony import */ var _footer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./footer.js */ "./components/footer.js");
+/* harmony import */ var _navbar2_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./navbar2.js */ "./components/navbar2.js");
+/* harmony import */ var _footer2_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./footer2.js */ "./components/footer2.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _components_sign_up_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/sign-up.js */ "./components/sign-up.js");
-/* harmony import */ var _components_layout5_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/layout5.js */ "./components/layout5.js");
-var _jsxFileName = "/Users/peterhahn/src/new/audio-boy-mock/components/layout.js";
+var _jsxFileName = "/Users/peterhahn/src/new/audio-boy-mock/components/layout2.js";
 
 
 
 
 
+ // var total=0;
+// if (typeof window !== 'undefined') {
+// 	console.log('shine');
+//     var data = localStorage.getItem('state');
+//     console.log(data)
+//     if(data !== 'nothing'){
+// 		var parsedData = JSON.parse(data);
+// 		console.log('parsedData'+parsedData);
+// 		if(parsedData!==null){
+// 			if(parsedData.length<1){
+// 				for(var i in parsedData) {
+// 					total= total + parseInt(parsedData[i].quantity);
+// 			    }
+// 			}
+// 			else{
+// 				total=parseInt(parsedData.quantity);
+// 			}
+// 		}
+// 	}
+// 	console.log('wtf'+total);
+// }
 
-
-
-var Layout = function Layout(props) {
+var Layout2 = function Layout2(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 31
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 32
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 33
     },
     __self: this
   }, "Mock Records"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -1304,14 +274,7 @@ var Layout = function Layout(props) {
     href: "https://i.imgur.com/Xc2Et4w.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
-    src: "dist/inputmask.js",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 34
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -1319,42 +282,28 @@ var Layout = function Layout(props) {
     content: "width=device-width, initial-scale=1.0",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 37
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    id: "load",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    id: "heat",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "topBanner",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 38
     },
     __self: this
   }, "Subscribe ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "bold",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 38
     },
     __self: this
   }, "NOW"), " for our updates & promotions! ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "bold",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 38
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
@@ -1363,43 +312,42 @@ var Layout = function Layout(props) {
     onClick: testClick,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 38
     },
     __self: this
-  }, "OVER HERE"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_navbar_js__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, "OVER HERE"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_navbar2_js__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 40
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "containerWrapper",
-    id: "parentContainer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 41
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 42
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_sign_up_js__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 43
     },
     __self: this
-  }), props.children)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_footer_js__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }), props.children)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_footer2_js__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 47
     },
     __self: this
-  })));
+  }));
 };
 
 function testClick() {
@@ -1426,427 +374,9 @@ function testClick() {
       }
     };
   }
-} // if (process.browser){
-// document.onreadystatechange = function () {
-//   var state = document.readyState
-//   if (state == 'interactive') {
-//        document.getElementById('heat').style.visibility="hidden";
-//   } else if (state == 'complete') {
-//       setTimeout(function(){
-//          document.getElementById('interactive');
-//          document.getElementById('load').style.visibility="hidden";
-//          document.getElementById('heat').style.visibility="visible";
-//       },1);
-//   }
-// }
-// }
-// function signUpFrom(){
-// 	console.log('love');
-// 	var elem = document.getElementById('signBox');
-// 	document.getElementById('parentContainer').scrolling = 'no';
-// 	elem.style.display = 'block';
-// }
+}
 
-
-/* harmony default export */ __webpack_exports__["default"] = (Layout);
-
-/***/ }),
-
-/***/ "./components/layout5.js":
-/*!*******************************!*\
-  !*** ./components/layout5.js ***!
-  \*******************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _footer2_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./footer2.js */ "./components/footer2.js");
-/* harmony import */ var _navbar2_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./navbar2.js */ "./components/navbar2.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_4__);
-var _jsxFileName = "/Users/peterhahn/src/new/audio-boy-mock/components/layout5.js";
-
-
-
-
-
-
-var Layout5 = function Layout5(props) {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }, "Mock Records"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
-    rel: "icon",
-    type: "image/png",
-    href: "https://i.imgur.com/Xc2Et4w.png",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
-    name: "viewport",
-    content: "width=device-width, initial-scale=1.0",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_navbar2_js__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "containerWrapper",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "container",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: this
-  }, props.children)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_footer2_js__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20
-    },
-    __self: this
-  }));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Layout5);
-
-/***/ }),
-
-/***/ "./components/navbar.js":
-/*!******************************!*\
-  !*** ./components/navbar.js ***!
-  \******************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/promise */ "./node_modules/@babel/runtime-corejs2/core-js/promise.js");
-/* harmony import */ var _babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/parse-int */ "./node_modules/@babel/runtime-corejs2/core-js/parse-int.js");
-/* harmony import */ var _babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! react-scroll */ "./node_modules/react-scroll/modules/index.js");
-/* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(react_scroll__WEBPACK_IMPORTED_MODULE_11__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_12__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../css/normalize.css */ "./css/normalize.css");
-/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_css_normalize_css__WEBPACK_IMPORTED_MODULE_14__);
-/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../css/skeleton.css */ "./css/skeleton.css");
-/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_css_skeleton_css__WEBPACK_IMPORTED_MODULE_15__);
-/* harmony import */ var _css_dropdown_css__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../css/dropdown.css */ "./css/dropdown.css");
-/* harmony import */ var _css_dropdown_css__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(_css_dropdown_css__WEBPACK_IMPORTED_MODULE_16__);
-
-
-
-
-
-
-
-
-var _jsxFileName = "/Users/peterhahn/src/new/audio-boy-mock/components/navbar.js";
-
-
-
-
-
-
-
-
-
-
-
-var Navbar =
-/*#__PURE__*/
-function (_React$Component) {
-  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_7__["default"])(Navbar, _React$Component);
-
-  function Navbar(props) {
-    var _this;
-
-    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Navbar);
-
-    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__["default"])(Navbar).call(this, props));
-    _this.scrollToTop = _this.scrollToTop.bind(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this));
-    return _this;
-  }
-
-  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_3__["default"])(Navbar, [{
-    key: "render",
-    value: function render() {
-      var total = 0;
-
-      if (typeof window !== 'undefined') {
-        var data = localStorage.getItem('state');
-        console.log('nav1' + data);
-
-        if (data !== 'nothing') {
-          var parsedData = JSON.parse(data);
-
-          if (parsedData !== null) {
-            if (parsedData.length !== undefined) {
-              for (var i in parsedData) {
-                total = total + _babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_1___default()(parsedData[i].quantity);
-              }
-            } else {
-              total = _babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_1___default()(parsedData.quantity);
-            }
-          }
-        }
-      }
-
-      return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "nav",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 45
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("ul", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 46
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("li", {
-        className: "link",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 47
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_11__["Link"], {
-        className: "audioLetters",
-        activeClass: "active",
-        to: "artists",
-        spy: true,
-        smooth: true,
-        duration: 500,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 47
-        },
-        __self: this
-      }, "ARTISTS")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("li", {
-        className: "link",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 48
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_11__["Link"], {
-        className: "audioLetters",
-        activeClass: "active",
-        to: "news",
-        spy: true,
-        smooth: true,
-        duration: 500,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 48
-        },
-        __self: this
-      }, "NEWS")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("li", {
-        className: "link",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 49
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_11__["Link"], {
-        className: "audioLetters",
-        activeClass: "active",
-        to: "label",
-        spy: true,
-        smooth: true,
-        duration: 500,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 49
-        },
-        __self: this
-      }, "THE LABEL")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("li", {
-        className: "link",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 50
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_11__["Link"], {
-        className: "audioLetters",
-        activeClass: "active",
-        to: "store",
-        spy: true,
-        smooth: true,
-        duration: 500,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 50
-        },
-        __self: this
-      }, "STORE")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_12___default.a, {
-        href: "/shopping-cart",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 51
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("span", {
-        className: "goToCart1",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 51
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("img", {
-        src: "https://i.imgur.com/O4wSpvB.png",
-        className: "cartImage",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 51
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("p", {
-        className: "cartQuantity",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 51
-        },
-        __self: this
-      }, total))), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
-        className: "emailUsLink1",
-        href: "mailto:info@audio-boy.com",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 52
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("img", {
-        src: "https://i.imgur.com/tWjrmNt.png",
-        className: "emailUs1",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 52
-        },
-        __self: this
-      }))));
-    }
-  }, {
-    key: "dropEmail",
-    value: function dropEmail() {
-      console.log('convo');
-      document.getElementById('contactDrop').style.display = 'block';
-    }
-  }, {
-    key: "hideEmail",
-    value: function hideEmail() {
-      console.log('convosation');
-      document.getElementById('contactDrop').style.display = 'none';
-    }
-  }, {
-    key: "componentDidMount",
-    value: function componentDidMount() {
-      react_scroll__WEBPACK_IMPORTED_MODULE_11__["Events"].scrollEvent.register('begin', function () {
-        console.log("begin", arguments);
-      });
-      react_scroll__WEBPACK_IMPORTED_MODULE_11__["Events"].scrollEvent.register('end', function () {
-        console.log("end", arguments);
-      });
-    }
-  }, {
-    key: "scrollToTop",
-    value: function scrollToTop() {
-      react_scroll__WEBPACK_IMPORTED_MODULE_11__["animateScroll"].scrollToTop();
-    }
-  }, {
-    key: "scrollTo",
-    value: function scrollTo() {
-      react_scroll__WEBPACK_IMPORTED_MODULE_11__["scroller"].scrollTo('scroll-to-element', {
-        duration: 800,
-        delay: 0,
-        smooth: 'easeInOutQuart'
-      });
-    }
-  }, {
-    key: "scrollToWithContainer",
-    value: function scrollToWithContainer() {
-      var goToContainer = new _babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_0___default.a(function (resolve, reject) {
-        react_scroll__WEBPACK_IMPORTED_MODULE_11__["Events"].scrollEvent.register('end', function () {
-          resolve();
-          react_scroll__WEBPACK_IMPORTED_MODULE_11__["Events"].scrollEvent.remove('end');
-        });
-        react_scroll__WEBPACK_IMPORTED_MODULE_11__["scroller"].scrollTo('scroll-container', {
-          duration: 800,
-          delay: 0,
-          smooth: 'easeInOutQuart'
-        });
-      });
-      goToContainer.then(function () {
-        return react_scroll__WEBPACK_IMPORTED_MODULE_11__["scroller"].scrollTo('scroll-container-second-element', {
-          duration: 800,
-          delay: 0,
-          smooth: 'easeInOutQuart',
-          containerId: 'scroll-container'
-        });
-      });
-    }
-  }, {
-    key: "componentWillUnmount",
-    value: function componentWillUnmount() {
-      react_scroll__WEBPACK_IMPORTED_MODULE_11__["Events"].scrollEvent.remove('begin');
-      react_scroll__WEBPACK_IMPORTED_MODULE_11__["Events"].scrollEvent.remove('end');
-    }
-  }]);
-
-  return Navbar;
-}(react__WEBPACK_IMPORTED_MODULE_8___default.a.Component);
-
-/* harmony default export */ __webpack_exports__["default"] = (Navbar);
+/* harmony default export */ __webpack_exports__["default"] = (Layout2);
 
 /***/ }),
 
@@ -2150,2250 +680,6 @@ function (_React$Component) {
 }(react__WEBPACK_IMPORTED_MODULE_8___default.a.Component);
 
 /* harmony default export */ __webpack_exports__["default"] = (Navbar2);
-
-/***/ }),
-
-/***/ "./components/navbar3.js":
-/*!*******************************!*\
-  !*** ./components/navbar3.js ***!
-  \*******************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/promise */ "./node_modules/@babel/runtime-corejs2/core-js/promise.js");
-/* harmony import */ var _babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/parse-int */ "./node_modules/@babel/runtime-corejs2/core-js/parse-int.js");
-/* harmony import */ var _babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! react-scroll */ "./node_modules/react-scroll/modules/index.js");
-/* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(react_scroll__WEBPACK_IMPORTED_MODULE_11__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_12__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../css/normalize.css */ "./css/normalize.css");
-/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_css_normalize_css__WEBPACK_IMPORTED_MODULE_14__);
-/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../css/skeleton.css */ "./css/skeleton.css");
-/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_css_skeleton_css__WEBPACK_IMPORTED_MODULE_15__);
-
-
-
-
-
-
-
-
-var _jsxFileName = "/Users/peterhahn/src/new/audio-boy-mock/components/navbar3.js";
-
-
-
-
-
-
-
-
-
-
-var Navbar3 =
-/*#__PURE__*/
-function (_React$Component) {
-  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_7__["default"])(Navbar3, _React$Component);
-
-  function Navbar3(props) {
-    var _this;
-
-    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Navbar3);
-
-    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__["default"])(Navbar3).call(this, props));
-    _this.scrollToTop = _this.scrollToTop.bind(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this));
-    _this.state = {
-      name: props.name
-    };
-    return _this;
-  }
-
-  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_3__["default"])(Navbar3, [{
-    key: "render",
-    value: function render() {
-      var total = 0;
-
-      if (typeof window !== 'undefined') {
-        var data = localStorage.getItem('state');
-
-        if (data !== 'nothing') {
-          var parsedData = JSON.parse(data);
-
-          if (parsedData !== null) {
-            if (parsedData.length !== undefined) {
-              for (var i in parsedData) {
-                total = total + _babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_1___default()(parsedData[i].quantity);
-              }
-            } else {
-              total = _babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_1___default()(parsedData.quantity);
-            }
-          }
-        }
-      }
-
-      return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "nav3",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 49
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("li", {
-        className: "link3",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 50
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
-        className: "parrot",
-        href: "/",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 50
-        },
-        __self: this
-      }, "Home")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("p", {
-        className: "artistHeadLine",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 51
-        },
-        __self: this
-      }, this.state.name), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_12___default.a, {
-        href: "/shopping-cart",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 52
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("span", {
-        className: "goToCart3",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 52
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("img", {
-        src: "https://i.imgur.com/O4wSpvB.png",
-        className: "cartImage",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 52
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("p", {
-        className: "cartQuantity",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 52
-        },
-        __self: this
-      }, total))), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
-        className: "emailUsLink3",
-        href: "mailto:info@audio-boy.com",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 54
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("img", {
-        src: "https://i.imgur.com/tWjrmNt.png",
-        className: "emailUs3",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 54
-        },
-        __self: this
-      })));
-    }
-  }, {
-    key: "componentDidMount",
-    value: function componentDidMount() {
-      react_scroll__WEBPACK_IMPORTED_MODULE_11__["Events"].scrollEvent.register('begin', function () {
-        console.log("begin", arguments);
-      });
-      react_scroll__WEBPACK_IMPORTED_MODULE_11__["Events"].scrollEvent.register('end', function () {
-        console.log("end", arguments);
-      });
-    }
-  }, {
-    key: "scrollToTop",
-    value: function scrollToTop() {
-      react_scroll__WEBPACK_IMPORTED_MODULE_11__["animateScroll"].scrollToTop();
-    }
-  }, {
-    key: "scrollTo",
-    value: function scrollTo() {
-      react_scroll__WEBPACK_IMPORTED_MODULE_11__["scroller"].scrollTo('scroll-to-element', {
-        duration: 800,
-        delay: 0,
-        smooth: 'easeInOutQuart'
-      });
-    }
-  }, {
-    key: "scrollToWithContainer",
-    value: function scrollToWithContainer() {
-      var goToContainer = new _babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_0___default.a(function (resolve, reject) {
-        react_scroll__WEBPACK_IMPORTED_MODULE_11__["Events"].scrollEvent.register('end', function () {
-          resolve();
-          react_scroll__WEBPACK_IMPORTED_MODULE_11__["Events"].scrollEvent.remove('end');
-        });
-        react_scroll__WEBPACK_IMPORTED_MODULE_11__["scroller"].scrollTo('scroll-container', {
-          duration: 800,
-          delay: 0,
-          smooth: 'easeInOutQuart'
-        });
-      });
-      goToContainer.then(function () {
-        return react_scroll__WEBPACK_IMPORTED_MODULE_11__["scroller"].scrollTo('scroll-container-second-element', {
-          duration: 800,
-          delay: 0,
-          smooth: 'easeInOutQuart',
-          containerId: 'scroll-container'
-        });
-      });
-    }
-  }, {
-    key: "componentWillUnmount",
-    value: function componentWillUnmount() {
-      react_scroll__WEBPACK_IMPORTED_MODULE_11__["Events"].scrollEvent.remove('begin');
-      react_scroll__WEBPACK_IMPORTED_MODULE_11__["Events"].scrollEvent.remove('end');
-    }
-  }]);
-
-  return Navbar3;
-}(react__WEBPACK_IMPORTED_MODULE_8___default.a.Component);
-
-/* harmony default export */ __webpack_exports__["default"] = (Navbar3);
-
-/***/ }),
-
-/***/ "./components/news-grid-scroll.js":
-/*!****************************************!*\
-  !*** ./components/news-grid-scroll.js ***!
-  \****************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/extends */ "./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-/* harmony import */ var _news_js__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./news.js */ "./components/news.js");
-/* harmony import */ var _scroll_js__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../scroll.js */ "./scroll.js");
-/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../css/normalize.css */ "./css/normalize.css");
-/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_css_normalize_css__WEBPACK_IMPORTED_MODULE_13__);
-/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../css/skeleton.css */ "./css/skeleton.css");
-/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_css_skeleton_css__WEBPACK_IMPORTED_MODULE_14__);
-/* harmony import */ var _css_style_css__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../css/style.css */ "./css/style.css");
-/* harmony import */ var _css_style_css__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_css_style_css__WEBPACK_IMPORTED_MODULE_15__);
-
-
-
-
-
-
-
-
-var _jsxFileName = "/Users/peterhahn/src/new/audio-boy-mock/components/news-grid-scroll.js";
-
-
-
-
-
-
-
-
-
-var NewsGridScroll =
-/*#__PURE__*/
-function (_React$Component) {
-  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__["default"])(NewsGridScroll, _React$Component);
-
-  function NewsGridScroll() {
-    var _getPrototypeOf2;
-
-    var _this;
-
-    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__["default"])(this, NewsGridScroll);
-
-    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-
-    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__["default"])(this, (_getPrototypeOf2 = Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__["default"])(NewsGridScroll)).call.apply(_getPrototypeOf2, [this].concat(args)));
-
-    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this), "state", {});
-
-    return _this;
-  }
-
-  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__["default"])(NewsGridScroll, [{
-    key: "render",
-    value: function render() {
-      var _this2 = this;
-
-      return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "pn-ProductNav_Wrapper",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 21
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("nav", {
-        id: "pnProductNav",
-        className: "pn-ProductNav",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 22
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        id: "pnProductNavContents",
-        className: "pn-ProductNav_Contents",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 23
-        },
-        __self: this
-      }, this.props.news.map(function (post, i) {
-        return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_news_js__WEBPACK_IMPORTED_MODULE_11__["default"], Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, _this2.props, {
-          key: i,
-          i: i,
-          news: post,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 24
-          },
-          __self: this
-        }));
-      }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("span", {
-        id: "pnIndicator",
-        className: "pn-ProductNav_Indicator",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 25
-        },
-        __self: this
-      }))), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("button", {
-        id: "pnAdvancerLeft",
-        className: "pn-Advancer pn-Advancer_Left",
-        type: "button",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 28
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("img", {
-        className: "leftArrow",
-        src: "https://i.imgur.com/BZ7AKsn.png",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 29
-        },
-        __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("button", {
-        id: "pnAdvancerRight",
-        className: "pn-Advancer pn-Advancer_Right",
-        type: "button",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 31
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("img", {
-        className: "rightArrow",
-        src: "https://i.imgur.com/2K5BYIz.png",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 32
-        },
-        __self: this
-      })));
-    }
-  }]);
-
-  return NewsGridScroll;
-}(react__WEBPACK_IMPORTED_MODULE_8___default.a.Component);
-
-/* harmony default export */ __webpack_exports__["default"] = (NewsGridScroll);
-
-/***/ }),
-
-/***/ "./components/news-grid.js":
-/*!*********************************!*\
-  !*** ./components/news-grid.js ***!
-  \*********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/extends */ "./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-/* harmony import */ var _news_js__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./news.js */ "./components/news.js");
-/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../css/normalize.css */ "./css/normalize.css");
-/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_css_normalize_css__WEBPACK_IMPORTED_MODULE_12__);
-/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../css/skeleton.css */ "./css/skeleton.css");
-/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_css_skeleton_css__WEBPACK_IMPORTED_MODULE_13__);
-
-
-
-
-
-
-
-
-var _jsxFileName = "/Users/peterhahn/src/new/audio-boy-mock/components/news-grid.js";
-
-
-
-
-
-
-
-var NewsGrid =
-/*#__PURE__*/
-function (_React$Component) {
-  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__["default"])(NewsGrid, _React$Component);
-
-  function NewsGrid() {
-    var _getPrototypeOf2;
-
-    var _this;
-
-    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__["default"])(this, NewsGrid);
-
-    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-
-    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__["default"])(this, (_getPrototypeOf2 = Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__["default"])(NewsGrid)).call.apply(_getPrototypeOf2, [this].concat(args)));
-
-    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this), "state", {});
-
-    return _this;
-  }
-
-  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__["default"])(NewsGrid, [{
-    key: "render",
-    value: function render() {
-      var _this2 = this;
-
-      return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "gridWrapperNews",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 19
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "news-grid",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 20
-        },
-        __self: this
-      }, this.props.news.map(function (post, i) {
-        return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_news_js__WEBPACK_IMPORTED_MODULE_11__["default"], Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, _this2.props, {
-          key: i,
-          i: i,
-          news: post,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 21
-          },
-          __self: this
-        }));
-      })));
-    }
-  }]);
-
-  return NewsGrid;
-}(react__WEBPACK_IMPORTED_MODULE_8___default.a.Component);
-
-/* harmony default export */ __webpack_exports__["default"] = (NewsGrid);
-
-/***/ }),
-
-/***/ "./components/news.js":
-/*!****************************!*\
-  !*** ./components/news.js ***!
-  \****************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var react_horizontal_scrolling_menu__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-horizontal-scrolling-menu */ "./node_modules/react-horizontal-scrolling-menu/build/index.js");
-/* harmony import */ var react_horizontal_scrolling_menu__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_horizontal_scrolling_menu__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../css/normalize.css */ "./css/normalize.css");
-/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_css_normalize_css__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../css/skeleton.css */ "./css/skeleton.css");
-/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_css_skeleton_css__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var _css_style_css__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../css/style.css */ "./css/style.css");
-/* harmony import */ var _css_style_css__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_css_style_css__WEBPACK_IMPORTED_MODULE_11__);
-
-
-
-
-
-var _jsxFileName = "/Users/peterhahn/src/new/audio-boy-mock/components/news.js";
-
-
-
-
-
-
-
-
-var News =
-/*#__PURE__*/
-function (_React$Component) {
-  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(News, _React$Component);
-
-  function News() {
-    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, News);
-
-    return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(News).apply(this, arguments));
-  }
-
-  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(News, [{
-    key: "render",
-    value: function render() {
-      var _this$props$news = this.props.news,
-          news = _this$props$news.news,
-          i = _this$props$news.i;
-      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
-        className: "pn-ProductNav_Link",
-        "aria-selected": "true",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 18
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("figure", {
-        className: "grid-figureNews",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 19
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "grid-figure-wrapNews",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 20
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        alt: this.props.news.code,
-        className: "grid-news",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 21
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        className: "newsImage",
-        src: this.props.news.display_src,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 22
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "newsDate",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 23
-        },
-        __self: this
-      }, this.props.news.date), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        id: "newsHeadlineWrapper",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 24
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "newsHeadline",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 25
-        },
-        __self: this
-      }, this.props.news.headline)), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "newsContent",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 27
-        },
-        __self: this
-      }, this.props.news.content)))));
-    }
-  }]);
-
-  return News;
-}(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
-
-/* harmony default export */ __webpack_exports__["default"] = (News);
-
-/***/ }),
-
-/***/ "./components/parent.js":
-/*!******************************!*\
-  !*** ./components/parent.js ***!
-  \******************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/extends */ "./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-scroll */ "./node_modules/react-scroll/modules/index.js");
-/* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react_scroll__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-/* harmony import */ var _artists_grid_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./artists-grid.js */ "./components/artists-grid.js");
-/* harmony import */ var _news_grid_js__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./news-grid.js */ "./components/news-grid.js");
-/* harmony import */ var _about_label_js__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./about-label.js */ "./components/about-label.js");
-/* harmony import */ var _store_grid_js__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./store-grid.js */ "./components/store-grid.js");
-/* harmony import */ var _contact_js__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./contact.js */ "./components/contact.js");
-/* harmony import */ var _news_grid_scroll_js__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./news-grid-scroll.js */ "./components/news-grid-scroll.js");
-/* harmony import */ var _store_grid_scroll_js__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./store-grid-scroll.js */ "./components/store-grid-scroll.js");
-/* harmony import */ var _components_sign_up_js__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../components/sign-up.js */ "./components/sign-up.js");
-/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../css/normalize.css */ "./css/normalize.css");
-/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_18___default = /*#__PURE__*/__webpack_require__.n(_css_normalize_css__WEBPACK_IMPORTED_MODULE_18__);
-/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../css/skeleton.css */ "./css/skeleton.css");
-/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_19___default = /*#__PURE__*/__webpack_require__.n(_css_skeleton_css__WEBPACK_IMPORTED_MODULE_19__);
-/* harmony import */ var _css_mobile_css__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../css/mobile.css */ "./css/mobile.css");
-/* harmony import */ var _css_mobile_css__WEBPACK_IMPORTED_MODULE_20___default = /*#__PURE__*/__webpack_require__.n(_css_mobile_css__WEBPACK_IMPORTED_MODULE_20__);
-/* harmony import */ var _css_scroller_css__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../css/scroller.css */ "./css/scroller.css");
-/* harmony import */ var _css_scroller_css__WEBPACK_IMPORTED_MODULE_21___default = /*#__PURE__*/__webpack_require__.n(_css_scroller_css__WEBPACK_IMPORTED_MODULE_21__);
-
-
-
-
-
-
-var _jsxFileName = "/Users/peterhahn/src/new/audio-boy-mock/components/parent.js";
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-var Parent =
-/*#__PURE__*/
-function (_React$Component) {
-  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__["default"])(Parent, _React$Component);
-
-  function Parent(props) {
-    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__["default"])(this, Parent);
-
-    return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__["default"])(Parent).call(this, props));
-  }
-
-  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__["default"])(Parent, [{
-    key: "render",
-    value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 36
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "container",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 37
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "row",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 38
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "one-half column",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 39
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "bannerWrapper",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 40
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "image123",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 41
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "imgContainer",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 42
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
-        className: "frontLogo",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 43
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "mobileLogo",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 44
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        id: "bannerSideMobile",
-        className: "crt",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 45
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "example3",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 46
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h3", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 47
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
-        src: "https://i.imgur.com/SMLpXaX.png",
-        id: "auditorySignMoonScroller",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 47
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 47
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 47
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        id: "scrollerSun",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 47
-        },
-        __self: this
-      }, "I Don't Want to Go And See The Sun"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 47
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 47
-        },
-        __self: this
-      }), "IN STORES NOW", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 47
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 47
-        },
-        __self: this
-      }), "iTunes", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 47
-        },
-        __self: this
-      }), "Wherever else", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 47
-        },
-        __self: this
-      }), "Spotify", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 47
-        },
-        __self: this
-      }), "Google Play"))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        id: "bannerSunMobile",
-        hidden: true,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 50
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
-        src: "https://i.imgur.com/QEuTfm8.gif",
-        id: "spaceDropMobile",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 51
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
-        src: "https://i.imgur.com/SMLpXaX.png",
-        id: "auditorySignMoon",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 52
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
-        className: "sunMobile",
-        src: "https://i.imgur.com/U3bPNPC.png",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 53
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
-        src: "https://i.imgur.com/imjFfzu.png",
-        id: "singleSunMobile",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 54
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        id: "moonWrapper",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 55
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
-        src: "https://i.imgur.com/aFP9ONd.gif",
-        id: "moonMobile",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 56
-        },
-        __self: this
-      }))))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "tech-slideshow",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 61
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "bannerSun",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 62
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
-        src: "https://i.imgur.com/QEuTfm8.gif",
-        className: "spaceDrop",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 63
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
-        src: "https://i.imgur.com/SMLpXaX.png",
-        className: "auditorySign",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 64
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "moon",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 65
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
-        src: "https://i.imgur.com/imjFfzu.png",
-        className: "singleSun",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 66
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
-        className: "sun",
-        src: "https://i.imgur.com/U3bPNPC.png",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 67
-        },
-        __self: this
-      }))))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "titleWrapper",
-        id: "artistWrapper",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 72
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_8__["Element"], {
-        name: "artists",
-        className: "element",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 73
-        },
-        __self: this
-      }, "Artists")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 75
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_artists_grid_js__WEBPACK_IMPORTED_MODULE_10__["default"], Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, this.props, {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 76
-        },
-        __self: this
-      }))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "artistNewsSpacer",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 78
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "titleWrapper",
-        id: "newsWrapper",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 80
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_8__["Element"], {
-        id: "newsHeader",
-        name: "news",
-        className: "element",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 81
-        },
-        __self: this
-      }, "News - ", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        className: "small",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 81
-        },
-        __self: this
-      }, "Scroll Right to See More"))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "scrollWrap",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 83
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_news_grid_scroll_js__WEBPACK_IMPORTED_MODULE_15__["default"], Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, this.props, {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 84
-        },
-        __self: this
-      }))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "newsLabelSpacer",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 86
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "titleWrapper",
-        id: "aboutWrapper",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 88
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_8__["Element"], {
-        id: "labelHeader",
-        name: "label",
-        className: "element",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 89
-        },
-        __self: this
-      }, "The Label")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 91
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_about_label_js__WEBPACK_IMPORTED_MODULE_12__["default"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 92
-        },
-        __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "labelStoreSpacer",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 94
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "titleWrapper",
-        id: "storeWrapper",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 96
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_8__["Element"], {
-        id: "storeHeader",
-        name: "store",
-        className: "element",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 97
-        },
-        __self: this
-      }, "Store")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 99
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_store_grid_js__WEBPACK_IMPORTED_MODULE_13__["default"], Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, this.props, {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 100
-        },
-        __self: this
-      }))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "storeContactSpacer",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 102
-        },
-        __self: this
-      })))));
-    }
-  }]);
-
-  return Parent;
-}(react__WEBPACK_IMPORTED_MODULE_6___default.a.Component);
-
-/* harmony default export */ __webpack_exports__["default"] = (Parent);
-
-/***/ }),
-
-/***/ "./components/shopping-cart.js":
-/*!*************************************!*\
-  !*** ./components/shopping-cart.js ***!
-  \*************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/parse-int */ "./node_modules/@babel/runtime-corejs2/core-js/parse-int.js");
-/* harmony import */ var _babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _babel_runtime_corejs2_core_js_parse_float__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/parse-float */ "./node_modules/@babel/runtime-corejs2/core-js/parse-float.js");
-/* harmony import */ var _babel_runtime_corejs2_core_js_parse_float__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_parse_float__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/extends */ "./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_11__);
-/* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! react-scroll */ "./node_modules/react-scroll/modules/index.js");
-/* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(react_scroll__WEBPACK_IMPORTED_MODULE_12__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-/* harmony import */ var _cart_js__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./cart.js */ "./components/cart.js");
-/* harmony import */ var _store_grid_js__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./store-grid.js */ "./components/store-grid.js");
-/* harmony import */ var _navbar3_js__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./navbar3.js */ "./components/navbar3.js");
-/* harmony import */ var _data_store_js__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../data/store.js */ "./data/store.js");
-/* harmony import */ var _css_artist_css__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../css/artist.css */ "./css/artist.css");
-/* harmony import */ var _css_artist_css__WEBPACK_IMPORTED_MODULE_18___default = /*#__PURE__*/__webpack_require__.n(_css_artist_css__WEBPACK_IMPORTED_MODULE_18__);
-/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../css/normalize.css */ "./css/normalize.css");
-/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_19___default = /*#__PURE__*/__webpack_require__.n(_css_normalize_css__WEBPACK_IMPORTED_MODULE_19__);
-/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../css/skeleton.css */ "./css/skeleton.css");
-/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_20___default = /*#__PURE__*/__webpack_require__.n(_css_skeleton_css__WEBPACK_IMPORTED_MODULE_20__);
-/* harmony import */ var _css_shoppingCart_css__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../css/shoppingCart.css */ "./css/shoppingCart.css");
-/* harmony import */ var _css_shoppingCart_css__WEBPACK_IMPORTED_MODULE_21___default = /*#__PURE__*/__webpack_require__.n(_css_shoppingCart_css__WEBPACK_IMPORTED_MODULE_21__);
-
-
-
-
-
-
-
-
-
-
-var _jsxFileName = "/Users/peterhahn/src/new/audio-boy-mock/components/shopping-cart.js";
-
-
-
-
-
-
-
-
-
-
-
-
-var up;
-
-var ShoppingCart =
-/*#__PURE__*/
-function (_React$Component) {
-  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_8__["default"])(ShoppingCart, _React$Component);
-
-  function ShoppingCart() {
-    var _this;
-
-    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_3__["default"])(this, ShoppingCart);
-
-    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_5__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_6__["default"])(ShoppingCart).call(this));
-
-    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_9__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_7__["default"])(_this), "state", {});
-
-    if (typeof localStorage === "undefined" || localStorage.getItem('state') === null) {
-      console.log('undefined');
-      _this.state = {
-        data: '',
-        total: '0.00',
-        shipping: '0.00',
-        tax: '0.00',
-        totalAmount: '0.00'
-      };
-    } else if (localStorage.getItem('state') === 'nothing') {
-      console.log('undefined');
-      _this.state = {
-        data: '',
-        total: '0.00',
-        shipping: '0.00',
-        tax: '0.00',
-        totalAmount: '0.00'
-      };
-    } else if (localStorage.getItem('state') !== null && localStorage.getItem('state') !== 'nothing') {
-      console.log('pFloyd');
-      var data = localStorage.getItem('state');
-      var parsedData = JSON.parse(data); // console.log('steph');
-      // console.log(parsedData);
-
-      _this.state = {
-        data: parsedData,
-        total: '',
-        shipping: 9.99,
-        tax: '',
-        totalAmount: ''
-      };
-    } else {
-      console.log('control');
-      _this.state = {
-        data: '',
-        total: '',
-        shipping: 9.99,
-        tax: '',
-        totalAmount: ''
-      };
-    }
-
-    return _this;
-  }
-
-  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_4__["default"])(ShoppingCart, [{
-    key: "render",
-    value: function render() {
-      var _this2 = this;
-
-      // console.log(this.state);
-      if (this.state.data === '') {
-        return react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
-          className: "shoppingCartArea",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 80
-          },
-          __self: this
-        }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(_navbar3_js__WEBPACK_IMPORTED_MODULE_16__["default"], {
-          name: "Shopping Cart",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 81
-          },
-          __self: this
-        }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_12__["Link"], {
-          href: "/shopping-cart",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 82
-          },
-          __self: this
-        }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
-          className: "goToCartFromCart",
-          onClick: this.clear,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 82
-          },
-          __self: this
-        }, "Delete All Items")), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("ul", {
-          className: "ah",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 83
-          },
-          __self: this
-        }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(_cart_js__WEBPACK_IMPORTED_MODULE_14__["default"], {
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 84
-          },
-          __self: this
-        })), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
-          className: "finalBox",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 86
-          },
-          __self: this
-        }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
-          className: "finalBoxHeading",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 87
-          },
-          __self: this
-        }, "SUMMARY"), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("ul", {
-          className: "allTheNumber",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 88
-          },
-          __self: this
-        }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("li", {
-          className: "finalBoxPromo",
-          id: "boxPromo",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 89
-          },
-          __self: this
-        }, "Do you have a promo code?", react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("img", {
-          id: "promoArrow",
-          onClick: this.showPromo,
-          src: "https://i.imgur.com/vp4niLu.png",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 89
-          },
-          __self: this
-        }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("img", {
-          className: "questionMarkSub",
-          id: "popQuestion",
-          onClick: this.showPopup,
-          src: "https://i.imgur.com/y6GROgd.png",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 89
-          },
-          __self: this
-        }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
-          id: "popup",
-          hidden: true,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 89
-          },
-          __self: this
-        }, "If you are having trouble, please check the Terms & Conditions of the promotion, which are usually found by clicking \"See Details\" where the promotion was found online or in the footer of the email or mail."), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
-          id: "promoField",
-          hidden: true,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 89
-          },
-          __self: this
-        }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("input", {
-          id: "promoForm",
-          type: "text",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 89
-          },
-          __self: this
-        }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("button", {
-          className: "promoButton",
-          type: "submit",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 89
-          },
-          __self: this
-        }, "APPLY"))), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("li", {
-          className: "finalBoxSubtotal",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 90
-          },
-          __self: this
-        }, "Subtotal", react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("img", {
-          className: "questionMarkSub",
-          id: "popQuestion1",
-          onClick: this.showPopup1,
-          src: "https://i.imgur.com/y6GROgd.png",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 90
-          },
-          __self: this
-        }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
-          id: "popup1",
-          hidden: true,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 90
-          },
-          __self: this
-        }, "The subtotal reflects the total price of your order before any applicable discounts. It does not include shipping costs and taxes."), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
-          className: "priceTotal",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 90
-          },
-          __self: this
-        }, this.state.total), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("span", {
-          className: "finalBoxDollarSign",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 90
-          },
-          __self: this
-        }, "$")), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("li", {
-          className: "finalBoxShipping",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 91
-          },
-          __self: this
-        }, "Estimated Shipping & Handling", react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
-          className: "priceTotal",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 91
-          },
-          __self: this
-        }, this.state.shipping), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("span", {
-          className: "finalBoxDollarSign",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 91
-          },
-          __self: this
-        }, "$")), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("li", {
-          className: "finalBoxTax",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 92
-          },
-          __self: this
-        }, "Estimated Tax", react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("img", {
-          className: "questionMarkSub",
-          src: "https://i.imgur.com/y6GROgd.png",
-          id: "popQuestion2",
-          onClick: this.showPopup2,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 92
-          },
-          __self: this
-        }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
-          id: "popup2",
-          hidden: true,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 92
-          },
-          __self: this
-        }, "The actual tax will be calculated based on the applicable state and local sales taxes when your order is shipped."), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
-          className: "priceTotal",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 92
-          },
-          __self: this
-        }, this.state.tax), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("span", {
-          className: "finalBoxDollarSign",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 92
-          },
-          __self: this
-        }, "$")), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("li", {
-          className: "finalBoxTotal",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 93
-          },
-          __self: this
-        }, "Total", react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
-          className: "priceTotal",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 93
-          },
-          __self: this
-        }, this.state.totalAmount), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("span", {
-          className: "finalBoxDollarSign",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 93
-          },
-          __self: this
-        }, "$"))), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("button", {
-          className: "checkoutButton",
-          type: "submit",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 95
-          },
-          __self: this
-        }, "SECURE CHECKOUT")), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
-          className: "titleWrapper",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 97
-          },
-          __self: this
-        }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_12__["Element"], {
-          id: "labelHeader",
-          name: "label",
-          className: "element",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 98
-          },
-          __self: this
-        }, "You Might Also Like")), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(_store_grid_js__WEBPACK_IMPORTED_MODULE_15__["default"], {
-          store: _data_store_js__WEBPACK_IMPORTED_MODULE_17__["default"],
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 100
-          },
-          __self: this
-        }));
-      } else if (this.state.data.length == undefined) {
-        console.log('loca');
-        return react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
-          className: "shoppingCartArea",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 108
-          },
-          __self: this
-        }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(_navbar3_js__WEBPACK_IMPORTED_MODULE_16__["default"], {
-          name: "Shopping Cart",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 109
-          },
-          __self: this
-        }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_12__["Link"], {
-          href: "/shopping-cart",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 110
-          },
-          __self: this
-        }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
-          className: "goToCartFromCart",
-          onClick: this.clear,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 110
-          },
-          __self: this
-        }, "Delete All Items")), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("ul", {
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 111
-          },
-          __self: this
-        }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(_cart_js__WEBPACK_IMPORTED_MODULE_14__["default"], {
-          key: "1",
-          i: "1",
-          data: this.state.data,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 112
-          },
-          __self: this
-        })), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
-          className: "finalBox",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 114
-          },
-          __self: this
-        }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
-          className: "finalBoxHeading",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 115
-          },
-          __self: this
-        }, "SUMMARY"), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("ul", {
-          className: "allTheNumber",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 116
-          },
-          __self: this
-        }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("li", {
-          className: "finalBoxPromo",
-          id: "boxPromo",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 117
-          },
-          __self: this
-        }, "Do you have a promo code?", react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("img", {
-          id: "promoArrow",
-          onClick: this.showPromo,
-          src: "https://i.imgur.com/vp4niLu.png",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 117
-          },
-          __self: this
-        }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("img", {
-          className: "questionMarkSub",
-          id: "popQuestion",
-          onClick: this.showPopup,
-          src: "https://i.imgur.com/y6GROgd.png",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 117
-          },
-          __self: this
-        }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
-          id: "popup",
-          hidden: true,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 117
-          },
-          __self: this
-        }, "If you are having trouble, please check the Terms & Conditions of the promotion, which are usually found by clicking \"See Details\" where the promotion was found online or in the footer of the email or mail."), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
-          id: "promoField",
-          hidden: true,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 117
-          },
-          __self: this
-        }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("input", {
-          id: "promoForm",
-          type: "text",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 117
-          },
-          __self: this
-        }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("button", {
-          className: "promoButton",
-          type: "submit",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 117
-          },
-          __self: this
-        }, "APPLY"))), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("li", {
-          className: "finalBoxSubtotal",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 118
-          },
-          __self: this
-        }, "Subtotal", react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("img", {
-          className: "questionMarkSub",
-          id: "popQuestion1",
-          onClick: this.showPopup1,
-          src: "https://i.imgur.com/y6GROgd.png",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 118
-          },
-          __self: this
-        }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
-          id: "popup1",
-          hidden: true,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 118
-          },
-          __self: this
-        }, "The subtotal reflects the total price of your order before any applicable discounts. It does not include shipping costs and taxes."), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
-          className: "priceTotal",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 118
-          },
-          __self: this
-        }, this.state.total), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("span", {
-          className: "finalBoxDollarSign",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 118
-          },
-          __self: this
-        }, "$")), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("li", {
-          className: "finalBoxShipping",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 119
-          },
-          __self: this
-        }, "Estimated Shipping & Handling", react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
-          className: "priceTotal",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 119
-          },
-          __self: this
-        }, this.state.shipping), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("span", {
-          className: "finalBoxDollarSign",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 119
-          },
-          __self: this
-        }, "$")), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("li", {
-          className: "finalBoxTax",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 120
-          },
-          __self: this
-        }, "Estimated Tax", react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("img", {
-          className: "questionMarkSub",
-          src: "https://i.imgur.com/y6GROgd.png",
-          id: "popQuestion2",
-          onClick: this.showPopup2,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 120
-          },
-          __self: this
-        }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
-          id: "popup2",
-          hidden: true,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 120
-          },
-          __self: this
-        }, "The actual tax will be calculated based on the applicable state and local sales taxes when your order is shipped."), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
-          className: "priceTotal",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 120
-          },
-          __self: this
-        }, this.state.tax), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("span", {
-          className: "finalBoxDollarSign",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 120
-          },
-          __self: this
-        }, "$")), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("li", {
-          className: "finalBoxTotal",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 121
-          },
-          __self: this
-        }, "Total", react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
-          className: "priceTotal",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 121
-          },
-          __self: this
-        }, this.state.totalAmount), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("span", {
-          className: "finalBoxDollarSign",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 121
-          },
-          __self: this
-        }, "$"))), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("button", {
-          className: "checkoutButton",
-          type: "submit",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 123
-          },
-          __self: this
-        }, "SECURE CHECKOUT")), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
-          className: "titleWrapper",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 125
-          },
-          __self: this
-        }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_12__["Element"], {
-          id: "labelHeader",
-          name: "label",
-          className: "element",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 126
-          },
-          __self: this
-        }, "You Might Also Like")), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(_store_grid_js__WEBPACK_IMPORTED_MODULE_15__["default"], {
-          store: _data_store_js__WEBPACK_IMPORTED_MODULE_17__["default"],
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 128
-          },
-          __self: this
-        }));
-      } else {
-        return react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
-          className: "shoppingCartArea",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 134
-          },
-          __self: this
-        }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(_navbar3_js__WEBPACK_IMPORTED_MODULE_16__["default"], {
-          name: "Shopping Cart",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 135
-          },
-          __self: this
-        }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_12__["Link"], {
-          href: "/shopping-cart",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 136
-          },
-          __self: this
-        }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
-          className: "goToCartFromCart",
-          onClick: this.clear,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 136
-          },
-          __self: this
-        }, "Delete All Items")), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("ul", {
-          className: "shopCart",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 137
-          },
-          __self: this
-        }, this.state.data.map(function (data, i) {
-          return react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(_cart_js__WEBPACK_IMPORTED_MODULE_14__["default"], Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_2__["default"])({}, _this2.parsedData, {
-            key: i,
-            i: i,
-            data: data,
-            __source: {
-              fileName: _jsxFileName,
-              lineNumber: 138
-            },
-            __self: this
-          }));
-        })), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
-          className: "finalBox",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 140
-          },
-          __self: this
-        }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
-          className: "finalBoxHeading",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 141
-          },
-          __self: this
-        }, "SUMMARY"), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("ul", {
-          className: "allTheNumber",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 142
-          },
-          __self: this
-        }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("li", {
-          className: "finalBoxPromo",
-          id: "boxPromo",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 143
-          },
-          __self: this
-        }, "Do you have a promo code?", react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("img", {
-          id: "promoArrow",
-          onClick: this.showPromo,
-          src: "https://i.imgur.com/vp4niLu.png",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 143
-          },
-          __self: this
-        }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("img", {
-          className: "questionMarkSub",
-          id: "popQuestion",
-          onClick: this.showPopup,
-          src: "https://i.imgur.com/y6GROgd.png",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 143
-          },
-          __self: this
-        }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
-          id: "popup",
-          hidden: true,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 143
-          },
-          __self: this
-        }, "If you are having trouble, please check the Terms & Conditions of the promotion, which are usually found by clicking \"See Details\" where the promotion was found online or in the footer of the email or mail."), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
-          id: "promoField",
-          hidden: true,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 143
-          },
-          __self: this
-        }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("input", {
-          id: "promoForm",
-          type: "text",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 143
-          },
-          __self: this
-        }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("button", {
-          className: "promoButton",
-          type: "submit",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 143
-          },
-          __self: this
-        }, "APPLY"))), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("li", {
-          className: "finalBoxSubtotal",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 144
-          },
-          __self: this
-        }, "Subtotal", react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("img", {
-          className: "questionMarkSub",
-          id: "popQuestion1",
-          onClick: this.showPopup1,
-          src: "https://i.imgur.com/y6GROgd.png",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 144
-          },
-          __self: this
-        }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
-          id: "popup1",
-          hidden: true,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 144
-          },
-          __self: this
-        }, "The subtotal reflects the total price of your order before any applicable discounts. It does not include shipping costs and taxes."), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
-          className: "priceTotal",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 144
-          },
-          __self: this
-        }, this.state.total), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("span", {
-          className: "finalBoxDollarSign",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 144
-          },
-          __self: this
-        }, "$")), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("li", {
-          className: "finalBoxShipping",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 145
-          },
-          __self: this
-        }, "Estimated Shipping & Handling", react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
-          className: "priceTotal",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 145
-          },
-          __self: this
-        }, this.state.shipping), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("span", {
-          className: "finalBoxDollarSign",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 145
-          },
-          __self: this
-        }, "$")), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("li", {
-          className: "finalBoxTax",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 146
-          },
-          __self: this
-        }, "Estimated Tax", react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("img", {
-          className: "questionMarkSub",
-          src: "https://i.imgur.com/y6GROgd.png",
-          id: "popQuestion2",
-          onClick: this.showPopup2,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 146
-          },
-          __self: this
-        }), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
-          id: "popup2",
-          hidden: true,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 146
-          },
-          __self: this
-        }, "The actual tax will be calculated based on the applicable state and local sales taxes when your order is shipped."), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
-          className: "priceTotal",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 146
-          },
-          __self: this
-        }, this.state.tax), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("span", {
-          className: "finalBoxDollarSign",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 146
-          },
-          __self: this
-        }, "$")), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("li", {
-          className: "finalBoxTotal",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 147
-          },
-          __self: this
-        }, "Total", react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("p", {
-          className: "priceTotal",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 147
-          },
-          __self: this
-        }, this.state.totalAmount), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("span", {
-          className: "finalBoxDollarSign",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 147
-          },
-          __self: this
-        }, "$"))), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("button", {
-          className: "checkoutButton",
-          type: "submit",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 149
-          },
-          __self: this
-        }, "SECURE CHECKOUT")), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
-          className: "titleWrapper",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 151
-          },
-          __self: this
-        }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_12__["Element"], {
-          id: "labelHeader",
-          name: "label",
-          className: "element",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 152
-          },
-          __self: this
-        }, "You Might Also Like")), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(_store_grid_js__WEBPACK_IMPORTED_MODULE_15__["default"], {
-          store: _data_store_js__WEBPACK_IMPORTED_MODULE_17__["default"],
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 154
-          },
-          __self: this
-        }));
-      }
-    }
-  }, {
-    key: "clear",
-    value: function clear() {
-      // console.log('famicon');
-      localStorage.clear();
-      location.reload();
-      localStorage.setItem('state', 'nothing');
-    }
-  }, {
-    key: "componentDidMount",
-    value: function componentDidMount() {
-      document.body.addEventListener('click', this.twoClicks);
-      document.getElementById("popup1").style.display = "none";
-      document.getElementById("popup2").style.display = "none";
-
-      if (localStorage.getItem('state') !== null && localStorage.getItem('state') !== 'nothing') {
-        console.log('hit');
-        var items = document.querySelectorAll(".cartList");
-        var total = 0;
-        var totalQuantity = 0;
-        var baseShipping = this.state.shipping;
-
-        for (var i = 0; i < items.length; i++) {
-          var prices = _babel_runtime_corejs2_core_js_parse_float__WEBPACK_IMPORTED_MODULE_1___default()(items[i].children[5].innerHTML);
-
-          total = total + prices;
-        }
-
-        ;
-
-        for (var i = 0; i < items.length; i++) {
-          var quantity = _babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_0___default()(items[i].children[3].children[0].value);
-
-          totalQuantity = totalQuantity + quantity;
-        }
-
-        ;
-        var shipping = totalQuantity / 3 * 4.49 + baseShipping;
-        var tax = total * .0725;
-        var totalAmount = total + shipping + tax;
-        console.log('lion');
-        this.setState({
-          total: total.toFixed(2),
-          shipping: shipping.toFixed(2),
-          tax: tax.toFixed(2),
-          totalAmount: totalAmount.toFixed(2)
-        });
-      }
-    }
-  }, {
-    key: "showPopup",
-    value: function showPopup() {
-      // console.log('pop1');
-      var x = document.getElementById("popup");
-      var y = document.getElementById("popup1");
-      var z = document.getElementById("popup2");
-
-      if (x.style.display === "none") {
-        x.style.display = "block";
-        y.style.display = "none";
-        z.style.display = "none";
-      } else {
-        x.style.display = "none";
-      }
-    }
-  }, {
-    key: "showPopup1",
-    value: function showPopup1() {
-      // console.log('pop1');
-      var x = document.getElementById("popup");
-      var y = document.getElementById("popup1");
-      var z = document.getElementById("popup2");
-
-      if (y.style.display === "none") {
-        y.style.display = "block";
-        x.style.display = "none";
-        z.style.display = "none";
-      } else {
-        y.style.display = "none";
-      }
-    }
-  }, {
-    key: "showPopup2",
-    value: function showPopup2() {
-      // console.log('pop2');
-      var x = document.getElementById("popup");
-      var y = document.getElementById("popup1");
-      var z = document.getElementById("popup2");
-
-      if (z.style.display === "none") {
-        z.style.display = "block";
-        x.style.display = "none";
-        y.style.display = "none";
-      } else {
-        z.style.display = "none";
-      }
-    }
-  }, {
-    key: "showPromo",
-    value: function showPromo() {
-      var box = document.getElementById('boxPromo');
-      var icon = document.getElementById('promoArrow');
-      var promo = document.getElementById('promoField');
-
-      if (up === true) {
-        console.log(promo);
-        promo.className = 'promoUp';
-        icon.className = 'fa-arrow-down';
-        up = false; // promo.style.display = "none";
-      } else {
-        console.log(promo);
-        promo.className = 'promoDown';
-        icon.className = 'fa-arrow-up';
-        promo.style.display = "block";
-        up = true;
-      }
-    } // twoClicks(){
-    // 	// console.log('twos');
-    // 	var x = document.getElementById("popup1");
-    // 	var y = document.getElementById("popup2");
-    // 	// console.log(y.style.display);
-    // if (x.style.display === "block") {
-    // 	x.style.display = "none";
-    // } 
-    // else{
-    // 	x.style.display = "none";
-    // }
-    // if(y.style.display === "block") {
-    // 	y.style.display = "none";
-    // } 
-    // else{
-    // 	y.style.display = "none";
-    // }
-    // }
-
-  }]);
-
-  return ShoppingCart;
-}(react__WEBPACK_IMPORTED_MODULE_10___default.a.Component);
-
-/* harmony default export */ __webpack_exports__["default"] = (ShoppingCart);
 
 /***/ }),
 
@@ -6867,266 +3153,9 @@ function (_React$Component) {
 
 /***/ }),
 
-/***/ "./components/store-grid-scroll.js":
-/*!*****************************************!*\
-  !*** ./components/store-grid-scroll.js ***!
-  \*****************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/extends */ "./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-/* harmony import */ var _store_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./store.js */ "./components/store.js");
-/* harmony import */ var _scrollStore_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../scrollStore.js */ "./scrollStore.js");
-/* harmony import */ var _scrollStore_js__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_scrollStore_js__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../css/normalize.css */ "./css/normalize.css");
-/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_css_normalize_css__WEBPACK_IMPORTED_MODULE_11__);
-/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../css/skeleton.css */ "./css/skeleton.css");
-/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_css_skeleton_css__WEBPACK_IMPORTED_MODULE_12__);
-/* harmony import */ var _css_styleStore_css__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../css/styleStore.css */ "./css/styleStore.css");
-/* harmony import */ var _css_styleStore_css__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_css_styleStore_css__WEBPACK_IMPORTED_MODULE_13__);
-
-
-
-
-
-
-var _jsxFileName = "/Users/peterhahn/src/new/audio-boy-mock/components/store-grid-scroll.js";
-
-
-
-
-
-
-
-
-
-var StoreGridScroll =
-/*#__PURE__*/
-function (_React$Component) {
-  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__["default"])(StoreGridScroll, _React$Component);
-
-  function StoreGridScroll() {
-    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__["default"])(this, StoreGridScroll);
-
-    return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__["default"])(StoreGridScroll).apply(this, arguments));
-  }
-
-  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__["default"])(StoreGridScroll, [{
-    key: "render",
-    value: function render() {
-      var _this = this;
-
-      return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "pn-ProductNav_WrapperStore",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 19
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("nav", {
-        id: "pnProductNavStore",
-        className: "pn-ProductNavStore",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 20
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        id: "pnProductNavContentsStore",
-        className: "pn-ProductNav_ContentsStore",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 21
-        },
-        __self: this
-      }, this.props.store.map(function (post, i) {
-        return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_store_js__WEBPACK_IMPORTED_MODULE_9__["default"], Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, _this.props, {
-          key: i,
-          i: i,
-          store: post,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 22
-          },
-          __self: this
-        }));
-      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        id: "pnIndicatorStore",
-        className: "pn-ProductNav_IndicatorStore",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 23
-        },
-        __self: this
-      }))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("button", {
-        id: "pnAdvancerLeftStore",
-        className: "pn-AdvancerStore pn-Advancer_LeftStore",
-        type: "button",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 26
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
-        className: "leftArrowStore",
-        src: "https://i.imgur.com/BZ7AKsn.png",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 27
-        },
-        __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("button", {
-        id: "pnAdvancerRightStore",
-        className: "pn-AdvancerStore pn-Advancer_RightStore",
-        type: "button",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 29
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
-        className: "rightArrowStore",
-        src: "https://i.imgur.com/lgw31BS.png",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 30
-        },
-        __self: this
-      })));
-    }
-  }]);
-
-  return StoreGridScroll;
-}(react__WEBPACK_IMPORTED_MODULE_6___default.a.Component);
-
-/* harmony default export */ __webpack_exports__["default"] = (StoreGridScroll);
-
-/***/ }),
-
-/***/ "./components/store-grid.js":
-/*!**********************************!*\
-  !*** ./components/store-grid.js ***!
-  \**********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/extends */ "./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-/* harmony import */ var _store_js__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./store.js */ "./components/store.js");
-/* harmony import */ var _shopping_cart_js__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./shopping-cart.js */ "./components/shopping-cart.js");
-/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../css/normalize.css */ "./css/normalize.css");
-/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_css_normalize_css__WEBPACK_IMPORTED_MODULE_13__);
-/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../css/skeleton.css */ "./css/skeleton.css");
-/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_css_skeleton_css__WEBPACK_IMPORTED_MODULE_14__);
-
-
-
-
-
-
-
-
-var _jsxFileName = "/Users/peterhahn/src/new/audio-boy-mock/components/store-grid.js";
-
-
-
-
-
-
-
-
-var StoreGrid =
-/*#__PURE__*/
-function (_React$Component) {
-  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__["default"])(StoreGrid, _React$Component);
-
-  function StoreGrid() {
-    var _getPrototypeOf2;
-
-    var _this;
-
-    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__["default"])(this, StoreGrid);
-
-    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-
-    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__["default"])(this, (_getPrototypeOf2 = Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__["default"])(StoreGrid)).call.apply(_getPrototypeOf2, [this].concat(args)));
-
-    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this), "state", {});
-
-    return _this;
-  }
-
-  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__["default"])(StoreGrid, [{
-    key: "render",
-    value: function render() {
-      var _this2 = this;
-
-      return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "storeWrapper",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 20
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        className: "storeBox",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 21
-        },
-        __self: this
-      }, this.props.store.map(function (post, i) {
-        return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_store_js__WEBPACK_IMPORTED_MODULE_11__["default"], Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, _this2.props, {
-          key: i,
-          i: i,
-          store: post,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 22
-          },
-          __self: this
-        }));
-      })));
-    }
-  }]);
-
-  return StoreGrid;
-}(react__WEBPACK_IMPORTED_MODULE_8___default.a.Component);
-
-/* harmony default export */ __webpack_exports__["default"] = (StoreGrid);
-
-/***/ }),
-
-/***/ "./components/store.js":
+/***/ "./components/terms.js":
 /*!*****************************!*\
-  !*** ./components/store.js ***!
+  !*** ./components/terms.js ***!
   \*****************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -7142,308 +3171,1109 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../css/normalize.css */ "./css/normalize.css");
-/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_css_normalize_css__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../css/skeleton.css */ "./css/skeleton.css");
-/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_css_skeleton_css__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var _css_styleStore_css__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../css/styleStore.css */ "./css/styleStore.css");
-/* harmony import */ var _css_styleStore_css__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_css_styleStore_css__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../css/normalize.css */ "./css/normalize.css");
+/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_css_normalize_css__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../css/skeleton.css */ "./css/skeleton.css");
+/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_css_skeleton_css__WEBPACK_IMPORTED_MODULE_9__);
 
 
 
 
 
-var _jsxFileName = "/Users/peterhahn/src/new/audio-boy-mock/components/store.js";
-
-
+var _jsxFileName = "/Users/peterhahn/src/new/audio-boy-mock/components/terms.js";
 
 
 
 
 
 
-var Store =
+var Terms =
 /*#__PURE__*/
 function (_React$Component) {
-  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(Store, _React$Component);
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(Terms, _React$Component);
 
-  function Store() {
-    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Store);
+  function Terms() {
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Terms);
 
-    return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Store).apply(this, arguments));
+    return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Terms).apply(this, arguments));
   }
 
-  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Store, [{
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Terms, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("figure", {
-        className: "grid-figureStore",
+      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 16
+          lineNumber: 13
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "grid-figure-wrapStore",
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+        className: "policy",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14
+        },
+        __self: this
+      }, "LAST UPDATED:  May 24, 2019", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 15
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 15
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
+        className: "centerWords",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 17
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
-        href: "/store?code=".concat(this.props.store.code),
+      }, "Terms of Use"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 18
+          lineNumber: 17
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        alt: this.props.store.code,
-        className: "grid-store",
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17
+        },
+        __self: this
+      }), "Please read this Terms of Use agreement carefully.  Your use of the Site (as defined below) constitutes your agreement to this Terms of Use agreement.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 19
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "itemPhotoContainer",
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 20
+          lineNumber: 19
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        src: this.props.store.display_src,
-        alt: this.props.store.name,
-        className: "itemPhoto",
+      }), "This site (together with any successor site(s) and all Services (as defined below), the \u201CSite\u201D) is operated by Audio-Boy (\u201Cwe,\u201D \u201Cus\u201D).  We provide Site users with access to content and services related to us and our artists, including music, images, forums, games, text, data and other content (such content and services, collectively, the \u201CServices\u201D).  Your use of the Site is governed by these Terms of Use (this \u201CAgreement\u201D), regardless of how you access the Site (including through the Internet, through Wireless Access Protocol (commonly referred to as \u201CWAP\u201D), through a mobile network, or otherwise). This Agreement is between you and us.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 21
         },
         __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
-        className: "itemName",
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21
+        },
+        __self: this
+      }), "PLEASE NOTE:  The Site may include or be used in connection with certain Third Party Applications (as defined in Section 16 below).  Your access to or use of such Third Party Applications may be governed by additional terms and conditions that are not set forth in this Agreement and that are made available by the particular providers of such Third Party Applications.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 23
         },
         __self: this
-      }, this.props.store.name), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
-        className: "itemColor",
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 24
+          lineNumber: 23
         },
         __self: this
-      }, this.props.store.color), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
-        className: "itemQuick",
+      }), "1.         Acceptance of Terms.  By using the Site, you agree to the terms of this Agreement and to any additional rules and guidelines that we post on the Site.  We may make changes to this Agreement from time to time; we may notify you of such changes by any reasonable means, including by posting the revised version of this Agreement on the Site.  You can determine when we last changed this Agreement by referring to the \u201CLAST UPDATED\u201D legend above.  Your use of the Site following changes to this Agreement will constitute your acceptance of those changes; provided, however, any material change to this Agreement shall not apply retroactively to any claim or dispute between you and us in connection with this Agreement that arose prior to the \u201CLAST UPDATED\u201D date applicable to that version of this Agreement in which we included such material change.  We may, at any time, modify or discontinue all or part of the Site; charge, modify or waive fees required to use the Site; or offer opportunities to some or all Site users.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 25
         },
         __self: this
-      }, this.props.store.quick), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
-        className: "itemPrice",
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 26
+          lineNumber: 25
         },
         __self: this
-      }, "$", this.props.store.price)))));
+      }), "2.         Jurisdiction.  The Site is controlled and/or operated from the United States, and is not intended to subject us to non-U.S. jurisdiction or laws, except as otherwise expressly stated in this Agreement.  The Site may not be appropriate or available for use in some jurisdictions outside of the United States.  If you access the Site, you do so at your own risk, and you are responsible for complying with all local laws, rules and regulations.  We may limit the Site\u2019s availability, in whole or in part, to any person, geographic area or jurisdiction we choose, at any time and in our sole discretion.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 27
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 27
+        },
+        __self: this
+      }), "3.         Information You Submit.  Your submission of information through the Site is governed by our Privacy Policy, which is located at www.audio-boy.com/privacy-policy  (the \u201CPrivacy Policy\u201D).  Further, to the extent that you submit any personally identifiable information to any third party (for example, a Provider (as defined in Section 6(b) below)) in connection with the Site (for example, via a Third Party Application, as defined in Section 16 below), such third party\u2019s collection, use and disclosure of such information may be governed by its own privacy policy, and not by our Privacy Policy.  In any event, we are not responsible for the information collection, usage and disclosure practices of third parties.  You agree that all information you provide to us is true, accurate and complete, and you will maintain and update such information regularly.  If you choose to make any of your personally identifiable or other information publicly available on the Site, you do so at your own risk.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 29
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 29
+        },
+        __self: this
+      }), "4.         Rules of Conduct.  In using the Site, you agree to obey the law, respect the rights of others and avoid objectionable, defamatory or disruptive behavior.  In addition, you will comply with the following \u201CRules of Conduct\u201D as updated from time to time by us.  You will not:", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 31
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 31
+        },
+        __self: this
+      }), "\xB7          Post, transmit, or otherwise make available, through or in connection with the Site:", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 33
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 33
+        },
+        __self: this
+      }), "o        Anything that is or may be (a) threatening, harassing, degrading, hateful or intimidating; (b) defamatory; (c) fraudulent or tortious; (d) obscene, indecent, pornographic or otherwise objectionable; or (e) protected by copyright, trademark, trade secret, right of publicity or other proprietary right without the express prior consent of the owner of such right.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 35
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 35
+        },
+        __self: this
+      }), "o        Any material that would give rise to criminal or civil liability; that encourages conduct that constitutes a criminal offense; that promotes gambling; or that encourages or provides instructional information about illegal activities or activities such as \u201Chacking,\u201D \u201Ccracking\u201D or \u201Cphreaking.\u201D", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 37
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 37
+        },
+        __self: this
+      }), "o        Any virus, worm, Trojan horse, Easter egg, time bomb, spyware or other computer code, file, or program that is harmful or invasive or may or is intended to damage or hijack the operation of, or to monitor the use of, any hardware, software or equipment.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 39
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 39
+        },
+        __self: this
+      }), "o        Any unsolicited or unauthorized advertising, promotional materials, \"junk mail,\" \"spam,\" \"chain letter,\" \"pyramid scheme\" or investment opportunity, or any other form of solicitation.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 41
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 41
+        },
+        __self: this
+      }), "o        Any material non-public information about a company without the proper authorization to do so.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 43
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 43
+        },
+        __self: this
+      }), "\xB7          Use the Site for any fraudulent or unlawful purpose.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 45
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 45
+        },
+        __self: this
+      }), "\xB7          Use the Site to defame, abuse, harass, stalk, threaten or otherwise violate the legal rights of others, including without limitation others\u2019 privacy rights or rights of publicity, or harvest or collect personally identifiable information about other users of the Site.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 47
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 47
+        },
+        __self: this
+      }), "\xB7          Impersonate any person or entity, including any of our (or our affiliates\u2019) representatives; falsely state or otherwise misrepresent your affiliation with any person or entity; or express or imply that we endorse any statement or posting you make.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 49
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 49
+        },
+        __self: this
+      }), "\xB7          Interfere with or disrupt the operation of the Site or the servers or networks used to make the Site available; or violate any requirements, procedures, policies or regulations of such networks.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 51
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 51
+        },
+        __self: this
+      }), "\xB7          Restrict or inhibit any other person from using the Site (including by hacking or defacing any portion of the Site).", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 53
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 53
+        },
+        __self: this
+      }), "\xB7          Use the Site to advertise or offer to sell or buy any goods or services without our express prior written consent.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 55
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 55
+        },
+        __self: this
+      }), "\xB7          Reproduce, duplicate, copy, sell, resell or otherwise exploit for any commercial purposes, any portion of, use of, or access to the Site.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 57
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 57
+        },
+        __self: this
+      }), "\xB7          Except as expressly permitted by applicable law, modify, adapt, translate, reverse engineer, decompile or disassemble any portion of the Site.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 59
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 59
+        },
+        __self: this
+      }), "\xB7          Remove any copyright, trademark or other proprietary rights notice from the Site or materials originating from the Site.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 61
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 61
+        },
+        __self: this
+      }), "\xB7          Frame or mirror any part of the Site without our express prior written consent.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 63
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 63
+        },
+        __self: this
+      }), "\xB7          Create a database by systematically downloading and storing all or any Site content.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 65
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 65
+        },
+        __self: this
+      }), "\xB7          Use any robot, spider, site search/retrieval application or other manual or automatic device to retrieve, index, \"scrape,\" \"data mine\" or in any way reproduce or circumvent the navigational structure or presentation of the Site, without our express prior, written consent.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 67
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 67
+        },
+        __self: this
+      }), "We may terminate your use of the Site for any conduct that we consider to be inappropriate, or for your breach of this Agreement, including the Rules of Conduct (including, without limitation, if you repeatedly engage in copyright infringement via or in connection with the Site).", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 69
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 69
+        },
+        __self: this
+      }), "5.         Registration.  You may need to register to use any part(s) of the Site.  We may reject, or require that you change, any user name, password or other information that you provide to us in registering.  Your user name and password are for your personal use only and should be kept confidential; you are responsible for any use of your user name and password, and you agree to promptly notify us of any confidentiality breach or unauthorized use of your user name and password, or your Site account.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 71
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 71
+        },
+        __self: this
+      }), "6.         Submissions.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 73
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 73
+        },
+        __self: this
+      }), "a.         Generally.  The Site may contain areas where you can post information and materials, including, without limitation, text, images, photographs, graphics, music, videos, audiovisual works, data, files, links and other materials (each, a \u201CSubmission\u201D).  For purposes of clarity, you retain ownership of any Submissions that you post, subject to the terms and conditions of this Agreement (including the license grant in Section 6(b) below).", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 75
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 75
+        },
+        __self: this
+      }), "b.         License Grant.  For each Submission that you post, you hereby grant to us a world-wide, royalty free, fully paid-up, non-exclusive, perpetual, irrevocable, transferable, and fully sublicensable (through multiple tiers) license, without additional consideration to you or any third party, to:  (i) reproduce, distribute, transmit, communicate to the public, perform and display (publicly or otherwise), edit, modify, adapt, create derivative works from and otherwise use such Submission, in any format or media now known or hereafter developed, on or in connection with the Site or any of our (or our Affiliates\u2019) similar services or products (e.g., any web sites, and any desktop, mobile or other applications, widgets or APIs) (such services or products, collectively, the \u201CSite-Related Services\u201D); (ii) exercise all trademark, publicity and other proprietary rights with regard to such Submission; (iii) use your name, photograph, portrait, picture, voice, likeness and biographical information as provided by you in connection with your Submission for any promotional purposes related to the Site or the Site-Related Services, in each case, in connection with your Submission; and (iv) use your Submission (including the contents thereof) for any promotional or other business purposes related to the Site, the Site-Related Services, and Artists.  For the purpose of clarification, nothing in this Agreement shall be deemed to authorize you to incorporate into any Submission any content or material owned by us, our Affiliates or our respective artists (\u201CArtists\u201D), directors, officers, employees, agents and representatives (\u201CRepresentatives\u201D) and licensors and service providers (collectively, \u201CProviders\u201D).  IF YOU DO NOT WISH TO GRANT THE RIGHTS GRANTED IN THIS SECTION 6, PLEASE DO NOT POST ANY SUBMISSIONS ON THE SITE.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 77
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 77
+        },
+        __self: this
+      }), "c.         Disclaimers.  It is possible that Site visitors will post information or materials on the Site that are wrong or misleading or that otherwise violate this Agreement.  We, our Affiliates and our respective Artists, Representatives and Providers do not endorse and are not responsible for any information or materials made available through the Site or your use of such information or materials.  All Submissions will be deemed to be non-confidential and may be used by us (i) without any confidentiality or other non-disclosure obligations and (ii) without attribution to you or any third party.  We reserve the right, in our sole discretion and at any time, to set limits on the number and size of any Submissions that may be posted on the Site or the amount of storage space available for Submissions.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 79
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 79
+        },
+        __self: this
+      }), "d.         Acknowledgement.  You hereby acknowledge and agree that (i) you have received good and valuable consideration in exchange for the rights granted by you hereunder in and to any Submission that you post, including, without limitation, the ability to participate in activities on the Site and the possibility that publicity or favorable exposure may arise from our or our Affiliates\u2019 use of such Submission or any derivative works incorporating or embodying such Submission; and (ii) you are not entitled to any further compensation for any use or other exploitation of such Submission by us or our Affiliates or any other party (including, without limitation, our or our Affiliates\u2019 Artists, Representatives and Providers) pursuant to the rights in such Submission that have been granted hereunder and/or that are available under applicable law.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 81
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 81
+        },
+        __self: this
+      }), "e.         Representations and Warranties.  You hereby represent and warrant that: (i) you have the legal right and authority to enter into this Agreement; (ii) you solely own, or otherwise have the full right and permission to exploit, all of the rights in, to, and under any Submission that you post and to grant the rights and licenses set forth herein, and with respect to any third party materials that appear in or are otherwise incorporated or embodied in any Submission that you post, you have obtained express, written clearances from all owners of and rights holders in such third party materials as necessary to grant the rights and licenses set forth herein; (iii) you have obtained the written consent, release, and/or permission of every identifiable individual who appears in any Submission that you post, to use such individual\u2019s name and likeness for purposes of using and otherwise exploiting such Submission(s) in the manner contemplated by the Agreement, or, if any such identifiable individual is under the age of eighteen (18), you have obtained such written consent, release and/or permission from such individual\u2019s parent or guardian (and you agree to provide to us a copy of any such consents, releases and/or permissions upon our request); (iv) any Submission that you post, and the use thereof by us, our Affiliates, and our and their respective designees (including, without limitation, our and their respective Artists, Representatives and Providers), do not and shall not infringe upon or violate any patent, copyright, trademark, trade secret, or other intellectual property rights or other rights of any third party; (v) any Submission that you post is not confidential and does not contain any confidential information; and (vi) in creating, preparing and posting any Submission, you (A) have complied and will comply in all respects with all applicable laws, rules (including, without limitation, our Rules of Conduct), and regulations and (B) have not violated and will not violate any understanding by which you are explicitly or implicitly bound (including without limitation any agreement with any third party).  If you do post a Submission that contains the likeness of an identifiable individual, we strongly encourage you not to include any identifying information (such as the individual\u2019s name or address) within such Submission.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 83
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 83
+        },
+        __self: this
+      }), "f.          Waiver; Further Assurances; Indemnity.  To the extent permitted under applicable law, you agree to forever release, discharge and waive all claims against us, our Affiliates and our and their respective Artists, Representatives and Providers from, and covenant not to initiate, file, maintain, or proceed upon any suit, claim, demand, or cause of action against us, our Affiliates and our and their respective Artists, Representatives and Providers with respect to, any and all claims, demands, actions, losses, costs, damages, liabilities, judgments, settlements and expenses (including, without limitation, reasonable attorneys\u2019 fees) that relate in any way to this Agreement and/or the use of any Submission in a manner consistent with the rights granted under this Agreement, including, without limitation, any claim for idea misappropriation.  Additionally, to the extent permitted under applicable law, you hereby waive any and all rights that you may have under laws worldwide that concern \u201Cmoral rights\u201D or \u201Cdroit moral,\u201D or similar rights, in connection with any Submission that you post (and you hereby represent and warrant that you have obtained clear, express written waivers from any applicable third parties with respect to any and all rights that such third parties may have under such laws in connection with any Submission that you post).  At any time upon our request, you shall:  (i) take or cause to be taken all such actions as we may reasonably deem necessary or desirable in order for us and our Affiliates to obtain the full benefits of this Agreement and any licenses granted by you hereunder, and (ii) execute a non-electronic hard copy of this Agreement.  Without limiting any other provision herein, you agree to indemnify us, our Affiliates, and our and their respective Artists, Representatives and Providers as further set forth herein, including in Section 20 below.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 85
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 85
+        },
+        __self: this
+      }), "g.         No Obligation to Use.  For the purpose of clarification, it shall be in our sole discretion whether or not to exercise any right granted to us under this Agreement, and we shall have no obligation to use or otherwise exploit any Submission.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 87
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 87
+        },
+        __self: this
+      }), "7.         Unsolicited Submissions.  Notwithstanding anything to the contrary in this Agreement, we and our Affiliates do not accept, invite or consider unsolicited submissions of ideas, proposals or suggestions (\u201CUnsolicited Submissions\u201D), whether related to the Site, our Products or otherwise.  We do not treat Unsolicited Submissions as confidential, and any Unsolicited Submission will become our or our Affiliates\u2019 sole property.  We and our Affiliates have no obligations with respect to Unsolicited Submissions and may use them for any purpose whatsoever without compensation to you or any other person.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 89
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 89
+        },
+        __self: this
+      }), "8.         Monitoring.  We may, but have no obligation to:  (a) monitor, evaluate or alter Submissions before or after they appear on the Site; (b) seek to verify that all rights, consents, releases and permissions in or relating to such Submission have been obtained by you in accordance with your representations above; (c) refuse, reject or remove any Submission at any time or for any reason (including, without limitation, if we determine, in our sole discretion, that all rights, consents, releases and permissions have not been obtained by you despite your representations above).  You agree to cooperate with us in our verification or inquiries related to the foregoing.  We may disclose any Submissions and the circumstances surrounding their transmission to anyone for any reason or purpose, and in accordance with our Privacy Policy.  If you become aware of any unlawful, offensive or objectionable material(s) on the Site (except for material that infringes copyright, which is addressed in Section 26 below), contact us at privacypolicy@wmg.com with your name and address, a description of the material(s) at issue and the URL or location of such materials.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 91
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 91
+        },
+        __self: this
+      }), "9.         Products.  All rights in any products available through the Site, such as music, ring tones, ring back tones, SMS tones, images (e.g., screen savers), video, artwork, text, software and other copyrightable materials (collectively, the \u201CProducts\u201D) are owned by us, our Affiliates and/or our (or their) licensors.  If a separate agreement provided by us or an Affiliate governs a particular Transaction (as defined in Section 10 below) or Product, or your use of a particular Product, and the terms of such separate agreement conflict with the terms of this Agreement, the terms of such separate agreement will govern such transaction or use.  Subject to your compliance with the terms and conditions of this Agreement and any other applicable terms and conditions imposed by us, our Affiliates and/or our licensors, you have a limited right to use those Products that you purchase or access through the Site solely for your personal, noncommercial use in accordance with the terms and conditions of this Agreement and any other terms and conditions that may apply to such Products, which right you cannot sublicense to others.  Any burning or exporting capabilities, if any, of any Product shall not constitute a grant or waiver of any of our rights or those of any copyright or other rights owners in such Product, any other Product or any content, sound recording, underlying musical composition, artwork or other copyrightable matter embodied in or associated with such Product or any other Product.  You understand that the Site and the Products may include and/or rely on a security framework using technology that protects digital information and imposes usage rules established by us, our Affiliates and our (or their) licensors, and you hereby agree to abide by such usage rules, including those set forth below.  Unless we expressly provide otherwise, all Transactions, all Products and your use of such Products are subject to this Agreement.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 93
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 93
+        },
+        __self: this
+      }), "10.        Purchases.  If you wish to purchase any Products made available through the Site (each such purchase, a \u201CTransaction\u201D), you may be asked to supply certain information in connection with such Transaction, including without limitation your credit card number or other payment account number (for example, your wireless account number), your billing address, and your shipping information.  BY INITIATING A TRANSACTION, YOU REPRESENT AND WARRANT THAT YOU (A) ARE EIGHTEEN (18) YEARS OF AGE OR OLDER AND (B) HAVE THE LEGAL RIGHT TO USE THE PAYMENT MEANS SELECTED BY YOU.  By submitting such information, you grant us the right to use such information in accordance with our Privacy Policy, including, without limitation, by providing such information to third parties for purposes of facilitating the completion of Transactions initiated by you or on your behalf.  Verification of information may be required prior to the acknowledgment or completion of any Transaction.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 95
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 95
+        },
+        __self: this
+      }), "Descriptions and images of, and references to, Products on the Site do not imply our endorsement of such Products.  Except to the extent prohibited by applicable law, we reserve the right, with or without prior notice, to change such descriptions, images, and references; to limit the available quantity of any Product; to honor, or impose conditions on the honoring of, any coupon, coupon code, promotional code or other similar promotions; to bar any user from making any or all Transaction(s); and/or to refuse to provide any user with any Product.  Price and availability of any Product offered through the Site are subject to change without notice.  In the event that a Product is listed at an incorrect price or with other incorrect information, we have the right to refuse or cancel any Transaction for such Product.  You shall pay all charges that may be incurred by you or on your behalf through the Site, at the price(s) in effect when such charges are incurred, including without limitation all shipping and handling charges, and any applicable network, data or other charges in respect of mobile downloads.  In addition, you remain responsible for any taxes (including, if applicable, VAT and/or any import duties) that may be applicable to your Transaction(s).", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 97
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 97
+        },
+        __self: this
+      }), "Except to the extent applicable law provides otherwise, all sales through the Site are final, and all charges from those sales are nonrefundable, except as otherwise expressly set forth in this Agreement.  We or our third party designees may automatically process charges against your selected payment method on the receipt page or when we provide you with a \"Download Now\" link.  We or our third party designees will inform you if all or any portion of your order is canceled or if additional or different information is required to accept your order.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 99
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 99
+        },
+        __self: this
+      }), "11.        Product Delivery.  Except to the extent prohibited by applicable law, we reserve the right to change Product delivery options without notice.  On occasion, technical and other problems may delay or prevent delivery of a particular Product.  Except to the extent that applicable law provides otherwise, your sole and exclusive remedy with respect to any Product that is not delivered within a reasonable period will be either replacement of such Product or a refund of the purchase price paid for such Product, as determined by us in our sole discretion. ", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 101
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 101
+        },
+        __self: this
+      }), "12.        Usage Restrictions for Products.  All Products you purchase, obtain or access on or through the Site are solely for your personal, non-commercial use.  Except as otherwise expressly provided herein, you may not reproduce, publish, transmit, distribute, display, broadcast, re-broadcast, modify, create derivative works from, sell or participate in any sale of or exploit in any way, in whole or in part, directly or indirectly, any of the Products or any related software.  Except as permitted under applicable law, you may not reverse engineer, decompile, disassemble, modify or disable any Products or any copyright protection or use limitation systems associated with the Products.  You may not play and then re-digitize any Products, or upload any Products or derivatives thereof to the Internet.  Unless expressly permitted by us (e.g., a \u201CCreate Your Own Video\u201D contest offered on the Site), you may not use the Products in conjunction with any other content, including without limitation, in conjunction with any other Products (e.g., to provide sound for video).  You may not transfer, sell or offer to sell the Products, including, without limitation, posting any Product for auction on any Internet auction site or \u201Ctrading\u201D the Products for money, goods or services.  You are not granted any commercial sale, resale, reproduction, distribution or promotional use rights in connection with Products.  Additionally, the following usage restrictions apply based on the type of Product you are purchasing or obtaining through the Site:", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 103
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 103
+        },
+        __self: this
+      }), "PRODUCT TYPE", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 105
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 105
+        },
+        __self: this
+      }), "TERMS OF USAGE", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 107
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 107
+        },
+        __self: this
+      }), "Full Permanent Non-MP3 Digital Audio Downloads", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 109
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 109
+        },
+        __self: this
+      }), "Personal Computers:  You may not activate any audio track purchased or obtained via the Site on more than three (3) traditional personal computers.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 111
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 111
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 111
+        },
+        __self: this
+      }), "CD Burning:  You may not make more than seven (7) burns of a particular playlist (such as an album) to a CD.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 115
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 115
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 115
+        },
+        __self: this
+      }), "Portable Devices:  You may not transfer audio tracks purchased or obtained via the Site from personal computers to more than three (3) traditional portable devices (or to any cellular telephone or other device capable of cellular or WAP communication).", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 119
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 119
+        },
+        __self: this
+      }), "Full Permanent Digital Video Downloads", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 121
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 121
+        },
+        __self: this
+      }), "Personal Computers:  You may not activate each video purchased or obtained via the Site on more than three (3) traditional personal computers.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 123
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 123
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 123
+        },
+        __self: this
+      }), "No DVD Burning:  You may not burn to DVD any digital copy of a purchased video.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 127
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 127
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 127
+        },
+        __self: this
+      }), "Portable Devices:  You may not transfer videos purchased or obtained via the Site from personal computers to more than three (3) traditional portable devices (or to any cellular telephone or other device capable of cellular or WAP communication).", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 131
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 131
+        },
+        __self: this
+      }), "Digital Video Rentals", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 133
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 133
+        },
+        __self: this
+      }), "Limited-time downloads or limited-access streaming to a personal computer or portable device, including mobile devices, is permitted for a period of 24 hours or such other limited time period as specified in the particular offering pursuant to which the rental occurs.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 135
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 135
+        },
+        __self: this
+      }), "Other", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 137
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 137
+        },
+        __self: this
+      }), "Any other types of digital products sold or offered on or in connection with this Site are subject to the terms set forth in the specific offering pursuant to which the sale or other type of offering occurs. In the event of a conflict between these Terms of Usage and the terms and conditions set forth in such specific offering, the terms of the specific offering shall govern.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 139
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 139
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 139
+        },
+        __self: this
+      }), "13.        Product Requirements; Compatibility.  You acknowledge that use of our Products requires other hardware and software tools (e.g., in the case of full permanent audio downloads, for making copies of Products on physical media and rendering performance of Products on authorized digital player devices), and that such hardware and software, including, without limitation, all charges therefor, are your sole responsibility.  To the extent permissible under applicable law, we, our Affiliates and our (and their) Artists and Representatives or Providers shall not be responsible or liable for the loss or damage of any Product.  Except to the extent prohibited by applicable law, we reserve the right to change at any time, with or without prior notice to you, the software or hardware required to download, transfer, copy and/or use or limit the use of any Products.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 143
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 143
+        },
+        __self: this
+      }), "14.        Rules for Promotions.  Any sweepstakes, contests, raffles or other promotions (collectively, \u201CPromotions\u201D) made available through the Site may be governed by rules that are separate from this Agreement.  If you participate in any Promotions, please review the applicable rules as well as our Privacy Policy.  If the rules for a Promotion conflict with this Agreement, the Promotion rules will apply.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 145
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 145
+        },
+        __self: this
+      }), "15.        Our Proprietary Rights.  We, our Affiliates and our respective licensors and suppliers own the information and materials made available through the Site.  Such information and materials are protected by copyright, trademark, patent and/or other proprietary rights and laws.  Except as expressly authorized in advance by us, you agree not to reproduce, modify, rent, lease, loan, sell, distribute or create derivative works based on, all or any part of the Site or any information or materials made available through the Site.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 147
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 147
+        },
+        __self: this
+      }), "We, our Affiliates and/or our respective licensors or suppliers own the trade names, trademarks and service marks on the Site, including without limitation  Audio-Boy and any associated logos.  All trademarks and service marks on the Site not owned by us or our Affiliates are the property of their respective owners.  You may not use our trade names, trademarks and service marks in connection with any product or service that is not ours, or in any manner that is likely to cause confusion.  Nothing contained on the Site should be construed as granting any license or right to use any trade names, trademarks or service marks without express prior written consent of the owner.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 149
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 149
+        },
+        __self: this
+      }), "PLEASE NOTE THAT UNAUTHORIZED USE OF ANY SERVICE OR PRODUCT, INCLUDING, WITHOUT LIMITATION, ANY SOFTWARE USED BY THE SERVICES, MAY SUBJECT YOU TO CIVIL AND CRIMINAL PENALTIES, (INCLUDING, WITHOUT LIMITATION, POSSIBLE MONETARY DAMAGES), INCLUDING, WITHOUT LIMITATION, FOR COPYRIGHT INFRINGEMENT.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 151
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 151
+        },
+        __self: this
+      }), "16.        Third Party Applications.  The Site may include third party software applications and services (or links thereto) that are made available by our Providers (\u201CThird Party Applications\u201D).  Because we do not control Third Party Applications, you agree that neither we nor our Affiliates, nor our respective Artists and Representatives, are responsible or liable for any Third Party Applications, including the performance, accuracy, integrity, quality, legality, usefulness, or safety of, or intellectual property rights relating to, Third Party Applications or their use.  We have no obligation to monitor Third Party Applications, and we may remove or restrict access to any Third Party Applications (in whole or part) from the Site at any time.  The availability of Third Party Applications on the Site does not imply our endorsement of, or our affiliation with any Provider of, such Third Party Applications.  Further, your use of Third Party Applications may be governed by additional terms and conditions that are not set forth in this Agreement or our Privacy Policy (for example, terms and conditions that are made available by Providers themselves in connection with Third Party Applications).  This Agreement does not create any legal relationship between you and Providers with respect to Third Party Applications, and nothing in this Agreement shall be deemed to be a representation or warranty by us, or any of our Affiliates, or our respective Artists, Representatives or Providers, with respect to any Third Party Application.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 153
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 153
+        },
+        __self: this
+      }), "17.        Third Party Content.  The Site may incorporate certain functionality that allows, via the system or network of which the Site is a component, the routing and transmission of, and online access to, certain digital communications and content made available by third parties (\u201CThird Party Content\u201D).  By using such Site functionality, you acknowledge and agree that you are directing us to access and transmit to you Third Party Content associated with such functionality.  Because we do not control Third Party Content, you agree that we are neither responsible nor liable for any Third Party Content, including the accuracy, integrity, quality, legality, usefulness, or safety of, or intellectual property rights relating to, Third Party Content.  We have no obligation to monitor Third Party Content, and we may block or disable access to any Third Party Content (in whole or part) via the Site at any time.  Your access to or receipt of Third Party Content via the Site does not imply our endorsement of, or our affiliation with any provider of, such Third Party Content.  Further, your use of Third Party Content may be governed by additional terms and conditions that are not set forth in this Agreement or our Privacy Policy (for example, terms and conditions that are made available by the providers of such Third Party Content).  This Agreement does not create any legal relationship between you and the providers of such Third Party Content with respect to such Third Party Content, and nothing in this Agreement shall be deemed to be a representation or warranty by us, or any of our Affiliates, or our respective Artists, Representatives or Providers, with respect to any Third Party Content.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 155
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 155
+        },
+        __self: this
+      }), "18.        Links and Feeds.  The Site may provide links to or feeds from other web sites and online resources.  We and our Affiliates are not responsible for and do not endorse such external sites or resources.  Other sites may link to the Site with or without our authorization, and we may block any links to or from the Site.  YOUR ACCESS TO AND USE OF THIRD PARTY WEB SITES, CONTENT AND RESOURCES IS AT YOUR OWN RISK.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 157
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 157
+        },
+        __self: this
+      }), "19.        Limitations of Liability and Disclaimers.  THE SITE AND ALL GOODS, SERVICES, PRODUCTS, THIRD PARTY APPLICATIONS, THIRD PARTY CONTENT, INFORMATION AND MATERIALS MADE AVAILABLE THROUGH THE SITE ARE PROVIDED TO YOU \"AS IS\u201D WITHOUT ANY EXPRESS REPRESENTATIONS OR WARRANTIES OF ANY KIND, AND WE, OUR AFFILIATES AND OUR RESPECTIVE ARTISTS, REPRESENTATIVES AND PROVIDERS DISCLAIM ALL STATUTORY OR IMPLIED REPRESENTATIONS, WARRANTIES, TERMS AND CONDITIONS WITH RESPECT TO THE SITE AND ALL GOODS, SERVICES, PRODUCTS, THIRD PARTY APPLICATIONS, THIRD PARTY CONTENT, INFORMATION AND MATERIALS MADE AVAILABLE THROUGH THE SITE, INCLUDING THE REPRESENTATIONS AND WARRANTIES OF SATISFACTORY QUALITY, MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NONINFRINGEMENT AND TITLE.  (CERTAIN PROVIDERS MAY SEPARATELY PROVIDE LIMITED REPRESENTATIONS AND/OR WARRANTIES REGARDING THEIR THIRD PARTY APPLICATIONS; PLEASE CHECK WITH SUCH PROVIDERS FOR FURTHER INFORMATION.)  WE MAKE NO REPRESENTATION OR WARRANTY THAT THE SITE (OR ANY PART THEREOF), OR ANY GOODS, SERVICES, PRODUCTS, THIRD PARTY APPLICATIONS, THIRD PARTY CONTENT, INFORMATION OR MATERIALS MADE AVAILABLE THROUGH THE SITE IS OR WILL BE ACCURATE, COMPLETE, ERROR-FREE, OR COMPATIBLE WITH ANY PARTICULAR SOFTWARE OR HARDWARE. FURTHER, WE MAKE NO REPRESENTATION OR WARRANTY THAT ANY SOFTWARE, HARDWARE, EQUIPMENT OR OTHER DEVICE OR SYSTEM USING THE SITE OR ANY GOODS, SERVICES, PRODUCTS, THIRD PARTY APPLICATIONS, THIRD PARTY CONTENT, INFORMATION OR MATERIALS MADE AVAILABLE THROUGH THE SITE WILL FUNCTION IN ANY MANNER.  YOU HEREBY AGREE THAT IT IS YOUR SOLE RESPONSIBILITY TO (A) OBTAIN AND PAY FOR ANY SOFTWARE, HARDWARE OR SERVICES (INCLUDING INTERNET CONNECTIVITY) NEEDED TO USE THE SITE AND (B) ENSURE THAT ANY SOFTWARE, HARDWARE, EQUIPMENT, DEVICES, SYSTEMS OR SERVICES THAT YOU USE WILL FUNCTION CORRECTLY WITH THE SITE AND ANY GOODS, SERVICES, PRODUCTS, THIRD PARTY APPLICATIONS, THIRD PARTY CONTENT, INFORMATION OR MATERIALS MADE AVAILABLE THROUGH THE SITE.  YOU AGREE THAT YOU MUST EVALUATE, AND THAT YOU BEAR ALL RISKS ASSOCIATED WITH, THE USE OF THE SITE, INCLUDING ANY RELIANCE ON THE ACCURACY, COMPLETENESS, OR USEFULNESS OF ANY THIRD PARTY APPLICATIONS, THIRD PARTY CONTENT, INFORMATION OR MATERIALS MADE AVAILABLE THROUGH THE SITE.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 159
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 159
+        },
+        __self: this
+      }), "WE, OUR AFFILIATES AND OUR RESPECTIVE ARTISTS, REPRESENTATIVES AND PROVIDERS WILL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, CONSEQUENTIAL, SPECIAL, EXEMPLARY OR PUNITIVE DAMAGES OF ANY KIND IN CONNECTION WITH THE SITE, NOR FOR ANY DAMAGES FOR LOSS OF PROFITS, LOSS OR INTERRUPTION OF BUSINESS, LOSS OF USE, LOSS OF DATA, LOSS OF OTHER INTANGIBLES, LOSS OF SECURITY OF INFORMATION YOU HAVE PROVIDED IN CONNECTION WITH YOUR USE OF THE SITE (INCLUDING, WITHOUT LIMITATION, IN CONNECTION WITH YOUR USE OR RECEIPT OF ANY THIRD PARTY APPLICATIONS OR THIRD PARTY CONTENT), OR UNAUTHORIZED INTERCEPTION OF ANY SUCH INFORMATION BY THIRD PARTIES, EVEN IF ADVISED IN ADVANCE OF SUCH DAMAGES OR LOSSES.  FURTHER, WE, OUR AFFILIATES AND OUR RESPECTIVE ARTISTS, REPRESENTATIVES AND PROVIDERS WILL NOT BE LIABLE FOR DAMAGES OF ANY KIND RESULTING FROM YOUR USE OF THE SITE OR FROM ANY THIRD PARTY APPLICATIONS, THIRD PARTY CONTENT, INFORMATION OR MATERIALS ON THE SITE.  YOUR SOLE AND EXCLUSIVE REMEDY FOR DISSATISFACTION WITH THE SITE IS TO STOP USING THE SITE.  OUR MAXIMUM LIABILITY FOR ALL DAMAGES, LOSSES AND CAUSES OF ACTION, WHETHER IN CONTRACT, TORT (INCLUDING, WITHOUT LIMITATION, NEGLIGENCE) OR OTHERWISE SHALL BE THE TOTAL AMOUNT PAID BY YOU TO US TO ACCESS AND USE THE SITE.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 161
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 161
+        },
+        __self: this
+      }), "IT IS POSSIBLE THAT APPLICABLE LAW MAY NOT ALLOW FOR LIMITATIONS ON CERTAIN IMPLIED WARRANTIES OR EXCLUSIONS OR LIMITATIONS OF CERTAIN DAMAGES; SOLELY TO THE EXTENT THAT SUCH LAW APPLIES TO YOU, SOME OR ALL OF THE ABOVE DISCLAIMERS, EXCLUSIONS OR LIMITATIONS MAY NOT APPLY TO YOU, AND YOU MAY HAVE ADDITIONAL RIGHTS.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 163
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 163
+        },
+        __self: this
+      }), "While we try to maintain the security of the Site, we do not guarantee that the Site or any Third Party Applications will be secure or that any use of the Site or any Third Party Applications will be uninterrupted.  Additionally, third parties may make unauthorized alterations to the Site or any Third Party Applications.  If you become aware of any unauthorized third party alterations to the Site, contact us at privacypolicy@wmg.com with a description of the material(s) at issue and the URL or location of such materials.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 165
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 165
+        },
+        __self: this
+      }), "20.        Indemnity.  Except to the extent prohibited under applicable law, you agree to defend, indemnify and hold harmless us, our Affiliates and our and their respective Artists, Representatives and Providers, from and against all claims, losses, costs and expenses (including attorneys fees) arising out of (a) your use of, or activities in connection with, the Site; (b) any violation of this Agreement by you; (c) any use or other exploitation, or failure or omission to use or otherwise exploit, any Submission (including any portion thereof) that you post; or (d) any claim that your Submission or any use or exploitation thereof caused damage to or infringed upon or violated the rights of a third party, including without limitation past, present or future infringement, misappropriation, libel, defamation, invasion of privacy or right of publicity or violation of rights related to the foregoing.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 167
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 167
+        },
+        __self: this
+      }), "21.        Termination.  This Agreement is effective until terminated.  We may, at any time and for any reason, terminate your access to or use of:  (a) the Site, (b) your user name and password or (c) any files or information associated with your user name and password.  If we terminate your access to the Site, you will not have the right to bring claims against us, our Affiliates or our respective Artists, Representatives and Providers with respect to such termination.  We and our Affiliates and our respective Artists, Representatives and Providers, shall not be liable for any termination of your access to the Site or to any such information or files, and shall not be required to make such information or files available to you after any such termination.  We may take steps that we believe are appropriate to enforce or verify compliance with any part of this Agreement (including our right to cooperate with any legal process relating to your use of the Site, any Products or any third party claim that your use of the Site or Products is unlawful or infringes such third party\u2019s rights).  Sections 2, 6-8, 15-23, 25-27 and 29 shall survive any expiration or termination of this Agreement.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 169
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 169
+        },
+        __self: this
+      }), "22.        Governing Law; Dispute Resolution.  You hereby agree that this Agreement (and any claim or dispute arising in connection with this Agreement or your use of the Site) is governed by and shall be construed in accordance with the laws of the State of New York, U.S.A., without regard to its principles of conflicts of law, and you consent to the exclusive jurisdiction of the federal and state courts located in New York, New York, U.S.A., and waive any jurisdictional, venue or inconvenient forum objections thereto.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 171
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 171
+        },
+        __self: this
+      }), "You further agree that the United Nations Convention on the International Sale of Goods will not apply to this Agreement.  You agree that any unauthorized use of the Site, the Products or any related software or materials, or any Third Party Applications, would result in irreparable injury to us, our Affiliates or our respective Artists, Representatives and Providers for which money damages would be inadequate, and in such event we, our Affiliates or our respective Artists, Representatives and Providers, as applicable, shall have the right, in addition to other remedies available at law and in equity, to immediate injunctive relief against you.  Nothing contained in this section or elsewhere in this Agreement shall be construed to limit remedies or relief available pursuant to statutory or other claims that we, our Affiliates or our respective Artists, Representatives and Providers may have under separate legal authority, including, without limitation, any claim for intellectual property infringement.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 173
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 173
+        },
+        __self: this
+      }), "23.        Filtering.  Pursuant to 47 U.S.C. Section 230(d) as amended, we hereby notify you that parental control protections are commercially available that may assist you in limiting access to material that is harmful to minors.  Information about how to protect your child\u2019s privacy online is available at:  http://onguardonline.gov/ .  Please note that we do not endorse any products or services listed at this site.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 175
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 175
+        },
+        __self: this
+      }), "24.        Information or Complaints.  Under California Civil Code Section 1789.3, California users are entitled to the following consumer rights notice:  If you have a question or complaint regarding the Site, please feel free to contact us via e-mail at privacypolicy@wmg.com.  E-mail communications are not necessarily secure, so please do not include credit card information or other sensitive information in any e-mail to us.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 177
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 177
+        },
+        __self: this
+      }), "25.        Forward-Looking Statements.  Statements appearing on the Site that concern us, our Affiliates or our and their management and that are not historical facts are \u201CForward-Looking Statements.\u201D  Forward-Looking Statements are only predictions, and actual future events may differ materially from those discussed in any Forward-Looking Statement.  Various external factors and risks affect our operations, markets, products, services and prices.  These factors and risks are described in our current annual report filed with the SEC and in other filings we make with the SEC.  You can access our most recent SEC filings via the SEC EDGAR system located at www.sec.gov, or you may obtain these filings directly from us at no charge.  We disclaim any obligation or responsibility to update, revise or supplement any Forward-Looking Statement or any other statements appearing on the Site.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 179
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 179
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 179
+        },
+        __self: this
+      }), "26.        Claims of Copyright Infringement.  The Digital Millennium Copyright Act of 1998 (the \u201CDMCA\u201D) provides recourse for copyright owners who believe that material appearing on the Internet infringes their rights under U.S. copyright law.  If you believe in good faith that materials available on the Site infringe your copyright, you (or your agent) may send us a notice requesting that we remove the material or disable access to it.  If you believe in good faith that someone has wrongly filed a notice of copyright infringement against you, the DMCA permits you to send us a counter-notice.  Notices and counter-notices must meet the then-current statutory requirements imposed by the DMCA.  See http://www.copyright.gov for details.  Notices and counter-notices should be sent to:", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 183
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 183
+        },
+        __self: this
+      }), "Email: legal@audio-boy.com", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 185
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 185
+        },
+        __self: this
+      }), "We suggest that you consult your legal advisor before filing a notice or counter-notice.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 187
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 187
+        },
+        __self: this
+      }), "27.        Ability to Enter Into This Agreement.  By using the Site, you affirm that you are of legal age to enter into this Agreement or, if you are not, that you have obtained parental or guardian consent to enter into this Agreement.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 189
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 189
+        },
+        __self: this
+      }), "28.        Contact Us.  If you have any questions regarding the meaning or application of this Agreement, please direct such questions to privacypolicy@wmg.com.  E-mail communications are not necessarily secure, so please do not include credit card information or other sensitive information in any e-mail to us.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 191
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 191
+        },
+        __self: this
+      }), "29.        Miscellaneous.  This Agreement does not create any partnership, joint venture, employer-employee, agency or franchisor-franchisee relationship between you and us.  If any provision of this Agreement is found to be unenforceable, that provision will not affect the validity and enforceability of any other provision.  You may not assign, transfer or sublicense any or all of your rights or obligations under this Agreement without our express prior written consent.  No waiver by either party of any breach or default hereunder will be deemed to be a waiver of any preceding or subsequent breach or default.  This Agreement hereby incorporates by this reference any additional terms that we post on the Site (including, without limitation, our Privacy Policy) and, except as otherwise expressly stated herein, this Agreement is the entire Agreement between you and us relating to the subject matter herein and supersedes any and all prior or contemporaneous written or oral agreements or understandings between you and us relating to such subject matter.  Notices to you may be made via posting to the Site, by e-mail or by regular mail, in our discretion.  We may also provide notice of changes to this Agreement or other matters by displaying such notices or by providing links to such notices.  You agree that a printed version of this Agreement and of any notice given in electronic form shall be admissible in judicial or administrative proceedings based upon or relating to this Agreement to the same extent and subject to the same conditions as other business documents and records originally generated and maintained in printed form.  We will not be responsible for failure to fulfill any obligation due to causes beyond our control.  Except as expressly set forth in the following sentence, nothing in this Agreement, express or implied, is intended to confer, nor shall anything herein confer on, any person other than the parties and the respective successors or permitted assigns of the parties, any rights, remedies, obligations or liabilities.  Notwithstanding the previous sentence, you agree that our Affiliates and our and their respective Artists, Representatives and those Providers who are content owners and service providers from whom we have obtained a license or other rights to use their content and services, as applicable, in connection with the Site) are third-party beneficiaries under this Agreement with the right to enforce the provisions of this Agreement that directly apply to such parties.  Notwithstanding the immediately preceding sentence, our right to enter into, rescind or terminate any variation, waiver or settlement under this Agreement is not subject to the consent of any third party.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 193
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 193
+        },
+        __self: this
+      }), "All materials \xA9 2019 Audio-Boy unless otherwise noted.  All rights reserved."));
     }
   }]);
 
-  return Store;
+  return Terms;
 }(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
 
-/* harmony default export */ __webpack_exports__["default"] = (Store);
-
-/***/ }),
-
-/***/ "./data/artistList.js":
-/*!****************************!*\
-  !*** ./data/artistList.js ***!
-  \****************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-var artistList = [{
-  "code": "abcd",
-  "name": "Pink Floyd",
-  "id": "1",
-  "url": "/auditory",
-  "mv": "https://www.youtube.com/embed/U9z9jWbHY08",
-  "bio": "This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real.",
-  "display_src": "https://i.imgur.com/bVfnYf8.jpg",
-  "youtube": '',
-  "twitter": '',
-  "instagram": '',
-  "facebook": ''
-}, {
-  "code": "dbcde",
-  "name": "Led Zepplin",
-  "id": "1",
-  "url": "/auditory2",
-  "mv": "https://www.youtube.com/embed/7LEmer7wwHI",
-  "bio": "This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real.",
-  "display_src": "https://i.imgur.com/rOmTCsD.jpg"
-}, {
-  "code": "dbcded",
-  "name": "Velvet Underground",
-  "id": "1",
-  "url": "/auditory2",
-  "mv": "https://www.youtube.com/embed/7LEmer7wwHI",
-  "bio": "This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real.",
-  "display_src": "https://i.imgur.com/Cl6tqkb.jpg"
-}, {
-  "code": "dbcdef",
-  "name": "Art vs Science",
-  "id": "1",
-  "url": "/auditory2",
-  "mv": "https://www.youtube.com/embed/7LEmer7wwHI",
-  "bio": "This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real.",
-  "display_src": "https://i.imgur.com/M2Qoa0j.jpg"
-}];
-/* harmony default export */ __webpack_exports__["default"] = (artistList); //  {
-//   "code": "abcde",
-//   "name": "Britney Spears",
-//   "id": "1",
-//   "display_src": `https://i.imgur.com/K0MuJet.png`
-// }
-
-/***/ }),
-
-/***/ "./data/news.js":
-/*!**********************!*\
-  !*** ./data/news.js ***!
-  \**********************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-var news = [{
-  "code": "news12345",
-  "headline": "The Electronic Auditory Rebels release debut single",
-  "id": "1",
-  "display_src": "https://i.imgur.com/8nqyC9t.jpg",
-  "date": "May-23-2019",
-  "content": "The release date will be moved to whichever date the song catches on."
-}, {
-  "code": "news12345",
-  "headline": "Chocolate Chip Cookies: Recipe",
-  "id": "1",
-  "display_src": "https://i.imgur.com/P0MSSTp.jpg",
-  "date": "May-1-2019",
-  "content": "1 cup salted butter softened. 1 cup white (granulated) sugar. 1 cup light brown sugar packed. 2 tsp pure vanilla extract. 2 large eggs. 3 cups all-purpose flour. 1 tsp baking soda.½ tsp baking powder."
-}, {
-  "code": "news12345",
-  "headline": "The New York Knicks lose all their marbles",
-  "id": "1",
-  "display_src": "https://i.imgur.com/1p1i2jR.jpg",
-  "date": "February-17-2019",
-  "content": "The New York Knicks Suck."
-}, {
-  "code": "news12345",
-  "headline": "Music biz: Another way to get rid of unwanted fat",
-  "id": "1",
-  "display_src": "https://i.imgur.com/QCepu4Y.jpg",
-  "date": "Bullshit day",
-  "content": "Really. You should try it."
-}, {
-  "code": "news12345",
-  "headline": "Happy days are days you feel like doing something",
-  "id": "1",
-  "display_src": "https://i.imgur.com/99YFl0a.jpg",
-  "date": "today",
-  "content": "Science has proven over and over again that there is no way to prove anything."
-}];
-/* harmony default export */ __webpack_exports__["default"] = (news);
-
-/***/ }),
-
-/***/ "./data/store.js":
-/*!***********************!*\
-  !*** ./data/store.js ***!
-  \***********************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-var store = [{
-  "code": "1",
-  "name": "Audio-Boy T-Shirt (Limited)",
-  "id": "1",
-  "display_src": "https://i.imgur.com/uTTiPwi.png",
-  "price": "29.99",
-  "description": "Audio-Boy delivers to you a minimalistic style soft cotton slim fit t-shirt that will keep you comfortable and styling all day long.",
-  "color": "Black/White",
-  "quick": "Men's T-Shirt",
-  "size": '',
-  "quantity": "1"
-}, {
-  "code": "2",
-  "name": "Audio-Boy Sweatshirt (Limited)",
-  "id": "1",
-  "display_src": "https://i.imgur.com/3y7G9NA.png",
-  "price": "49.99",
-  "description": "Audio-Boy delivers to you a minimalistic style soft cotton slim fit t-shirt that will keep you comfortable and styling all day long.",
-  "color": "Black/White",
-  "quick": "Men's Sweatshirt",
-  "size": "",
-  "quantity": "1"
-}, {
-  "code": "3",
-  "name": "Audio-Boy Sweatshirt (Limited)",
-  "id": "1",
-  "display_src": "https://i.imgur.com/3y7G9NA.png",
-  "price": "49.99",
-  "description": "Audio-Boy delivers to you a minimalistic style soft cotton slim fit t-shirt that will keep you comfortable and styling all day long.",
-  "color": "Black/White",
-  "quick": "Men's Sweatshirt",
-  "size": '',
-  "quantity": "1"
-}, {
-  "code": "4",
-  "name": "Audio-Boy Sweatshirt (Limited)",
-  "id": "1",
-  "display_src": "https://i.imgur.com/3y7G9NA.png",
-  "price": "49.99",
-  "description": "Audio-Boy delivers to you a minimalistic style soft cotton slim fit t-shirt that will keep you comfortable and styling all day long.",
-  "color": "Black/White",
-  "quick": "Men's Sweatshirt",
-  "size": '',
-  "quantity": "1"
-}, {
-  "code": "5",
-  "name": "Audio-Boy Sweatshirt (Limited)",
-  "id": "1",
-  "display_src": "https://i.imgur.com/3y7G9NA.png",
-  "price": "49.99",
-  "description": "Audio-Boy delivers to you a minimalistic style soft cotton slim fit t-shirt that will keep you comfortable and styling all day long.",
-  "color": "Black/White",
-  "quick": "Men's Sweatshirt",
-  "size": '',
-  "quantity": "1"
-}, {
-  "code": "6",
-  "name": "Audio-Boy Sweatshirt (Limited)",
-  "id": "1",
-  "display_src": "https://i.imgur.com/3y7G9NA.png",
-  "price": "49.99",
-  "description": "Audio-Boy delivers to you a minimalistic style soft cotton slim fit t-shirt that will keep you comfortable and styling all day long.",
-  "color": "Black/White",
-  "quick": "Men's Sweatshirt",
-  "size": '',
-  "quantity": "1"
-}];
-/* harmony default export */ __webpack_exports__["default"] = (store);
+/* harmony default export */ __webpack_exports__["default"] = (Terms);
 
 /***/ }),
 
@@ -7565,17 +4395,6 @@ module.exports = __webpack_require__(/*! core-js/library/fn/object/keys */ "./no
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(/*! core-js/library/fn/object/set-prototype-of */ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/fn/object/set-prototype-of.js");
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/core-js/parse-float.js":
-/*!********************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/core-js/parse-float.js ***!
-  \********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! core-js/library/fn/parse-float */ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/fn/parse-float.js");
 
 /***/ }),
 
@@ -7919,69 +4738,6 @@ function _createClass(Constructor, protoProps, staticProps) {
   if (protoProps) _defineProperties(Constructor.prototype, protoProps);
   if (staticProps) _defineProperties(Constructor, staticProps);
   return Constructor;
-}
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js":
-/*!***************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js ***!
-  \***************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _defineProperty; });
-/* harmony import */ var _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
-/* harmony import */ var _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0__);
-
-function _defineProperty(obj, key, value) {
-  if (key in obj) {
-    _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0___default()(obj, key, {
-      value: value,
-      enumerable: true,
-      configurable: true,
-      writable: true
-    });
-  } else {
-    obj[key] = value;
-  }
-
-  return obj;
-}
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js":
-/*!********************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js ***!
-  \********************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _extends; });
-/* harmony import */ var _core_js_object_assign__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/assign */ "./node_modules/@babel/runtime-corejs2/core-js/object/assign.js");
-/* harmony import */ var _core_js_object_assign__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_assign__WEBPACK_IMPORTED_MODULE_0__);
-
-function _extends() {
-  _extends = _core_js_object_assign__WEBPACK_IMPORTED_MODULE_0___default.a || function (target) {
-    for (var i = 1; i < arguments.length; i++) {
-      var source = arguments[i];
-
-      for (var key in source) {
-        if (Object.prototype.hasOwnProperty.call(source, key)) {
-          target[key] = source[key];
-        }
-      }
-    }
-
-    return target;
-  };
-
-  return _extends.apply(this, arguments);
 }
 
 /***/ }),
@@ -8561,19 +5317,6 @@ module.exports = __webpack_require__(/*! ../../modules/_core */ "./node_modules/
 
 __webpack_require__(/*! ../../modules/es6.object.set-prototype-of */ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/es6.object.set-prototype-of.js");
 module.exports = __webpack_require__(/*! ../../modules/_core */ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/_core.js").Object.setPrototypeOf;
-
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/fn/parse-float.js":
-/*!********************************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/fn/parse-float.js ***!
-  \********************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-__webpack_require__(/*! ../modules/es6.parse-float */ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/es6.parse-float.js");
-module.exports = __webpack_require__(/*! ../modules/_core */ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/_core.js").parseFloat;
 
 
 /***/ }),
@@ -10384,25 +7127,6 @@ module.exports = function (KEY, exec) {
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/_parse-float.js":
-/*!**************************************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/_parse-float.js ***!
-  \**************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var $parseFloat = __webpack_require__(/*! ./_global */ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/_global.js").parseFloat;
-var $trim = __webpack_require__(/*! ./_string-trim */ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/_string-trim.js").trim;
-
-module.exports = 1 / $parseFloat(__webpack_require__(/*! ./_string-ws */ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/_string-ws.js") + '-0') !== -Infinity ? function parseFloat(str) {
-  var string = $trim(String(str), 3);
-  var result = $parseFloat(string);
-  return result === 0 && string.charAt(0) == '-' ? -0 : result;
-} : $parseFloat;
-
-
-/***/ }),
-
 /***/ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/_parse-int.js":
 /*!************************************************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/_parse-int.js ***!
@@ -11374,21 +8098,6 @@ $export($export.S, 'Object', { setPrototypeOf: __webpack_require__(/*! ./_set-pr
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/es6.parse-float.js":
-/*!*****************************************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/es6.parse-float.js ***!
-  \*****************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var $export = __webpack_require__(/*! ./_export */ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/_export.js");
-var $parseFloat = __webpack_require__(/*! ./_parse-float */ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/modules/_parse-float.js");
-// 18.2.4 parseFloat(string)
-$export($export.G + $export.F * (parseFloat != $parseFloat), { parseFloat: $parseFloat });
 
 
 /***/ }),
@@ -19482,21 +16191,21 @@ exports.formatWithValidation = formatWithValidation;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fpeterhahn%2Fsrc%2Fnew%2Faudio-boy-mock%2Fpages%2Findex.js!./":
-/*!*********************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fpeterhahn%2Fsrc%2Fnew%2Faudio-boy-mock%2Fpages%2Findex.js ***!
-  \*********************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fterms-of-use&absolutePagePath=%2FUsers%2Fpeterhahn%2Fsrc%2Fnew%2Faudio-boy-mock%2Fpages%2Fterms-of-use.js!./":
+/*!****************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fterms-of-use&absolutePagePath=%2FUsers%2Fpeterhahn%2Fsrc%2Fnew%2Faudio-boy-mock%2Fpages%2Fterms-of-use.js ***!
+  \****************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/", function() {
-      var page = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/terms-of-use", function() {
+      var page = __webpack_require__(/*! ./pages/terms-of-use.js */ "./pages/terms-of-use.js")
       if(true) {
-        module.hot.accept(/*! ./pages/index.js */ "./pages/index.js", function() {
-          if(!next.router.components["/"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
-          next.router.update("/", updatedPage.default || updatedPage)
+        module.hot.accept(/*! ./pages/terms-of-use.js */ "./pages/terms-of-use.js", function() {
+          if(!next.router.components["/terms-of-use"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/terms-of-use.js */ "./pages/terms-of-use.js")
+          next.router.update("/terms-of-use", updatedPage.default || updatedPage)
         })
       }
       return { page: page.default || page }
@@ -20033,20 +16742,6 @@ exports.default = withRouter;
 
 module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/next/dist/client/link.js")
 
-
-/***/ }),
-
-/***/ "./node_modules/next/node_modules/webpack/buildin/amd-options.js":
-/*!****************************************!*\
-  !*** (webpack)/buildin/amd-options.js ***!
-  \****************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-/* WEBPACK VAR INJECTION */(function(__webpack_amd_options__) {/* globals __webpack_amd_options__ */
-module.exports = __webpack_amd_options__;
-
-/* WEBPACK VAR INJECTION */}.call(this, {}))
 
 /***/ }),
 
@@ -22159,17 +18854,6 @@ exports.encode = exports.stringify = __webpack_require__(/*! ./encode */ "./node
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(/*! dll-reference dll_4cbc3223160d403191c6 */ "dll-reference dll_4cbc3223160d403191c6"))("./node_modules/react-dom/index.js");
-
-/***/ }),
-
-/***/ "./node_modules/react-horizontal-scrolling-menu/build/index.js":
-/*!*********************************************************************!*\
-  !*** ./node_modules/react-horizontal-scrolling-menu/build/index.js ***!
-  \*********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports=function(e){var t={};function n(r){if(t[r])return t[r].exports;var i=t[r]={i:r,l:!1,exports:{}};return e[r].call(i.exports,i,i.exports,n),i.l=!0,i.exports}return n.m=e,n.c=t,n.d=function(e,t,r){n.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:r})},n.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},n.t=function(e,t){if(1&t&&(e=n(e)),8&t)return e;if(4&t&&"object"==typeof e&&e&&e.__esModule)return e;var r=Object.create(null);if(n.r(r),Object.defineProperty(r,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var i in e)n.d(r,i,function(t){return e[t]}.bind(null,i));return r},n.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return n.d(t,"a",t),t},n.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},n.p="",n(n.s=2)}([function(e,t){e.exports=__webpack_require__(/*! react */ "./node_modules/react/index.js")},function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var r={alignItems:"center",display:"flex",userSelect:"none"};t.defaultMenuStyle=r;var i={overflow:"hidden",userSelect:"none"};t.defaultWrapperStyle=i;var s={alignCenter:!0,alignOnResize:!0,arrowClass:"scroll-menu-arrow",arrowDisabledClass:"scroll-menu-arrow--disabled",arrowLeft:null,arrowRight:null,clickWhenDrag:!1,data:[],dragging:!0,hideArrows:!1,hideSingleArrow:!1,inertiaScrolling:!1,inertiaScrollingSlowdown:.25,innerWrapperClass:"menu-wrapper--inner",innerWrapperStyle:{textAlign:"left",userSelect:"none",whiteSpace:"nowrap"},itemClass:"menu-item-wrapper",itemClassActive:"active",itemStyle:{display:"inline-block"},menuClass:"horizontal-menu",menuStyle:r,onSelect:function(){return!1},onUpdate:function(){return!1},scrollBy:0,scrollToSelected:!1,selected:"",transition:.4,translate:0,useButtonRole:!0,wrapperClass:"menu-wrapper",wrapperStyle:i,wheel:!0,xPoint:0};t.defaultProps=s},function(e,t,n){"use strict";var r=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(t,"__esModule",{value:!0});var i=r(n(3));t.default=i.default},function(e,t,n){"use strict";var r=this&&this.__extends||function(){var e=function(t,n){return(e=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(e,t){e.__proto__=t}||function(e,t){for(var n in t)t.hasOwnProperty(n)&&(e[n]=t[n])})(t,n)};return function(t,n){function r(){this.constructor=t}e(t,n),t.prototype=null===n?Object.create(n):(r.prototype=n.prototype,new r)}}(),i=this&&this.__assign||function(){return(i=Object.assign||function(e){for(var t,n=1,r=arguments.length;n<r;n++)for(var i in t=arguments[n])Object.prototype.hasOwnProperty.call(t,i)&&(e[i]=t[i]);return e}).apply(this,arguments)},s=this&&this.__importStar||function(e){if(e&&e.__esModule)return e;var t={};if(null!=e)for(var n in e)Object.hasOwnProperty.call(e,n)&&(t[n]=e[n]);return t.default=e,t};Object.defineProperty(t,"__esModule",{value:!0});var a=s(n(0)),o=n(1),l=n(4),u=n(5),d=function(e){function t(t){var n=e.call(this,t)||this;return n.state={dragging:!1,firstItemVisible:!0,lastItemVisible:!1,leftArrowVisible:!1,rightArrowVisible:!0,startDragTranslate:0,translate:n.props.translate,xDraggedDistance:0,xPoint:0},n.setRef=function(e){var t=Object.entries(e)[0],r=t[0],i=t[1];i.elem&&(n.ref[r]=i)},n.setMenuInnerRef=function(e){n.menuInner=e},n.setWrapperRef=function(e){n.menuWrapper=e},n.checkFirstLastItemVisibility=function(e){var t=e.translate,r=void 0===t?n.state.translate:t,i=n.menuItems,s=!0,a=!1;if(i){var o=n.getVisibleItems({offset:r});s=o.includes(i[0]),a=o.includes(i.slice(-1)[0])}return{firstItemVisible:s,lastItemVisible:a}},n.setFirstLastItemVisibility=function(){var e=n.state,t=e.firstItemVisible,r=e.lastItemVisible,i=n.checkFirstLastItemVisibility({}),s=i.firstItemVisible,a=i.lastItemVisible;if(t!==s||r!==a){var o=!s,l=!a;n.setState({firstItemVisible:s,lastItemVisible:a,leftArrowVisible:o,rightArrowVisible:l})}},n.onLoad=function(){n.setInitial(),n.mounted=!0},n.resizeHandler=function(){if(!n.props.alignOnResize)return!1;clearTimeout(n.resizeTimer),n.resizeTimer=setTimeout(function(){return n.resize()},250)},n.resize=function(){var e=n.props.alignCenter;n.updateWidth({});var t=n.getVisibleItems({}),r=n.getOffsetToItemByIndex({index:t[0]&&t[0][1].index||0}),i=e?n.getCenterOffset({items:t}):0;n.setState({translate:-r+i})},n.setInitial=function(){var e=n.props,t=e.selected,r=e.data,s=e.translate,a=e.scrollToSelected,u=e.alignCenter,d=n.state.translate;if(!r||!r.length)return!1;n.menuItems.length&&r===n.data||(n.menuItems=n.getMenuItems(),n.data=r),n.updateWidth({});var f=i({},n.state);(!n.mounted&&s===o.defaultProps.translate||!l.translateIsValid(s)&&!l.translateIsValid(d))&&(f.translate=u?n.firstPageOffset:o.defaultProps.translate);var m=n.checkFirstLastItemVisibility({translate:s}),c=m.firstItemVisible,p=m.lastItemVisible;(f.firstItemVisible=c,f.lastItemVisible=p,f.leftArrowVisible=!c,f.rightArrowVisible=!p,a)&&(n.isScrollNeeded({itemId:t,translate:f.translate})&&(f.translate=n.getOffsetToItemByKey(t)));n.setState(i({},f))},n.isScrollNeeded=function(e){var t=e.itemId,r=e.translate,i=void 0===r?n.state.translate:r,s=n.getItemByKey(t);return!n.getVisibleItems({offset:i}).includes(s)},n.scrollTo=function(e){var t=n.state.translate,r=n.getOffsetToItemByKey(e);if(n.selected=e,t===r)return!1;n.setState({translate:r})},n.getMenuItems=function(){return Object.entries(n.ref).slice(0,n.props.data.length||0)},n.getItemsWidth=function(e){var t=e.items;return(void 0===t?n.menuItems:t).map(function(e){return e[1].elem}).filter(Boolean).reduce(function(e,t){return e+l.getClientRect(t).width},0)},n.getWidth=function(e){var t=e.items,r=window&&window.innerWidth,i=l.getClientRect(n.menuWrapper);return{wWidth:r,menuPos:i.x,menuWidth:i.width,allItemsWidth:n.getItemsWidth({items:t})}},n.updateWidth=function(e){var t=e.items,r=void 0===t?n.menuItems:t,i=n.getWidth({items:r}),s=i.wWidth,a=i.menuPos,o=i.menuWidth,l=i.allItemsWidth,u=n.getPagesOffsets({allItemsWidth:l,items:r,menuPos:a,menuWidth:o,wWidth:s}),d=u.firstPageOffset,f=u.lastPageOffset;n.menuPos=a,n.wWidth=s,n.allItemsWidth=l,n.menuWidth=o,n.firstPageOffset=d,n.lastPageOffset=f},n.getFirstPageOffset=function(e){var t=e.items,r=void 0===t?n.menuItems:t,i=e.offset,s=void 0===i?n.state.translate:i,a=e.menuWidth,o=void 0===a?n.menuWidth:a,l=n.getVisibleItems({items:r,menuWidth:o,offset:s});return n.getCenterOffset({items:l,menuWidth:o})},n.getLastPageOffset=function(e){var t=e.items,r=void 0===t?n.menuItems:t,i=e.allItemsWidth,s=void 0===i?n.allItemsWidth:i,a=e.wWidth,o=(void 0===a&&n.wWidth,e.menuPos),l=(void 0===o&&n.menuPos,e.menuWidth),u=void 0===l?n.menuWidth:l,d=n.getVisibleItems({items:r,menuWidth:u,offset:-s+u});return n.getCenterOffset({items:d,menuWidth:u})},n.getPagesOffsets=function(e){var t=e.items,r=void 0===t?n.menuItems:t,i=e.allItemsWidth,s=void 0===i?n.allItemsWidth:i,a=e.wWidth,o=void 0===a?n.wWidth:a,l=e.menuPos,u=void 0===l?n.menuPos:l,d=e.menuWidth,f=void 0===d?n.menuWidth:d,m=e.offset,c=void 0===m?n.state.translate:m;return{firstPageOffset:n.getFirstPageOffset({items:r,menuPos:u,menuWidth:f,offset:c,wWidth:o}),lastPageOffset:n.getLastPageOffset({allItemsWidth:s,items:r,menuPos:u,menuWidth:f,wWidth:o})}},n.onItemClick=function(e){var t=n.props,r=t.clickWhenDrag,i=t.onSelect;if(n.state.xDraggedDistance>5&&!r)return!1;n.selected=e,i&&i(e)},n.getVisibleItems=function(e){var t=e.items,r=void 0===t?n.menuItems:t,i=e.menuWidth,s=void 0===i?n.menuWidth:i,a=e.offset,u=void 0===a?n.state.translate:a,d=e.translate,f=void 0===d?n.state.translate||o.defaultProps.translate:d;return r.filter(function(e){var t=l.getClientRect(e[1].elem).width,i=n.getItemInd(r,e),a=n.getOffsetToItemByIndex({index:i,menuItems:r,translate:f});return n.elemVisible({elWidth:t,menuWidth:s,offset:u,x:a})})},n.elemVisible=function(e){var t=e.x,r=e.offset,i=void 0===r?0:r,s=e.elWidth,a=e.menuWidth,o=void 0===a?n.menuWidth:a,l=t+i;return l>=-1&&l+s<=o+1},n.getItemInd=function(e,t){return void 0===e&&(e=n.menuItems),e&&t?e.findIndex(function(e){return e[0]===t[0]}):0},n.getNextItemInd=function(e,t){var r=n.menuItems;if(e){if(!t.length)return 0}else if(!t.length)return r.length;var i=e?n.getItemInd(r,t[0])-1:n.getItemInd(r,t.slice(-1)[0])+1;return i<0?0:i},n.getOffsetToItemByKey=function(e){var t=n.state.translate,r=n.getItemIndexByKey(e);if(-1===r)return t;var i=n.props.alignCenter;t=n.getOffsetToItemByIndex({index:r});var s=n.getVisibleItems({offset:-t});return t=-(t-(i?n.getCenterOffset({items:s}):o.defaultProps.translate)),n.itBeforeStart(t)?t=n.getOffsetAtStart():n.itAfterEnd(t)&&(t=n.getOffsetAtEnd()),t},n.getItemByKey=function(e){return n.menuItems.find(function(t){return t[1].key===e})||["",{key:"n",elem:null,index:-1}]},n.getItemIndexByKey=function(e){return e?n.menuItems.findIndex(function(t){return t[1].key===e}):-1},n.getOffsetToItemByIndex=function(e){var t=e.index,r=e.menuItems,i=void 0===r?n.menuItems:r,s=e.translate,a=void 0===s?n.state.translate:s;if(!i.length)return 0;var o=t>=i.length?i.length-1:t;return+l.getClientRect(i[o][1].elem).x-a-n.menuPos},n.getScrollRightOffset=function(e,t){void 0===t&&(t=n.menuItems);var r=n.props.scrollBy,i=r?e[0][1].index+r:n.getNextItem((e.slice(-1)[0]&&e.slice(-1)||t.slice(-1))[0][1].key)[1].index;return-n.getOffsetToItemByIndex({index:i,menuItems:t})},n.getScrollLeftOffset=function(e,t){void 0===t&&(t=n.menuItems);var r=n.props.scrollBy,i=n.getPrevItem((e[0]&&e[0][1]||t[0][1]).key)[1].index-(r?r-1:e.length);return-n.getOffsetToItemByIndex({index:i<0?0:i,menuItems:t})},n.getNextItem=function(e){var t=n.menuItems;return t[t.findIndex(function(t){return t[1].key===e})+1]||t.slice(-1)[0]},n.getPrevItem=function(e){var t=n.menuItems;return t[t.findIndex(function(t){return t[1].key===e})-1]||t[0]},n.getOffset=function(e,t){void 0===t&&(t=n.menuItems);var r=n.getVisibleItems({items:t});return e?n.getScrollLeftOffset(r,t):n.getScrollRightOffset(r,t)},n.getCenterOffset=function(e){var t=e.items,r=void 0===t?n.menuItems:t,i=e.menuWidth,s=void 0===i?n.menuWidth:i;return r.length?(s-n.getItemsWidth({items:r}))/2:0},n.handleWheel=function(e){if(!n.props.wheel)return!1;e.deltaY<0?n.handleArrowClick():n.handleArrowClick(!1)},n.getOffsetAtStart=function(){var e=n.firstPageOffset;return n.props.alignCenter?e:o.defaultProps.translate},n.getOffsetAtEnd=function(){var e=n.props.alignCenter,t=n,r=t.allItemsWidth,i=t.menuWidth,s=t.lastPageOffset,a=r-i;return e?-a-s:-a},n.handleArrowClickRight=function(){n.handleArrowClick(!1)},n.handleArrowClick=function(e){void 0===e&&(e=!0);var t=n.props.alignCenter,r=n,i=r.allItemsWidth,s=r.menuWidth;if(!t&&!e&&i<s)return!1;var a=0,l=n.getVisibleItems({}),u=l[0]&&0===l[0][1].index,d=l.slice(-1)[0]&&l.slice(-1)[0][1].index===n.menuItems.length-1,f=n.getOffset(e);if(e&&(u||n.itBeforeStart(f)))a=n.getOffsetAtStart();else if(e||!d&&!n.itAfterEnd(f)){var m=t?n.getCenterOffset({items:n.getVisibleItems({offset:f})}):0;a=f+m}else a=n.getOffsetAtEnd();n.setState({startDragTranslate:0,translate:a,xDraggedDistance:0,xPoint:o.defaultProps.xPoint})},n.itBeforeStart=function(e){var t=n.props.alignCenter,r=n,i=r.menuWidth,s=r.allItemsWidth,a=r.firstPageOffset;return s<i||(t?e>a:e>o.defaultProps.translate)},n.itAfterEnd=function(e){var t=n.props.alignCenter,r=n,i=r.menuWidth,s=r.allItemsWidth,a=r.lastPageOffset;return s<i||(t?e<o.defaultProps.translate&&Math.abs(e)>s-i+a:e<o.defaultProps.translate&&Math.abs(e)>s-i)},n.getPoint=function(e){return"touches"in e?e.touches[0].clientX:"clientX"in e?e.clientX:0},n.handleDragStart=function(e){if(e&&"buttons"in e&&2===e.buttons)return!1;if(!n.props.dragging)return!1;var t=n.state.translate;n.dragHistory=[{time:Date.now(),position:t}],n.setState({dragging:!0,startDragTranslate:t,xDraggedDistance:0,xPoint:0})},n.handleDrag=function(e){var t=n.props.dragging,r=n.state,i=r.translate,s=r.dragging,a=r.xPoint,l=r.xDraggedDistance;if(!t||!s)return!1;var u=n.getPoint(e),d=a===o.defaultProps.xPoint?o.defaultProps.xPoint:a-u,f=i-d;n.itBeforeStart(f)?f-=Math.abs(d)/2:n.itAfterEnd(f)&&(f+=Math.abs(d)/2),0!==d&&n.dragHistory.push({time:Date.now(),position:f});var m=f;n.setState({translate:m,xDraggedDistance:l+Math.abs(d),xPoint:u})},n.handleDragStop=function(e){var t=n,r=t.allItemsWidth,i=t.menuWidth,s=n.state,a=s.translate,l=s.xPoint,u=void 0===l?n.getPoint(e):l,d=n.state,f=d.dragging,m=d.startDragTranslate,c=n.props,p=c.dragging,g=c.alignCenter;if(!p||!f)return!1;if(n.props.inertiaScrolling){var h=Date.now(),v=n.dragHistory.filter(function(e){return h-e.time<150});if(v.length>2){var I=v[0],y=v[v.length-1],w=(y.position-I.position)/(y.time-I.time);a+=(w*=n.props.inertiaScrollingSlowdown)*(1e3*n.props.transition)}}var P=a;n.itBeforeStart(a)?(P=n.getOffsetAtStart(),u=o.defaultProps.xPoint):n.itAfterEnd(a)&&(P=n.getOffsetAtEnd(),u=o.defaultProps.xPoint),!g&&r<=i&&(P=o.defaultProps.translate,u=o.defaultProps.xPoint),n.setState({dragging:!1,translate:P,xPoint:u},function(){return n.onUpdate({translate:P,translateOld:m})})},n.isArrowsVisible=function(){var e=n,t=e.allItemsWidth,r=e.menuWidth,i=e.props.hideArrows;return!Boolean(i&&t<=r)},n.onUpdate=function(e){var t=e.translate,r=void 0===t?n.state.translate:t,i=e.translateOld,s=void 0===i?n.state.translate:i,a=n.props.onUpdate,o=n.lastTranslateUpdate;r!==s&&r!==o&&(n.lastTranslateUpdate=r,"function"==typeof a&&a({translate:r}))},n.ref={},n.menuWrapper=null,n.menuInner=null,n.mounted=!1,n.needUpdate=!1,n.allItemsWidth=0,n.menuPos=0,n.menuWidth=0,n.wWidth=0,n.firstPageOffset=0,n.lastPageOffset=0,n.lastTranslateUpdate=0,n.menuItems=[],n.selected=String(t.selected)||"",n.onLoadTimer=0,n.rafTimer=0,n.resizeTimer=0,n.frameId=0,n.data=null,n.dragHistory=[],f(n),n}return r(t,e),t.prototype.componentDidMount=function(){var e=this;this.setInitial(),window.requestAnimationFrame=window.requestAnimationFrame||function(){return!1};var t=l.testPassiveEventSupport(),n=!t||{passive:!0,capture:!0},r=!!t&&{passive:!0,capture:!1};window.addEventListener("load",this.onLoad,r),window.addEventListener("resize",this.resizeHandler,r),document.addEventListener("mousemove",this.handleDrag,n),document.addEventListener("mouseup",this.handleDragStop,n),this.onLoadTimer=setTimeout(function(){return e.onLoad(),e.forceUpdate()},0)},t.prototype.shouldComponentUpdate=function(e,t){var n=this.state,r=n.translate,i=n.dragging,s=n.firstItemVisible,a=n.lastItemVisible,o=t.translate,u=t.dragging,d=t.firstItemVisible,f=t.lastItemVisible,m=this.props,c=m.translate,p=m.selected,g=m.scrollToSelected,h=e.translate,v=e.selected,I=l.notUndefOrNull(h)&&c!==h,y=h!==o||r!==o||I,w=l.notUndefOrNull(v)&&p!==v,P=w||this.selected!==v,b=y||P,W=s!==d,S=a!==f,O=o,C=this.props.data!==e.data||this.props.data.length!==e.data.length,x=l.translateIsValid(h)&&I&&!C;return(C||g&&w)&&(this.needUpdate=!0),b&&(w&&(this.selected=v),x&&(O=h)),x&&this.setState({translate:+O}),C||y||i!==u||b||W||S},t.prototype.componentDidUpdate=function(e,t){var n=this;this.needUpdate&&(this.needUpdate=!1,this.onLoad());var r=t.translate,i=this.state,s=i.translate;i.dragging||r===s||this.onUpdate({translate:s,translateOld:r});var a=this.props,o=a.hideSingleArrow,l=a.transition;o&&(cancelAnimationFrame(this.frameId),clearTimeout(this.rafTimer),this.frameId=requestAnimationFrame(this.setFirstLastItemVisibility),this.rafTimer=setTimeout(function(){cancelAnimationFrame(n.frameId),n.frameId=requestAnimationFrame(n.setFirstLastItemVisibility)},1e3*l+10))},t.prototype.componentWillUnmount=function(){window.removeEventListener("resize",this.resizeHandler),document.removeEventListener("mousemove",this.handleDrag),document.removeEventListener("mouseup",this.handleDragStop),clearTimeout(this.rafTimer),clearTimeout(this.onLoadTimer),clearTimeout(this.resizeTimer),cancelAnimationFrame(this.frameId)},t.prototype.render=function(){var e=this.props,t=e.arrowClass,n=e.arrowDisabledClass,r=e.arrowLeft,s=e.arrowRight,l=e.data,d=e.inertiaScrolling,f=e.innerWrapperStyle,m=e.innerWrapperClass,c=e.itemStyle,p=e.itemClass,g=e.itemClassActive,h=e.menuStyle,v=e.menuClass,I=e.transition,y=e.useButtonRole,w=e.wrapperClass,P=e.wrapperStyle,b=this.state,W=b.translate,S=b.dragging,O=b.leftArrowVisible,C=b.rightArrowVisible,x=this.selected,A=this.mounted;if(!l||!l.length)return null;var _=!A||this.isArrowsVisible(),V=i({},o.defaultMenuStyle,h),T=i({},o.defaultWrapperStyle,P),D=i({},o.defaultProps.itemStyle,c),k={className:t,disabledClass:n};return a.createElement("div",{className:v,style:V,onWheel:this.handleWheel},r&&a.createElement(u.ArrowWrapper,i({},k,{isDisabled:!_||!O,onClick:this.handleArrowClick}),r),a.createElement("div",{className:w,style:T,ref:this.setWrapperRef,onMouseDown:this.handleDragStart,onTouchStart:this.handleDragStart,onTouchEnd:this.handleDragStop,onMouseMove:this.handleDrag,onTouchMove:this.handleDrag},a.createElement(u.InnerWrapper,{data:l,translate:W,dragging:S,mounted:A,transition:A?I:0,selected:x,setRef:this.setRef,setMenuInnerRef:this.setMenuInnerRef,onClick:this.onItemClick,innerWrapperStyle:f,innerWrapperClass:m,itemStyle:D,itemClass:p,itemClassActive:g,inertiaScrolling:d,useButtonRole:y})),s&&a.createElement(u.ArrowWrapper,i({},k,{isDisabled:!_||!C,onClick:this.handleArrowClickRight}),s))},t.defaultProps=o.defaultProps,t}(a.Component);t.ScrollMenu=d;var f=function(e){+a.version.match(/^(\d{1,2})\./)[1]>=16&&(e.componentDidCatch=function(e,t){console.log("ScrollMenu catched error: ",e,t)})};t.default=d},function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});t.notUndefOrNull=function(e){return void 0!==e&&null!==e};t.getClientRect=function(e){if(!e||!e.getBoundingClientRect||"function"!=typeof e.getBoundingClientRect)return{width:0,x:0};var t=e.getBoundingClientRect(),n=t.left,r=void 0===n?0:n,i=t.width;return{width:void 0===i?0:i,x:+r}};t.formatTranslate=function(e){return+e.toFixed(0)};var r=function(e){return"number"==typeof e&&!isNaN(+e)};t.translateIsValid=r;t.validateTranslate=function(e,t){return r(e)?+e:t};t.testPassiveEventSupport=function(){var e=!1;try{var t={get passive(){return e=!0,!1}};window.addEventListener("testPassiveEventSupport",t,t),window.removeEventListener("testPassiveEventSupport",t,t)}catch(t){e=!1}return e}},function(e,t,n){"use strict";var r=this&&this.__extends||function(){var e=function(t,n){return(e=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(e,t){e.__proto__=t}||function(e,t){for(var n in t)t.hasOwnProperty(n)&&(e[n]=t[n])})(t,n)};return function(t,n){function r(){this.constructor=t}e(t,n),t.prototype=null===n?Object.create(n):(r.prototype=n.prototype,new r)}}(),i=this&&this.__assign||function(){return(i=Object.assign||function(e){for(var t,n=1,r=arguments.length;n<r;n++)for(var i in t=arguments[n])Object.prototype.hasOwnProperty.call(t,i)&&(e[i]=t[i]);return e}).apply(this,arguments)},s=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(t,"__esModule",{value:!0});var a=s(n(0)),o=n(1),l={disabledClass:o.defaultProps.arrowDisabledClass},u=function(e){function t(){return null!==e&&e.apply(this,arguments)||this}return r(t,e),t.prototype.render=function(){var e=this.props,t=e.isDisabled,n=e.className,r=e.disabledClass,i=e.onClick,s=e.children,o=n+" "+(t?r:"");return a.default.createElement("div",{className:o,onClick:function(){return i()}},a.default.cloneElement(s,s.props))},t.defaultProps=l,t}(a.default.PureComponent);t.ArrowWrapper=u,t.innerStyle=function(e){var t=e.translate,n=e.dragging,r=e.mounted,i=e.transition,s=e.inertiaScrolling;return{transform:"translate3d("+t+"px, 0px, 0px)",transition:"transform "+(n||!r?"0":i)+"s"+(s?" ease-out":""),width:"9900px"}};var d=function(e){function n(){var t=null!==e&&e.apply(this,arguments)||this;return t.setMenuInnerRef=function(e){(0,t.props.setMenuInnerRef)({menuInner:{key:"menuInner",elem:e}})},t.setRef=function(e,n,r,i){var s;(0,t.props.setRef)(((s={})[e]={index:r,key:n,elem:i},s))},t.isElementActive=function(e,t){return String(e)===String(t)},t.setItems=function(e,n){return e.map(function(e){var r=e.props.onClick,i=void 0===r?function(){return!1}:r,s={onClick:function(){return t.forwardClickHandler(e.key,i)},selected:t.isElementActive(e.key,n)};return a.default.cloneElement(e,s)})},t.forwardClickHandler=function(e,n){return void 0===n&&(n=function(){return!1}),function(){var r=t.props.onClick;n(),r(e)}},t}return r(n,e),n.prototype.render=function(){var e=this,n=this.props,r=n.translate,s=n.dragging,o=n.mounted,l=n.transition,u=n.innerWrapperStyle,d=n.innerWrapperClass,f=n.itemStyle,m=n.itemClass,c=n.itemClassActive,p=n.data,g=n.selected,h=n.inertiaScrolling,v=n.useButtonRole,I=this.setItems(p,g),y=t.innerStyle({dragging:s,inertiaScrolling:h,mounted:o,transition:l,translate:r}),w=i({},y,u);return a.default.createElement("div",{className:d,style:w,ref:function(t){return e.setMenuInnerRef(t)}},I.map(function(t,n){return a.default.createElement("div",{ref:function(r){return e.setRef("menuitem-"+n,String(t.key||""),n,r)},className:m+" "+(t.props.selected?c:""),key:"menuItem-"+t.key,style:f,onClick:t.props.onClick(),tabIndex:1,role:v?"button":""},t)}))},n.defaultProps={data:[],dragging:!0,mounted:!1,selected:o.defaultProps.selected,transition:o.defaultProps.transition,translate:o.defaultProps.translate},n}(a.default.PureComponent);t.InnerWrapper=d}]);
 
 /***/ }),
 
@@ -28404,934 +25088,72 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./pages/index.js":
-/*!************************!*\
-  !*** ./pages/index.js ***!
-  \************************/
+/***/ "./pages/terms-of-use.js":
+/*!*******************************!*\
+  !*** ./pages/terms-of-use.js ***!
+  \*******************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/parse-int */ "./node_modules/@babel/runtime-corejs2/core-js/parse-int.js");
-/* harmony import */ var _babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-/* harmony import */ var _components_parent_js__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../components/parent.js */ "./components/parent.js");
-/* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../components/layout */ "./components/layout.js");
-/* harmony import */ var _data_artistList_js__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../data/artistList.js */ "./data/artistList.js");
-/* harmony import */ var _data_news_js__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../data/news.js */ "./data/news.js");
-/* harmony import */ var _data_store_js__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../data/store.js */ "./data/store.js");
-/* harmony import */ var _scroll_js__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../scroll.js */ "./scroll.js");
-/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../css/normalize.css */ "./css/normalize.css");
-/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_18___default = /*#__PURE__*/__webpack_require__.n(_css_normalize_css__WEBPACK_IMPORTED_MODULE_18__);
-/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../css/skeleton.css */ "./css/skeleton.css");
-/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_19___default = /*#__PURE__*/__webpack_require__.n(_css_skeleton_css__WEBPACK_IMPORTED_MODULE_19__);
-/* harmony import */ var _css_bootstrap_css__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../css/bootstrap.css */ "./css/bootstrap.css");
-/* harmony import */ var _css_bootstrap_css__WEBPACK_IMPORTED_MODULE_20___default = /*#__PURE__*/__webpack_require__.n(_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_20__);
-/* harmony import */ var _css_style_css__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../css/style.css */ "./css/style.css");
-/* harmony import */ var _css_style_css__WEBPACK_IMPORTED_MODULE_21___default = /*#__PURE__*/__webpack_require__.n(_css_style_css__WEBPACK_IMPORTED_MODULE_21__);
-/* harmony import */ var _css_styleStore_css__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../css/styleStore.css */ "./css/styleStore.css");
-/* harmony import */ var _css_styleStore_css__WEBPACK_IMPORTED_MODULE_22___default = /*#__PURE__*/__webpack_require__.n(_css_styleStore_css__WEBPACK_IMPORTED_MODULE_22__);
-
-
-
-
-
-
-
-
-var _jsxFileName = "/Users/peterhahn/src/new/audio-boy-mock/pages/index.js";
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-var Index =
-/*#__PURE__*/
-function (_React$Component) {
-  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__["default"])(Index, _React$Component);
-
-  function Index() {
-    var _this;
-
-    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__["default"])(this, Index);
-
-    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__["default"])(Index).call(this));
-
-    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this), "state", {
-      trigger: ''
-    });
-
-    return _this;
-  }
-
-  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__["default"])(Index, [{
-    key: "componentDidMount",
-    value: function componentDidMount(props) {
-      this.art = _data_artistList_js__WEBPACK_IMPORTED_MODULE_14__["default"];
-      this.news = _data_news_js__WEBPACK_IMPORTED_MODULE_15__["default"];
-      this.store = _data_store_js__WEBPACK_IMPORTED_MODULE_16__["default"];
-      var loc = window.location.pathname;
-
-      if (loc == '/') {
-        var doSomething = function doSomething(scroll_pos) {
-          pnProductNav.setAttribute("data-overflowing", determineOverflow(pnProductNavContents, pnProductNav));
-        };
-
-        // var count = 0;
-        var moveIndicator = function moveIndicator(item, color) {
-          var textPosition = item.getBoundingClientRect();
-          var container = pnProductNavContents.getBoundingClientRect().left;
-          var distance = textPosition.left - container;
-          var scroll = pnProductNavContents.scrollLeft;
-          pnIndicator.style.transform = "translateX(" + (distance + scroll) + "px) scaleX(" + textPosition.width * 0.01 + ")"; // count = count += 100;
-          // pnIndicator.style.transform = "translateX(" + count + "px)";
-
-          if (color) {
-            pnIndicator.style.backgroundColor = color;
-          }
-        };
-
-        var determineOverflow = function determineOverflow(content, container) {
-          var containerMetrics = container.getBoundingClientRect();
-          var containerMetricsRight = Math.floor(containerMetrics.right);
-          var containerMetricsLeft = Math.floor(containerMetrics.left);
-          var contentMetrics = content.getBoundingClientRect();
-          var contentMetricsRight = Math.floor(contentMetrics.right);
-          var contentMetricsLeft = Math.floor(contentMetrics.left);
-
-          if (containerMetricsLeft > contentMetricsLeft && containerMetricsRight < contentMetricsRight) {
-            return "both";
-          } else if (contentMetricsLeft < containerMetricsLeft) {
-            return "left";
-          } else if (contentMetricsRight > containerMetricsRight) {
-            return "right";
-          } else {
-            return "none";
-          }
-        };
-
-        console.log(loc);
-        var SETTINGS = {
-          navBarTravelling: false,
-          navBarTravelDirection: "",
-          navBarTravelDistance: 500
-        };
-        var colours = {
-          0: "#867100",
-          1: "#7F4200",
-          2: "#99813D",
-          3: "#40FEFF",
-          4: "#14CC99",
-          5: "#00BAFF",
-          6: "#0082B2",
-          7: "#B25D7A",
-          8: "#00FF17",
-          9: "#006B49",
-          10: "#00B27A",
-          11: "#996B3D",
-          12: "#CC7014",
-          13: "#40FF8C",
-          14: "#FF3400",
-          15: "#ECBB5E",
-          16: "#ECBB0C",
-          17: "#B9D912",
-          18: "#253A93",
-          19: "#125FB9"
-        };
-        document.documentElement.classList.remove("no-js");
-        document.documentElement.classList.add("js"); // Out advancer buttons
-
-        var pnAdvancerLeft = document.getElementById("pnAdvancerLeft");
-        var pnAdvancerRight = document.getElementById("pnAdvancerRight"); // the indicator
-
-        var pnIndicator = document.getElementById("pnIndicator");
-        var pnProductNav = document.getElementById("pnProductNav");
-        var pnProductNavContents = document.getElementById("pnProductNavContents");
-        pnProductNav.setAttribute("data-overflowing", determineOverflow(pnProductNavContents, pnProductNav)); // Set the indicator
-
-        moveIndicator(pnProductNav.querySelector("[aria-selected=\"true\"]"), colours[0]); // Handle the scroll of the horizontal container
-
-        var last_known_scroll_position = 0;
-        var ticking = false;
-        pnProductNav.addEventListener("scroll", function () {
-          last_known_scroll_position = window.scrollY;
-
-          if (!ticking) {
-            window.requestAnimationFrame(function () {
-              doSomething(last_known_scroll_position);
-              ticking = false;
-            });
-          }
-
-          ticking = true;
-        });
-        pnAdvancerLeft.addEventListener("click", function () {
-          // If in the middle of a move return
-          if (SETTINGS.navBarTravelling === true) {
-            return;
-          } // If we have content overflowing both sides or on the left
-
-
-          if (determineOverflow(pnProductNavContents, pnProductNav) === "left" || determineOverflow(pnProductNavContents, pnProductNav) === "both") {
-            // Find how far this panel has been scrolled
-            var availableScrollLeft = pnProductNav.scrollLeft; // If the space available is less than two lots of our desired distance, just move the whole amount
-            // otherwise, move by the amount in the settings
-
-            if (availableScrollLeft < SETTINGS.navBarTravelDistance * 2) {
-              pnProductNavContents.style.transform = "translateX(" + availableScrollLeft + "px)";
-            } else {
-              pnProductNavContents.style.transform = "translateX(" + SETTINGS.navBarTravelDistance + "px)";
-            } // We do want a transition (this is set in CSS) when moving so remove the class that would prevent that
-
-
-            pnProductNavContents.classList.remove("pn-ProductNav_Contents-no-transition"); // Update our settings
-
-            SETTINGS.navBarTravelDirection = "left";
-            SETTINGS.navBarTravelling = true;
-          } // Now update the attribute in the DOM
-
-
-          pnProductNav.setAttribute("data-overflowing", determineOverflow(pnProductNavContents, pnProductNav));
-        });
-        pnAdvancerRight.addEventListener("click", function () {
-          console.log('slave'); // If in the middle of a move return
-
-          if (SETTINGS.navBarTravelling === true) {
-            return;
-          } // If we have content overflowing both sides or on the right
-
-
-          if (determineOverflow(pnProductNavContents, pnProductNav) === "right" || determineOverflow(pnProductNavContents, pnProductNav) === "both") {
-            // Get the right edge of the container and content
-            var navBarRightEdge = pnProductNavContents.getBoundingClientRect().right;
-            var navBarScrollerRightEdge = pnProductNav.getBoundingClientRect().right; // Now we know how much space we have available to scroll
-
-            var availableScrollRight = Math.floor(navBarRightEdge - navBarScrollerRightEdge); // If the space available is less than two lots of our desired distance, just move the whole amount
-            // otherwise, move by the amount in the settings
-
-            if (availableScrollRight < SETTINGS.navBarTravelDistance * 2) {
-              pnProductNavContents.style.transform = "translateX(-" + availableScrollRight + "px)";
-            } else {
-              pnProductNavContents.style.transform = "translateX(-" + SETTINGS.navBarTravelDistance + "px)";
-            } // We do want a transition (this is set in CSS) when moving so remove the class that would prevent that
-
-
-            pnProductNavContents.classList.remove("pn-ProductNav_Contents-no-transition"); // Update our settings
-
-            SETTINGS.navBarTravelDirection = "right";
-            SETTINGS.navBarTravelling = true;
-          } // Now update the attribute in the DOM
-
-
-          pnProductNav.setAttribute("data-overflowing", determineOverflow(pnProductNavContents, pnProductNav));
-        });
-        pnProductNavContents.addEventListener("transitionend", function () {
-          // get the value of the transform, apply that to the current scroll position (so get the scroll pos first) and then remove the transform
-          var styleOfTransform = window.getComputedStyle(pnProductNavContents, null);
-          var tr = styleOfTransform.getPropertyValue("-webkit-transform") || styleOfTransform.getPropertyValue("transform"); // If there is no transition we want to default to 0 and not null
-
-          var amount = Math.abs(_babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_0___default()(tr.split(",")[4]) || 0);
-          pnProductNavContents.style.transform = "none";
-          pnProductNavContents.classList.add("pn-ProductNav_Contents-no-transition"); // Now lets set the scroll position
-
-          if (SETTINGS.navBarTravelDirection === "left") {
-            pnProductNav.scrollLeft = pnProductNav.scrollLeft - amount;
-          } else {
-            pnProductNav.scrollLeft = pnProductNav.scrollLeft + amount;
-          }
-
-          SETTINGS.navBarTravelling = false;
-        }, false); // Handle setting the currently active link
-
-        pnProductNavContents.addEventListener("click", function (e) {
-          var links = [].slice.call(document.querySelectorAll(".pn-ProductNav_Link"));
-          links.forEach(function (item) {
-            item.setAttribute("aria-selected", "false");
-          });
-          e.target.setAttribute("aria-selected", "true"); // Pass the clicked item and it's colour to the move indicator function
-
-          moveIndicator(e.target, colours[links.indexOf(e.target)]);
-        });
-
-        (function (root, factory) {
-          if (typeof define === 'function' && __webpack_require__(/*! !webpack amd options */ "./node_modules/next/node_modules/webpack/buildin/amd-options.js")) {
-            define(['exports'], factory);
-          } else if (typeof exports !== 'undefined') {
-            factory(exports);
-          } else {
-            factory(root.dragscroll = {});
-          }
-        })(this, function (exports) {
-          var _window = window;
-          var _document = document;
-          var mousemove = 'mousemove';
-          var mouseup = 'mouseup';
-          var mousedown = 'mousedown';
-          var EventListener = 'EventListener';
-          var addEventListener = 'add' + EventListener;
-          var removeEventListener = 'remove' + EventListener;
-          var newScrollX, newScrollY;
-          var dragged = [];
-
-          var reset = function reset(i, el) {
-            for (i = 0; i < dragged.length;) {
-              el = dragged[i++];
-              el = el.container || el;
-              el[removeEventListener](mousedown, el.md, 0);
-
-              _window[removeEventListener](mouseup, el.mu, 0);
-
-              _window[removeEventListener](mousemove, el.mm, 0);
-            } // cloning into array since HTMLCollection is updated dynamically
-
-
-            dragged = [].slice.call(_document.getElementsByClassName('dragscroll'));
-
-            for (i = 0; i < dragged.length;) {
-              (function (el, lastClientX, lastClientY, pushed, scroller, cont) {
-                (cont = el.container || el)[addEventListener](mousedown, cont.md = function (e) {
-                  if (!el.hasAttribute('nochilddrag') || _document.elementFromPoint(e.pageX, e.pageY) == cont) {
-                    pushed = 1;
-                    lastClientX = e.clientX;
-                    lastClientY = e.clientY;
-                    e.preventDefault();
-                  }
-                }, 0);
-
-                _window[addEventListener](mouseup, cont.mu = function () {
-                  pushed = 0;
-                }, 0);
-
-                _window[addEventListener](mousemove, cont.mm = function (e) {
-                  if (pushed) {
-                    (scroller = el.scroller || el).scrollLeft -= newScrollX = -lastClientX + (lastClientX = e.clientX);
-                    scroller.scrollTop -= newScrollY = -lastClientY + (lastClientY = e.clientY);
-
-                    if (el == _document.body) {
-                      (scroller = _document.documentElement).scrollLeft -= newScrollX;
-                      scroller.scrollTop -= newScrollY;
-                    }
-                  }
-                }, 0);
-              })(dragged[i++]);
-            }
-          };
-
-          if (_document.readyState == 'complete') {
-            reset();
-          } else {
-            _window[addEventListener]('load', reset, 0);
-          }
-
-          exports.reset = reset;
-        });
-      }
-    }
-  }, {
-    key: "render",
-    value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_13__["default"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 322
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_components_parent_js__WEBPACK_IMPORTED_MODULE_12__["default"], {
-        artists: _data_artistList_js__WEBPACK_IMPORTED_MODULE_14__["default"],
-        news: _data_news_js__WEBPACK_IMPORTED_MODULE_15__["default"],
-        store: _data_store_js__WEBPACK_IMPORTED_MODULE_16__["default"],
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 323
-        },
-        __self: this
-      }));
-    }
-  }]);
-
-  return Index;
-}(react__WEBPACK_IMPORTED_MODULE_8___default.a.Component);
-
-/* harmony default export */ __webpack_exports__["default"] = (Index);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _components_terms_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/terms.js */ "./components/terms.js");
+/* harmony import */ var _components_layout2__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/layout2 */ "./components/layout2.js");
+/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../css/normalize.css */ "./css/normalize.css");
+/* harmony import */ var _css_normalize_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_css_normalize_css__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../css/skeleton.css */ "./css/skeleton.css");
+/* harmony import */ var _css_skeleton_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_css_skeleton_css__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _css_bootstrap_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../css/bootstrap.css */ "./css/bootstrap.css");
+/* harmony import */ var _css_bootstrap_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_7__);
+var _jsxFileName = "/Users/peterhahn/src/new/audio-boy-mock/pages/terms-of-use.js";
+
+
+
+
+
+
+
+
+
+var TermsPage = function TermsPage() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_layout2__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_terms_js__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  })));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (TermsPage);
 
 /***/ }),
 
-/***/ "./scroll.js":
-/*!*******************!*\
-  !*** ./scroll.js ***!
-  \*******************/
-/*! no exports provided */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/parse-int */ "./node_modules/@babel/runtime-corejs2/core-js/parse-int.js");
-/* harmony import */ var _babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_0__);
-
-
-if (true) {
-  window.onload = function () {
-    var SETTINGS = {
-      navBarTravelling: false,
-      navBarTravelDirection: "",
-      navBarTravelDistance: 500
-    };
-    var colours = {
-      0: "#867100",
-      1: "#7F4200",
-      2: "#99813D",
-      3: "#40FEFF",
-      4: "#14CC99",
-      5: "#00BAFF",
-      6: "#0082B2",
-      7: "#B25D7A",
-      8: "#00FF17",
-      9: "#006B49",
-      10: "#00B27A",
-      11: "#996B3D",
-      12: "#CC7014",
-      13: "#40FF8C",
-      14: "#FF3400",
-      15: "#ECBB5E",
-      16: "#ECBB0C",
-      17: "#B9D912",
-      18: "#253A93",
-      19: "#125FB9"
-    };
-    document.documentElement.classList.remove("no-js");
-    document.documentElement.classList.add("js"); // Out advancer buttons
-
-    var pnAdvancerLeft = document.getElementById("pnAdvancerLeft");
-    var pnAdvancerRight = document.getElementById("pnAdvancerRight"); // the indicator
-
-    var pnIndicator = document.getElementById("pnIndicator");
-    var pnProductNav = document.getElementById("pnProductNav");
-    var pnProductNavContents = document.getElementById("pnProductNavContents");
-    pnProductNav.setAttribute("data-overflowing", determineOverflow(pnProductNavContents, pnProductNav)); // Set the indicator
-
-    moveIndicator(pnProductNav.querySelector("[aria-selected=\"true\"]"), colours[0]); // Handle the scroll of the horizontal container
-
-    var last_known_scroll_position = 0;
-    var ticking = false;
-
-    function doSomething(scroll_pos) {
-      pnProductNav.setAttribute("data-overflowing", determineOverflow(pnProductNavContents, pnProductNav));
-    }
-
-    pnProductNav.addEventListener("scroll", function () {
-      last_known_scroll_position = window.scrollY;
-
-      if (!ticking) {
-        window.requestAnimationFrame(function () {
-          doSomething(last_known_scroll_position);
-          ticking = false;
-        });
-      }
-
-      ticking = true;
-    });
-    pnAdvancerLeft.addEventListener("click", function () {
-      // If in the middle of a move return
-      if (SETTINGS.navBarTravelling === true) {
-        return;
-      } // If we have content overflowing both sides or on the left
-
-
-      if (determineOverflow(pnProductNavContents, pnProductNav) === "left" || determineOverflow(pnProductNavContents, pnProductNav) === "both") {
-        // Find how far this panel has been scrolled
-        var availableScrollLeft = pnProductNav.scrollLeft; // If the space available is less than two lots of our desired distance, just move the whole amount
-        // otherwise, move by the amount in the settings
-
-        if (availableScrollLeft < SETTINGS.navBarTravelDistance * 2) {
-          pnProductNavContents.style.transform = "translateX(" + availableScrollLeft + "px)";
-        } else {
-          pnProductNavContents.style.transform = "translateX(" + SETTINGS.navBarTravelDistance + "px)";
-        } // We do want a transition (this is set in CSS) when moving so remove the class that would prevent that
-
-
-        pnProductNavContents.classList.remove("pn-ProductNav_Contents-no-transition"); // Update our settings
-
-        SETTINGS.navBarTravelDirection = "left";
-        SETTINGS.navBarTravelling = true;
-      } // Now update the attribute in the DOM
-
-
-      pnProductNav.setAttribute("data-overflowing", determineOverflow(pnProductNavContents, pnProductNav));
-    });
-    pnAdvancerRight.addEventListener("click", function () {
-      console.log('slave'); // If in the middle of a move return
-
-      if (SETTINGS.navBarTravelling === true) {
-        return;
-      } // If we have content overflowing both sides or on the right
-
-
-      if (determineOverflow(pnProductNavContents, pnProductNav) === "right" || determineOverflow(pnProductNavContents, pnProductNav) === "both") {
-        // Get the right edge of the container and content
-        var navBarRightEdge = pnProductNavContents.getBoundingClientRect().right;
-        var navBarScrollerRightEdge = pnProductNav.getBoundingClientRect().right; // Now we know how much space we have available to scroll
-
-        var availableScrollRight = Math.floor(navBarRightEdge - navBarScrollerRightEdge); // If the space available is less than two lots of our desired distance, just move the whole amount
-        // otherwise, move by the amount in the settings
-
-        if (availableScrollRight < SETTINGS.navBarTravelDistance * 2) {
-          pnProductNavContents.style.transform = "translateX(-" + availableScrollRight + "px)";
-        } else {
-          pnProductNavContents.style.transform = "translateX(-" + SETTINGS.navBarTravelDistance + "px)";
-        } // We do want a transition (this is set in CSS) when moving so remove the class that would prevent that
-
-
-        pnProductNavContents.classList.remove("pn-ProductNav_Contents-no-transition"); // Update our settings
-
-        SETTINGS.navBarTravelDirection = "right";
-        SETTINGS.navBarTravelling = true;
-      } // Now update the attribute in the DOM
-
-
-      pnProductNav.setAttribute("data-overflowing", determineOverflow(pnProductNavContents, pnProductNav));
-    });
-    pnProductNavContents.addEventListener("transitionend", function () {
-      // get the value of the transform, apply that to the current scroll position (so get the scroll pos first) and then remove the transform
-      var styleOfTransform = window.getComputedStyle(pnProductNavContents, null);
-      var tr = styleOfTransform.getPropertyValue("-webkit-transform") || styleOfTransform.getPropertyValue("transform"); // If there is no transition we want to default to 0 and not null
-
-      var amount = Math.abs(_babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_0___default()(tr.split(",")[4]) || 0);
-      pnProductNavContents.style.transform = "none";
-      pnProductNavContents.classList.add("pn-ProductNav_Contents-no-transition"); // Now lets set the scroll position
-
-      if (SETTINGS.navBarTravelDirection === "left") {
-        pnProductNav.scrollLeft = pnProductNav.scrollLeft - amount;
-      } else {
-        pnProductNav.scrollLeft = pnProductNav.scrollLeft + amount;
-      }
-
-      SETTINGS.navBarTravelling = false;
-    }, false); // Handle setting the currently active link
-
-    pnProductNavContents.addEventListener("click", function (e) {
-      var links = [].slice.call(document.querySelectorAll(".pn-ProductNav_Link"));
-      links.forEach(function (item) {
-        item.setAttribute("aria-selected", "false");
-      });
-      e.target.setAttribute("aria-selected", "true"); // Pass the clicked item and it's colour to the move indicator function
-
-      moveIndicator(e.target, colours[links.indexOf(e.target)]);
-    }); // var count = 0;
-
-    function moveIndicator(item, color) {
-      var textPosition = item.getBoundingClientRect();
-      var container = pnProductNavContents.getBoundingClientRect().left;
-      var distance = textPosition.left - container;
-      var scroll = pnProductNavContents.scrollLeft;
-      pnIndicator.style.transform = "translateX(" + (distance + scroll) + "px) scaleX(" + textPosition.width * 0.01 + ")"; // count = count += 100;
-      // pnIndicator.style.transform = "translateX(" + count + "px)";
-
-      if (color) {
-        pnIndicator.style.backgroundColor = color;
-      }
-    }
-
-    function determineOverflow(content, container) {
-      var containerMetrics = container.getBoundingClientRect();
-      var containerMetricsRight = Math.floor(containerMetrics.right);
-      var containerMetricsLeft = Math.floor(containerMetrics.left);
-      var contentMetrics = content.getBoundingClientRect();
-      var contentMetricsRight = Math.floor(contentMetrics.right);
-      var contentMetricsLeft = Math.floor(contentMetrics.left);
-
-      if (containerMetricsLeft > contentMetricsLeft && containerMetricsRight < contentMetricsRight) {
-        return "both";
-      } else if (contentMetricsLeft < containerMetricsLeft) {
-        return "left";
-      } else if (contentMetricsRight > containerMetricsRight) {
-        return "right";
-      } else {
-        return "none";
-      }
-    }
-    /**
-     * @fileoverview dragscroll - scroll area by dragging
-     * @version 0.0.8
-     * 
-     * @license MIT, see https://github.com/asvd/dragscroll
-     * @copyright 2015 asvd <heliosframework@gmail.com> 
-     */
-
-
-    (function (root, factory) {
-      if (typeof define === 'function' && __webpack_require__(/*! !webpack amd options */ "./node_modules/next/node_modules/webpack/buildin/amd-options.js")) {
-        define(['exports'], factory);
-      } else if (typeof exports !== 'undefined') {
-        factory(exports);
-      } else {
-        factory(root.dragscroll = {});
-      }
-    })(this, function (exports) {
-      var _window = window;
-      var _document = document;
-      var mousemove = 'mousemove';
-      var mouseup = 'mouseup';
-      var mousedown = 'mousedown';
-      var EventListener = 'EventListener';
-      var addEventListener = 'add' + EventListener;
-      var removeEventListener = 'remove' + EventListener;
-      var newScrollX, newScrollY;
-      var dragged = [];
-
-      var reset = function reset(i, el) {
-        for (i = 0; i < dragged.length;) {
-          el = dragged[i++];
-          el = el.container || el;
-          el[removeEventListener](mousedown, el.md, 0);
-
-          _window[removeEventListener](mouseup, el.mu, 0);
-
-          _window[removeEventListener](mousemove, el.mm, 0);
-        } // cloning into array since HTMLCollection is updated dynamically
-
-
-        dragged = [].slice.call(_document.getElementsByClassName('dragscroll'));
-
-        for (i = 0; i < dragged.length;) {
-          (function (el, lastClientX, lastClientY, pushed, scroller, cont) {
-            (cont = el.container || el)[addEventListener](mousedown, cont.md = function (e) {
-              if (!el.hasAttribute('nochilddrag') || _document.elementFromPoint(e.pageX, e.pageY) == cont) {
-                pushed = 1;
-                lastClientX = e.clientX;
-                lastClientY = e.clientY;
-                e.preventDefault();
-              }
-            }, 0);
-
-            _window[addEventListener](mouseup, cont.mu = function () {
-              pushed = 0;
-            }, 0);
-
-            _window[addEventListener](mousemove, cont.mm = function (e) {
-              if (pushed) {
-                (scroller = el.scroller || el).scrollLeft -= newScrollX = -lastClientX + (lastClientX = e.clientX);
-                scroller.scrollTop -= newScrollY = -lastClientY + (lastClientY = e.clientY);
-
-                if (el == _document.body) {
-                  (scroller = _document.documentElement).scrollLeft -= newScrollX;
-                  scroller.scrollTop -= newScrollY;
-                }
-              }
-            }, 0);
-          })(dragged[i++]);
-        }
-      };
-
-      if (_document.readyState == 'complete') {
-        reset();
-      } else {
-        _window[addEventListener]('load', reset, 0);
-      }
-
-      exports.reset = reset;
-    });
-  };
-}
-
-/***/ }),
-
-/***/ "./scrollStore.js":
-/*!************************!*\
-  !*** ./scrollStore.js ***!
-  \************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-// if (process.browser){
-// window.onload = function(){
-// var SETTINGSStore = {
-//     navBarTravellingStore: false,
-//     navBarTravelDirectionStore: "",
-//     navBarTravelDistanceStore: 250
-// }
-// var coloursStore = {
-//     0: "#867100",
-//     1: "#7F4200",
-//     2: "#99813D",
-//     3: "#40FEFF",
-//     4: "#14CC99",
-//     5: "#00BAFF",
-//     6: "#0082B2",
-//     7: "#B25D7A",
-//     8: "#00FF17",
-//     9: "#006B49",
-//     10: "#00B27A",
-//     11: "#996B3D",
-//     12: "#CC7014",
-//     13: "#40FF8C",
-//     14: "#FF3400",
-//     15: "#ECBB5E",
-//     16: "#ECBB0C",
-//     17: "#B9D912",
-//     18: "#253A93",
-//     19: "#125FB9",
-// }
-// document.documentElement.classList.remove("no-js");
-// document.documentElement.classList.add("js");
-// console.log('lion2');
-// // Out advancer buttons
-// var pnAdvancerLeftStore = document.getElementById("pnAdvancerLeftStore");
-// var pnAdvancerRightStore = document.getElementById("pnAdvancerRightStore");
-// // the indicator
-// var pnIndicatorStore = document.getElementById("pnIndicatorStore");
-// var pnProductNavStore = document.getElementById("pnProductNavStore");
-// var pnProductNavContentsStore = document.getElementById("pnProductNavContentsStore");
-// pnProductNavStore.setAttribute("data-overflowing", determineOverflowStore(pnProductNavContentsStore, pnProductNavStore));
-// // Set the indicator
-// moveIndicatorStore(pnProductNavStore.querySelector("[aria-selected=\"true\"]"), coloursStore[0]);
-// // Handle the scroll of the horizontal container
-// var last_known_scroll_positionStore = 0;
-// var tickingStore = false;
-// function doSomethingStore(scroll_pos) {
-//     pnProductNavStore.setAttribute("data-overflowing", determineOverflowStore(pnProductNavContentsStore, pnProductNavStore));
-// }
-// pnProductNavStore.addEventListener("scroll", function() {
-//     last_known_scroll_positionStore = window.scrollY;
-//     if (!tickingStore) {
-//         window.requestAnimationFrame(function() {
-//             doSomethingStore(last_known_scroll_positionStore);
-//             tickingStore = false;
-//         });
-//     }
-//     tickingStore = true;
-// });
-// pnAdvancerLeftStore.addEventListener("click", function() {
-//     // If in the middle of a move return
-//     if (SETTINGSStore.navBarTravellingStore === true) {
-//         return;
-//     }
-//     // If we have content overflowing both sides or on the left
-//     if (determineOverflowStore(pnProductNavContentsStore, pnProductNavStore) === "left" || determineOverflowStore(pnProductNavContentsStore, pnProductNavStore) === "both") {
-//         // Find how far this panel has been scrolled
-//         var availableScrollLeftStore = pnProductNavStore.scrollLeft;
-//         // If the space available is less than two lots of our desired distance, just move the whole amount
-//         // otherwise, move by the amount in the settingsStore
-//         if (availableScrollLeftStore < SETTINGSStore.navBarTravelDistanceStore * 2) {
-//             pnProductNavContentsStore.style.transform = "translateX(" + availableScrollLeftStore + "px)";
-//         } else {
-//             pnProductNavContentsStore.style.transform = "translateX(" + SETTINGSStore.navBarTravelDistanceStore + "px)";
-//         }
-//         // We do want a transition (this is set in CSS) when moving so remove the class that would prevent that
-//         pnProductNavContentsStore.classList.remove("pn-ProductNav_Contents-no-transition");
-//         // Update our settingsStore
-//         SETTINGSStore.navBarTravelDirectionStore = "left";
-//         SETTINGSStore.navBarTravellingStore = true;
-//     }
-//     // Now update the attribute in the DOM
-//     pnProductNavStore.setAttribute("data-overflowing", determineOverflowStore(pnProductNavContentsStore, pnProductNavStore));
-// });
-// pnAdvancerRightStore.addEventListener("click", function() {
-//     // If in the middle of a move return
-//     if (SETTINGSStore.navBarTravellingStore === true) {
-//         return;
-//     }
-//     // If we have content overflowing both sides or on the right
-//     if (determineOverflowStore(pnProductNavContentsStore, pnProductNavStore) === "right" || determineOverflowStore(pnProductNavContentsStore, pnProductNavStore) === "both") {
-//         // Get the right edge of the container and content
-//         var navBarRightEdgeStore = pnProductNavContentsStore.getBoundingClientRect().right;
-//         var navBarScrollerRightEdgeStore = pnProductNavStore.getBoundingClientRect().right;
-//         // Now we know how much space we have available to scroll
-//         var availableScrollRightStore = Math.floor(navBarRightEdgeStore - navBarScrollerRightEdgeStore);
-//         // If the space available is less than two lots of our desired distance, just move the whole amount
-//         // otherwise, move by the amount in the settingsStore
-//         if (availableScrollRightStore < SETTINGSStore.navBarTravelDistanceStore * 2) {
-//             pnProductNavContentsStore.style.transform = "translateX(-" + availableScrollRightStore + "px)";
-//         } else {
-//             pnProductNavContentsStore.style.transform = "translateX(-" + SETTINGSStore.navBarTravelDistanceStore + "px)";
-//         }
-//         // We do want a transition (this is set in CSS) when moving so remove the class that would prevent that
-//         pnProductNavContentsStore.classList.remove("pn-ProductNav_Contents-no-transition");
-//         // Update our settingsStore
-//         SETTINGSStore.navBarTravelDirectionStore = "right";
-//         SETTINGSStore.navBarTravellingStore = true;
-//     }
-//     // Now update the attribute in the DOM
-//     pnProductNavStore.setAttribute("data-overflowing", determineOverflowStore(pnProductNavContentsStore, pnProductNavStore));
-// });
-// pnProductNavContentsStore.addEventListener(
-//     "transitionend",
-//     function() {
-//         // get the value of the transform, apply that to the current scroll position (so get the scroll pos first) and then remove the transform
-//         var styleOfTransformStore = window.getComputedStyle(pnProductNavContentsStore, null);
-//         var trStore = styleOfTransformStore.getPropertyValue("-webkit-transform") || styleOfTransformStore.getPropertyValue("transform");
-//         // If there is no transition we want to default to 0 and not null
-//         var amountStore = Math.abs(parseInt(trStore.split(",")[4]) || 0);
-//         pnProductNavContentsStore.style.transform = "none";
-//         pnProductNavContentsStore.classList.add("pn-ProductNav_Contents-no-transition");
-//         // Now lets set the scroll position
-//         if (SETTINGSStore.navBarTravelDirectionStore === "left") {
-//             pnProductNavStore.scrollLeft = pnProductNavStore.scrollLeft - amountStore;
-//         } else {
-//             pnProductNavStore.scrollLeft = pnProductNavStore.scrollLeft + amountStore;
-//         }
-//         SETTINGSStore.navBarTravellingStore = false;
-//     },
-//     false
-// );
-// // Handle setting the currently active link
-// pnProductNavContentsStore.addEventListener("click", function(e) {
-//     var linksStore = [].slice.call(document.querySelectorAll(".pn-ProductNav_LinkStore"));
-//     linksStore.forEach(function(item) {
-//         item.setAttribute("aria-selected", "false");
-//     })
-//     e.target.setAttribute("aria-selected", "true");
-//     // Pass the clicked item and it's colour to the move indicator function
-//     moveIndicatorStore(e.target, coloursStore[linksStore.indexOf(e.target)]);
-// });
-// // var count = 0;
-// function moveIndicatorStore(item, color) {
-//     var textPosition = item.getBoundingClientRect();
-//     var container = pnProductNavContentsStore.getBoundingClientRect().left;
-//     var distance = textPosition.left - container;
-//      var scroll = pnProductNavContentsStore.scrollLeft;
-//     pnIndicatorStore.style.transform = "translateX(" + (distance + scroll) + "px) scaleX(" + textPosition.width * 0.01 + ")";
-//     // count = count += 100;
-//     // pnIndicator.style.transform = "translateX(" + count + "px)";
-//     if (color) {
-//         pnIndicatorStore.style.backgroundColor = color;
-//     }
-// }
-// function determineOverflowStore(content, container) {
-//     var containerMetrics = container.getBoundingClientRect();
-//     var containerMetricsRight = Math.floor(containerMetrics.right);
-//     var containerMetricsLeft = Math.floor(containerMetrics.left);
-//     var contentMetrics = content.getBoundingClientRect();
-//     var contentMetricsRight = Math.floor(contentMetrics.right);
-//     var contentMetricsLeft = Math.floor(contentMetrics.left);
-//      if (containerMetricsLeft > contentMetricsLeft && containerMetricsRight < contentMetricsRight) {
-//         return "both";
-//     } else if (contentMetricsLeft < containerMetricsLeft) {
-//         return "left";
-//     } else if (contentMetricsRight > containerMetricsRight) {
-//         return "right";
-//     } else {
-//         return "none";
-//     }
-// }
-// /**
-//  * @fileoverview dragscroll - scroll area by dragging
-//  * @version 0.0.8
-//  * 
-//  * @license MIT, see https://github.com/asvd/dragscroll
-//  * @copyright 2015 asvd <heliosframework@gmail.com> 
-//  */
-// (function (root, factory) {
-//     if (typeof define === 'function' && define.amd) {
-//         define(['exports'], factory);
-//     } else if (typeof exports !== 'undefined') {
-//         factory(exports);
-//     } else {
-//         factory((root.dragscroll = {}));
-//     }
-// }(this, function (exports) {
-//     var _windowStore = window;
-//     var _documentStore = document;
-//     var mousemoveStore = 'mousemove';
-//     var mouseupStore  = 'mouseup';
-//     var mousedownStore  = 'mousedown';
-//     var EventListenerStore = 'EventListener';
-//     var addEventListenerStore  = 'add'+EventListenerStore;
-//     var removeEventListenerStore  = 'remove'+EventListenerStore;
-//     var newScrollXStore, newScrollYStore;
-//     var dragged = [];
-//     var resetStore = function(i, el) {
-//         for (i = 0; i < dragged.length;) {
-//             el = dragged[i++];
-//             el = el.container || el;
-//             el[removeEventListenerStore ](mousedownStore , el.md, 0);
-//             _windowStore[removeEventListenerStore ](mouseupStore , el.mu, 0);
-//             _windowStore[removeEventListenerStore ](mousemoveStore , el.mm, 0);
-//         }
-//         // cloning into array since HTMLCollection is updated dynamically
-//         dragged = [].slice.call(_documentStore.getElementsByClassName('dragscroll'));
-//         for (i = 0; i < dragged.length;) {
-//             (function(el, lastClientX, lastClientY, pushed, scroller, cont){
-//                 (cont = el.container || el)[addEventListenerStore ](
-//                     mousedownStore ,
-//                     cont.md = function(e) {
-//                         if (!el.hasAttribute('nochilddrag') ||
-//                             _documentStore.elementFromPoint(
-//                                 e.pageX, e.pageY
-//                             ) == cont
-//                         ) {
-//                             pushed = 1;
-//                             lastClientX = e.clientX;
-//                             lastClientY = e.clientY;
-//                             e.preventDefault();
-//                         }
-//                     }, 0
-//                 );
-//                 _windowStore[addEventListenerStore ](
-//                     mouseupStore , cont.mu = function() {pushed = 0;}, 0
-//                 );
-//                 _windowStore[addEventListenerStore ](
-//                     mousemoveStore ,
-//                     cont.mm = function(e) {
-//                         if (pushed) {
-//                             (scroller = el.scroller||el).scrollLeft -=
-//                                 newScrollXStore = (- lastClientX + (lastClientX=e.clientX));
-//                             scroller.scrollTop -=
-//                                 newScrollYStore = (- lastClientY + (lastClientY=e.clientY));
-//                             if (el == _documentStore.body) {
-//                                 (scroller = _documentStore.documentElement).scrollLeft -= newScrollXStore;
-//                                 scroller.scrollTop -= newScrollYStore;
-//                             }
-//                         }
-//                     }, 0
-//                 );
-//              })(dragged[i++]);
-//         }
-//     }
-//     if (_documentStore.readyState == 'complete') {
-//         resetStore();
-//     } else {
-//         _windowStore[addEventListenerStore ]('load', resetStore, 0);
-//     }
-//     exports.resetStore = resetStore;
-// }));
-// }
-// }
-
-/***/ }),
-
-/***/ 0:
-/*!*************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fpeterhahn%2Fsrc%2Fnew%2Faudio-boy-mock%2Fpages%2Findex.js ***!
-  \*************************************************************************************************************************************/
+/***/ 15:
+/*!********************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fterms-of-use&absolutePagePath=%2FUsers%2Fpeterhahn%2Fsrc%2Fnew%2Faudio-boy-mock%2Fpages%2Fterms-of-use.js ***!
+  \********************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fpeterhahn%2Fsrc%2Fnew%2Faudio-boy-mock%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fpeterhahn%2Fsrc%2Fnew%2Faudio-boy-mock%2Fpages%2Findex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fterms-of-use&absolutePagePath=%2FUsers%2Fpeterhahn%2Fsrc%2Fnew%2Faudio-boy-mock%2Fpages%2Fterms-of-use.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fterms-of-use&absolutePagePath=%2FUsers%2Fpeterhahn%2Fsrc%2Fnew%2Faudio-boy-mock%2Fpages%2Fterms-of-use.js!./");
 
 
 /***/ }),
@@ -29347,5 +25169,5 @@ module.exports = dll_4cbc3223160d403191c6;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js","styles"]]]);
-//# sourceMappingURL=index.js.map
+},[[15,"static/runtime/webpack.js","styles"]]]);
+//# sourceMappingURL=terms-of-use.js.map
