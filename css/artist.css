@@ -20,7 +20,7 @@
 	position:relative;
 	width:960px;
 	height:400px;
-	z-index:100;
+	z-index:90;
 	bottom:30px;
 	margin-top:0px;
 }
