@@ -22,18 +22,19 @@ class Auditory extends React.Component{
 	    let result = artist.filter(obj => {
   			return obj.code === itemNumber
 		})
-	    console.log('result', result.length);
+	    console.log('result', result);
 	    if(result.length < 1){
 	    	console.log('trash');
 	    	var retrievedObject = localStorage.getItem('id');
 	    	console.log('retrievedObject: ', JSON.parse(retrievedObject));
 	    }
 	    else{
-		    result.map((e) => 
-		    	var id = e.id;
+	    	console.log('yankees');
+	    	if(typeof window !== 'undefined'){
 		    	localStorage.clear();
-		    	localStorage.setItem('id', JSON.stringify(id));
-
+		    	localStorage.setItem('id', JSON.stringify(result[0].id));
+			}
+		    result.map((e) => 
 				this.state = {
 					image1:e.display_src,
 					name:e.name,

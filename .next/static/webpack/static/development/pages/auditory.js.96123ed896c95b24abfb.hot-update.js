@@ -63,44 +63,55 @@ function (_React$Component) {
     var result = artist.filter(function (obj) {
       return obj.code === itemNumber;
     });
-    result.map(function (e) {
-      return _this.state = {
-        image1: e.display_src,
-        name: e.name,
-        mv: e.mv,
-        bio: e.bio,
-        youtube: e.youtube,
-        twitter: e.twitter,
-        instagram: e.instagram,
-        facebook: e.facebook
-      };
-    });
+    console.log('result', result[0]);
+
+    if (result.length < 1) {
+      console.log('trash');
+      var retrievedObject = localStorage.getItem('id');
+      console.log('retrievedObject: ', JSON.parse(retrievedObject));
+    } else {
+      // localStorage.clear();
+      // localStorage.setItem('id', JSON.stringify(result.id));
+      result.map(function (e) {
+        return _this.state = {
+          image1: e.display_src,
+          name: e.name,
+          mv: e.mv,
+          bio: e.bio,
+          youtube: e.youtube,
+          twitter: e.twitter,
+          instagram: e.instagram,
+          facebook: e.facebook
+        };
+      });
+    }
+
     return _this;
   }
 
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Auditory, [{
     key: "render",
     value: function render() {
-      console.log('this', this.state);
+      console.log('this', this);
       return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         className: "artistArea",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 49
+          lineNumber: 57
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_navbar3_js__WEBPACK_IMPORTED_MODULE_10__["default"], {
         name: this.state.name,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 50
+          lineNumber: 58
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         className: "artistBackground",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 51
+          lineNumber: 59
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
@@ -108,73 +119,73 @@ function (_React$Component) {
         className: "artistMainPhoto",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 52
+          lineNumber: 60
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         className: "bio",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 53
+          lineNumber: 61
         },
         __self: this
       }, this.state.bio), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("ul", {
         className: "socialHolder",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 54
+          lineNumber: 62
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 55
+          lineNumber: 63
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
         src: "https://i.imgur.com/fV5a2fW.png",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 55
+          lineNumber: 63
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 56
+          lineNumber: 64
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
         src: "https://i.imgur.com/NauXZSM.png",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 56
+          lineNumber: 64
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 57
+          lineNumber: 65
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
         src: "https://i.imgur.com/DCzV97u.png",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 57
+          lineNumber: 65
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 58
+          lineNumber: 66
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
         src: "https://i.imgur.com/odojrFa.png",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 58
+          lineNumber: 66
         },
         __self: this
       }))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("iframe", {
@@ -185,7 +196,7 @@ function (_React$Component) {
         allowFullScreen: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 60
+          lineNumber: 68
         },
         __self: this
       })));
@@ -200,4 +211,4 @@ function (_React$Component) {
 /***/ })
 
 })
-//# sourceMappingURL=auditory.js.d57fe019d9702f3c8582.hot-update.js.map
+//# sourceMappingURL=auditory.js.96123ed896c95b24abfb.hot-update.js.map
