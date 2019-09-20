@@ -22,7 +22,7 @@ const artistList = [
 	    "display_src": `https://i.imgur.com/rOmTCsD.jpg`
 	},
 	{
-	    "code": "dbcde",
+	    "code": "dbcded",
 	    "name": "Velvet Underground",
 	    "id": "1",
 	    "url":"/auditory2",
@@ -31,22 +31,13 @@ const artistList = [
 	    "display_src": `https://i.imgur.com/Cl6tqkb.jpg`
 	},
 	{
-	    "code": "dbcde",
+	    "code": "dbcdef",
 	    "name": "Art vs Science",
 	    "id": "1",
 	    "url":"/auditory2",
 	    "mv":"https://www.youtube.com/embed/7LEmer7wwHI",
 	    "bio":"This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real.",
 	    "display_src": `https://i.imgur.com/M2Qoa0j.jpg`
-	},
-	{
-	    "code": "dbcde",
-	    "name": "Oasis",
-	    "id": "1",
-	    "url":"/auditory2",
-	    "mv":"https://www.youtube.com/embed/7LEmer7wwHI",
-	    "bio":"This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real.",
-	    "display_src": `https://i.imgur.com/lBn46tu.jpg`
 	}
 ];
 
