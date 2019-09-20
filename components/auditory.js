@@ -24,10 +24,14 @@ class Auditory extends React.Component{
 		})
 	    console.log('result', result);
 	    if(result.length === 0){
-
+	    	var retrievedObject = localStorage.getItem('id');
+	    	console.log('retrievedObject: ', JSON.parse(retrievedObject));
 	    }
 	    else{
 		    result.map((e) => 
+		    	var id = e.id;
+		    	localStorage.clear();
+		    	localStorage.setItem('id', JSON.stringify(id));
 
 				this.state = {
 					image1:e.display_src,

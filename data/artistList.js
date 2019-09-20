@@ -2,7 +2,7 @@ const artistList = [
 	{
 		"code": "abcd",
 	    "name": "Pink Floyd",
-	    "id": "1",
+	    "id": "0",
 	    "url":"/auditory",
 	    "mv":"https://www.youtube.com/embed/U9z9jWbHY08",
 	    "bio":"This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real.",
@@ -24,7 +24,7 @@ const artistList = [
 	{
 	    "code": "dbcded",
 	    "name": "Velvet Underground",
-	    "id": "1",
+	    "id": "2",
 	    "url":"/auditory2",
 	    "mv":"https://www.youtube.com/embed/7LEmer7wwHI",
 	    "bio":"This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real.",
@@ -33,7 +33,7 @@ const artistList = [
 	{
 	    "code": "dbcdef",
 	    "name": "Art vs Science",
-	    "id": "1",
+	    "id": "3",
 	    "url":"/auditory2",
 	    "mv":"https://www.youtube.com/embed/7LEmer7wwHI",
 	    "bio":"This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real.",
