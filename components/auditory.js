@@ -22,21 +22,25 @@ class Auditory extends React.Component{
 	    let result = artist.filter(obj => {
   			return obj.code === itemNumber
 		})
-	    console.log('result', result.length);
-	    result.map((e) => 
+	    console.log('result', result);
+	    if(result.length === 0){
 
-			this.state = {
-				image1:e.display_src,
-				name:e.name,
-				mv:e.mv,
-				bio:e.bio,
-		    	youtube:e.youtube,
-		    	twitter:e.twitter,
-		    	instagram:e.instagram,
-		    	facebook:e.facebook
-			}
-		);
-  
+	    }
+	    else{
+		    result.map((e) => 
+
+				this.state = {
+					image1:e.display_src,
+					name:e.name,
+					mv:e.mv,
+					bio:e.bio,
+			    	youtube:e.youtube,
+			    	twitter:e.twitter,
+			    	instagram:e.instagram,
+			    	facebook:e.facebook
+				}
+			);
+  		}
 	}
 
 	state ={
