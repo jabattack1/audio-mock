@@ -37,6 +37,15 @@ class Auditory extends React.Component{
 
 	componentDidMount () {
 		console.log('life');
+
+		let artist = this.props.artist;
+	   	let itemNumber = this.props.codeArtist.code;
+
+	    let result = artist.filter(obj => {
+  			return obj.code === itemNumber
+		})
+
+		if(result.length < 1){
 			if(typeof window !== 'undefined'){
 
 		    	var retrievedObject = localStorage.getItem('id');
@@ -54,6 +63,25 @@ class Auditory extends React.Component{
 					});
 					console.log('time',this);
 	    	}
+	    }
+	    else{
+	    	if(typeof window !== 'undefined'){
+		    	localStorage.clear();
+		    	localStorage.setItem('id', JSON.stringify(result[0].id));
+			}
+		    result.map((e) => 
+				this.setState({
+					image1:e.display_src,
+					name:e.name,
+					mv:e.mv,
+					bio:e.bio,
+			    	youtube:e.youtube,
+			    	twitter:e.twitter,
+			    	instagram:e.instagram,
+			    	facebook:e.facebook
+				});
+			);
+	    }
 	}
 }
 
