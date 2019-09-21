@@ -79,7 +79,7 @@ class Auditory extends React.Component{
 			    	twitter:e.twitter,
 			    	instagram:e.instagram,
 			    	facebook:e.facebook
-				});
+				})
 			);
 	    }
 	}
