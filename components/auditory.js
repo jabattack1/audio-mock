@@ -37,7 +37,7 @@ class Auditory extends React.Component{
 			    	instagram:retrievedData.instagram,
 			    	facebook:retrievedData.facebook
 				}
-		  		console.log(this);
+		  		console.log('ant', this);
 	    	}
 	    }
 	    else{
