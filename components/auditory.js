@@ -12,56 +12,7 @@ import '../css/skeleton.css';
 class Auditory extends React.Component{
 
 	
-	constructor(props){
 
-	    super(props)
-
-	    let artist = this.props.artist;
-	   	let itemNumber = this.props.codeArtist.code;
-
-	    let result = artist.filter(obj => {
-  			return obj.code === itemNumber
-		})
-
-	    if(result.length < 1){
-
-	    	if(typeof window !== 'undefined'){
-
-		    	var retrievedObject = localStorage.getItem('id');
-		    	var retrievedData = this.props.artist[JSON.parse(retrievedObject)];
-
-					this.state = {
-						image1:retrievedData.display_src,
-						name:retrievedData.name,
-						mv:retrievedData.mv,
-						bio:retrievedData.bio,
-				    	youtube:retrievedData.youtube,
-				    	twitter:retrievedData.twitter,
-				    	instagram:retrievedData.instagram,
-				    	facebook:retrievedData.facebook
-					}
-
-	    	}
-	    }
-	    else{
-	    	if(typeof window !== 'undefined'){
-		    	localStorage.clear();
-		    	localStorage.setItem('id', JSON.stringify(result[0].id));
-			}
-		    result.map((e) => 
-				this.state = {
-					image1:e.display_src,
-					name:e.name,
-					mv:e.mv,
-					bio:e.bio,
-			    	youtube:e.youtube,
-			    	twitter:e.twitter,
-			    	instagram:e.instagram,
-			    	facebook:e.facebook
-				}
-			);
-		}
-	}
 
 	state ={
 
