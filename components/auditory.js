@@ -67,7 +67,7 @@ class Auditory extends React.Component{
 		)
 	}
 
-	componentDidMount(){
+	componentWillMount(){
 		console.log('fuck');
 		let artist = this.props.artist;
 	   	let itemNumber = this.props.codeArtist.code;
