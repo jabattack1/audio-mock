@@ -52,47 +52,20 @@ var Auditory =
 function (_React$Component) {
   Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__["default"])(Auditory, _React$Component);
 
-  function Auditory(props) {
+  function Auditory() {
+    var _getPrototypeOf2;
+
     var _this;
 
     Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__["default"])(this, Auditory);
 
-    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__["default"])(Auditory).call(this, props));
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__["default"])(this, (_getPrototypeOf2 = Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__["default"])(Auditory)).call.apply(_getPrototypeOf2, [this].concat(args)));
 
     Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this), "state", {});
-
-    var artist = _this.props.artist;
-    var itemNumber = _this.props.codeArtist.code;
-    var result = artist.filter(function (obj) {
-      return obj.code === itemNumber;
-    });
-    console.log('result', result);
-
-    if (result.length < 1) {
-      console.log('trash');
-      var retrievedObject = localStorage.getItem('id');
-      console.log('retrievedObject: ', JSON.parse(retrievedObject));
-    } else {
-      console.log('yankees');
-
-      if (typeof window !== 'undefined') {
-        localStorage.clear();
-        localStorage.setItem('id', _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_0___default()(result[0].id));
-      }
-
-      result.map(function (e) {
-        return _this.state = {
-          image1: e.display_src,
-          name: e.name,
-          mv: e.mv,
-          bio: e.bio,
-          youtube: e.youtube,
-          twitter: e.twitter,
-          instagram: e.instagram,
-          facebook: e.facebook
-        };
-      });
-    }
 
     return _this;
   }
@@ -100,26 +73,26 @@ function (_React$Component) {
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__["default"])(Auditory, [{
     key: "render",
     value: function render() {
-      console.log('this', this);
+      console.log(this);
       return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         className: "artistArea",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 59
+          lineNumber: 21
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_navbar3_js__WEBPACK_IMPORTED_MODULE_11__["default"], {
         name: this.state.name,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 60
+          lineNumber: 22
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         className: "artistBackground",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 61
+          lineNumber: 23
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("img", {
@@ -127,73 +100,73 @@ function (_React$Component) {
         className: "artistMainPhoto",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 62
+          lineNumber: 24
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         className: "bio",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 63
+          lineNumber: 25
         },
         __self: this
       }, this.state.bio), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("ul", {
         className: "socialHolder",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 64
+          lineNumber: 26
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 65
+          lineNumber: 27
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("img", {
         src: "https://i.imgur.com/fV5a2fW.png",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 65
+          lineNumber: 27
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 66
+          lineNumber: 28
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("img", {
         src: "https://i.imgur.com/NauXZSM.png",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 66
+          lineNumber: 28
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 67
+          lineNumber: 29
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("img", {
         src: "https://i.imgur.com/DCzV97u.png",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 67
+          lineNumber: 29
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 68
+          lineNumber: 30
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("img", {
         src: "https://i.imgur.com/odojrFa.png",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 68
+          lineNumber: 30
         },
         __self: this
       }))), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("iframe", {
@@ -204,10 +177,56 @@ function (_React$Component) {
         allowFullScreen: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 70
+          lineNumber: 32
         },
         __self: this
       })));
+    }
+  }, {
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      var _this2 = this;
+
+      var artist = this.props.artist;
+      var itemNumber = this.props.codeArtist.code;
+      var result = artist.filter(function (obj) {
+        return obj.code === itemNumber;
+      });
+
+      if (result.length < 1) {
+        if (typeof window !== 'undefined') {
+          var retrievedObject = localStorage.getItem('id');
+          var retrievedData = this.props.artist[JSON.parse(retrievedObject)];
+          this.setState({
+            image1: retrievedData.display_src,
+            name: retrievedData.name,
+            mv: retrievedData.mv,
+            bio: retrievedData.bio,
+            youtube: retrievedData.youtube,
+            twitter: retrievedData.twitter,
+            instagram: retrievedData.instagram,
+            facebook: retrievedData.facebook
+          });
+        }
+      } else {
+        if (typeof window !== 'undefined') {
+          localStorage.clear();
+          localStorage.setItem('id', _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_0___default()(result[0].id));
+        }
+
+        result.map(function (e) {
+          return _this2.setState({
+            image1: e.display_src,
+            name: e.name,
+            mv: e.mv,
+            bio: e.bio,
+            youtube: e.youtube,
+            twitter: e.twitter,
+            instagram: e.instagram,
+            facebook: e.facebook
+          });
+        });
+      }
     }
   }]);
 
@@ -635,9 +654,6 @@ function (_React$Component) {
 
     _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__["default"])(Navbar3).call(this, props));
     _this.scrollToTop = _this.scrollToTop.bind(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this));
-    _this.state = {
-      name: props.name
-    };
     return _this;
   }
 
@@ -664,18 +680,19 @@ function (_React$Component) {
         }
       }
 
+      console.log(this.props);
       return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         className: "nav3",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 49
+          lineNumber: 45
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("li", {
         className: "link3",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 50
+          lineNumber: 46
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
@@ -683,28 +700,28 @@ function (_React$Component) {
         href: "/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 50
+          lineNumber: 46
         },
         __self: this
       }, "Home")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("p", {
         className: "artistHeadLine",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 51
+          lineNumber: 47
         },
         __self: this
-      }, this.state.name), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_12___default.a, {
+      }, this.props.name), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_12___default.a, {
         href: "/shopping-cart",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 52
+          lineNumber: 48
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("span", {
         className: "goToCart3",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 52
+          lineNumber: 48
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("img", {
@@ -712,14 +729,14 @@ function (_React$Component) {
         className: "cartImage",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 52
+          lineNumber: 48
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("p", {
         className: "cartQuantity",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 52
+          lineNumber: 48
         },
         __self: this
       }, total))), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
@@ -727,7 +744,7 @@ function (_React$Component) {
         href: "mailto:info@audio-boy.com",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 54
+          lineNumber: 50
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("img", {
@@ -735,7 +752,7 @@ function (_React$Component) {
         className: "emailUs3",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 54
+          lineNumber: 50
         },
         __self: this
       })));
@@ -3281,7 +3298,11 @@ var artistList = [{
   "url": "/auditory2",
   "mv": "https://www.youtube.com/embed/7LEmer7wwHI",
   "bio": "This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real.",
-  "display_src": "https://i.imgur.com/rOmTCsD.jpg"
+  "display_src": "https://i.imgur.com/rOmTCsD.jpg",
+  "youtube": '',
+  "twitter": '',
+  "instagram": '',
+  "facebook": ''
 }, {
   "code": "dbcded",
   "name": "Velvet Underground",
@@ -3289,7 +3310,11 @@ var artistList = [{
   "url": "/auditory2",
   "mv": "https://www.youtube.com/embed/7LEmer7wwHI",
   "bio": "This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real.",
-  "display_src": "https://i.imgur.com/Cl6tqkb.jpg"
+  "display_src": "https://i.imgur.com/Cl6tqkb.jpg",
+  "youtube": '',
+  "twitter": '',
+  "instagram": '',
+  "facebook": ''
 }, {
   "code": "dbcdef",
   "name": "Art vs Science",
@@ -3297,7 +3322,11 @@ var artistList = [{
   "url": "/auditory2",
   "mv": "https://www.youtube.com/embed/7LEmer7wwHI",
   "bio": "This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real.",
-  "display_src": "https://i.imgur.com/M2Qoa0j.jpg"
+  "display_src": "https://i.imgur.com/M2Qoa0j.jpg",
+  "youtube": '',
+  "twitter": '',
+  "instagram": '',
+  "facebook": ''
 }];
 /* harmony default export */ __webpack_exports__["default"] = (artistList); //  {
 //   "code": "abcde",

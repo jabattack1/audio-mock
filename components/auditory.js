@@ -16,7 +16,7 @@ class Auditory extends React.Component{
 	}
 
 	render(){
-
+		console.log(this);
 		return(
 			<div className='artistArea'>
 				<Navbar3 name={this.state.name}/>
@@ -36,7 +36,6 @@ class Auditory extends React.Component{
 	}
 
 	componentDidMount () {
-		console.log('life');
 
 		let artist = this.props.artist;
 	   	let itemNumber = this.props.codeArtist.code;
@@ -61,7 +60,6 @@ class Auditory extends React.Component{
 				    	instagram:retrievedData.instagram,
 				    	facebook:retrievedData.facebook
 					});
-					console.log('time',this);
 	    	}
 	    }
 	    else{

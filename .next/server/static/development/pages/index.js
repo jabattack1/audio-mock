@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -2300,9 +2300,6 @@ function (_React$Component) {
 
     _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__["default"])(Navbar3).call(this, props));
     _this.scrollToTop = _this.scrollToTop.bind(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this));
-    _this.state = {
-      name: props.name
-    };
     return _this;
   }
 
@@ -2329,18 +2326,19 @@ function (_React$Component) {
         }
       }
 
+      console.log(this.props);
       return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         className: "nav3",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 49
+          lineNumber: 45
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("li", {
         className: "link3",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 50
+          lineNumber: 46
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
@@ -2348,28 +2346,28 @@ function (_React$Component) {
         href: "/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 50
+          lineNumber: 46
         },
         __self: this
       }, "Home")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("p", {
         className: "artistHeadLine",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 51
+          lineNumber: 47
         },
         __self: this
-      }, this.state.name), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_12___default.a, {
+      }, this.props.name), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_12___default.a, {
         href: "/shopping-cart",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 52
+          lineNumber: 48
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("span", {
         className: "goToCart3",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 52
+          lineNumber: 48
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("img", {
@@ -2377,14 +2375,14 @@ function (_React$Component) {
         className: "cartImage",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 52
+          lineNumber: 48
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("p", {
         className: "cartQuantity",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 52
+          lineNumber: 48
         },
         __self: this
       }, total))), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
@@ -2392,7 +2390,7 @@ function (_React$Component) {
         href: "mailto:info@audio-boy.com",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 54
+          lineNumber: 50
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("img", {
@@ -2400,7 +2398,7 @@ function (_React$Component) {
         className: "emailUs3",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 54
+          lineNumber: 50
         },
         __self: this
       })));
@@ -7469,7 +7467,11 @@ var artistList = [{
   "url": "/auditory2",
   "mv": "https://www.youtube.com/embed/7LEmer7wwHI",
   "bio": "This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real.",
-  "display_src": "https://i.imgur.com/rOmTCsD.jpg"
+  "display_src": "https://i.imgur.com/rOmTCsD.jpg",
+  "youtube": '',
+  "twitter": '',
+  "instagram": '',
+  "facebook": ''
 }, {
   "code": "dbcded",
   "name": "Velvet Underground",
@@ -7477,7 +7479,11 @@ var artistList = [{
   "url": "/auditory2",
   "mv": "https://www.youtube.com/embed/7LEmer7wwHI",
   "bio": "This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real.",
-  "display_src": "https://i.imgur.com/Cl6tqkb.jpg"
+  "display_src": "https://i.imgur.com/Cl6tqkb.jpg",
+  "youtube": '',
+  "twitter": '',
+  "instagram": '',
+  "facebook": ''
 }, {
   "code": "dbcdef",
   "name": "Art vs Science",
@@ -7485,7 +7491,11 @@ var artistList = [{
   "url": "/auditory2",
   "mv": "https://www.youtube.com/embed/7LEmer7wwHI",
   "bio": "This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real. This is the band mock site. mock site is a fake label that doesn't exist. only for demo purporses, so this is not real.",
-  "display_src": "https://i.imgur.com/M2Qoa0j.jpg"
+  "display_src": "https://i.imgur.com/M2Qoa0j.jpg",
+  "youtube": '',
+  "twitter": '',
+  "instagram": '',
+  "facebook": ''
 }];
 /* harmony default export */ __webpack_exports__["default"] = (artistList); //  {
 //   "code": "abcde",
@@ -9680,7 +9690,7 @@ if (false) {}
 
 /***/ }),
 
-/***/ 3:
+/***/ 5:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

@@ -17,15 +17,11 @@ class Navbar3 extends React.Component {
 	    super(props);
 
 	    this.scrollToTop = this.scrollToTop.bind(this)
-
-	    this.state={
-	    	name:props.name
-	    }
   	}
 
 
 	render () {
-
+		
 		var total=0;
 
 		if (typeof window !== 'undefined') {
@@ -44,11 +40,11 @@ class Navbar3 extends React.Component {
 				}
 			}
 		}
-
+		console.log(this.props);
 	    return(
 		    <div className="nav3">
 		        <li className="link3"><a className='parrot' href='/'>Home</a></li>
-		        <p className="artistHeadLine">{this.state.name}</p>
+		        <p className="artistHeadLine">{this.props.name}</p>
 		    	<Link href={`/shopping-cart`}><span className='goToCart3'><img src='https://i.imgur.com/O4wSpvB.png' className='cartImage' /><p className='cartQuantity'>{total}</p></span>
 		    	</Link>
 		     	<a className='emailUsLink3' href='mailto:info@audio-boy.com'><img src='https://i.imgur.com/tWjrmNt.png' className='emailUs3'/></a>
