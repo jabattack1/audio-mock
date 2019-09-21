@@ -23,7 +23,25 @@ class Auditory extends React.Component{
   			return obj.code === itemNumber
 		})
 
+	    if(result.length < 1){
+	    	console.log('shit');
+	    	if(typeof window !== 'undefined'){
+		    	var retrievedObject = localStorage.getItem('id');
+		    	var retrievedData = this.props.artist[JSON.parse(retrievedObject)];
 
+		    	this.setState({
+					image1:retrievedData.display_src,
+					name:retrievedData.name,
+					mv:retrievedData.mv,
+					bio:retrievedData.bio,
+			    	youtube:retrievedData.mv,
+			    	twitter:retrievedData.twitter,
+			    	instagram:retrievedData.instagram,
+			    	facebook:retrievedData.facebook
+				});
+	    	}
+	    }
+	    else{
 	    	if(typeof window !== 'undefined'){
 		    	localStorage.clear();
 		    	localStorage.setItem('id', JSON.stringify(result[0].id));
@@ -40,7 +58,7 @@ class Auditory extends React.Component{
 			    	facebook:e.facebook
 				}
 			);
-
+		}
 	}
 
 	state ={
@@ -67,35 +85,35 @@ class Auditory extends React.Component{
 		)
 	}
 
-	componentWillMount(){
-		console.log('fuck');
-		let artist = this.props.artist;
-	   	let itemNumber = this.props.codeArtist.code;
+	// componentDidMount(){
+	// 	console.log('fuck');
+	// 	let artist = this.props.artist;
+	//    	let itemNumber = this.props.codeArtist.code;
 
-	    let result = artist.filter(obj => {
-  			return obj.code === itemNumber
-		})
+	//     let result = artist.filter(obj => {
+ //  			return obj.code === itemNumber
+	// 	})
 
 
-	    if(result.length < 1){
-	    	console.log('shit');
-	   //  	if(typeof window !== 'undefined'){
-		  //   	var retrievedObject = localStorage.getItem('id');
-		  //   	var retrievedData = this.props.artist[JSON.parse(retrievedObject)];
+	//     if(result.length < 1){
+	//     	console.log('shit');
+	//     	if(typeof window !== 'undefined'){
+	// 	    	var retrievedObject = localStorage.getItem('id');
+	// 	    	var retrievedData = this.props.artist[JSON.parse(retrievedObject)];
 
-		  //   	this.setState({
-				// 	image1:retrievedData.display_src,
-				// 	name:retrievedData.name,
-				// 	mv:retrievedData.mv,
-				// 	bio:retrievedData.bio,
-			 //    	youtube:retrievedData.mv,
-			 //    	twitter:retrievedData.twitter,
-			 //    	instagram:retrievedData.instagram,
-			 //    	facebook:retrievedData.facebook
-				// });
-	   //  	}
-	    }
-	}
+	// 	    	this.setState({
+	// 				image1:retrievedData.display_src,
+	// 				name:retrievedData.name,
+	// 				mv:retrievedData.mv,
+	// 				bio:retrievedData.bio,
+	// 		    	youtube:retrievedData.mv,
+	// 		    	twitter:retrievedData.twitter,
+	// 		    	instagram:retrievedData.instagram,
+	// 		    	facebook:retrievedData.facebook
+	// 			});
+	//     	}
+	//     }
+	// }
 }
 
 export default Auditory;
