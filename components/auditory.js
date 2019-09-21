@@ -104,7 +104,7 @@ class Auditory extends React.Component{
 				    	instagram:retrievedData.instagram,
 				    	facebook:retrievedData.facebook
 					});
-					console.log('time');
+					console.log('time',this);
 	    	}
 	}
 }
