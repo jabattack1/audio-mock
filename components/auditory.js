@@ -87,7 +87,7 @@ class Auditory extends React.Component{
 		)
 	}
 
-	componentDidUpdate () {
+	componentDidMount () {
 		console.log('tide');
 	}
 }
