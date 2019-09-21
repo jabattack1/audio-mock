@@ -69,10 +69,10 @@ class Cart extends React.Component{
 		    selectOption.addEventListener("change", function () {
 		    	let id = selected.index;
 		        if(data.length === undefined){
-		        	console.log('oneA');
+
 		        	data.quantity = selected.children[3].children[0].value;
 		        	var multiple = selected.children[3].children[0].value;
-		        	console.log(multiple);
+
 					var total = multiple * selected.children[5].innerHTML.replace(/[$]/g,"");;
 					data.price = total.toFixed(2);
 		        	localStorage.clear();
@@ -80,10 +80,10 @@ class Cart extends React.Component{
 					location.reload();
 		        }
 		        else if(data.length === 1){
-		        	console.log('oneB');
+
 		        	data[0].quantity = selected.children[3].children[0].value;
 		        	var multiple = selected.children[3].children[0].value;
-		        	console.log(multiple);
+	
 					var total = multiple * selected.children[5].innerHTML.replace(/[$]/g,"");;
 					data[0].price = total.toFixed(2);
 		        	localStorage.clear();
@@ -93,7 +93,6 @@ class Cart extends React.Component{
 		        else{
 					for(var i = 0;i<data.length;i++) {
 					    if(i === id) {
-					        console.log('two or more');
 					        // var items = document.querySelectorAll(".cartList");
 					        data[i].quantity = items[i].children[3].children[0].value;
 					        var multiple = items[i].children[3].children[0].value;
@@ -111,6 +110,7 @@ class Cart extends React.Component{
 	}
 
 	deleteItem(){
+		console.log('system');
 		"use strict";
 		var items = document.querySelectorAll(".cartList");
 		var myData = localStorage.getItem('state');
@@ -118,7 +118,8 @@ class Cart extends React.Component{
 
 		for (var i=0; i<items.length; i++) {
 		    items[i].index = i;
-		    var deleteButton = items[i].children[7];
+		    var deleteButton = items[i].children[6];
+		    console.log('delete', items[i]);
 		    let ufo = items[i];
 		    deleteButton.addEventListener("click", function (e) {
 		        let id = ufo.index;

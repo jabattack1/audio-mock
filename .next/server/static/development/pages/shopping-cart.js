@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 6);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -362,10 +362,8 @@ function (_React$Component) {
           var id = selected.index;
 
           if (data.length === undefined) {
-            console.log('oneA');
             data.quantity = selected.children[3].children[0].value;
             var multiple = selected.children[3].children[0].value;
-            console.log(multiple);
             var total = multiple * selected.children[5].innerHTML.replace(/[$]/g, "");
             ;
             data.price = total.toFixed(2);
@@ -373,10 +371,8 @@ function (_React$Component) {
             localStorage.setItem('state', _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_0___default()(data));
             location.reload();
           } else if (data.length === 1) {
-            console.log('oneB');
             data[0].quantity = selected.children[3].children[0].value;
             var multiple = selected.children[3].children[0].value;
-            console.log(multiple);
             var total = multiple * selected.children[5].innerHTML.replace(/[$]/g, "");
             ;
             data[0].price = total.toFixed(2);
@@ -386,8 +382,7 @@ function (_React$Component) {
           } else {
             for (var i = 0; i < data.length; i++) {
               if (i === id) {
-                console.log('two or more'); // var items = document.querySelectorAll(".cartList");
-
+                // var items = document.querySelectorAll(".cartList");
                 data[i].quantity = items[i].children[3].children[0].value;
                 var multiple = items[i].children[3].children[0].value;
                 var total = multiple * items[i].children[5].innerHTML.replace(/[$]/g, "");
@@ -413,6 +408,7 @@ function (_React$Component) {
   }, {
     key: "deleteItem",
     value: function deleteItem() {
+      console.log('system');
       "use strict";
 
       var items = document.querySelectorAll(".cartList");
@@ -421,7 +417,8 @@ function (_React$Component) {
 
       var _loop2 = function _loop2() {
         items[i].index = i;
-        deleteButton = items[i].children[7];
+        deleteButton = items[i].children[6];
+        console.log('delete', items[i]);
         var ufo = items[i];
         deleteButton.addEventListener("click", function (e) {
           var id = ufo.index;
@@ -6541,7 +6538,7 @@ var ShoppingCartPage = function ShoppingCartPage(props) {
 
 /***/ }),
 
-/***/ 5:
+/***/ 6:
 /*!**************************************!*\
   !*** multi ./pages/shopping-cart.js ***!
   \**************************************/
