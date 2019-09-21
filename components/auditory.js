@@ -16,7 +16,7 @@ class Auditory extends React.Component{
 	}
 
 	render(){
-		console.log(this);
+		
 		return(
 			<div className='artistArea'>
 				<Navbar3 name={this.state.name}/>
@@ -64,7 +64,7 @@ class Auditory extends React.Component{
 	    }
 	    else{
 	    	if(typeof window !== 'undefined'){
-	    		console.log('shhhhooww');
+
 		    	// localStorage.clear();
 		    	localStorage.setItem('id', JSON.stringify(result[0].id));
 			}

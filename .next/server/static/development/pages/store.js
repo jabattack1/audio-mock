@@ -755,15 +755,18 @@ function (_React$Component) {
         itemSize = document.getElementById('l-option').value;
       } else if (document.getElementById('xl-option').checked) {
         itemSize = document.getElementById('xl-option').value;
+      } else {
+        if (!alert('Please Select Size')) {
+          window.location.reload();
+        }
+
+        return;
       } // this.setState({size:itemSize,name:itemName,image1:itemImage, code:itemCode, quantity:1})
 
 
-      console.log('steven', localStorage.getItem('state'));
       var myData = localStorage.getItem('state');
-      console.log('myData', myData);
 
       if (myData !== null && myData !== 'nothing') {
-        console.log('ddu');
         var otherStuff = JSON.parse(myData);
         var newStuff = {
           size: itemSize,
@@ -791,8 +794,7 @@ function (_React$Component) {
           localStorage.setItem('state', _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_1___default()(array));
         }
       } else {
-        console.log('bp'); // let myData = localStorage.getItem('state');
-
+        // let myData = localStorage.getItem('state');
         stuff = {
           size: itemSize,
           name: itemName,
@@ -803,7 +805,6 @@ function (_React$Component) {
           quantity: 1
         };
         localStorage.setItem('state', _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_1___default()(stuff));
-        console.log('steve', localStorage.getItem('state'));
       }
     });
 
@@ -938,7 +939,7 @@ function (_React$Component) {
         id: "s-option",
         value: "small",
         name: "selector",
-        onClick: check,
+        onClick: this.check,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 60
@@ -969,7 +970,7 @@ function (_React$Component) {
         id: "m-option",
         value: "medium",
         name: "selector",
-        onClick: check,
+        onClick: this.check,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 67
@@ -1007,7 +1008,7 @@ function (_React$Component) {
         id: "l-option",
         value: "large",
         name: "selector",
-        onClick: check,
+        onClick: this.check,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 73
@@ -1045,7 +1046,7 @@ function (_React$Component) {
         id: "xl-option",
         value: "x-large",
         name: "selector",
-        onClick: check,
+        onClick: this.check,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 79
@@ -1105,10 +1106,6 @@ function (_React$Component) {
     value: function componentDidMount() {
       var _this3 = this;
 
-      console.log('shop', this); // if (process.browser){
-      // 	document.getElementById("button").disabled = true;
-      // }
-
       this.addToCart = this.addToCart.bind(this);
       var store = this.props.store;
       var itemNumber = this.props.code.code;
@@ -1117,8 +1114,6 @@ function (_React$Component) {
       });
 
       if (result.length < 1) {
-        console.log('go');
-
         if (typeof window !== 'undefined') {
           var retrievedObject = localStorage.getItem('code');
           var retrievedData = this.props.store[JSON.parse(retrievedObject)]; // console.log(retrievedData);
@@ -1135,14 +1130,11 @@ function (_React$Component) {
           });
         }
       } else {
-        console.log('bodies');
-
         if (typeof window !== 'undefined') {
           // localStorage.clear();
           localStorage.setItem('code', _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_1___default()(result[0].code));
         }
 
-        console.log('result', result);
         result.map(function (e) {
           return _this3.setState({
             code: e.code,
@@ -1156,6 +1148,15 @@ function (_React$Component) {
           });
         });
       }
+
+      console.log('fields', document.getElementById("button")); // if (process.browser){
+      // 	document.getElementById("button").disabled = true;
+      // }
+    }
+  }, {
+    key: "check",
+    value: function check() {
+      console.log('killing');
     }
   }]);
 

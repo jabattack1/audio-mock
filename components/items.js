@@ -57,26 +57,26 @@ class Items extends React.Component{
 						
 						<ul className='sizeOptions'>
 						  	<li>
-							    <input type="radio" id="s-option" value='small' name="selector" onClick={check}/>
+							    <input type="radio" id="s-option" value='small' name="selector" onClick={this.check}/>
 							    <label htmlFor="s-option">S</label>
 							    
 							    <div className="check"></div>
 						  	</li>
 						  
 						  	<li>
-							    <input type="radio" id="m-option" value='medium' name="selector" onClick={check}/>
+							    <input type="radio" id="m-option" value='medium' name="selector" onClick={this.check}/>
 							    <label htmlFor="m-option">M</label>
 							    
 							    <div className="check"><div className="inside"></div></div>
 						  	</li>						  
 						  	<li>
-							    <input type="radio" id="l-option" value='large' name="selector" onClick={check}/>
+							    <input type="radio" id="l-option" value='large' name="selector" onClick={this.check}/>
 							    <label htmlFor="l-option">L</label>
 							    
 							    <div className="check"><div className="inside"></div></div>
 						  	</li>
 						  	<li>
-							    <input type="radio" id="xl-option" value='x-large' name="selector" onClick={check}/>
+							    <input type="radio" id="xl-option" value='x-large' name="selector" onClick={this.check}/>
 							    <label htmlFor="xl-option">XL</label>
 							    
 							    <div className="check"><div className="inside"></div></div>
@@ -85,18 +85,13 @@ class Items extends React.Component{
 					</div>
 				<p className='itemMainColor'>{this.state.color}</p>
 				<Link href={`/shopping-cart`}>
-					<button className='AddCart' id='button' value={this.state.name} onClick={() => this.addToCart()}>Add to Cart</button>
+					<button className='AddCart' id='button' value={this.state.name} onClick={() => this.addToCart()} >Add to Cart</button>
 				</Link>
 			</div>
 		)
 	}
 
 	componentDidMount(){
-		console.log('shop',this);
-
-		// if (process.browser){
-		// 	document.getElementById("button").disabled = true;
-		// }
 
 		this.addToCart = this.addToCart.bind(this);
 
@@ -108,7 +103,6 @@ class Items extends React.Component{
 		})
 
 		if(result.length < 1){
-			console.log('go');
 			if(typeof window !== 'undefined'){
 
 		    	var retrievedObject = localStorage.getItem('code');
@@ -127,12 +121,11 @@ class Items extends React.Component{
 	    	}
 	    }
 	    else{
-	    	console.log('bodies');
 	    	if(typeof window !== 'undefined'){
 		    	// localStorage.clear();
 		    	localStorage.setItem('code', JSON.stringify(result[0].code));
 			}
-			console.log('result', result);
+
 			result.map((e) => 
 			   	this.setState({
 					code:e.code,
@@ -146,8 +139,14 @@ class Items extends React.Component{
 				})
 			)
 	    }
+	    console.log('fields', document.getElementById("button"))
+		// if (process.browser){
+		// 	document.getElementById("button").disabled = true;
+		// }
+	}
 
-
+	check(){
+		console.log('killing');
 	}
 
 	addToCart = function(){
@@ -172,12 +171,17 @@ class Items extends React.Component{
 			else if (document.getElementById('xl-option').checked) {
 	  			itemSize = document.getElementById('xl-option').value;
 			}
+			else{
+				if(!alert('Please Select Size')){window.location.reload();}
+				return;
+			}
+
 			// this.setState({size:itemSize,name:itemName,image1:itemImage, code:itemCode, quantity:1})
-			console.log('steven', localStorage.getItem('state'));
+
 			var myData = localStorage.getItem('state');
-			console.log('myData', myData);
+
 			if(myData !== null && myData !== 'nothing'){
-				console.log('ddu');
+				
 				let otherStuff = JSON.parse(myData)
 				let newStuff = {size:itemSize, name:itemName, image1:itemImage, price:itemPrice, orig:itemPrice, code:itemCode, quantity:1}
 				let newArray =[];
@@ -196,11 +200,11 @@ class Items extends React.Component{
 				}
 			}
 			else{
-				console.log('bp');
+				
 				// let myData = localStorage.getItem('state');
 				stuff = {size:itemSize,name:itemName,image1:itemImage, price:itemPrice, orig:itemPrice, code:itemCode, quantity:1}
 				localStorage.setItem('state',JSON.stringify(stuff));
-				console.log('steve', localStorage.getItem('state'));
+				
 			}
 
 	}
