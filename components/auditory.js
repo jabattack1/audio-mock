@@ -96,7 +96,7 @@ class Auditory extends React.Component{
 
 					this.setState({
 						image1:retrievedData.display_src,
-						name:retrievedData.name,
+						name:'d',
 						mv:retrievedData.mv,
 						bio:retrievedData.bio,
 				    	youtube:retrievedData.youtube,
