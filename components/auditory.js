@@ -22,11 +22,12 @@ class Auditory extends React.Component{
 	    let result = artist.filter(obj => {
   			return obj.code === itemNumber
 		})
+
 	    if(result.length < 1){
 	    	if(typeof window !== 'undefined'){
 		    	var retrievedObject = localStorage.getItem('id');
 		    	var retrievedData = this.props.artist[JSON.parse(retrievedObject)];
-		    	console.log('d', retrievedData);
+
 		    	this.state = {
 					image1:retrievedData.display_src,
 					name:retrievedData.name,
