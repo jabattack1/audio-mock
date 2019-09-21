@@ -63,9 +63,6 @@ class Auditory extends React.Component{
 		}
 	}
 
-	state ={
-
-	}
 
 	render(){
 
