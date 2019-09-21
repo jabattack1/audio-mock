@@ -68,6 +68,7 @@ class Auditory extends React.Component{
 	}
 
 	componentDidMount(){
+		console.log('fuck');
 		let artist = this.props.artist;
 	   	let itemNumber = this.props.codeArtist.code;
 
@@ -77,6 +78,7 @@ class Auditory extends React.Component{
 
 
 	    if(result.length < 1){
+	    	console.log('shit');
 	    	if(typeof window !== 'undefined'){
 		    	var retrievedObject = localStorage.getItem('id');
 		    	var retrievedData = this.props.artist[JSON.parse(retrievedObject)];
