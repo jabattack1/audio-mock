@@ -31,7 +31,7 @@ class Auditory extends React.Component{
 		    	var retrievedData = this.props.artist[JSON.parse(retrievedObject)];
 		    	console.log('busan', retrievedData);
 
-					this.state = {
+					this.setState({
 						image1:retrievedData.display_src,
 						name:retrievedData.name,
 						mv:retrievedData.mv,
@@ -40,7 +40,7 @@ class Auditory extends React.Component{
 				    	twitter:retrievedData.twitter,
 				    	instagram:retrievedData.instagram,
 				    	facebook:retrievedData.facebook
-					}
+					});
 
 	    	}
 	    }
