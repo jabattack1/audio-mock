@@ -79,21 +79,21 @@ class Auditory extends React.Component{
 
 	    if(result.length < 1){
 	    	console.log('shit');
-	    	if(typeof window !== 'undefined'){
-		    	var retrievedObject = localStorage.getItem('id');
-		    	var retrievedData = this.props.artist[JSON.parse(retrievedObject)];
+	   //  	if(typeof window !== 'undefined'){
+		  //   	var retrievedObject = localStorage.getItem('id');
+		  //   	var retrievedData = this.props.artist[JSON.parse(retrievedObject)];
 
-		    	this.setState({
-					image1:retrievedData.display_src,
-					name:retrievedData.name,
-					mv:retrievedData.mv,
-					bio:retrievedData.bio,
-			    	youtube:retrievedData.mv,
-			    	twitter:retrievedData.twitter,
-			    	instagram:retrievedData.instagram,
-			    	facebook:retrievedData.facebook
-				});
-	    	}
+		  //   	this.setState({
+				// 	image1:retrievedData.display_src,
+				// 	name:retrievedData.name,
+				// 	mv:retrievedData.mv,
+				// 	bio:retrievedData.bio,
+			 //    	youtube:retrievedData.mv,
+			 //    	twitter:retrievedData.twitter,
+			 //    	instagram:retrievedData.instagram,
+			 //    	facebook:retrievedData.facebook
+				// });
+	   //  	}
 	    }
 	}
 }
