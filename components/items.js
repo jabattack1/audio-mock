@@ -15,49 +15,6 @@ import '../css/skeleton.css';
 
 class Items extends React.Component{
 
-	
-	constructor(props){
-
-	    super(props)
-
-	    this.addToCart = this.addToCart.bind(this);
-
-	    let store = this.props.store;
-	   	let itemNumber = this.props.code.code;
-
-	    let result = store.filter(obj => {
-  			return obj.code === itemNumber
-		})
-
-	    if(result){
-			result.map((e) => 
-			   	this.state = {
-					code:e.code,
-					image1:e.display_src,
-					name:e.name,
-					price:e.price,
-					description:e.description,
-					color:e.color,
-					size:'',
-					quantity:1
-				}
-			)
-		}
-		else{
-			this.state = {
-					image1:'',
-					name:'',
-					price:'',
-					description:'',
-					color:'',
-					size:'',
-					code:'',
-					quantity:1
-				}
-		}
-  
-	}
-
 	state ={
 
 	}
@@ -135,9 +92,62 @@ class Items extends React.Component{
 	}
 
 	componentDidMount(){
-		if (process.browser){
-			document.getElementById("button").disabled = true;
-		}
+		console.log('shop',this);
+
+		// if (process.browser){
+		// 	document.getElementById("button").disabled = true;
+		// }
+
+		this.addToCart = this.addToCart.bind(this);
+
+	    let store = this.props.store;
+	   	let itemNumber = this.props.code.code;
+
+	    let result = store.filter(obj => {
+  			return obj.code === itemNumber
+		})
+
+		if(result.length < 1){
+			console.log('go');
+			if(typeof window !== 'undefined'){
+
+		    	var retrievedObject = localStorage.getItem('code');
+		    	var retrievedData = this.props.store[JSON.parse(retrievedObject)];
+		    	console.log(retrievedData);
+					this.setState({
+						code:retrievedData.code,
+						image1:retrievedData.display_src,
+						name:retrievedData.name,
+						price:retrievedData.price,
+						description:retrievedData.description,
+						color:retrievedData.color,
+						size:'',
+						quantity:1
+					});
+	    	}
+	    }
+	    else{
+	    	console.log('bodies');
+	    	if(typeof window !== 'undefined'){
+		    	localStorage.clear();
+		    	localStorage.setItem('code', JSON.stringify(result[0].code));
+			}
+			console.log('result', result);
+			result.map((e) => 
+			   	this.setState({
+					code:e.code,
+					image1:e.display_src,
+					name:e.name,
+					price:e.price,
+					description:e.description,
+					color:e.color,
+					size:'',
+					quantity:1
+				})
+			)
+	    }
+
+
 	}
 
 	addToCart = function(){
