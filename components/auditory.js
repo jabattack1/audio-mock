@@ -24,14 +24,13 @@ class Auditory extends React.Component{
 		})
 
 	    if(result.length < 1){
-	    	console.log('shit');
+
 	    	if(typeof window !== 'undefined'){
-	    		console.log('time');
+
 		    	var retrievedObject = localStorage.getItem('id');
 		    	var retrievedData = this.props.artist[JSON.parse(retrievedObject)];
-		    	console.log('busan', retrievedData);
 
-					this.setState({
+					this.state = {
 						image1:retrievedData.display_src,
 						name:retrievedData.name,
 						mv:retrievedData.mv,
@@ -40,7 +39,7 @@ class Auditory extends React.Component{
 				    	twitter:retrievedData.twitter,
 				    	instagram:retrievedData.instagram,
 				    	facebook:retrievedData.facebook
-					});
+					}
 
 	    	}
 	    }
@@ -69,7 +68,7 @@ class Auditory extends React.Component{
 	}
 
 	render(){
-		console.log('smart', this);
+
 		return(
 			<div className='artistArea'>
 				<Navbar3 name={this.state.name}/>
