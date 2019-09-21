@@ -113,7 +113,7 @@ class Items extends React.Component{
 
 		    	var retrievedObject = localStorage.getItem('code');
 		    	var retrievedData = this.props.store[JSON.parse(retrievedObject)];
-		    	console.log(retrievedData);
+		    	// console.log(retrievedData);
 					this.setState({
 						code:retrievedData.code,
 						image1:retrievedData.display_src,
@@ -129,7 +129,7 @@ class Items extends React.Component{
 	    else{
 	    	console.log('bodies');
 	    	if(typeof window !== 'undefined'){
-		    	localStorage.clear();
+		    	// localStorage.clear();
 		    	localStorage.setItem('code', JSON.stringify(result[0].code));
 			}
 			console.log('result', result);
@@ -173,10 +173,11 @@ class Items extends React.Component{
 	  			itemSize = document.getElementById('xl-option').value;
 			}
 			// this.setState({size:itemSize,name:itemName,image1:itemImage, code:itemCode, quantity:1})
-
+			console.log('steven', localStorage.getItem('state'));
 			var myData = localStorage.getItem('state');
-
+			console.log('myData', myData);
 			if(myData !== null && myData !== 'nothing'){
+				console.log('ddu');
 				let otherStuff = JSON.parse(myData)
 				let newStuff = {size:itemSize, name:itemName, image1:itemImage, price:itemPrice, orig:itemPrice, code:itemCode, quantity:1}
 				let newArray =[];
@@ -195,9 +196,11 @@ class Items extends React.Component{
 				}
 			}
 			else{
-				let myData = localStorage.getItem('state');
+				console.log('bp');
+				// let myData = localStorage.getItem('state');
 				stuff = {size:itemSize,name:itemName,image1:itemImage, price:itemPrice, orig:itemPrice, code:itemCode, quantity:1}
 				localStorage.setItem('state',JSON.stringify(stuff));
+				console.log('steve', localStorage.getItem('state'));
 			}
 
 	}

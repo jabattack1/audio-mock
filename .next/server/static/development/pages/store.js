@@ -758,9 +758,12 @@ function (_React$Component) {
       } // this.setState({size:itemSize,name:itemName,image1:itemImage, code:itemCode, quantity:1})
 
 
+      console.log('steven', localStorage.getItem('state'));
       var myData = localStorage.getItem('state');
+      console.log('myData', myData);
 
       if (myData !== null && myData !== 'nothing') {
+        console.log('ddu');
         var otherStuff = JSON.parse(myData);
         var newStuff = {
           size: itemSize,
@@ -788,7 +791,7 @@ function (_React$Component) {
           localStorage.setItem('state', _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_1___default()(array));
         }
       } else {
-        var _myData = localStorage.getItem('state');
+        console.log('bp'); // let myData = localStorage.getItem('state');
 
         stuff = {
           size: itemSize,
@@ -800,6 +803,7 @@ function (_React$Component) {
           quantity: 1
         };
         localStorage.setItem('state', _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_1___default()(stuff));
+        console.log('steve', localStorage.getItem('state'));
       }
     });
 
@@ -1117,8 +1121,8 @@ function (_React$Component) {
 
         if (typeof window !== 'undefined') {
           var retrievedObject = localStorage.getItem('code');
-          var retrievedData = this.props.store[JSON.parse(retrievedObject)];
-          console.log(retrievedData);
+          var retrievedData = this.props.store[JSON.parse(retrievedObject)]; // console.log(retrievedData);
+
           this.setState({
             code: retrievedData.code,
             image1: retrievedData.display_src,
@@ -1134,7 +1138,7 @@ function (_React$Component) {
         console.log('bodies');
 
         if (typeof window !== 'undefined') {
-          localStorage.clear();
+          // localStorage.clear();
           localStorage.setItem('code', _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_1___default()(result[0].code));
         }
 

@@ -64,6 +64,7 @@ class Auditory extends React.Component{
 	    }
 	    else{
 	    	if(typeof window !== 'undefined'){
+	    		console.log('shhhhooww');
 		    	localStorage.clear();
 		    	localStorage.setItem('id', JSON.stringify(result[0].id));
 			}
