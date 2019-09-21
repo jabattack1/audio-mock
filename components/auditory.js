@@ -38,7 +38,6 @@ class Auditory extends React.Component{
 			    	instagram:retrievedData.instagram,
 			    	facebook:retrievedData.facebook
 				}
-		  		console.log('ant', this);
 	    	}
 	    }
 	    else{
@@ -66,6 +65,7 @@ class Auditory extends React.Component{
 	}
 
 	render(){
+		console.log('smart', this);
 		return(
 			<div className='artistArea'>
 				<Navbar3 name={this.state.name}/>
