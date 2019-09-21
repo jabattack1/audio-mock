@@ -11,9 +11,6 @@ import '../css/skeleton.css';
 
 class Auditory extends React.Component{
 
-	
-
-
 	state ={
 
 	}
@@ -47,7 +44,7 @@ class Auditory extends React.Component{
 
 					this.setState({
 						image1:retrievedData.display_src,
-						name:'d',
+						name:retrievedData.name,
 						mv:retrievedData.mv,
 						bio:retrievedData.bio,
 				    	youtube:retrievedData.youtube,
