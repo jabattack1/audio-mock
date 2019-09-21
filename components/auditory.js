@@ -32,7 +32,7 @@ class Auditory extends React.Component{
 					name:retrievedData.name,
 					mv:retrievedData.mv,
 					bio:retrievedData.bio,
-			    	youtube:retrievedData.youtube,
+			    	youtube:retrievedData.mv,
 			    	twitter:retrievedData.twitter,
 			    	instagram:retrievedData.instagram,
 			    	facebook:retrievedData.facebook
