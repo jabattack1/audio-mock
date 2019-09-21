@@ -88,9 +88,7 @@ class Auditory extends React.Component{
 	}
 
 	componentDidMount () {
-		var retrievedObject = localStorage.getItem('id');
-		var retrievedData = this.props.artist[JSON.parse(retrievedObject)];
-		this.setState({retrievedData});
+		console.log('life');
 	}
 }
 
