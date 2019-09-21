@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 6);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -2015,9 +2015,11 @@ function (_React$Component) {
         var baseShipping = this.state.shipping;
 
         for (var i = 0; i < items.length; i++) {
-          var prices = _babel_runtime_corejs2_core_js_parse_float__WEBPACK_IMPORTED_MODULE_1___default()(items[i].children[5].innerHTML);
+          var quantity = _babel_runtime_corejs2_core_js_parse_float__WEBPACK_IMPORTED_MODULE_1___default()(items[i].children[3].children[0].value);
 
+          var prices = _babel_runtime_corejs2_core_js_parse_float__WEBPACK_IMPORTED_MODULE_1___default()(items[i].children[5].innerHTML) * quantity;
           total = total + prices;
+          console.log('total', total);
         }
 
         ;
@@ -6539,7 +6541,7 @@ var ShoppingCartPage = function ShoppingCartPage(props) {
 
 /***/ }),
 
-/***/ 6:
+/***/ 5:
 /*!**************************************!*\
   !*** multi ./pages/shopping-cart.js ***!
   \**************************************/

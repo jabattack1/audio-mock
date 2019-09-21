@@ -167,8 +167,10 @@ class ShoppingCart extends React.Component{
 			let totalQuantity = 0;
 			var baseShipping = this.state.shipping;
 			for (var i=0; i<items.length; i++) {
-				var prices = parseFloat(items[i].children[5].innerHTML);
+				var quantity = parseFloat(items[i].children[3].children[0].value);
+				var prices = parseFloat(items[i].children[5].innerHTML) * quantity;
 				total = total+prices;
+				console.log('total', total);
 			};
 			for (var i=0; i<items.length; i++) {
 				var quantity = parseInt(items[i].children[3].children[0].value);

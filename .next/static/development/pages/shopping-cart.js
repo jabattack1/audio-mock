@@ -1922,9 +1922,11 @@ function (_React$Component) {
         var baseShipping = this.state.shipping;
 
         for (var i = 0; i < items.length; i++) {
-          var prices = _babel_runtime_corejs2_core_js_parse_float__WEBPACK_IMPORTED_MODULE_1___default()(items[i].children[5].innerHTML);
+          var quantity = _babel_runtime_corejs2_core_js_parse_float__WEBPACK_IMPORTED_MODULE_1___default()(items[i].children[3].children[0].value);
 
+          var prices = _babel_runtime_corejs2_core_js_parse_float__WEBPACK_IMPORTED_MODULE_1___default()(items[i].children[5].innerHTML) * quantity;
           total = total + prices;
+          console.log('total', total);
         }
 
         ;
@@ -25892,7 +25894,7 @@ var ShoppingCartPage = function ShoppingCartPage(props) {
 
 /***/ }),
 
-/***/ 16:
+/***/ 15:
 /*!**********************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fshopping-cart&absolutePagePath=%2FUsers%2Fpeterhahn%2Fsrc%2Fnew%2Faudio-boy-mock%2Fpages%2Fshopping-cart.js ***!
   \**********************************************************************************************************************************************************/
@@ -25915,5 +25917,5 @@ module.exports = dll_4cbc3223160d403191c6;
 
 /***/ })
 
-},[[16,"static/runtime/webpack.js","styles"]]]);
+},[[15,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=shopping-cart.js.map
