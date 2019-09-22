@@ -13,7 +13,7 @@ class AboutLabel extends React.Component{
 			<div>
 				<div className='gridWrapperAbout'>
 					<div className='aboutContent'>
-						<img className='aboutImage' src='https://i.imgur.com/G0Y6Wdz.gif' />
+						<img className='aboutImage' src='https://i.imgur.com/jfhCZWD.gif' />
 						<p className='aboutWrite'></p>
 					</div>
 				</div>
